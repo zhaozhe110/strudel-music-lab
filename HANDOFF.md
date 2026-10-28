@@ -12,7 +12,7 @@
 
 ## 新机器上先做什么
 
-线上入口位于 README 顶部和 `docs/PLAY_V4.md`，无需本地环境。`docs/SHARING.md` 记录 GitHub 自带访问统计及当前短链服务连接失败的事实；不要宣称第三方短链已经生成。线上版的事件、远端资源、浏览器跨域读取和离线渲染通过，Ego Lite 的实时 play 初始化仍未验证成功。
+当前分享入口为 <https://zhaozhe110.github.io/strudel-music-lab/>，47 字符，自动进入官方编辑器中的完整 v4；README 顶部已改用它。`share-site/` 经 `gh-pages` 分支发布，维护步骤见 `docs/SHARING.md`。第三方短链服务此前连接失败，没有生成第三方短链；当前 Pages 跳转页也尚未接入独立点击统计。仓库 Traffic 不等于 Pages 点击或音乐播放次数。线上版的事件、远端资源、浏览器跨域读取和离线渲染通过，Ego Lite 的实时 play 初始化仍未验证成功。
 
 只需从 Strudel 官网加载《袖珍电路》v4 时，使用[线上谱](pieces/little-logic/袖珍电路-v4-online.strudel)和[分享说明](docs/SHARING.md)。该副本从固定提交的 GitHub Raw 地址读取十个样本，无需自行托管 HTTP 服务。以下安装步骤用于本地编辑与离线渲染。
 
@@ -152,4 +152,4 @@ npm run render -- pieces/little-logic/袖珍电路-v4.strudel --cycles 64 --out 
 4. 获得上传确认后也只执行已说明的范围；不能顺便删旧版本、改采样许可标签、更新上游版本或改写作品。
 5. 回到创作时，先明确当轮对象是 little-logic、rooftop 还是参考复刻。按用户当轮要求继续，不把不同作品的接受/否定意见相互套用。
 6. little-logic 的下一步听感任务是请用户评估 v4 鼓机与蜂鸣增强是否恰当，尤其高区蜂鸣的密度和电平；保持 v3 核心进行小范围可回退修改。rooftop 的下一步是评估同弦止音试验，不能直接把该试验覆盖成默认正式版。
-7. GitHub 公开授权不包含自动创建 Pages、Release 或添加协作者。`package.json` 的 `private: true` 只防止 npm 发布，保留该设置。历史上传、渲染和打包报告不改写为本次公开分享的验证证据。
+7. 后续长链接改进任务已启用只发布 `share-site/` 的 Pages 跳转入口，不扩大到托管引擎、Release 或添加协作者。`package.json` 的 `private: true` 只防止 npm 发布，保留该设置。历史上传、渲染和打包报告不改写为新阶段的验证证据；当前跳转验证单独保存在 `evidence/publishing/share-redirect.json`。

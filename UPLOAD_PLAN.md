@@ -20,6 +20,7 @@
 1. 用户先确认：“按清单上传到 zhaozhe110/strudel-music-lab，保持私人仓库。”据此完成首次私有上传；已审阅的初始提交为 `aea8f3a6573b9c09570f001bd2ceffc2e1adc62a`。
 2. 用户随后表示：“我可以接受git仓库公开 托管http太麻烦了”。仓库已据此改为公开，GitHub 返回 `isPrivate=false`。
 3. 为《袖珍电路》v4 增加线上分发副本与[分享说明](docs/SHARING.md)。副本仅把采样基址切换到首次载荷固定提交的 GitHub Raw 路径，本地 v4 和音乐内容保留。
+4. 用户进一步指出 Share 链接太长，难以缩短。本轮新增 [47 字符固定入口](https://zhaozhe110.github.io/strudel-music-lab/)，通过 GitHub Pages 的 `gh-pages` 分支根目录发布单页跳转；实际自动导航与完整源码装载已经验证。只发布 `share-site/`，不增加音频范围。此前报告中 Pages 未启用的记录对应当时状态，最新证据见 [跳转验证](evidence/publishing/share-redirect.json)。
 
 ## 当前收录内容
 
@@ -63,4 +64,4 @@
 
 首次上传证据保留当时的远端 URL、首次载荷提交 SHA 和 `private=true` 状态；公开状态和线上入口另行记录，不改写旧报告。线上播放的使用步骤与验证边界见[分享说明](docs/SHARING.md)，不能把资源可下载、事件检查或离线渲染等同于浏览器实时播放通过。
 
-不自动创建 Pages、Release 或设置协作者。`package.json` 的 `private: true` 仅防止 npm 发布，与仓库公开状态无关，保持原设置。
+本轮 Pages 范围仅为 `share-site/` 的单页跳转入口，经 `gh-pages` 分支发布；不自动创建 Release 或设置协作者。`package.json` 的 `private: true` 仅防止 npm 发布，与仓库公开状态无关，保持原设置。

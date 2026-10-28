@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-28",
+  "ok": true,
+  "source": {
+    "date": "2026-10-28",
+    "originalShareCharacters": 12096,
+    "withoutPrebakeCharacters": 11532,
+    "unneededPrebakeDefinition": "ratchet",
+    "bodyUsesRatchet": false,
+    "sharedPieceMatchesSavedOnlineCode": true,
+    "redirectContainsExactFullSource": true,
+    "expectedEntry": "https://zhaozhe110.github.io/strudel-music-lab/",
+    "expectedEntryCharacters": 47,
+    "sourceSha256": "166838b1faa39433d0d2c51a0eebf586bca62bc3a30e7546808ab31c3782d512"
+  },
+  "http": {
+    "date": "2026-10-28",
+    "url": "https://zhaozhe110.github.io/strudel-music-lab/",
+    "characters": 47,
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "matchesGeneratedHtml": true,
+    "htmlSha256": "50477bffa537392befdd7e7edffd3ca22f6936221e3e98f11b7a4b7158948d1d",
+    "ok": true
+  },
+  "browser": {
+    "origin": "https://strudel.cc",
+    "hashLength": 11513,
+    "sourceSha256": "166838b1faa39433d0d2c51a0eebf586bca62bc3a30e7546808ab31c3782d512",
+    "editorLoaded": true,
+    "buttons": [
+      "play",
+      "update",
+      "share"
+    ]
+  },
+  "publishing": {
+    "sourceBranch": "gh-pages",
+    "sourceDirectory": "/",
+    "deployedCommit": "9e11dff441c592f18cdf02acac9d6c9ff3ec9b11",
+    "workflowUrl": "https://github.com/zhaozhe110/strudel-music-lab/actions/runs/40694948313",
+    "workflowConclusion": "success",
+    "httpsEnforced": true
+  },
+  "scope": "Actual automatic navigation and exact full source loading verified. No audio changes, no repeat realtime playback claim, and no click-counting analytics installed."
+}

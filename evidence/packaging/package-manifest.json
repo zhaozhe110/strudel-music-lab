@@ -20,18 +20,18 @@
     },
     {
       "file": "HANDOFF.md",
-      "bytes": 20122,
-      "sha256": "e37717272e3089dc53921648e98a7aebc8bdc931bfa213762ec20a76205b97de"
+      "bytes": 20470,
+      "sha256": "f08099a1f34306cf683f4e3fe9f92df0c574c6985efc084d904e9db45b10bcd4"
     },
     {
       "file": "README.md",
-      "bytes": 20949,
-      "sha256": "7648cf6c06a2a5bbef591b447ee1be3917b0a313288ab5179e3bccbd8b0e8d43"
+      "bytes": 9520,
+      "sha256": "eb3f17ddfb13fe59a4bbcd18457f0ac6ccb22e206e2ae7b9e42221f479b54504"
     },
     {
       "file": "UPLOAD_PLAN.md",
-      "bytes": 5331,
-      "sha256": "fffeb480a5c153d272e5c5f277ab142b23860ba68cad51406cf17a870bc04504"
+      "bytes": 5877,
+      "sha256": "46c7eff24a4ce3da66a6df7eb2c2f287878f85f3afa51306035c88a151abd116"
     },
     {
       "file": "audio/little-logic/袖珍电路-v1-v2-主题对照.m4a",
@@ -130,8 +130,8 @@
     },
     {
       "file": "docs/PLAY_V4.md",
-      "bytes": 12617,
-      "sha256": "b8f767133a99e074a4b3037c93e86074db8726674a95b3ab42bfd8075be4067c"
+      "bytes": 12749,
+      "sha256": "43f6ac6b33bc00ad6691023f33e4fdb205b01b2a1a15acd0438fd9fdb34ec1ce"
     },
     {
       "file": "docs/SAMPLES.md",
@@ -140,8 +140,8 @@
     },
     {
       "file": "docs/SHARING.md",
-      "bytes": 4191,
-      "sha256": "ac61662dd0b55801e393fb05342cd08af22b453023bdc878c84c202a3b9ab42b"
+      "bytes": 6131,
+      "sha256": "9586740dd0b7529092c0291152b80d2d867ce9eeaf306d89bdf4340a26be55b8"
     },
     {
       "file": "docs/VALIDATION.md",
@@ -702,6 +702,11 @@
       "file": "evidence/publishing/online-default-validation.json",
       "bytes": 90159,
       "sha256": "9a9ea419a19034be7b587f0ea5a133a89fe84472daad10cf1f5de70f51628efe"
+    },
+    {
+      "file": "evidence/publishing/share-redirect.json",
+      "bytes": 1598,
+      "sha256": "31e932292e644a39d21ac657a73a746f0d787afc82e35b32d4dd6b804b0bae1e"
     },
     {
       "file": "evidence/publishing/v4-online-assets.json",
