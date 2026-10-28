@@ -20,13 +20,13 @@
     },
     {
       "file": "HANDOFF.md",
-      "bytes": 19771,
-      "sha256": "11347fe7fefbbbcc434206c75769316227967d53607bbc1d6b5ddb3888c315c1"
+      "bytes": 20122,
+      "sha256": "e37717272e3089dc53921648e98a7aebc8bdc931bfa213762ec20a76205b97de"
     },
     {
       "file": "README.md",
-      "bytes": 9256,
-      "sha256": "c81a97fc7007289c5e1131a9173d6d3055caadeb310a05c898584301f0005346"
+      "bytes": 20949,
+      "sha256": "7648cf6c06a2a5bbef591b447ee1be3917b0a313288ab5179e3bccbd8b0e8d43"
     },
     {
       "file": "UPLOAD_PLAN.md",
@@ -140,8 +140,8 @@
     },
     {
       "file": "docs/SHARING.md",
-      "bytes": 2852,
-      "sha256": "30621217cc4c8db1028b7f9bc342639935b19d9a80d325b9caae49f416215745"
+      "bytes": 4191,
+      "sha256": "ac61662dd0b55801e393fb05342cd08af22b453023bdc878c84c202a3b9ab42b"
     },
     {
       "file": "docs/VALIDATION.md",
@@ -692,6 +692,11 @@
       "file": "evidence/pocket-visual-fix/validation.json",
       "bytes": 179,
       "sha256": "468995905a2683b0ee84fe57ffa47736e97c430f3fac40b85453fdf942b95519"
+    },
+    {
+      "file": "evidence/publishing/github-public-sharing.json",
+      "bytes": 1286,
+      "sha256": "12bd45ac97fe7d33f2f88b5a787fde10e910b09633a864bf806bc591b5d90840"
     },
     {
       "file": "evidence/publishing/online-default-validation.json",

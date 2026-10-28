@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-28",
+  "repository": "zhaozhe110/strudel-music-lab",
+  "visibility": "public",
+  "isPrivate": false,
+  "userAuthorization": "The user subsequently accepted making the Git repository public to avoid operating another HTTP host.",
+  "shareEntry": "https://github.com/zhaozhe110/strudel-music-lab",
+  "piecePage": "https://github.com/zhaozhe110/strudel-music-lab/blob/main/docs/PLAY_V4.md",
+  "officialCodeFile": "pieces/little-logic/袖珍电路-v4-online.strudel",
+  "samplesPinnedRevision": "aea8f3a6573b9c09570f001bd2ceffc2e1adc62a",
+  "publishedPieceLinkVerified": true,
+  "officialEditorLoaded": true,
+  "independentShortlink": {
+    "created": false,
+    "providerAttempted": "is.gd",
+    "reason": "Both Node fetch and curl timed out while connecting to is.gd:443; no shortened URL was returned."
+  },
+  "traffic": {
+    "available": true,
+    "url": "https://github.com/zhaozhe110/strudel-music-lab/graphs/traffic",
+    "windowDays": 14,
+    "scope": "Repository visits and visitors, not Strudel plays; popular content reports may expose the piece-page path. Visitor data updates hourly; popular content updates daily."
+  },
+  "notEnabled": [
+    "GitHub Pages",
+    "Release",
+    "additional collaborators"
+  ],
+  "realtimeBrowserPlaybackVerified": false
+}

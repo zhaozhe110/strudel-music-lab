@@ -16,13 +16,25 @@
 
 ## 分享入口
 
-直接分享这个作品页即可：
+推荐直接分享仓库地址，朋友点击 README 顶部“在 Strudel 打开袖珍电路 v4”，再点 **play**：
+
+<https://github.com/zhaozhe110/strudel-music-lab>
+
+也可以只分享作品介绍页：
 
 <https://github.com/zhaozhe110/strudel-music-lab/blob/main/docs/PLAY_V4.md>
 
 它包含作品介绍、试听、源码，以及进入官方编辑器的按钮。用户需要在作品页再点一次进入 Strudel；它不是自动跳转脚本。Strudel Share 的长链接包含完整代码，作品页里的按钮将这条长链接隐藏在清晰的文字后面。
 
-短链与统计将在创建并验证后记录在本页。原始 Strudel 分享地址仍保留在作品页和 `.webloc` 中，不依赖短链服务才能播放。
+原始 Strudel 分享地址保留在 README、作品页和 `.webloc` 中，不依赖短链服务才能播放。尝试用 is.gd 创建带统计的独立短链时，Node 与 curl 均在连接 `is.gd:443` 时超时，未获得任何短链；不要把 GitHub 入口描述成已生成的第三方短链。
+
+## 无需新账号的访问统计
+
+打开 [GitHub Insights → Traffic](https://github.com/zhaozhe110/strudel-music-lab/graphs/traffic)。当前账号的流量 API 已读取成功，支持最近 14 天的仓库浏览、访客、来源和热门内容；需要仓库推送权限才能查看。
+
+这统计的是整个仓库的访问，并不专属于 v4。热门内容中出现作品页路径后，可进一步看该页面的访问表现。访客数据按小时更新，来源及热门内容按天更新；新发布后暂时显示零不能证明没有人打开。规则见 [GitHub 官方说明](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository)。
+
+如果以后需要直接跳到 Strudel 的更短地址，可使用能接受完整长 URL 的 Dub 账号生成；此版本没有注册短链服务账号。is.gd 的目标 URL 上限较低，不能直接塞入当前约 11,532 字符的 Strudel 链接，也不应用自动跳转脚本绕过其链式跳转限制。
 
 ## 验证与统计的含义
 

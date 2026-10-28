@@ -12,6 +12,8 @@
 
 ## 新机器上先做什么
 
+线上入口位于 README 顶部和 `docs/PLAY_V4.md`，无需本地环境。`docs/SHARING.md` 记录 GitHub 自带访问统计及当前短链服务连接失败的事实；不要宣称第三方短链已经生成。线上版的事件、远端资源、浏览器跨域读取和离线渲染通过，Ego Lite 的实时 play 初始化仍未验证成功。
+
 只需从 Strudel 官网加载《袖珍电路》v4 时，使用[线上谱](pieces/little-logic/袖珍电路-v4-online.strudel)和[分享说明](docs/SHARING.md)。该副本从固定提交的 GitHub Raw 地址读取十个样本，无需自行托管 HTTP 服务。以下安装步骤用于本地编辑与离线渲染。
 
 在仓库根目录执行。工具要求 Node.js 24 或更高版本；实际验证版本为 26.8.1，离线音频依赖 `node-web-audio-api` 2.2.0。Strudel 上游依赖使用 pnpm 10.15.0。
