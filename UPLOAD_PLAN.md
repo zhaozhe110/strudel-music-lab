@@ -1,8 +1,8 @@
-# GitHub 上传确认单
+# GitHub 上传与公开状态记录
 
-状态：**已按用户确认的清单上传；GitHub 返回 `private=true`，远端 `main` 与初始审阅提交一致。**
+当前状态：**仓库已按用户后续授权改为 public；GitHub 返回 `isPrivate=false`。** 用户先确认私人上传，后明确接受 Git 仓库公开，以免自行托管 HTTP 服务。后一次指示覆盖旧的私人可见性要求，无需重复确认。
 
-仓库：[zhaozhe110/strudel-music-lab](https://github.com/zhaozhe110/strudel-music-lab)。首次载荷提交：`aea8f3a6573b9c09570f001bd2ceffc2e1adc62a`。首次上传的 606 个文件及 Git tree 已与本地核对一致，见 [上传验证记录](evidence/packaging/github-upload.json)。后续提交只同步上传状态、交接说明和打包散列记录；当前最新提交以 `main` 为准。
+仓库：[zhaozhe110/strudel-music-lab](https://github.com/zhaozhe110/strudel-music-lab)。首次载荷提交：`aea8f3a6573b9c09570f001bd2ceffc2e1adc62a`。首次上传的 606 个文件及 Git tree 已与本地核对一致，见[首次上传历史记录](evidence/packaging/github-upload.json)。该报告中的 `private=true` 对应首次上传时的状态，保留原样；它不证明当前可见性。当前最新提交以 `main` 为准。
 
 ## 目标
 
@@ -11,19 +11,23 @@
 | GitHub 账号 | `zhaozhe110`，已通过本机 GitHub CLI 只读核对 |
 | 仓库名 | `strudel-music-lab` |
 | 完整名称 | `zhaozhe110/strudel-music-lab` |
-| 可见性 | **private** |
+| 当前可见性 | **public**；首次上传时为 private |
 | 初始分支 | `main` |
-| 用途 | 个人 Strudel 作品、试听、研究材料和交接备份 |
+| 用途 | 个人 Strudel 作品、试听、研究材料、交接备份与线上分享入口 |
 
-用户于 2026-10-28 明确确认：“按清单上传到 zhaozhe110/strudel-music-lab，保持私人仓库。”本次执行仅创建上述私有仓库并推送已审阅的内容，随后更新交接和上传记录。已审阅的初始提交为 `aea8f3a6573b9c09570f001bd2ceffc2e1adc62a`。
+2026-10-28 的授权与执行顺序：
 
-## 已确认上传内容
+1. 用户先确认：“按清单上传到 zhaozhe110/strudel-music-lab，保持私人仓库。”据此完成首次私有上传；已审阅的初始提交为 `aea8f3a6573b9c09570f001bd2ceffc2e1adc62a`。
+2. 用户随后表示：“我可以接受git仓库公开 托管http太麻烦了”。仓库已据此改为公开，GitHub 返回 `isPrivate=false`。
+3. 为《袖珍电路》v4 增加线上分发副本与[分享说明](docs/SHARING.md)。副本仅把采样基址切换到首次载荷固定提交的 GitHub Raw 路径，本地 v4 和音乐内容保留。
+
+## 当前收录内容
 
 新目录独立于原工作区：原作品、运行中的 Strudel checkout、完整音轨和环境均保留。收录约 **220 MB 未压缩文件内容**，不含 `.git` 与可重新安装的环境。
 
 | 内容 | 范围 |
 | --- | --- |
-| 乐谱 | 19 份 `.strudel`；按 little-logic、rooftop、offbeat、reference、sketches 分类 |
+| 乐谱 | 20 份 `.strudel`；首次上传为 19 份，现新增 1 份 v4 线上分发副本，不是新音乐版本；按 little-logic、rooftop、offbeat、reference、sketches 分类 |
 | 试听 | 18 份不同内容的 M4A；去掉 1 份完全重复副本 |
 | 本地资源 | 9 个目录、338 个文件；约 179.7 MB，含采样、映射与事件数据 |
 | 运行工具 | 固定 Strudel 提交、锁定 npm/pnpm 依赖、安装／启动／校验／离线渲染脚本 |
@@ -42,7 +46,7 @@
 | SampleRadar 原采样 | `band-reference/` 的 48 个 WAV、`rooftop-restored/drums/` 的 17 个 WAV | 官网允许用于音乐作品，但明确禁止重新分发原采样；私人备份不在本清单中被自动解释为获得授权 |
 | 用户录音衍生素材 | Pocket 复刻的 41 个短 WAV（含 24 段分离人声），及 v4 独立复制的 10 个短鼓击／键音 | 没有独立再分发授权文件；用途记录为个人分析、转写和比较，不标作 CC0 |
 
-对应 M4A 试听也保留其素材来源关系。若用户选择不上传某类样本，应先把该类文件从候选提交中外置、补充恢复步骤，并重新生成上传清单；不得只隐藏文件却留下旧提交中的内容。
+对应 M4A 试听也保留其素材来源关系。仓库由 private 改为 public 不改变上述来源与许可条款，也不构成新的素材再分发授权。若以后决定外置某类样本，需同时交代恢复步骤及 Git 历史中的已有内容，不能只隐藏当前文件就声称历史内容已移除。
 
 ## 不上传
 
@@ -55,6 +59,8 @@
 
 ## 确认与交接
 
-用户已确认：**目标账号及名称、private 可见性、以及上面这份包含采样和试听的具体范围。** 后续状态更新不得改变作品、采样、试听或许可范围。
+用户已确认目标账号及名称、包含采样与试听的上传范围，并在首次私有上传后明确接受 **public** 可见性。当前增加的线上谱只改变采样加载地址，不改变作品、采样、试听或许可范围。
 
-已记录远端 URL、首次载荷提交 SHA 和 GitHub 返回的 private 状态，并更新本文件与 HANDOFF。状态更新提交推送后再次核对远端 `main` 与 private 状态。不自动创建 Pages、Release、公开分享或设置协作者。
+首次上传证据保留当时的远端 URL、首次载荷提交 SHA 和 `private=true` 状态；公开状态和线上入口另行记录，不改写旧报告。线上播放的使用步骤与验证边界见[分享说明](docs/SHARING.md)，不能把资源可下载、事件检查或离线渲染等同于浏览器实时播放通过。
+
+不自动创建 Pages、Release 或设置协作者。`package.json` 的 `private: true` 仅防止 npm 发布，与仓库公开状态无关，保持原设置。

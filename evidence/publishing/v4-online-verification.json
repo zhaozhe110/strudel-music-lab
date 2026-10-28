@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-28",
+  "codeLoadedInOfficialEditor": true,
+  "officialOrigin": "https://strudel.cc",
+  "browserCrossOriginFetch": {
+    "ok": true,
+    "count": 10
+  },
+  "realtimePlayback": {
+    "verified": false,
+    "observedPlayButton": "...",
+    "audioContext": {
+      "state": "running",
+      "currentTime": 43.48266666666667
+    },
+    "reason": "Ego Lite play remained pending after initialization; a running audio context alone does not prove scheduled music."
+  },
+  "remoteAudioRender": {
+    "ok": true,
+    "events": 93,
+    "sampleEvents": 36,
+    "sampleSources": 8,
+    "durationSeconds": 9.058843537414965,
+    "peakDbFS": -1.5144145499487058,
+    "pcmMatchesLocalSmoke": false,
+    "pcmComparison": {
+      "equalLength": true,
+      "totalChannelSamples": 798990,
+      "changedChannelSamples": 2043,
+      "maximum16BitStepDifference": 4,
+      "rmsDifferenceDbFS": -113.7689750524053,
+      "eventsIdentical": true,
+      "note": "Checksums are not identical. Maximum sample difference is 4/32768; event lists and downloaded source samples match. This is a numerical comparison, not a subjective listening test."
+    }
+  },
+  "scope": "Actual remote samples were fetched and rendered; browser real-time playback and subjective listening are not claimed."
+}

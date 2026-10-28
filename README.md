@@ -4,13 +4,14 @@
 
 当前重点是 **《袖珍电路》**：v3 是已认可的机械电子底座，v4 在同一旋律、低音和调式结构上增加鼓击质感与计算器蜂鸣。天台晚风、错拍之后和参考复刻也一并保留，具体状态见[作品目录](docs/CATALOG.md)。
 
-这是个人私有备份项目，远端为 [zhaozhe110/strudel-music-lab](https://github.com/zhaozhe110/strudel-music-lab)。包含不同来源、不同许可条件的音频素材，使用范围见[采样来源](docs/SAMPLES.md)。已确认的上传范围与执行记录见 [UPLOAD_PLAN.md](UPLOAD_PLAN.md)。
+这是个人音乐研究与创作项目，远端 [zhaozhe110/strudel-music-lab](https://github.com/zhaozhe110/strudel-music-lab) 当前为 **公开仓库**。仓库公开不改变素材许可：其中包含不同来源、不同许可条件的音频素材，使用范围见[采样来源](docs/SAMPLES.md)。上传及可见性变更记录见 [UPLOAD_PLAN.md](UPLOAD_PLAN.md)。
 
 ## 从哪里开始
 
 | 目的 | 入口 |
 | --- | --- |
 | 继续打磨当前作品 | [袖珍电路 v4 乐谱](pieces/little-logic/袖珍电路-v4.strudel) · [完整试听](audio/little-logic/袖珍电路-v4-试听.m4a) · [30 秒主段](audio/little-logic/袖珍电路-v4-主段试听.m4a) |
+| 从官网加载 v4，或分享给别人 | [v4 作品页](docs/PLAY_V4.md) · [v4 线上谱](pieces/little-logic/袖珍电路-v4-online.strudel) · [分享说明](docs/SHARING.md)；先打开作品页，再点击进入 Strudel，采样由 GitHub Raw 提供 |
 | 听不依赖本地采样的认可底座 | [袖珍电路 v3 乐谱](pieces/little-logic/袖珍电路-v3.strudel) · [试听](audio/little-logic/袖珍电路-v3-试听.m4a) |
 | 查看 Pocket Calculator 复刻参考 | [完整乐谱](pieces/reference/Pocket%20Calculator-复刻版.strudel) · [试听](audio/reference/Pocket%20Calculator-复刻版.m4a) |
 | 查看天台晚风的旋律恢复版 | [保留原旋律完整曲](pieces/rooftop/天台晚风-保留原旋律完整曲.strudel) · [试听](audio/rooftop/天台晚风-保留原旋律完整曲.m4a) |
@@ -33,6 +34,8 @@ research/        历史编曲、识谱、分离和音色研究脚本，仅供追
 outputs/         新渲染和新验证产物，不进入 Git
 ```
 
+当前收录 20 份乐谱、18 份不同内容的 M4A 和 9 个资源目录。20 份乐谱中包含 1 份 v4 线上分发副本，它与本地 v4 是同一音乐版本，仅采样基址不同。
+
 乐谱及其依赖放在相邻的明确目录中；Strudel 本身通过固定版本安装，不把上游 Git 仓库和依赖缓存再次塞进这个仓库。
 
 ## 安装与启动
@@ -51,7 +54,7 @@ npm start
 
 打开 <http://127.0.0.1:3009>，粘贴一份 `pieces/` 中的乐谱，点击 **play**。修改后点击 **update**。macOS 也可在服务启动后双击 `launchers/` 中对应的入口。
 
-作品默认使用固定的 `127.0.0.1:3009` 地址。浏览器缓存和编辑状态按网站地址、浏览器分别保存；请以已保存的 `.strudel` 文件作为作品来源，不依赖浏览器历史。多数纯合成器作品也能在官网运行；依赖 `public/` 的作品应使用本地服务。
+本地作品默认使用固定的 `127.0.0.1:3009` 地址。浏览器缓存和编辑状态按网站地址、浏览器分别保存；请以已保存的 `.strudel` 文件作为作品来源，不依赖浏览器历史。多数纯合成器作品也能在官网运行；依赖 `public/` 的本地谱应使用本地服务。v4 另有使用固定提交 GitHub Raw 采样地址的线上副本，打开方法和验证边界见[分享说明](docs/SHARING.md)。
 
 如已拥有相同提交、依赖和构建完成的 Strudel checkout，可显式复用：
 
@@ -111,4 +114,4 @@ Strudel 上游代码遵循其自身 AGPL 许可；上游代码不作为本项目
 
 先读 [HANDOFF.md](HANDOFF.md)，再读对应作品源码。对创作改动另存新版本，保留已认可的底座，并提供易比较的试听。修改节奏或音色时重新渲染；只改文档、颜色或可视化位置时核对事件语义即可。
 
-用户已于 2026-10-28 确认按清单上传到上述仓库，并要求保持 **private**。后续工作遵守该可见性要求和具体任务授权；本次确认不包含公开发布、Pages、Release 或添加协作者。
+用户于 2026-10-28 先确认私人上传，随后明确接受公开 Git 仓库以简化分享。仓库现已改为 **public**，GitHub 返回 `isPrivate=false`；首次私人上传记录仍作为历史证据保留。`package.json` 的 `private: true` 仅防止 npm 发布，与 GitHub 可见性无关。后续按具体任务授权继续，不自动创建 Pages、Release 或添加协作者。

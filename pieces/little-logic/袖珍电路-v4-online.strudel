@@ -1,0 +1,193 @@
+// 袖珍电路 / LITTLE LOGIC — v4 官网版：鼓机与计算器声音
+// 136 BPM · 64 小节 · 保留 v3 的 Bb Mixolydian 旋律、Bb 低音与 Ab 切分。
+// 中音按键负责回答，高蜂鸣在中段和末轮出现；F#6 属于计算器效果音。
+// 在 https://strudel.cc/ 播放与分享；采样从 GitHub 固定提交加载，无需本地服务。
+// 短鼓击和单音源自用户提供的 Kraftwerk《Pocket Calculator》(2009 Remaster) 录音。
+// 采样经分离与裁切，未附开放再分发授权；来源与许可记录见仓库 docs/SAMPLES.md。
+// 保留 v4 的完整编排；顶部仍是音符图和波形。
+const showVisuals = p => {
+  p.gain(.85)._pianoroll({
+    width: 760, height: 210, cycles: 4, playhead: .25,
+    fold: 1, labels: 1, fill: 1, fillActive: 1,
+    colorizeInactive: 1, playheadColor: '#ffe45c', background: '#08110d'
+  })
+  return p._scope({ width: 760, height: 75, thickness: 2, scale: .9 })
+}
+
+setcpm(136/4)
+
+const DRUM_LEVEL = 1 // 鼓的相对音量
+const KEY_LEVEL = 1  // 中音按键的相对音量
+const BUZZ_LEVEL = 1 // 高频蜂鸣的相对音量
+const sampleBase = 'https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/'
+await samples({
+  pcKit0: ['pc-kit-0.wav'], pcKit1: ['pc-kit-1.wav'],
+  pcKit2: ['pc-kit-2.wav'], pcKit3: ['pc-kit-3.wav'],
+  pcKit4: ['pc-kit-4.wav'], pcKit5: ['pc-kit-5.wav'],
+  pc_keys: {
+    ab4: ['pc-midkeys-ab4.wav'], bb4: ['pc-midkeys-bb4.wav'],
+    g5: ['pc-buzz-g5.wav'], fs6: ['pc-buzz-fs6.wav']
+  }
+}, sampleBase)
+
+// 六种鼓击是带不同质感的复合短击，在八分网格里交替。
+// 高频短击先高通，低频弱击保持很轻，避免低频堆积。
+const kitVoice = (pattern, levels, filters) => sound(pattern)
+  .gain(levels).hpf(filters).postgain(DRUM_LEVEL)
+  .clip(1).attack(.001).release(.012).color("#a3aab4")
+
+const kitBase = kitVoice(
+  "pcKit2 pcKit0 pcKit4 pcKit5 pcKit2 pcKit3 pcKit4 pcKit5",
+  ".32 .105 .44 .055 .31 .10 .46 .05",
+  "25 3000 80 35 25 3000 80 35"
+)
+const kitAlt = kitVoice(
+  "pcKit2 pcKit3 pcKit1 pcKit5 pcKit2 pcKit0 pcKit4 pcKit5",
+  ".31 .10 .38 .05 .34 .11 .43 .045",
+  "25 3000 80 35 25 3000 80 35"
+)
+const kitTurn = kitVoice(
+  "pcKit2 pcKit0 pcKit4 pcKit5 pcKit2 pcKit3 pcKit1 pcKit3",
+  ".32 .09 .43 .05 .32 .10 .36 .11",
+  "25 3000 80 35 25 3000 80 3000"
+)
+const kitFill = kitVoice(
+  "pcKit2 pcKit0 pcKit4 pcKit5 pcKit2 [pcKit3 pcKit3] pcKit1 [pcKit0 pcKit3]",
+  ".32 .09 .43 .05 .32 .105 .36 .10",
+  "25 3000 80 35 25 3000 80 3000"
+)
+
+// 每四小节有小变化，每八小节才出现一次短过门。
+const drums = arrange([3, kitBase], [1, kitTurn], [3, kitBase], [1, kitFill])
+const alternateDrums = arrange([3, kitAlt], [1, kitTurn], [3, kitAlt], [1, kitFill])
+const kick = sound("pcKit2*4").gain(.28).hpf(25)
+  .postgain(DRUM_LEVEL).release(.012).color("#a3aab4")
+const ticks = sound("~ pcKit0 ~ pcKit3").hpf(3000).gain(.095)
+  .postgain(DRUM_LEVEL).release(.01).pan(.6).color("#a3aab4")
+const lightDrums = stack(kick, ticks)
+
+// —— 音高中心一直是 Bb：只在两个八度间跳动，不轮换和弦根音 ——
+const bass = note(`<
+  [bb1 ~ bb2 bb1 ~ bb1 bb2 ~]
+  [bb1 ~ bb2 ~ bb1 bb1 ~ bb2]
+>`).sound("square").lpf(360).lpq(.8)
+  .lpenv(1.3).lpa(.002).lpd(.075).lps(0)
+  .attack(.002).decay(.105).sustain(0).release(.028)
+  .clip(.66).gain(.3).color("#53dfed")
+
+// Ab 是 Bb 的降七级。固定短音的切分，不急着解决到 Bb。
+const pulse = note("~ ab3 ~ [ab3 ~] ~ ab3 [~ ab3] ~")
+  .sound("square").hpf(180).lpf(1500).lpq(1.2)
+  .attack(.001).decay(.055).sustain(0).release(.015)
+  .clip(.5).gain(.105).pan(.5).color("#ffb86b")
+
+// —— 四小节短句：反复碰到 Ab，Eb→D 是短促的半音摩擦 ——
+// 这里没有长音主歌；句尾停在 D 或休止，交给循环继续。
+const hookNotes = note(`<
+  [ab4 ~ ab4 bb4 ~ f4 ab4 ~]
+  [~ ab4 c5 ~ ab4 ~ eb5 d5]
+  [ab4 ~ ab4 bb4 ~ f4 ab4 ~]
+  [~ c5 bb4 ~ ab4 ab4 [eb5 d5] ~]
+>`)
+
+// 第二种排列：相同音高材料，在格子里移动位置。
+const shiftedNotes = note(`<
+  [~ ab4 ab4 ~ bb4 f4 ~ ab4]
+  [c5 ~ ab4 c5 ~ eb5 d5 ~]
+  [ab4 ~ ab4 bb4 ~ f4 ab4 ~]
+  [~ c5 bb4 ~ [ab4 ab4] ~ eb5 d5]
+>`)
+
+// 末段减少音符，让按键声露出来；不增加抒情的旋律高点。
+const cutNotes = note(`<
+  [ab4 ~ ab4 bb4 ~ f4 ab4 ~]
+  [~ ab4 c5 ~ ab4 ~ eb5 d5]
+  ~
+  [~ c5 bb4 ~ ab4 ab4 [eb5 d5] ~]
+>`)
+
+// 较窄、带鼻音的方波，短门限与短滤波包络让每一下都像按钮。
+const leadVoice = p => p.sound("square").hpf(300).lpf(2200).lpq(1.6)
+  .lpenv(1.1).lpa(.001).lpd(.07).lps(0)
+  .attack(.001).decay(.07).sustain(.08).release(.02).clip(.62)
+  .gain(.18).pan(.46).orbit(1).color("#ffe45c")
+const hook = leadVoice(hookNotes)
+const shiftedHook = leadVoice(shiftedNotes)
+const cutHook = leadVoice(cutNotes)
+
+// —— 中段换一种机器音色，Bb 低音仍保持原位 ——
+const dataNotes = note(`<
+  [c5 ~ ab4 ~ eb5 d5 ~ ab4]
+  [~ ab4 ~ d5 ~ c5 bb4 ~]
+  [g4 ~ ab4 ~ c5 ab4 ~ eb5]
+  [d5 ~ c5 ~ ab4 ~ ~ ~]
+>`)
+const data = dataNotes.sound("sine").fm(1.1).fmh(1.5).lpf(4600)
+  .attack(.001).decay(.075).sustain(0).release(.018)
+  .clip(.55).gain(.17).pan(.57).orbit(2).color("#9bff7a")
+
+// —— 计算器的两个角色：持续一点的中音按键、稀疏的高区蜂鸣 ——
+// 各样本响度不同，分别设定起始电平。正常按键保留约 0.2 秒的形态。
+const keyLevels = { ab4: .10, bb4: .16, g5: .115, fs6: .085 }
+const keyVoice = p => p.sound('pc_keys')
+  .withValue(v => ({ ...v, gain: keyLevels[v.note] ?? .10 }))
+  .attack(.001).release(.012).pan(.72).orbit(3).color("#9bff7a")
+const midKeyVoice = p => keyVoice(p).postgain(KEY_LEVEL)
+const buzzVoice = p => keyVoice(p).postgain(BUZZ_LEVEL)
+  .pan(".3 .75").color("#ff95cf")
+
+// 首次主题只在后四小节露出一声，随后才发展成对话。
+const firstKey = midKeyVoice(note("<[~@7 bb4] ~ ~ ~>"))
+const normalReply = midKeyVoice(note(`<
+  [~@4 bb4 ~@3] [~@3 ab4 ~@4] [~@7 bb4] [ab4 ~@7]
+>`))
+const shiftedReply = midKeyVoice(note(`<
+  [bb4 ~@7] [~@7 ab4] [~@7 bb4] [~@3 ab4 ~@4]
+>`))
+const cutReply = midKeyVoice(note(`<
+  [~@4 bb4 ~@3] [~@3 ab4 ~@4]
+  [ab4 ~@5 bb4 ~] [ab4 ~@7]
+>`))
+
+// 高蜂鸣到中段才出现；快速连按时才缩短门限。
+const dataBuzz = buzzVoice(note("<~ [~@7 g5] ~ [~@5 [fs6 fs6] g5 ~]>"))
+  .clip(1)
+const finalBuzz = buzzVoice(note(`<
+  [~@7 g5] ~ [~ fs6 ~@2 g5 ~@3] [~@7 [fs6 fs6]]
+>`)).clip(1)
+
+// 中段让计算器站到前面；这里主旋律暂时退出。
+const keySolo = midKeyVoice(note(`<
+  [ab4 ~ bb4 ~ ~ ab4 ~ ~]
+  [~ bb4 ~ ~ ab4 ~ bb4 ~]
+  [ab4 ~ ~ bb4 ~ ab4 ~ ~]
+  [~ bb4 ab4 ~ ~ ~ bb4 ~]
+>`)).pan(".7 .4 .65 .35")
+const keySoloBuzz = buzzVoice(note("<~ [~@6 g5 ~] ~ [~@4 fs6 ~ g5 ~]>"))
+  .clip(1)
+
+// Ab-C-Eb / Bb：降七级和弦叠在持续低音上，短暂保持悬置。
+// 门限很短，避免 Eb 与旋律的 D 长时间挤在一起。
+const suspension = note("<[~ [ab3,c4,eb4] ~@6] ~ [~@5 [ab3,c4,eb4] ~@2] ~>")
+  .sound("sawtooth").lpf(1100)
+  .attack(.002).decay(.065).sustain(0).release(.018).clip(.3)
+  .gain(.065).pan(.35).color("#bda1ff")
+
+// —— 编排：鼓机逐步展开，按键回答，高蜂鸣出现，再留出一段空隙 ——
+const song = arrange(
+  [4, stack(lightDrums, bass)],                  // 00:00 启动节拍
+  [4, stack(kitBase, bass, pulse)],                // 00:07 完整鼓击进入
+  [4, stack(kitBase, bass, pulse, hook)],           // 00:14 先听熟悉的主题
+  [4, stack(kitBase, bass, pulse, hook, firstKey)], // 00:21 第一声按键
+  [8, stack(drums, bass, pulse, shiftedHook, shiftedReply)], // 00:28 按键对话
+  [8, stack(alternateDrums, bass, pulse, data, suspension, dataBuzz)], // 00:42 高频蜂鸣
+  [4, stack(bass, ticks, keySolo, keySoloBuzz)],   // 00:56 计算器独奏
+  [4, stack(lightDrums, bass, pulse)],             // 01:04 留白、重新接通
+  [8, stack(drums, bass, pulse, hook, suspension, normalReply)], // 01:11 主题回归
+  [8, stack(alternateDrums, bass, pulse, cutHook, cutReply, finalBuzz)], // 01:25 三种声音交谈
+  [4, stack(kitBase, bass, pulse)],                // 01:39 退回鼓与循环
+  [2, stack(bass, pulse)],                        // 01:46 未解决的短句
+  [2, silence]                                   // 01:49 暂停，然后重启
+)
+
+showVisuals(song)

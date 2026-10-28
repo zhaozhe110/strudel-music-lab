@@ -1,16 +1,17 @@
 # 作品与版本目录
 
-整理日期：2026-10-28。目录保留19个 `.strudel` 文件，分别覆盖作品、历史版本、参考复刻与奏法试验。文件名中的版本号表示创作分支，不自动表示“听感更好”或“已验收”。素材来源见 [SAMPLES.md](SAMPLES.md)。
+整理日期：2026-10-28。目录保留20个 `.strudel` 文件，分别覆盖作品、历史版本、参考复刻与奏法试验；其中1份是 v4 的线上分发副本，不是新音乐版本。另有18份不同内容的 M4A、9个资源目录。文件名中的版本号表示创作分支，不自动表示“听感更好”或“已验收”。素材来源见 [SAMPLES.md](SAMPLES.md)。
 
 ## 从哪里开始
 
 - **电子作品：**先听、改 [袖珍电路-v3.strudel](../pieces/little-logic/袖珍电路-v3.strudel)。这是用户认可的纯合成器底座。要比较复合鼓击与真实计算器短采样，打开 [v4](../pieces/little-logic/袖珍电路-v4.strudel)；它保留v3核心旋律、低音、切分与悬置和声，增强鼓和按键层次。v4不替代v3这个基准。
+- **从官网加载 v4：**使用 [v4 线上副本](../pieces/little-logic/袖珍电路-v4-online.strudel)和[分享说明](SHARING.md)。它从固定提交的 GitHub Raw 路径加载同一组样本，无需自行托管 HTTP 服务。
 - **《天台晚风》的原旋律：**从 [保留原旋律完整曲](../pieces/rooftop/天台晚风-保留原旋律完整曲.strudel) 开始。若只看原来的36小节，打开 [原旋律回归](../pieces/rooftop/天台晚风-原旋律回归.strudel)。v3是另写主题的分支，不是这条原旋律的后续定稿。
 - **乐句素材编排：**[错拍之后](../pieces/offbeat/错拍之后-完整曲.strudel) 是完整器乐编排，旋律和演奏来自SampleRadar现成乐句；[Emo素材参考版](../pieces/reference/Emo乐队-素材参考版.strudel) 是同一音源的短参考。
 - **观察《Pocket Calculator》结构：**[复刻版](../pieces/reference/Pocket%20Calculator-复刻版.strudel) 保留按时间触发的转写；[主题循环](../pieces/reference/Pocket%20Calculator-主题循环.strudel) 适合直接改音符。两者都使用原录音提取素材，属于参考研究。
 - **最小入门：**[入门旋律](../pieces/sketches/入门旋律.strudel) 只有两行，不依赖外部采样。
 
-## 袖珍电路：5个版本文件
+## 袖珍电路：6个文件，含1份线上分发副本
 
 | 文件 | 状态与内容 | 播放依赖 |
 |---|---|---|
@@ -19,6 +20,7 @@
 | [袖珍电路-v2.strudel](../pieces/little-logic/袖珍电路-v2.strudel) | 126 BPM、E大调；两小节动机、长短句和功能和声的探索。用户认为过于流行、太悦耳，偏离目标；保留作比较，不作为当前起点。 | Strudel内置合成器 |
 | [袖珍电路-v3.strudel](../pieces/little-logic/袖珍电路-v3.strudel) | **已认可底座。**136 BPM、B♭ Mixolydian、64小节，约1:53；B♭八度低音、A♭切分、短句和悬置色彩。 | Strudel内置合成器；无本地采样目录依赖 |
 | [袖珍电路-v4.strudel](../pieces/little-logic/袖珍电路-v4.strudel) | 鼓机与计算器增强版；核心沿用v3。增加复合鼓击、中音按键、高蜂鸣、对话与留白。F♯6用于计算器效果音。顶部有 `DRUM_LEVEL`、`KEY_LEVEL`、`BUZZ_LEVEL`。 | [public/little-logic-v4/](../public/little-logic-v4/) 的10个短WAV；不需要复刻版人声 |
+| [袖珍电路-v4-online.strudel](../pieces/little-logic/袖珍电路-v4-online.strudel) | 同一 v4 的线上分发副本，只替换 `sampleBase`；音乐、编排与可视化不变，沿用 v4 试听。 | 固定提交 `aea8f3a6573b9c09570f001bd2ceffc2e1adc62a` 的 GitHub Raw `public/little-logic-v4/`，同一10个短WAV |
 
 试听与对照：
 
@@ -88,6 +90,6 @@
 ## 归档与验证边界
 
 - 音频目录按内容哈希去重，保留18份不同的M4A；对应WAV渲染产物不另算为作品版本。两份内容相同的v1源码保留名称，用于保持版本记录。
-- 本地资源地址仍使用 `http://127.0.0.1:3009/<资源目录>/`。需用仓库的启动方式将 `public/` 中资源映射到这些路径；浏览器缓存不替代文件依赖。
+- 本地谱的资源地址仍使用 `http://127.0.0.1:3009/<资源目录>/`，需用仓库的启动方式将 `public/` 中资源映射到这些路径。v4 线上副本改用固定提交的 GitHub Raw 采样地址；浏览器缓存不替代文件依赖。
 - 自带合成器、默认远程音源、本地采样是三种不同依赖；“代码完整”不等于“全部音频已内联”。
 - 现有说明和报告记录了Strudel编译、事件、资源及离线渲染检查；这些不是对每个版本的主观试听验收，也不保证不同浏览器的实时AudioWorklet初始化均成功。

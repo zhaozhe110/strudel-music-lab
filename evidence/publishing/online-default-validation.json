@@ -1,0 +1,2028 @@
+{
+  "scope": "Structural and local-resource validation, not a subjective listening test or browser audio verification.",
+  "ok": true,
+  "results": [
+    {
+      "source": "pieces/little-logic/袖珍电路-v1-顶部可视化存档.strudel",
+      "ok": true,
+      "sourceSha256": "91659a68615f51a9121e358fa84a5545054ae45af4065d8306281abce83060ad",
+      "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+      "bpm": 126,
+      "selection": {
+        "begin": 0,
+        "cycles": 64,
+        "end": 64
+      },
+      "seconds": 121.9047619047619,
+      "events": 1643,
+      "sounds": {
+        "white": 560,
+        "sine": 364,
+        "square": 488,
+        "triangle": 231
+      },
+      "declaredSampleFiles": 0,
+      "localSampleFilesVerified": 0,
+      "resources": [],
+      "fetchedResources": [],
+      "offlineRender": {
+        "supported": true
+      }
+    },
+    {
+      "source": "pieces/little-logic/袖珍电路-v2.strudel",
+      "ok": true,
+      "sourceSha256": "9fa33e2b5e6aeb4e11d59fa2393965cf22a224bb867f52541eec34c20cd3c72f",
+      "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+      "bpm": 126,
+      "selection": {
+        "begin": 0,
+        "cycles": 64,
+        "end": 64
+      },
+      "seconds": 121.9047619047619,
+      "events": 1473,
+      "sounds": {
+        "white": 560,
+        "sine": 259,
+        "square": 475,
+        "triangle": 179
+      },
+      "declaredSampleFiles": 0,
+      "localSampleFilesVerified": 0,
+      "resources": [],
+      "fetchedResources": [],
+      "offlineRender": {
+        "supported": true
+      }
+    },
+    {
+      "source": "pieces/little-logic/袖珍电路-v3.strudel",
+      "ok": true,
+      "sourceSha256": "bc13046e71ea08ee3fb93382947e61e96267579b92934c131ae8eac9f35ab594",
+      "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+      "bpm": 136,
+      "selection": {
+        "begin": 0,
+        "cycles": 64,
+        "end": 64
+      },
+      "seconds": 112.94117647058823,
+      "events": 1767,
+      "sounds": {
+        "sine": 387,
+        "white": 576,
+        "square": 684,
+        "triangle": 96,
+        "sawtooth": 24
+      },
+      "declaredSampleFiles": 0,
+      "localSampleFilesVerified": 0,
+      "resources": [],
+      "fetchedResources": [],
+      "offlineRender": {
+        "supported": true
+      }
+    },
+    {
+      "source": "pieces/little-logic/袖珍电路-v4-online.strudel",
+      "ok": true,
+      "sourceSha256": "166838b1faa39433d0d2c51a0eebf586bca62bc3a30e7546808ab31c3782d512",
+      "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+      "bpm": 136,
+      "selection": {
+        "begin": 0,
+        "cycles": 64,
+        "end": 64
+      },
+      "seconds": 112.94117647058823,
+      "events": 1250,
+      "sounds": {
+        "pcKit2": 128,
+        "square": 684,
+        "pcKit0": 64,
+        "pcKit3": 72,
+        "pcKit4": 76,
+        "pcKit5": 88,
+        "pc_keys": 60,
+        "pcKit1": 20,
+        "sine": 34,
+        "sawtooth": 24
+      },
+      "declaredSampleFiles": 10,
+      "localSampleFilesVerified": 0,
+      "resources": [
+        {
+          "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-0.wav",
+          "verified": false,
+          "reason": "External sample URL; not downloaded by structural validation."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-1.wav",
+          "verified": false,
+          "reason": "External sample URL; not downloaded by structural validation."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-2.wav",
+          "verified": false,
+          "reason": "External sample URL; not downloaded by structural validation."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-3.wav",
+          "verified": false,
+          "reason": "External sample URL; not downloaded by structural validation."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-4.wav",
+          "verified": false,
+          "reason": "External sample URL; not downloaded by structural validation."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-5.wav",
+          "verified": false,
+          "reason": "External sample URL; not downloaded by structural validation."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-midkeys-ab4.wav",
+          "verified": false,
+          "reason": "External sample URL; not downloaded by structural validation."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-midkeys-bb4.wav",
+          "verified": false,
+          "reason": "External sample URL; not downloaded by structural validation."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-buzz-g5.wav",
+          "verified": false,
+          "reason": "External sample URL; not downloaded by structural validation."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-buzz-fs6.wav",
+          "verified": false,
+          "reason": "External sample URL; not downloaded by structural validation."
+        }
+      ],
+      "fetchedResources": [],
+      "offlineRender": {
+        "supported": true
+      }
+    },
+    {
+      "source": "pieces/little-logic/袖珍电路-v4.strudel",
+      "ok": true,
+      "sourceSha256": "3901855b71de3ff02a12719cc7e51f81a29f2abafc35fce84b6b800ae2d29632",
+      "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+      "bpm": 136,
+      "selection": {
+        "begin": 0,
+        "cycles": 64,
+        "end": 64
+      },
+      "seconds": 112.94117647058823,
+      "events": 1250,
+      "sounds": {
+        "pcKit2": 128,
+        "square": 684,
+        "pcKit0": 64,
+        "pcKit3": 72,
+        "pcKit4": 76,
+        "pcKit5": 88,
+        "pc_keys": 60,
+        "pcKit1": 20,
+        "sine": 34,
+        "sawtooth": 24
+      },
+      "declaredSampleFiles": 10,
+      "localSampleFilesVerified": 10,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-0.wav",
+          "file": "public/little-logic-v4/pc-kit-0.wav",
+          "bytes": 32676,
+          "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-1.wav",
+          "file": "public/little-logic-v4/pc-kit-1.wav",
+          "bytes": 32676,
+          "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-2.wav",
+          "file": "public/little-logic-v4/pc-kit-2.wav",
+          "bytes": 32676,
+          "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-3.wav",
+          "file": "public/little-logic-v4/pc-kit-3.wav",
+          "bytes": 32676,
+          "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-4.wav",
+          "file": "public/little-logic-v4/pc-kit-4.wav",
+          "bytes": 32676,
+          "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-5.wav",
+          "file": "public/little-logic-v4/pc-kit-5.wav",
+          "bytes": 32676,
+          "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-midkeys-ab4.wav",
+          "file": "public/little-logic-v4/pc-midkeys-ab4.wav",
+          "bytes": 36204,
+          "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-midkeys-bb4.wav",
+          "file": "public/little-logic-v4/pc-midkeys-bb4.wav",
+          "bytes": 36204,
+          "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-buzz-g5.wav",
+          "file": "public/little-logic-v4/pc-buzz-g5.wav",
+          "bytes": 45908,
+          "sha256": "b3d03e9ce25edc96c2322ab1ffb3ef26b073100abc5f69ce5f70ba7308758180"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-buzz-fs6.wav",
+          "file": "public/little-logic-v4/pc-buzz-fs6.wav",
+          "bytes": 49436,
+          "sha256": "111c3193eeeec48c981c77807bde08a7c2ae93689ace5dd6321a5ef309b7676a"
+        }
+      ],
+      "fetchedResources": [
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-0.wav",
+          "file": "public/little-logic-v4/pc-kit-0.wav",
+          "bytes": 32676,
+          "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-1.wav",
+          "file": "public/little-logic-v4/pc-kit-1.wav",
+          "bytes": 32676,
+          "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-2.wav",
+          "file": "public/little-logic-v4/pc-kit-2.wav",
+          "bytes": 32676,
+          "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-3.wav",
+          "file": "public/little-logic-v4/pc-kit-3.wav",
+          "bytes": 32676,
+          "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-4.wav",
+          "file": "public/little-logic-v4/pc-kit-4.wav",
+          "bytes": 32676,
+          "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-5.wav",
+          "file": "public/little-logic-v4/pc-kit-5.wav",
+          "bytes": 32676,
+          "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-midkeys-ab4.wav",
+          "file": "public/little-logic-v4/pc-midkeys-ab4.wav",
+          "bytes": 36204,
+          "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-midkeys-bb4.wav",
+          "file": "public/little-logic-v4/pc-midkeys-bb4.wav",
+          "bytes": 36204,
+          "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-buzz-g5.wav",
+          "file": "public/little-logic-v4/pc-buzz-g5.wav",
+          "bytes": 45908,
+          "sha256": "b3d03e9ce25edc96c2322ab1ffb3ef26b073100abc5f69ce5f70ba7308758180"
+        },
+        {
+          "url": "http://127.0.0.1:3009/little-logic-v4/pc-buzz-fs6.wav",
+          "file": "public/little-logic-v4/pc-buzz-fs6.wav",
+          "bytes": 49436,
+          "sha256": "111c3193eeeec48c981c77807bde08a7c2ae93689ace5dd6321a5ef309b7676a"
+        }
+      ],
+      "offlineRender": {
+        "supported": true
+      }
+    },
+    {
+      "source": "pieces/little-logic/袖珍电路.strudel",
+      "ok": true,
+      "sourceSha256": "91659a68615f51a9121e358fa84a5545054ae45af4065d8306281abce83060ad",
+      "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+      "bpm": 126,
+      "selection": {
+        "begin": 0,
+        "cycles": 64,
+        "end": 64
+      },
+      "seconds": 121.9047619047619,
+      "events": 1643,
+      "sounds": {
+        "white": 560,
+        "sine": 364,
+        "square": 488,
+        "triangle": 231
+      },
+      "declaredSampleFiles": 0,
+      "localSampleFilesVerified": 0,
+      "resources": [],
+      "fetchedResources": [],
+      "offlineRender": {
+        "supported": true
+      }
+    },
+    {
+      "source": "pieces/reference/Emo乐队-素材参考版.strudel",
+      "ok": true,
+      "sourceSha256": "4c9726b18378fe8e39aea8dcac2de6e0117fe6d55a6b95e71c7a332caa7e779d",
+      "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+      "bpm": 99,
+      "selection": {
+        "begin": 0,
+        "cycles": 64,
+        "end": 64
+      },
+      "seconds": 155.15151515151516,
+      "events": 126,
+      "sounds": {
+        "band_rhythm_a": 27,
+        "band_rhythm_b": 24,
+        "band_bass": 27,
+        "band_lead": 21,
+        "band_drums": 22,
+        "band_rhythm_c": 5
+      },
+      "declaredSampleFiles": 48,
+      "localSampleFilesVerified": 48,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-01.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-01.wav",
+          "bytes": 641561,
+          "sha256": "2a68a54696da7b721f343b3849dbd3110b56081953fe5b1fb7e5316278e80419"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-02.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-02.wav",
+          "bytes": 641558,
+          "sha256": "a69736d282e2bac9fce51b0f4cd6b7f90483fd3ab8b365a5639c0f3f1641aa7b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-03.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-03.wav",
+          "bytes": 641558,
+          "sha256": "f8e577220d7922d104f8f4e560493a47c4807dbe598ba982fdf20f5f9eaac250"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-04.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-04.wav",
+          "bytes": 641558,
+          "sha256": "acf279e93819aab42679ba8ebee27cd06ba37fd9d22251d3d2f2c856b242a4b4"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-05.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-05.wav",
+          "bytes": 641558,
+          "sha256": "ff47471012fd195bda501ea029fa4e486d21099f07bc8253181eb064661a490b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-06.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-06.wav",
+          "bytes": 641558,
+          "sha256": "88b8ece2e9ae53dcebda37ffd178f6e8f4d6ba126d624f4e96fdc7390628d592"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-07.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-07.wav",
+          "bytes": 641558,
+          "sha256": "0bcf95d2d78cd6027d7585a9cf53526feb5c0f3ae1bd1edacb53a1441aaffb8b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-08.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-08.wav",
+          "bytes": 641561,
+          "sha256": "b88e5bf238c85c0dabfe7463bc0fce667e6a3d2117b2a2957c38fe2e195d5e36"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-01.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-01.wav",
+          "bytes": 641561,
+          "sha256": "eb7d53534075aff738310beeb90848cbbd328b17e99f43d68e7a7cc3d51c4907"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-02.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-02.wav",
+          "bytes": 641558,
+          "sha256": "10280ba4603f5d1b41db23028a9b452c78da801a34bf2b93bc500f8b9d24204a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-03.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-03.wav",
+          "bytes": 641558,
+          "sha256": "2c5668a5c814f957e0b13874b893c960d9d5a41b4bceabc357f5754f2705b7cb"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-04.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-04.wav",
+          "bytes": 641558,
+          "sha256": "155f2e0fbc4fc78137a42acf139befe44f58fa2e3291e001af03094466c22406"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-05.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-05.wav",
+          "bytes": 641558,
+          "sha256": "5d1a3aad77c0868439db991d055709661611eb044fba60e1fa5dcb5ec85f5304"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-06.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-06.wav",
+          "bytes": 641558,
+          "sha256": "7d9adc84c1aadc791876c7489b74fc2ae8b7e00cd0ed8908e0f78cc87410cc20"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-07.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-07.wav",
+          "bytes": 641558,
+          "sha256": "67ad67ab76580ffae75e98dbea5a13dd2c5f7213a147d3696aeb7c303706c38b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-08.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-08.wav",
+          "bytes": 641561,
+          "sha256": "53a3a4e2521a82b46cbf488420cec53a67f829643a67fc0381ac7754c9a84082"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-01.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-01.wav",
+          "bytes": 641561,
+          "sha256": "123ea2ff28da5cd05ec5d094359eb190759ab8e02cb6b62c13cfa1f6c3ad407c"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-02.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-02.wav",
+          "bytes": 641558,
+          "sha256": "34462e351878db02af303cddf2580edfba5d7ff8ef52b14fb9e98f48406064f0"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-03.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-03.wav",
+          "bytes": 641558,
+          "sha256": "b78559df979a3f916d236e590fb93877cad31dd0064f4ba3c52a3ed9fd4026e3"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-04.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-04.wav",
+          "bytes": 641558,
+          "sha256": "8c6a7e5580ac3e025d322680455d8184511d9538540d68d5dcb21c61ed0c7e89"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-05.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-05.wav",
+          "bytes": 641558,
+          "sha256": "ff2d7a1f9ff51f40a8debc794e52fc014f31a6f1a69032e9399ea0cda9782797"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-06.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-06.wav",
+          "bytes": 641558,
+          "sha256": "d401726c3adb574449be5220fe5525b3a0c3ab4a59fb379f4efa551aefb00096"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-07.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-07.wav",
+          "bytes": 641558,
+          "sha256": "311e7cf515f803200733da9697ed76865db77d95c99ddb4619fd343ab4fca159"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-08.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-08.wav",
+          "bytes": 641561,
+          "sha256": "3d813f9ffcc35460b60e936ca2948ba80a01da296f477d4f49d0784774c9f948"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-01.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-01.wav",
+          "bytes": 641561,
+          "sha256": "f6d25aae74ed77c5b890e5ea2e32506136f37a88e632df67ba51f6d94fdea0de"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-02.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-02.wav",
+          "bytes": 641558,
+          "sha256": "c6c29cd99adc582fcd1ac25af643160f4efd2526cec0ec069e1c71a5fc8ce230"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-03.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-03.wav",
+          "bytes": 641558,
+          "sha256": "fa19100e8d15150bf9c72aa8d7e2b85d5ba8c74dba513d0de59ce562a66c08ad"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-04.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-04.wav",
+          "bytes": 641558,
+          "sha256": "b28dc47af6a79e8de49ec86621b186e207cffe6c3764b5299a9ed6458d1c1aea"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-05.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-05.wav",
+          "bytes": 641558,
+          "sha256": "760b9a3ee006ccb8a65d450f7c27f5aa8c23a97860bc8e7b713a1cece4e18ee4"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-06.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-06.wav",
+          "bytes": 641558,
+          "sha256": "f54e5c8aefe21e54f530794c7701eb68a256678cdd22e90e3dbd0f72dd3af828"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-07.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-07.wav",
+          "bytes": 641558,
+          "sha256": "0d8efa61664d2a729e61bf1d1ef1cad54947c778b77964fa6b96564920c14764"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-08.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-08.wav",
+          "bytes": 641561,
+          "sha256": "7cbe4cfdc5884ffb6fc3f17da141e8b951927b61c01f19b572bf355cdd343316"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-01.wav",
+          "file": "public/band-reference/EMOK3BassA99A-01.wav",
+          "bytes": 641561,
+          "sha256": "31b3f020238b81a512e0877e27770f162598851db8dfc740d74d4427f7f0948e"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-02.wav",
+          "file": "public/band-reference/EMOK3BassA99A-02.wav",
+          "bytes": 641558,
+          "sha256": "b0930cf73ba4d747fe99e1bab6de04c6b1879b89db1e43afb51126c0b38dc941"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-03.wav",
+          "file": "public/band-reference/EMOK3BassA99A-03.wav",
+          "bytes": 641558,
+          "sha256": "2977d2a61c50a9495e165f2ccfb1619621f483f8a2fb7e3935493cf48bbc1af8"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-04.wav",
+          "file": "public/band-reference/EMOK3BassA99A-04.wav",
+          "bytes": 641558,
+          "sha256": "dae994725a4afc034c8f7e8e730eb6c08abfe8db1956f76fe63fd80463ff0129"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-05.wav",
+          "file": "public/band-reference/EMOK3BassA99A-05.wav",
+          "bytes": 641558,
+          "sha256": "b3506bf9fbd1166fb1a7ccbc8a47e70db927e50462d735318d923a77f2f87ca1"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-06.wav",
+          "file": "public/band-reference/EMOK3BassA99A-06.wav",
+          "bytes": 641558,
+          "sha256": "a414ca7a9b05d8bda8a0bedaa3a2ea3ecd68ce27bf0db48f6c79202bae2589f0"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-07.wav",
+          "file": "public/band-reference/EMOK3BassA99A-07.wav",
+          "bytes": 641558,
+          "sha256": "e64bf4724774b0f053c0ac7e756e04e67169f077e77952a7e54a2db7867cd5b0"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-08.wav",
+          "file": "public/band-reference/EMOK3BassA99A-08.wav",
+          "bytes": 641561,
+          "sha256": "ec1dd8449fc3a08b7f60d9f170cc729260c76c8125903d7fdfc9acd05b4f928a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-01.wav",
+          "file": "public/band-reference/EMOK3Beat99-01.wav",
+          "bytes": 1283018,
+          "sha256": "ad77b67c1013a0d7549dfed0f162b51e9fc8575f11f625f9acf58cd2a266e00f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-02.wav",
+          "file": "public/band-reference/EMOK3Beat99-02.wav",
+          "bytes": 1283012,
+          "sha256": "a3cde956fb1e70e36d0f5ae1544454d29345c7175966fb37cb8db6b755a057f1"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-03.wav",
+          "file": "public/band-reference/EMOK3Beat99-03.wav",
+          "bytes": 1283012,
+          "sha256": "f932ebc1e18faf9618772e7ae207c19c3de733e6246d07fb099f8b099da250e6"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-04.wav",
+          "file": "public/band-reference/EMOK3Beat99-04.wav",
+          "bytes": 1283012,
+          "sha256": "5d3c4ff1d60cfe003ed6c644efbb5e39a2a3b514a54eb21c0a0f6576ce8ac7a5"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-05.wav",
+          "file": "public/band-reference/EMOK3Beat99-05.wav",
+          "bytes": 1283012,
+          "sha256": "c2e224a03c1414f6d86d99eed71f389273f937f134ffb7f90e8a1f0aaea4d87b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-06.wav",
+          "file": "public/band-reference/EMOK3Beat99-06.wav",
+          "bytes": 1283012,
+          "sha256": "ef949f477c99346efde922b18c2a2df7c365265ec893c571a25fa149280f6fad"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-07.wav",
+          "file": "public/band-reference/EMOK3Beat99-07.wav",
+          "bytes": 1283012,
+          "sha256": "183bbd1a07186184bee677e578ca5bbe44a91e0337a3689e92029efe89fe23b0"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-08.wav",
+          "file": "public/band-reference/EMOK3Beat99-08.wav",
+          "bytes": 1283018,
+          "sha256": "3cdaceb9f35618a0e9867b551a13fc42771f2cfd5181b479902e2fc8474b9de4"
+        }
+      ],
+      "fetchedResources": [
+        {
+          "url": "http://127.0.0.1:3009/band-reference/samples.json",
+          "file": "public/band-reference/samples.json",
+          "bytes": 1626,
+          "sha256": "57b43534fdb9af2540b4b5dbe99d1376718148f912071414358d40a6ca46b972"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-01.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-01.wav",
+          "bytes": 641561,
+          "sha256": "2a68a54696da7b721f343b3849dbd3110b56081953fe5b1fb7e5316278e80419"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-03.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-03.wav",
+          "bytes": 641558,
+          "sha256": "f8e577220d7922d104f8f4e560493a47c4807dbe598ba982fdf20f5f9eaac250"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-04.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-04.wav",
+          "bytes": 641558,
+          "sha256": "acf279e93819aab42679ba8ebee27cd06ba37fd9d22251d3d2f2c856b242a4b4"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-02.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-02.wav",
+          "bytes": 641558,
+          "sha256": "a69736d282e2bac9fce51b0f4cd6b7f90483fd3ab8b365a5639c0f3f1641aa7b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-05.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-05.wav",
+          "bytes": 641558,
+          "sha256": "ff47471012fd195bda501ea029fa4e486d21099f07bc8253181eb064661a490b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-06.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-06.wav",
+          "bytes": 641558,
+          "sha256": "88b8ece2e9ae53dcebda37ffd178f6e8f4d6ba126d624f4e96fdc7390628d592"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-01.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-01.wav",
+          "bytes": 641561,
+          "sha256": "eb7d53534075aff738310beeb90848cbbd328b17e99f43d68e7a7cc3d51c4907"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-02.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-02.wav",
+          "bytes": 641558,
+          "sha256": "10280ba4603f5d1b41db23028a9b452c78da801a34bf2b93bc500f8b9d24204a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-08.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-08.wav",
+          "bytes": 641561,
+          "sha256": "b88e5bf238c85c0dabfe7463bc0fce667e6a3d2117b2a2957c38fe2e195d5e36"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitA99A-07.wav",
+          "file": "public/band-reference/EMOK3RhyGuitA99A-07.wav",
+          "bytes": 641558,
+          "sha256": "0bcf95d2d78cd6027d7585a9cf53526feb5c0f3ae1bd1edacb53a1441aaffb8b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-04.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-04.wav",
+          "bytes": 641558,
+          "sha256": "155f2e0fbc4fc78137a42acf139befe44f58fa2e3291e001af03094466c22406"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-03.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-03.wav",
+          "bytes": 641558,
+          "sha256": "2c5668a5c814f957e0b13874b893c960d9d5a41b4bceabc357f5754f2705b7cb"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-06.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-06.wav",
+          "bytes": 641558,
+          "sha256": "7d9adc84c1aadc791876c7489b74fc2ae8b7e00cd0ed8908e0f78cc87410cc20"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-05.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-05.wav",
+          "bytes": 641558,
+          "sha256": "5d1a3aad77c0868439db991d055709661611eb044fba60e1fa5dcb5ec85f5304"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-07.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-07.wav",
+          "bytes": 641558,
+          "sha256": "67ad67ab76580ffae75e98dbea5a13dd2c5f7213a147d3696aeb7c303706c38b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitB99A-08.wav",
+          "file": "public/band-reference/EMOK3RhyGuitB99A-08.wav",
+          "bytes": 641561,
+          "sha256": "53a3a4e2521a82b46cbf488420cec53a67f829643a67fc0381ac7754c9a84082"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-02.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-02.wav",
+          "bytes": 641558,
+          "sha256": "34462e351878db02af303cddf2580edfba5d7ff8ef52b14fb9e98f48406064f0"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-01.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-01.wav",
+          "bytes": 641561,
+          "sha256": "123ea2ff28da5cd05ec5d094359eb190759ab8e02cb6b62c13cfa1f6c3ad407c"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-04.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-04.wav",
+          "bytes": 641558,
+          "sha256": "8c6a7e5580ac3e025d322680455d8184511d9538540d68d5dcb21c61ed0c7e89"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-03.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-03.wav",
+          "bytes": 641558,
+          "sha256": "b78559df979a3f916d236e590fb93877cad31dd0064f4ba3c52a3ed9fd4026e3"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-05.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-05.wav",
+          "bytes": 641558,
+          "sha256": "ff2d7a1f9ff51f40a8debc794e52fc014f31a6f1a69032e9399ea0cda9782797"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-02.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-02.wav",
+          "bytes": 641558,
+          "sha256": "c6c29cd99adc582fcd1ac25af643160f4efd2526cec0ec069e1c71a5fc8ce230"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-07.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-07.wav",
+          "bytes": 641558,
+          "sha256": "311e7cf515f803200733da9697ed76865db77d95c99ddb4619fd343ab4fca159"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-06.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-06.wav",
+          "bytes": 641558,
+          "sha256": "d401726c3adb574449be5220fe5525b3a0c3ab4a59fb379f4efa551aefb00096"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3RhyGuitC99A-08.wav",
+          "file": "public/band-reference/EMOK3RhyGuitC99A-08.wav",
+          "bytes": 641561,
+          "sha256": "3d813f9ffcc35460b60e936ca2948ba80a01da296f477d4f49d0784774c9f948"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-01.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-01.wav",
+          "bytes": 641561,
+          "sha256": "f6d25aae74ed77c5b890e5ea2e32506136f37a88e632df67ba51f6d94fdea0de"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-03.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-03.wav",
+          "bytes": 641558,
+          "sha256": "fa19100e8d15150bf9c72aa8d7e2b85d5ba8c74dba513d0de59ce562a66c08ad"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-05.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-05.wav",
+          "bytes": 641558,
+          "sha256": "760b9a3ee006ccb8a65d450f7c27f5aa8c23a97860bc8e7b713a1cece4e18ee4"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-04.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-04.wav",
+          "bytes": 641558,
+          "sha256": "b28dc47af6a79e8de49ec86621b186e207cffe6c3764b5299a9ed6458d1c1aea"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-06.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-06.wav",
+          "bytes": 641558,
+          "sha256": "f54e5c8aefe21e54f530794c7701eb68a256678cdd22e90e3dbd0f72dd3af828"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-07.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-07.wav",
+          "bytes": 641558,
+          "sha256": "0d8efa61664d2a729e61bf1d1ef1cad54947c778b77964fa6b96564920c14764"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3LeadGuitB99A-08.wav",
+          "file": "public/band-reference/EMOK3LeadGuitB99A-08.wav",
+          "bytes": 641561,
+          "sha256": "7cbe4cfdc5884ffb6fc3f17da141e8b951927b61c01f19b572bf355cdd343316"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-02.wav",
+          "file": "public/band-reference/EMOK3BassA99A-02.wav",
+          "bytes": 641558,
+          "sha256": "b0930cf73ba4d747fe99e1bab6de04c6b1879b89db1e43afb51126c0b38dc941"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-03.wav",
+          "file": "public/band-reference/EMOK3BassA99A-03.wav",
+          "bytes": 641558,
+          "sha256": "2977d2a61c50a9495e165f2ccfb1619621f483f8a2fb7e3935493cf48bbc1af8"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-01.wav",
+          "file": "public/band-reference/EMOK3BassA99A-01.wav",
+          "bytes": 641561,
+          "sha256": "31b3f020238b81a512e0877e27770f162598851db8dfc740d74d4427f7f0948e"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-05.wav",
+          "file": "public/band-reference/EMOK3BassA99A-05.wav",
+          "bytes": 641558,
+          "sha256": "b3506bf9fbd1166fb1a7ccbc8a47e70db927e50462d735318d923a77f2f87ca1"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-04.wav",
+          "file": "public/band-reference/EMOK3BassA99A-04.wav",
+          "bytes": 641558,
+          "sha256": "dae994725a4afc034c8f7e8e730eb6c08abfe8db1956f76fe63fd80463ff0129"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-06.wav",
+          "file": "public/band-reference/EMOK3BassA99A-06.wav",
+          "bytes": 641558,
+          "sha256": "a414ca7a9b05d8bda8a0bedaa3a2ea3ecd68ce27bf0db48f6c79202bae2589f0"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-07.wav",
+          "file": "public/band-reference/EMOK3BassA99A-07.wav",
+          "bytes": 641558,
+          "sha256": "e64bf4724774b0f053c0ac7e756e04e67169f077e77952a7e54a2db7867cd5b0"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3BassA99A-08.wav",
+          "file": "public/band-reference/EMOK3BassA99A-08.wav",
+          "bytes": 641561,
+          "sha256": "ec1dd8449fc3a08b7f60d9f170cc729260c76c8125903d7fdfc9acd05b4f928a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-02.wav",
+          "file": "public/band-reference/EMOK3Beat99-02.wav",
+          "bytes": 1283012,
+          "sha256": "a3cde956fb1e70e36d0f5ae1544454d29345c7175966fb37cb8db6b755a057f1"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-03.wav",
+          "file": "public/band-reference/EMOK3Beat99-03.wav",
+          "bytes": 1283012,
+          "sha256": "f932ebc1e18faf9618772e7ae207c19c3de733e6246d07fb099f8b099da250e6"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-04.wav",
+          "file": "public/band-reference/EMOK3Beat99-04.wav",
+          "bytes": 1283012,
+          "sha256": "5d3c4ff1d60cfe003ed6c644efbb5e39a2a3b514a54eb21c0a0f6576ce8ac7a5"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-01.wav",
+          "file": "public/band-reference/EMOK3Beat99-01.wav",
+          "bytes": 1283018,
+          "sha256": "ad77b67c1013a0d7549dfed0f162b51e9fc8575f11f625f9acf58cd2a266e00f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-06.wav",
+          "file": "public/band-reference/EMOK3Beat99-06.wav",
+          "bytes": 1283012,
+          "sha256": "ef949f477c99346efde922b18c2a2df7c365265ec893c571a25fa149280f6fad"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-08.wav",
+          "file": "public/band-reference/EMOK3Beat99-08.wav",
+          "bytes": 1283018,
+          "sha256": "3cdaceb9f35618a0e9867b551a13fc42771f2cfd5181b479902e2fc8474b9de4"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-05.wav",
+          "file": "public/band-reference/EMOK3Beat99-05.wav",
+          "bytes": 1283012,
+          "sha256": "c2e224a03c1414f6d86d99eed71f389273f937f134ffb7f90e8a1f0aaea4d87b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/band-reference/EMOK3Beat99-07.wav",
+          "file": "public/band-reference/EMOK3Beat99-07.wav",
+          "bytes": 1283012,
+          "sha256": "183bbd1a07186184bee677e578ca5bbe44a91e0337a3689e92029efe89fe23b0"
+        }
+      ],
+      "offlineRender": {
+        "supported": true
+      }
+    },
+    {
+      "source": "pieces/reference/Pocket Calculator-主题循环.strudel",
+      "ok": true,
+      "sourceSha256": "1bbbbcc5595c9aada50a02976eab5ec19237fdb18caed129be92a839e1087c0a",
+      "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+      "bpm": 136,
+      "selection": {
+        "begin": 0,
+        "cycles": 64,
+        "end": 64
+      },
+      "seconds": 112.94117647058823,
+      "events": 976,
+      "sounds": {
+        "pc_lead": 336,
+        "pcKit2": 128,
+        "pc_bass": 128,
+        "pcKit5": 256,
+        "pcKit4": 128
+      },
+      "declaredSampleFiles": 41,
+      "localSampleFilesVerified": 41,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-0.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-0.wav",
+          "bytes": 32676,
+          "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-1.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-1.wav",
+          "bytes": 32676,
+          "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-2.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-2.wav",
+          "bytes": 32676,
+          "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-3.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-3.wav",
+          "bytes": 32676,
+          "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-4.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-4.wav",
+          "bytes": 32676,
+          "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-5.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-5.wav",
+          "bytes": 32676,
+          "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-bass-bb1.wav",
+          "file": "public/pocket-calculator-remake/pc-bass-bb1.wav",
+          "bytes": 38148,
+          "sha256": "8a2371a1329a786f21219227a6297a672f9a9bc1a2f6909d413b00970536af2c"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-ab3.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-ab3.wav",
+          "bytes": 19844,
+          "sha256": "5c031f7b96d559fe07cfd65ba61f7cbb98f639551596669ec5c0a1edb1c38edd"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-bb3.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-bb3.wav",
+          "bytes": 19184,
+          "sha256": "bf5e03d3dd8d0bec68fa7c662d12a47ae6b460aed5b36eab9316b253af472ed2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-f4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-f4.wav",
+          "bytes": 19184,
+          "sha256": "86fbb3b48c56d2ec45bb687366aa2737288ecb887bf5d332a6b7557f3a72832f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-eb4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-eb4.wav",
+          "bytes": 19182,
+          "sha256": "4db1e759764c8586a7d56d7119e4b7e0db55a8c65a2731d75b2b11e0fade1975"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-d4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-d4.wav",
+          "bytes": 19272,
+          "sha256": "ccac7e63a37143630542a32dd888f6246792c3a16f623f200c8b7ff372d04d01"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-c4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-c4.wav",
+          "bytes": 18124,
+          "sha256": "fde4ef6f45273eb6a96c594e00ec2085514c9fd6aab65327fdc455a88020fb69"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-fs6.wav",
+          "file": "public/pocket-calculator-remake/pc-buzz-fs6.wav",
+          "bytes": 49436,
+          "sha256": "111c3193eeeec48c981c77807bde08a7c2ae93689ace5dd6321a5ef309b7676a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-g5.wav",
+          "file": "public/pocket-calculator-remake/pc-buzz-g5.wav",
+          "bytes": 45908,
+          "sha256": "b3d03e9ce25edc96c2322ab1ffb3ef26b073100abc5f69ce5f70ba7308758180"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-ab4.wav",
+          "file": "public/pocket-calculator-remake/pc-midkeys-ab4.wav",
+          "bytes": 36204,
+          "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-bb4.wav",
+          "file": "public/pocket-calculator-remake/pc-midkeys-bb4.wav",
+          "bytes": 36204,
+          "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-00.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-00.wav",
+          "bytes": 398708,
+          "sha256": "471f86c980a52da603c240eb4ec2eb4bd4c673842262c447ec19f76365909448"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-01.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-01.wav",
+          "bytes": 218780,
+          "sha256": "a21397b7a1c5a8d53123586f8d8bd93c5acb73b2c69bc19da889b2b473628c7f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-02.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-02.wav",
+          "bytes": 202904,
+          "sha256": "9d015ad89c01d54067df7a38b3a85cca06fdca2a0266222b317796f407e2990d"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-03.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-03.wav",
+          "bytes": 388124,
+          "sha256": "51fa042a9b7888e59154df7e621babd1b618e7e6352c64d8e7590fd002793050"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-04.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-04.wav",
+          "bytes": 234656,
+          "sha256": "827dba2b31478b50841827eb82128f2f595c191e39231ab18cb48fc7babe47c9"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-05.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-05.wav",
+          "bytes": 217016,
+          "sha256": "16edee8073faae0ea528d60e844d2d3973ffa07f3c0a6c793d7c170379718796"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-06.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-06.wav",
+          "bytes": 204668,
+          "sha256": "bf4edc655009116fe5c80914104c9ce09383af64d29b6c31b83a9c4556831bf6"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-07.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-07.wav",
+          "bytes": 227600,
+          "sha256": "0606fd5f835acdc46d9c6f955bd9c2deb00472d552556a9edfd39214453af384"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-08.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-08.wav",
+          "bytes": 407528,
+          "sha256": "82c94e30993558696bc0fbef5c3b6bcfb1c4fcf10e0177e2ba2fbe238984b64a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-09.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-09.wav",
+          "bytes": 197612,
+          "sha256": "40e6a0351d5dbdb35ab9fa27ac75ce7cb3520b30a92dcfcb51ddca687e27b10d"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-10.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-10.wav",
+          "bytes": 393416,
+          "sha256": "d98e84ea59c1209ce80845626b5ae8b929e459ad9cb8838083bb8d7249937dfb"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-11.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-11.wav",
+          "bytes": 190556,
+          "sha256": "58ae46961cd0987c5504d3f5f015640561cd486a59d412d7d3c2a0347cd9c7b2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-12.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-12.wav",
+          "bytes": 231128,
+          "sha256": "0497fe437b2874c1579e0a71d6e148a86ffe4ae55bd5ff8e2bf800f3c2597ac9"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-13.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-13.wav",
+          "bytes": 181736,
+          "sha256": "941dea0612932f136bcd5b148b0522ebcfbf8886eaf60d1626e05f1d14068494"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-14.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-14.wav",
+          "bytes": 199376,
+          "sha256": "7944207a038647b30bdc8be93ac1e7b4a8a34bcab550a2199a6bb09bc1424d3f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-15.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-15.wav",
+          "bytes": 217016,
+          "sha256": "952ff84a219041544a62a7121450fd3b1696b8b05fd5003c99debbe4cee92a43"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-16.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-16.wav",
+          "bytes": 352844,
+          "sha256": "bb8401977ad6e691346b22ea1195f5ef285ad931ef62ba13629a89f8ec32e778"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-17.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-17.wav",
+          "bytes": 321092,
+          "sha256": "757ffce47d7414c8c3384f00befd3b82bde0dd56a76eebf73036bbac19af809b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-18.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-18.wav",
+          "bytes": 354608,
+          "sha256": "b8e548040be041fa0464256a2a213c7ca2b881ca0fc6b29687a58c6ed11c24bc"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-19.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-19.wav",
+          "bytes": 321092,
+          "sha256": "c8094c467e078e962ec20ece520c836089e80ca17f7b1d8f820dee30b08a634f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-20.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-20.wav",
+          "bytes": 441044,
+          "sha256": "44c0b6b9b79248b3b1088c9ebb824c48081133326cf2e82e2ce9a95a98d65dc1"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-21.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-21.wav",
+          "bytes": 155276,
+          "sha256": "7d24978d0f7a726fb2869a66f25c20c9e29053b0b738a1a2d23ce17b43801498"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-22.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-22.wav",
+          "bytes": 381068,
+          "sha256": "55d83eb71c9f9a17cd65d1a1debac9a6c37b018d053f42e89d99baa82849fa6f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-23.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-23.wav",
+          "bytes": 202904,
+          "sha256": "689d8db6cb834de770b269ea5c740480bf4be7b2f322f34acb7c02ea96575920"
+        }
+      ],
+      "fetchedResources": [
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/score.json",
+          "file": "public/pocket-calculator-remake/score.json",
+          "bytes": 95447,
+          "sha256": "dbc76a949e8a964709bd085c67b442812d594613ff5bff1263ad70bc15b7b4c3"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-0.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-0.wav",
+          "bytes": 32676,
+          "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-1.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-1.wav",
+          "bytes": 32676,
+          "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-2.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-2.wav",
+          "bytes": 32676,
+          "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-3.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-3.wav",
+          "bytes": 32676,
+          "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-4.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-4.wav",
+          "bytes": 32676,
+          "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-5.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-5.wav",
+          "bytes": 32676,
+          "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-bass-bb1.wav",
+          "file": "public/pocket-calculator-remake/pc-bass-bb1.wav",
+          "bytes": 38148,
+          "sha256": "8a2371a1329a786f21219227a6297a672f9a9bc1a2f6909d413b00970536af2c"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-ab3.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-ab3.wav",
+          "bytes": 19844,
+          "sha256": "5c031f7b96d559fe07cfd65ba61f7cbb98f639551596669ec5c0a1edb1c38edd"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-bb3.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-bb3.wav",
+          "bytes": 19184,
+          "sha256": "bf5e03d3dd8d0bec68fa7c662d12a47ae6b460aed5b36eab9316b253af472ed2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-f4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-f4.wav",
+          "bytes": 19184,
+          "sha256": "86fbb3b48c56d2ec45bb687366aa2737288ecb887bf5d332a6b7557f3a72832f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-eb4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-eb4.wav",
+          "bytes": 19182,
+          "sha256": "4db1e759764c8586a7d56d7119e4b7e0db55a8c65a2731d75b2b11e0fade1975"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-d4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-d4.wav",
+          "bytes": 19272,
+          "sha256": "ccac7e63a37143630542a32dd888f6246792c3a16f623f200c8b7ff372d04d01"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-c4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-c4.wav",
+          "bytes": 18124,
+          "sha256": "fde4ef6f45273eb6a96c594e00ec2085514c9fd6aab65327fdc455a88020fb69"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-fs6.wav",
+          "file": "public/pocket-calculator-remake/pc-buzz-fs6.wav",
+          "bytes": 49436,
+          "sha256": "111c3193eeeec48c981c77807bde08a7c2ae93689ace5dd6321a5ef309b7676a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-g5.wav",
+          "file": "public/pocket-calculator-remake/pc-buzz-g5.wav",
+          "bytes": 45908,
+          "sha256": "b3d03e9ce25edc96c2322ab1ffb3ef26b073100abc5f69ce5f70ba7308758180"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-ab4.wav",
+          "file": "public/pocket-calculator-remake/pc-midkeys-ab4.wav",
+          "bytes": 36204,
+          "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-bb4.wav",
+          "file": "public/pocket-calculator-remake/pc-midkeys-bb4.wav",
+          "bytes": 36204,
+          "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-00.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-00.wav",
+          "bytes": 398708,
+          "sha256": "471f86c980a52da603c240eb4ec2eb4bd4c673842262c447ec19f76365909448"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-01.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-01.wav",
+          "bytes": 218780,
+          "sha256": "a21397b7a1c5a8d53123586f8d8bd93c5acb73b2c69bc19da889b2b473628c7f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-02.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-02.wav",
+          "bytes": 202904,
+          "sha256": "9d015ad89c01d54067df7a38b3a85cca06fdca2a0266222b317796f407e2990d"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-03.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-03.wav",
+          "bytes": 388124,
+          "sha256": "51fa042a9b7888e59154df7e621babd1b618e7e6352c64d8e7590fd002793050"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-04.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-04.wav",
+          "bytes": 234656,
+          "sha256": "827dba2b31478b50841827eb82128f2f595c191e39231ab18cb48fc7babe47c9"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-05.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-05.wav",
+          "bytes": 217016,
+          "sha256": "16edee8073faae0ea528d60e844d2d3973ffa07f3c0a6c793d7c170379718796"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-06.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-06.wav",
+          "bytes": 204668,
+          "sha256": "bf4edc655009116fe5c80914104c9ce09383af64d29b6c31b83a9c4556831bf6"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-07.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-07.wav",
+          "bytes": 227600,
+          "sha256": "0606fd5f835acdc46d9c6f955bd9c2deb00472d552556a9edfd39214453af384"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-08.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-08.wav",
+          "bytes": 407528,
+          "sha256": "82c94e30993558696bc0fbef5c3b6bcfb1c4fcf10e0177e2ba2fbe238984b64a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-09.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-09.wav",
+          "bytes": 197612,
+          "sha256": "40e6a0351d5dbdb35ab9fa27ac75ce7cb3520b30a92dcfcb51ddca687e27b10d"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-10.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-10.wav",
+          "bytes": 393416,
+          "sha256": "d98e84ea59c1209ce80845626b5ae8b929e459ad9cb8838083bb8d7249937dfb"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-11.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-11.wav",
+          "bytes": 190556,
+          "sha256": "58ae46961cd0987c5504d3f5f015640561cd486a59d412d7d3c2a0347cd9c7b2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-12.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-12.wav",
+          "bytes": 231128,
+          "sha256": "0497fe437b2874c1579e0a71d6e148a86ffe4ae55bd5ff8e2bf800f3c2597ac9"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-13.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-13.wav",
+          "bytes": 181736,
+          "sha256": "941dea0612932f136bcd5b148b0522ebcfbf8886eaf60d1626e05f1d14068494"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-14.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-14.wav",
+          "bytes": 199376,
+          "sha256": "7944207a038647b30bdc8be93ac1e7b4a8a34bcab550a2199a6bb09bc1424d3f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-15.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-15.wav",
+          "bytes": 217016,
+          "sha256": "952ff84a219041544a62a7121450fd3b1696b8b05fd5003c99debbe4cee92a43"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-16.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-16.wav",
+          "bytes": 352844,
+          "sha256": "bb8401977ad6e691346b22ea1195f5ef285ad931ef62ba13629a89f8ec32e778"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-17.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-17.wav",
+          "bytes": 321092,
+          "sha256": "757ffce47d7414c8c3384f00befd3b82bde0dd56a76eebf73036bbac19af809b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-18.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-18.wav",
+          "bytes": 354608,
+          "sha256": "b8e548040be041fa0464256a2a213c7ca2b881ca0fc6b29687a58c6ed11c24bc"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-19.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-19.wav",
+          "bytes": 321092,
+          "sha256": "c8094c467e078e962ec20ece520c836089e80ca17f7b1d8f820dee30b08a634f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-20.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-20.wav",
+          "bytes": 441044,
+          "sha256": "44c0b6b9b79248b3b1088c9ebb824c48081133326cf2e82e2ce9a95a98d65dc1"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-21.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-21.wav",
+          "bytes": 155276,
+          "sha256": "7d24978d0f7a726fb2869a66f25c20c9e29053b0b738a1a2d23ce17b43801498"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-22.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-22.wav",
+          "bytes": 381068,
+          "sha256": "55d83eb71c9f9a17cd65d1a1debac9a6c37b018d053f42e89d99baa82849fa6f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-23.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-23.wav",
+          "bytes": 202904,
+          "sha256": "689d8db6cb834de770b269ea5c740480bf4be7b2f322f34acb7c02ea96575920"
+        }
+      ],
+      "offlineRender": {
+        "supported": true
+      }
+    },
+    {
+      "source": "pieces/reference/Pocket Calculator-复刻版.strudel",
+      "ok": true,
+      "sourceSha256": "9c7ad268f1d0bdd1fe6cacfb2250c6cb7e0f37f4d66e7d66be3c9aa06bfa497b",
+      "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+      "bpm": 135.85,
+      "selection": {
+        "begin": 0,
+        "cycles": 64,
+        "end": 64
+      },
+      "seconds": 113.06588148693412,
+      "events": 1032,
+      "sounds": {
+        "pc_lead": 254,
+        "pcKit2": 266,
+        "pc_bass": 221,
+        "pcKit0": 34,
+        "pcKit4": 62,
+        "pcKit5": 80,
+        "pcKit1": 60,
+        "pcKit3": 3,
+        "pc_keys": 35,
+        "pc_voice": 17
+      },
+      "declaredSampleFiles": 41,
+      "localSampleFilesVerified": 41,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-0.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-0.wav",
+          "bytes": 32676,
+          "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-1.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-1.wav",
+          "bytes": 32676,
+          "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-2.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-2.wav",
+          "bytes": 32676,
+          "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-3.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-3.wav",
+          "bytes": 32676,
+          "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-4.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-4.wav",
+          "bytes": 32676,
+          "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-5.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-5.wav",
+          "bytes": 32676,
+          "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-bass-bb1.wav",
+          "file": "public/pocket-calculator-remake/pc-bass-bb1.wav",
+          "bytes": 38148,
+          "sha256": "8a2371a1329a786f21219227a6297a672f9a9bc1a2f6909d413b00970536af2c"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-ab3.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-ab3.wav",
+          "bytes": 19844,
+          "sha256": "5c031f7b96d559fe07cfd65ba61f7cbb98f639551596669ec5c0a1edb1c38edd"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-bb3.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-bb3.wav",
+          "bytes": 19184,
+          "sha256": "bf5e03d3dd8d0bec68fa7c662d12a47ae6b460aed5b36eab9316b253af472ed2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-f4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-f4.wav",
+          "bytes": 19184,
+          "sha256": "86fbb3b48c56d2ec45bb687366aa2737288ecb887bf5d332a6b7557f3a72832f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-eb4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-eb4.wav",
+          "bytes": 19182,
+          "sha256": "4db1e759764c8586a7d56d7119e4b7e0db55a8c65a2731d75b2b11e0fade1975"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-d4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-d4.wav",
+          "bytes": 19272,
+          "sha256": "ccac7e63a37143630542a32dd888f6246792c3a16f623f200c8b7ff372d04d01"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-c4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-c4.wav",
+          "bytes": 18124,
+          "sha256": "fde4ef6f45273eb6a96c594e00ec2085514c9fd6aab65327fdc455a88020fb69"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-fs6.wav",
+          "file": "public/pocket-calculator-remake/pc-buzz-fs6.wav",
+          "bytes": 49436,
+          "sha256": "111c3193eeeec48c981c77807bde08a7c2ae93689ace5dd6321a5ef309b7676a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-g5.wav",
+          "file": "public/pocket-calculator-remake/pc-buzz-g5.wav",
+          "bytes": 45908,
+          "sha256": "b3d03e9ce25edc96c2322ab1ffb3ef26b073100abc5f69ce5f70ba7308758180"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-ab4.wav",
+          "file": "public/pocket-calculator-remake/pc-midkeys-ab4.wav",
+          "bytes": 36204,
+          "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-bb4.wav",
+          "file": "public/pocket-calculator-remake/pc-midkeys-bb4.wav",
+          "bytes": 36204,
+          "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-00.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-00.wav",
+          "bytes": 398708,
+          "sha256": "471f86c980a52da603c240eb4ec2eb4bd4c673842262c447ec19f76365909448"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-01.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-01.wav",
+          "bytes": 218780,
+          "sha256": "a21397b7a1c5a8d53123586f8d8bd93c5acb73b2c69bc19da889b2b473628c7f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-02.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-02.wav",
+          "bytes": 202904,
+          "sha256": "9d015ad89c01d54067df7a38b3a85cca06fdca2a0266222b317796f407e2990d"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-03.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-03.wav",
+          "bytes": 388124,
+          "sha256": "51fa042a9b7888e59154df7e621babd1b618e7e6352c64d8e7590fd002793050"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-04.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-04.wav",
+          "bytes": 234656,
+          "sha256": "827dba2b31478b50841827eb82128f2f595c191e39231ab18cb48fc7babe47c9"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-05.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-05.wav",
+          "bytes": 217016,
+          "sha256": "16edee8073faae0ea528d60e844d2d3973ffa07f3c0a6c793d7c170379718796"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-06.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-06.wav",
+          "bytes": 204668,
+          "sha256": "bf4edc655009116fe5c80914104c9ce09383af64d29b6c31b83a9c4556831bf6"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-07.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-07.wav",
+          "bytes": 227600,
+          "sha256": "0606fd5f835acdc46d9c6f955bd9c2deb00472d552556a9edfd39214453af384"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-08.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-08.wav",
+          "bytes": 407528,
+          "sha256": "82c94e30993558696bc0fbef5c3b6bcfb1c4fcf10e0177e2ba2fbe238984b64a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-09.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-09.wav",
+          "bytes": 197612,
+          "sha256": "40e6a0351d5dbdb35ab9fa27ac75ce7cb3520b30a92dcfcb51ddca687e27b10d"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-10.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-10.wav",
+          "bytes": 393416,
+          "sha256": "d98e84ea59c1209ce80845626b5ae8b929e459ad9cb8838083bb8d7249937dfb"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-11.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-11.wav",
+          "bytes": 190556,
+          "sha256": "58ae46961cd0987c5504d3f5f015640561cd486a59d412d7d3c2a0347cd9c7b2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-12.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-12.wav",
+          "bytes": 231128,
+          "sha256": "0497fe437b2874c1579e0a71d6e148a86ffe4ae55bd5ff8e2bf800f3c2597ac9"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-13.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-13.wav",
+          "bytes": 181736,
+          "sha256": "941dea0612932f136bcd5b148b0522ebcfbf8886eaf60d1626e05f1d14068494"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-14.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-14.wav",
+          "bytes": 199376,
+          "sha256": "7944207a038647b30bdc8be93ac1e7b4a8a34bcab550a2199a6bb09bc1424d3f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-15.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-15.wav",
+          "bytes": 217016,
+          "sha256": "952ff84a219041544a62a7121450fd3b1696b8b05fd5003c99debbe4cee92a43"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-16.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-16.wav",
+          "bytes": 352844,
+          "sha256": "bb8401977ad6e691346b22ea1195f5ef285ad931ef62ba13629a89f8ec32e778"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-17.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-17.wav",
+          "bytes": 321092,
+          "sha256": "757ffce47d7414c8c3384f00befd3b82bde0dd56a76eebf73036bbac19af809b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-18.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-18.wav",
+          "bytes": 354608,
+          "sha256": "b8e548040be041fa0464256a2a213c7ca2b881ca0fc6b29687a58c6ed11c24bc"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-19.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-19.wav",
+          "bytes": 321092,
+          "sha256": "c8094c467e078e962ec20ece520c836089e80ca17f7b1d8f820dee30b08a634f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-20.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-20.wav",
+          "bytes": 441044,
+          "sha256": "44c0b6b9b79248b3b1088c9ebb824c48081133326cf2e82e2ce9a95a98d65dc1"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-21.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-21.wav",
+          "bytes": 155276,
+          "sha256": "7d24978d0f7a726fb2869a66f25c20c9e29053b0b738a1a2d23ce17b43801498"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-22.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-22.wav",
+          "bytes": 381068,
+          "sha256": "55d83eb71c9f9a17cd65d1a1debac9a6c37b018d053f42e89d99baa82849fa6f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-23.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-23.wav",
+          "bytes": 202904,
+          "sha256": "689d8db6cb834de770b269ea5c740480bf4be7b2f322f34acb7c02ea96575920"
+        }
+      ],
+      "fetchedResources": [
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/score.json",
+          "file": "public/pocket-calculator-remake/score.json",
+          "bytes": 95447,
+          "sha256": "dbc76a949e8a964709bd085c67b442812d594613ff5bff1263ad70bc15b7b4c3"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-0.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-0.wav",
+          "bytes": 32676,
+          "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-1.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-1.wav",
+          "bytes": 32676,
+          "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-2.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-2.wav",
+          "bytes": 32676,
+          "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-3.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-3.wav",
+          "bytes": 32676,
+          "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-4.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-4.wav",
+          "bytes": 32676,
+          "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-5.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-5.wav",
+          "bytes": 32676,
+          "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-bass-bb1.wav",
+          "file": "public/pocket-calculator-remake/pc-bass-bb1.wav",
+          "bytes": 38148,
+          "sha256": "8a2371a1329a786f21219227a6297a672f9a9bc1a2f6909d413b00970536af2c"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-ab3.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-ab3.wav",
+          "bytes": 19844,
+          "sha256": "5c031f7b96d559fe07cfd65ba61f7cbb98f639551596669ec5c0a1edb1c38edd"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-bb3.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-bb3.wav",
+          "bytes": 19184,
+          "sha256": "bf5e03d3dd8d0bec68fa7c662d12a47ae6b460aed5b36eab9316b253af472ed2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-f4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-f4.wav",
+          "bytes": 19184,
+          "sha256": "86fbb3b48c56d2ec45bb687366aa2737288ecb887bf5d332a6b7557f3a72832f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-eb4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-eb4.wav",
+          "bytes": 19182,
+          "sha256": "4db1e759764c8586a7d56d7119e4b7e0db55a8c65a2731d75b2b11e0fade1975"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-d4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-d4.wav",
+          "bytes": 19272,
+          "sha256": "ccac7e63a37143630542a32dd888f6246792c3a16f623f200c8b7ff372d04d01"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-c4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-c4.wav",
+          "bytes": 18124,
+          "sha256": "fde4ef6f45273eb6a96c594e00ec2085514c9fd6aab65327fdc455a88020fb69"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-fs6.wav",
+          "file": "public/pocket-calculator-remake/pc-buzz-fs6.wav",
+          "bytes": 49436,
+          "sha256": "111c3193eeeec48c981c77807bde08a7c2ae93689ace5dd6321a5ef309b7676a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-g5.wav",
+          "file": "public/pocket-calculator-remake/pc-buzz-g5.wav",
+          "bytes": 45908,
+          "sha256": "b3d03e9ce25edc96c2322ab1ffb3ef26b073100abc5f69ce5f70ba7308758180"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-ab4.wav",
+          "file": "public/pocket-calculator-remake/pc-midkeys-ab4.wav",
+          "bytes": 36204,
+          "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-bb4.wav",
+          "file": "public/pocket-calculator-remake/pc-midkeys-bb4.wav",
+          "bytes": 36204,
+          "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-00.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-00.wav",
+          "bytes": 398708,
+          "sha256": "471f86c980a52da603c240eb4ec2eb4bd4c673842262c447ec19f76365909448"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-01.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-01.wav",
+          "bytes": 218780,
+          "sha256": "a21397b7a1c5a8d53123586f8d8bd93c5acb73b2c69bc19da889b2b473628c7f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-02.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-02.wav",
+          "bytes": 202904,
+          "sha256": "9d015ad89c01d54067df7a38b3a85cca06fdca2a0266222b317796f407e2990d"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-03.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-03.wav",
+          "bytes": 388124,
+          "sha256": "51fa042a9b7888e59154df7e621babd1b618e7e6352c64d8e7590fd002793050"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-04.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-04.wav",
+          "bytes": 234656,
+          "sha256": "827dba2b31478b50841827eb82128f2f595c191e39231ab18cb48fc7babe47c9"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-05.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-05.wav",
+          "bytes": 217016,
+          "sha256": "16edee8073faae0ea528d60e844d2d3973ffa07f3c0a6c793d7c170379718796"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-06.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-06.wav",
+          "bytes": 204668,
+          "sha256": "bf4edc655009116fe5c80914104c9ce09383af64d29b6c31b83a9c4556831bf6"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-07.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-07.wav",
+          "bytes": 227600,
+          "sha256": "0606fd5f835acdc46d9c6f955bd9c2deb00472d552556a9edfd39214453af384"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-08.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-08.wav",
+          "bytes": 407528,
+          "sha256": "82c94e30993558696bc0fbef5c3b6bcfb1c4fcf10e0177e2ba2fbe238984b64a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-09.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-09.wav",
+          "bytes": 197612,
+          "sha256": "40e6a0351d5dbdb35ab9fa27ac75ce7cb3520b30a92dcfcb51ddca687e27b10d"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-10.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-10.wav",
+          "bytes": 393416,
+          "sha256": "d98e84ea59c1209ce80845626b5ae8b929e459ad9cb8838083bb8d7249937dfb"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-11.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-11.wav",
+          "bytes": 190556,
+          "sha256": "58ae46961cd0987c5504d3f5f015640561cd486a59d412d7d3c2a0347cd9c7b2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-12.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-12.wav",
+          "bytes": 231128,
+          "sha256": "0497fe437b2874c1579e0a71d6e148a86ffe4ae55bd5ff8e2bf800f3c2597ac9"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-13.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-13.wav",
+          "bytes": 181736,
+          "sha256": "941dea0612932f136bcd5b148b0522ebcfbf8886eaf60d1626e05f1d14068494"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-14.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-14.wav",
+          "bytes": 199376,
+          "sha256": "7944207a038647b30bdc8be93ac1e7b4a8a34bcab550a2199a6bb09bc1424d3f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-15.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-15.wav",
+          "bytes": 217016,
+          "sha256": "952ff84a219041544a62a7121450fd3b1696b8b05fd5003c99debbe4cee92a43"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-16.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-16.wav",
+          "bytes": 352844,
+          "sha256": "bb8401977ad6e691346b22ea1195f5ef285ad931ef62ba13629a89f8ec32e778"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-17.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-17.wav",
+          "bytes": 321092,
+          "sha256": "757ffce47d7414c8c3384f00befd3b82bde0dd56a76eebf73036bbac19af809b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-18.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-18.wav",
+          "bytes": 354608,
+          "sha256": "b8e548040be041fa0464256a2a213c7ca2b881ca0fc6b29687a58c6ed11c24bc"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-19.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-19.wav",
+          "bytes": 321092,
+          "sha256": "c8094c467e078e962ec20ece520c836089e80ca17f7b1d8f820dee30b08a634f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-20.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-20.wav",
+          "bytes": 441044,
+          "sha256": "44c0b6b9b79248b3b1088c9ebb824c48081133326cf2e82e2ce9a95a98d65dc1"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-21.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-21.wav",
+          "bytes": 155276,
+          "sha256": "7d24978d0f7a726fb2869a66f25c20c9e29053b0b738a1a2d23ce17b43801498"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-22.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-22.wav",
+          "bytes": 381068,
+          "sha256": "55d83eb71c9f9a17cd65d1a1debac9a6c37b018d053f42e89d99baa82849fa6f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-23.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-23.wav",
+          "bytes": 202904,
+          "sha256": "689d8db6cb834de770b269ea5c740480bf4be7b2f322f34acb7c02ea96575920"
+        }
+      ],
+      "offlineRender": {
+        "supported": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-28",
+  "ok": true,
+  "anonymousFetch": true,
+  "files": [
+    {
+      "file": "pc-buzz-fs6.wav",
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-buzz-fs6.wav",
+      "status": 200,
+      "bytes": 49436,
+      "sha256": "111c3193eeeec48c981c77807bde08a7c2ae93689ace5dd6321a5ef309b7676a",
+      "cors": "*",
+      "matchesLocal": true
+    },
+    {
+      "file": "pc-buzz-g5.wav",
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-buzz-g5.wav",
+      "status": 200,
+      "bytes": 45908,
+      "sha256": "b3d03e9ce25edc96c2322ab1ffb3ef26b073100abc5f69ce5f70ba7308758180",
+      "cors": "*",
+      "matchesLocal": true
+    },
+    {
+      "file": "pc-kit-0.wav",
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-0.wav",
+      "status": 200,
+      "bytes": 32676,
+      "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158",
+      "cors": "*",
+      "matchesLocal": true
+    },
+    {
+      "file": "pc-kit-1.wav",
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-1.wav",
+      "status": 200,
+      "bytes": 32676,
+      "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2",
+      "cors": "*",
+      "matchesLocal": true
+    },
+    {
+      "file": "pc-kit-2.wav",
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-2.wav",
+      "status": 200,
+      "bytes": 32676,
+      "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05",
+      "cors": "*",
+      "matchesLocal": true
+    },
+    {
+      "file": "pc-kit-3.wav",
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-3.wav",
+      "status": 200,
+      "bytes": 32676,
+      "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695",
+      "cors": "*",
+      "matchesLocal": true
+    },
+    {
+      "file": "pc-kit-4.wav",
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-4.wav",
+      "status": 200,
+      "bytes": 32676,
+      "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958",
+      "cors": "*",
+      "matchesLocal": true
+    },
+    {
+      "file": "pc-kit-5.wav",
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-5.wav",
+      "status": 200,
+      "bytes": 32676,
+      "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5",
+      "cors": "*",
+      "matchesLocal": true
+    },
+    {
+      "file": "pc-midkeys-ab4.wav",
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-midkeys-ab4.wav",
+      "status": 200,
+      "bytes": 36204,
+      "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39",
+      "cors": "*",
+      "matchesLocal": true
+    },
+    {
+      "file": "pc-midkeys-bb4.wav",
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-midkeys-bb4.wav",
+      "status": 200,
+      "bytes": 36204,
+      "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7",
+      "cors": "*",
+      "matchesLocal": true
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "ok": true,
+  "scope": "Full 64-cycle event and sample-selection equivalence; local file and pinned Git blob hashes. No remote sample download, audio render, or browser playback performed in this validation.",
+  "original": {
+    "source": "pieces/little-logic/袖珍电路-v4.strudel",
+    "sha256": "3901855b71de3ff02a12719cc7e51f81a29f2abafc35fce84b6b800ae2d29632",
+    "unchangedAgainstHEAD": true
+  },
+  "online": {
+    "source": "pieces/little-logic/袖珍电路-v4-online.strudel",
+    "sha256": "166838b1faa39433d0d2c51a0eebf586bca62bc3a30e7546808ab31c3782d512",
+    "codeCharacters": 6957,
+    "utf8Bytes": 8379,
+    "sampleBase": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/"
+  },
+  "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+  "comparison": {
+    "begin": 0,
+    "end": 64,
+    "cycles": 64,
+    "bpm": 136,
+    "seconds": 112.94117647058823,
+    "originalEvents": 1250,
+    "onlineEvents": 1250,
+    "allEventTimesDurationsAndValuesEqual": true,
+    "sampleSelectionAndPlaybackRatesEqual": true,
+    "onlyExecutableCodeChangeIsSampleBase": true,
+    "originalAndOnlineRepeatAfter64Cycles": true,
+    "finalTwoCyclesHaveNoOnsets": true,
+    "topVisualsFunctionPreserved": true,
+    "eventsSha256": "4f38809a728390b6316fb7bfcebdf92d7493e48e66194b2084ea5f96d72b80e4"
+  },
+  "sounds": {
+    "pcKit2": 128,
+    "square": 684,
+    "pcKit0": 64,
+    "pcKit3": 72,
+    "pcKit4": 76,
+    "pcKit5": 88,
+    "pc_keys": 60,
+    "pcKit1": 20,
+    "sine": 34,
+    "sawtooth": 24
+  },
+  "samples": [
+    {
+      "filename": "pc-kit-0.wav",
+      "localFile": "public/little-logic-v4/pc-kit-0.wav",
+      "bytes": 32676,
+      "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158",
+      "remoteUrl": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-0.wav",
+      "matchesPinnedGitBlob": true,
+      "remoteDownloaded": false
+    },
+    {
+      "filename": "pc-kit-1.wav",
+      "localFile": "public/little-logic-v4/pc-kit-1.wav",
+      "bytes": 32676,
+      "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2",
+      "remoteUrl": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-1.wav",
+      "matchesPinnedGitBlob": true,
+      "remoteDownloaded": false
+    },
+    {
+      "filename": "pc-kit-2.wav",
+      "localFile": "public/little-logic-v4/pc-kit-2.wav",
+      "bytes": 32676,
+      "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05",
+      "remoteUrl": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-2.wav",
+      "matchesPinnedGitBlob": true,
+      "remoteDownloaded": false
+    },
+    {
+      "filename": "pc-kit-3.wav",
+      "localFile": "public/little-logic-v4/pc-kit-3.wav",
+      "bytes": 32676,
+      "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695",
+      "remoteUrl": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-3.wav",
+      "matchesPinnedGitBlob": true,
+      "remoteDownloaded": false
+    },
+    {
+      "filename": "pc-kit-4.wav",
+      "localFile": "public/little-logic-v4/pc-kit-4.wav",
+      "bytes": 32676,
+      "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958",
+      "remoteUrl": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-4.wav",
+      "matchesPinnedGitBlob": true,
+      "remoteDownloaded": false
+    },
+    {
+      "filename": "pc-kit-5.wav",
+      "localFile": "public/little-logic-v4/pc-kit-5.wav",
+      "bytes": 32676,
+      "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5",
+      "remoteUrl": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-5.wav",
+      "matchesPinnedGitBlob": true,
+      "remoteDownloaded": false
+    },
+    {
+      "filename": "pc-midkeys-ab4.wav",
+      "localFile": "public/little-logic-v4/pc-midkeys-ab4.wav",
+      "bytes": 36204,
+      "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39",
+      "remoteUrl": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-midkeys-ab4.wav",
+      "matchesPinnedGitBlob": true,
+      "remoteDownloaded": false
+    },
+    {
+      "filename": "pc-midkeys-bb4.wav",
+      "localFile": "public/little-logic-v4/pc-midkeys-bb4.wav",
+      "bytes": 36204,
+      "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7",
+      "remoteUrl": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-midkeys-bb4.wav",
+      "matchesPinnedGitBlob": true,
+      "remoteDownloaded": false
+    },
+    {
+      "filename": "pc-buzz-g5.wav",
+      "localFile": "public/little-logic-v4/pc-buzz-g5.wav",
+      "bytes": 45908,
+      "sha256": "b3d03e9ce25edc96c2322ab1ffb3ef26b073100abc5f69ce5f70ba7308758180",
+      "remoteUrl": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-buzz-g5.wav",
+      "matchesPinnedGitBlob": true,
+      "remoteDownloaded": false
+    },
+    {
+      "filename": "pc-buzz-fs6.wav",
+      "localFile": "public/little-logic-v4/pc-buzz-fs6.wav",
+      "bytes": 49436,
+      "sha256": "111c3193eeeec48c981c77807bde08a7c2ae93689ace5dd6321a5ef309b7676a",
+      "remoteUrl": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-buzz-fs6.wav",
+      "matchesPinnedGitBlob": true,
+      "remoteDownloaded": false
+    }
+  ],
+  "share": {
+    "format": "Official Strudel code2hash full-code fragment",
+    "urlCharacters": 11532,
+    "exactCodeRoundTrip": true,
+    "urlFile": "outputs/v4-online-share-url.txt"
+  },
+  "pending": [
+    "Root must verify all 10 pinned remote URLs are anonymously downloadable and match their SHA-256 after changing the repository visibility.",
+    "Official website real-time audio playback is not verified by this Node event test."
+  ]
+}

@@ -5,11 +5,14 @@
 ## 当前交接状态
 
 - 本仓库是原音乐工作目录的便携整理版，保留作品、试听、必要采样、验证证据和研究归档。
-- 本轮任务是整理、说明与上传私人 GitHub 仓库，不是继续改曲。用户已审阅成品，并于 2026-10-28 明确确认按清单上传到 `zhaozhe110/strudel-music-lab`，保持私人仓库；本次上传无需重复确认。
-- [GitHub 仓库](https://github.com/zhaozhe110/strudel-music-lab) 已上传且返回 `private=true`。首次载荷提交 `aea8f3a6573b9c09570f001bd2ceffc2e1adc62a` 的 606 个文件及 Git tree 已与远端核对一致；后续状态更新记录在 `main`。范围与证据见 [UPLOAD_PLAN](UPLOAD_PLAN.md)。
+- 用户于 2026-10-28 先批准私人上传，随后明确表示“我可以接受git仓库公开 托管http太麻烦了”。后一次授权覆盖保持私人仓库的旧约束；当前工作是公开仓库和分享入口，不改变音乐内容，也不重复索要同一项确认。
+- [GitHub 仓库](https://github.com/zhaozhe110/strudel-music-lab) 当前为 **public**，GitHub 返回 `isPrivate=false`。首次载荷提交 `aea8f3a6573b9c09570f001bd2ceffc2e1adc62a` 的 606 个文件及 Git tree 曾与远端核对一致；当时 `private=true` 的记录保留为历史证据。当前最新提交以 `main` 为准，范围与状态变更见 [UPLOAD_PLAN](UPLOAD_PLAN.md)。
+- 当前收录 20 份乐谱、18 份不同内容的 M4A、9 个资源目录。新增的 v4 线上谱是同曲分发副本，只替换采样基址，本地原版保留。线上入口见[分享说明](docs/SHARING.md)。
 - 当前创作主线是《袖珍电路》。v3 是用户明确认可的底座；v4 是保留该底座的最新鼓机与计算器音色增强版，已完成技术验证。当前证据没有用户对 v4 完整试听后的最终验收，不能把 v4 标成“已获听感认可”。
 
 ## 新机器上先做什么
+
+只需从 Strudel 官网加载《袖珍电路》v4 时，使用[线上谱](pieces/little-logic/袖珍电路-v4-online.strudel)和[分享说明](docs/SHARING.md)。该副本从固定提交的 GitHub Raw 地址读取十个样本，无需自行托管 HTTP 服务。以下安装步骤用于本地编辑与离线渲染。
 
 在仓库根目录执行。工具要求 Node.js 24 或更高版本；实际验证版本为 26.8.1，离线音频依赖 `node-web-audio-api` 2.2.0。Strudel 上游依赖使用 pnpm 10.15.0。
 
@@ -61,6 +64,7 @@ npm run render -- pieces/little-logic/袖珍电路-v4.strudel --cycles 64 --out 
 | v2 | 为增加记忆点加入两小节动机、长音和完整和声收束。用户明确评价“过于悦耳、太流行，没有 Pocket Calculator 那种感觉”。[v2](pieces/little-logic/袖珍电路-v2.strudel) 是被否定的方向，不应作为后续默认旋律基础。 |
 | v3 | [v3](pieces/little-logic/袖珍电路-v3.strudel) 改为 B♭ Mixolydian，保留 B♭ 八度持续低音与 A♭ 切分，去掉功能和声推进。用户明确称其为“非常好的底座”。 |
 | v4 | [v4](pieces/little-logic/袖珍电路-v4.strudel) 保留 v3 核心，采用参考复刻中的短鼓击和计算器单音，增加鼓型变化、按键应答、高频蜂鸣和计算器独奏。最新增强版，完整听感验收未记录。 |
+| v4 线上副本 | [v4-online](pieces/little-logic/袖珍电路-v4-online.strudel) 与本地 v4 是同一音乐版本；仅 `sampleBase` 改为 `https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/`。使用既有 v4 试听，不新增音乐版本或试听文件。 |
 
 继续这一主线时保留这些不变量：
 
@@ -141,8 +145,9 @@ npm run render -- pieces/little-logic/袖珍电路-v4.strudel --cycles 64 --out 
 ## 上传前与后续工作边界
 
 1. 本次已完成仓库清单、样本来源、依赖锁定、原文件保留核对、新入口验证与最终上传确认。后续操作按明确的任务范围继续，不重复索要已经获得的同一项权限。
-2. 私人仓库目标不自动改变素材许可。Pocket 复刻及 v4 部分声音取自用户提供的商业录音；SampleRadar 允许在音乐作品中使用，但来源说明写明不要重新分发原采样。上传范围必须明确交代这些资产，不能把 `public/` 默认视为全 CC0，也不能未经确认擅自改为公开仓库或发布网站。详细来源以 [SAMPLES](docs/SAMPLES.md) 为准。
+2. 当前公开仓库状态不改变素材许可。Pocket 复刻及 v4 部分声音取自用户提供的商业录音；SampleRadar 允许在音乐作品中使用，但来源说明写明不要重新分发原采样。用户已接受仓库公开，不能继续沿用旧的私人约束要求同一项确认，也不能据此把 `public/` 默认视为全 CC0。详细来源以 [SAMPLES](docs/SAMPLES.md) 为准。
 3. 不上传原始商业 MP3、机器分离的大型完整声轨、下载包、虚拟环境、node_modules、运行时 checkout、临时输出或凭据。不要因打包而删除原工作目录中的这些资料。
 4. 获得上传确认后也只执行已说明的范围；不能顺便删旧版本、改采样许可标签、更新上游版本或改写作品。
 5. 回到创作时，先明确当轮对象是 little-logic、rooftop 还是参考复刻。按用户当轮要求继续，不把不同作品的接受/否定意见相互套用。
 6. little-logic 的下一步听感任务是请用户评估 v4 鼓机与蜂鸣增强是否恰当，尤其高区蜂鸣的密度和电平；保持 v3 核心进行小范围可回退修改。rooftop 的下一步是评估同弦止音试验，不能直接把该试验覆盖成默认正式版。
+7. GitHub 公开授权不包含自动创建 Pages、Release 或添加协作者。`package.json` 的 `private: true` 只防止 npm 发布，保留该设置。历史上传、渲染和打包报告不改写为本次公开分享的验证证据。

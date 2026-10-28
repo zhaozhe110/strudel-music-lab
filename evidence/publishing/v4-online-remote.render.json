@@ -1,0 +1,195 @@
+{
+  "source": "pieces/little-logic/袖珍电路-v4-online.strudel",
+  "sourceSha256": "166838b1faa39433d0d2c51a0eebf586bca62bc3a30e7546808ab31c3782d512",
+  "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+  "nodeVersion": "26.8.1",
+  "engine": "Pinned Strudel core/transpiler and native Superdough synth/sampler/effects with node-web-audio-api 2.2.0",
+  "hostAdapter": "Editor visuals are no-ops; unused Vite worklet URL import is stubbed. Unsupported DSP is rejected, never substituted.",
+  "localAssets": "Loopback fetch URLs are mapped to repo/public; no local web server is required for rendering.",
+  "selection": {
+    "begin": 16,
+    "cycles": 4,
+    "end": 20
+  },
+  "bpm": 136,
+  "musicalDurationSeconds": 7.0588235294117645,
+  "excerptMode": "Only note onsets inside the selected range are scheduled; pre-existing sustained notes and effect tails are not reconstructed. Render the full piece from zero for a complete timeline.",
+  "durationSeconds": 9.058843537414965,
+  "sampleRate": 44100,
+  "channels": 2,
+  "events": 93,
+  "raw": {
+    "peak": 0.48733869194984436,
+    "rms": 0.04009781976799469,
+    "peakDbFS": -6.2433821342360325,
+    "rmsDbFS": -27.93758481117267
+  },
+  "rawPeakExceedsUnity": false,
+  "normalization": "peak",
+  "constantGain": 1.7236472578016657,
+  "tailFadeSeconds": 0.4,
+  "final": {
+    "peak": 0.8399999737739563,
+    "rms": 0.06911449708358418,
+    "peakDbFS": -1.5144145499487058,
+    "rmsDbFS": -23.20861695611942
+  },
+  "sampleEvents": 36,
+  "sampleSources": [
+    {
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-2.wav",
+      "sound": "pcKit2",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-midkeys-bb4.wav",
+      "sound": "pc_keys",
+      "durationSeconds": 0.20498866213151928,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-0.wav",
+      "sound": "pcKit0",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-4.wav",
+      "sound": "pcKit4",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-5.wav",
+      "sound": "pcKit5",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-3.wav",
+      "sound": "pcKit3",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-midkeys-ab4.wav",
+      "sound": "pc_keys",
+      "durationSeconds": 0.20498866213151928,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-1.wav",
+      "sound": "pcKit1",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    }
+  ],
+  "samplePitchMappings": [
+    {
+      "sound": "pcKit2",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-2.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit2:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_keys",
+      "note": "bb4",
+      "speed": 1,
+      "transpose": 0,
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-midkeys-bb4.wav",
+      "index": 0,
+      "midi": 70,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit0",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-0.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit0:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit4",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-4.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit4:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit5",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-5.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit5:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit3",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-3.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit3:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_keys",
+      "note": "ab4",
+      "speed": 1,
+      "transpose": 0,
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-midkeys-ab4.wav",
+      "index": 0,
+      "midi": 68,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit1",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "https://raw.githubusercontent.com/zhaozhe110/strudel-music-lab/aea8f3a6573b9c09570f001bd2ceffc2e1adc62a/public/little-logic-v4/pc-kit-1.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit1:0",
+      "playbackRate": 1
+    }
+  ],
+  "outputs": {
+    "wav": "outputs/v4-online-remote.wav",
+    "report": "outputs/v4-online-remote.render.json",
+    "events": "outputs/v4-online-remote.events.json"
+  },
+  "aac": {
+    "created": false,
+    "reason": "Not requested."
+  }
+}
