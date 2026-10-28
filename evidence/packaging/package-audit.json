@@ -3,8 +3,8 @@
   "date": "2026-10-28",
   "ok": true,
   "scope": "Current tracked payload; package-manifest.json and this audit are excluded. Credential checks cover common patterns, not a proof that arbitrary secrets cannot exist.",
-  "payloadFiles": 615,
-  "payloadBytes": 220345307,
+  "payloadFiles": 618,
+  "payloadBytes": 220360669,
   "largestFile": {
     "file": "audio/reference/Pocket Calculator-复刻版.m4a",
     "bytes": 7265169,

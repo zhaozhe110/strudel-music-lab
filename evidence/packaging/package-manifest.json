@@ -15,8 +15,8 @@
     },
     {
       "file": "AGENTS.md",
-      "bytes": 3166,
-      "sha256": "3e0fb476a0c2f2ababd9aefcb3942a9e73461cd55a554c564fc4e96fc7fa89a3"
+      "bytes": 3581,
+      "sha256": "0ddbed2f1a26c247874cac87898b2d8550d0989724801d043a0cc6354c010ee9"
     },
     {
       "file": "HANDOFF.md",
@@ -895,8 +895,8 @@
     },
     {
       "file": "package.json",
-      "bytes": 525,
-      "sha256": "bb7f1c484fe1ba2a9f1acd0d9fb018eac65e3530c921ee35effa210caf77a5d4"
+      "bytes": 581,
+      "sha256": "2ae1d8881bf2c18c28951569dd0468df0b673e799947e04c079c9ba773690ff2"
     },
     {
       "file": "pieces/little-logic/袖珍电路-v1-顶部可视化存档.strudel",
@@ -3044,6 +3044,11 @@
       "sha256": "189485a9e4d7cb6c7897f1df4f8da041a745b8eb976fe2a9bfa601623d953415"
     },
     {
+      "file": "scripts/build-share-site.mjs",
+      "bytes": 2218,
+      "sha256": "ad5fab88dfbb7c3e73193b7fd8c0e6158ccb8a40de030ff447417f9f4f3f593e"
+    },
+    {
       "file": "scripts/lib/audio.mjs",
       "bytes": 2231,
       "sha256": "0b97555180fea5ca8b9c3893d97259d50980e6dce6473ffeaa0f943d61329152"
@@ -3077,6 +3082,16 @@
       "file": "scripts/validate.mjs",
       "bytes": 4685,
       "sha256": "8f7f8bbf81c494338dfb153ba8ae3b937bcda86e6fe36358e6202c04ecd424a7"
+    },
+    {
+      "file": "share-site/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "share-site/index.html",
+      "bytes": 12673,
+      "sha256": "50477bffa537392befdd7e7edffd3ca22f6936221e3e98f11b7a4b7158948d1d"
     }
   ]
 }

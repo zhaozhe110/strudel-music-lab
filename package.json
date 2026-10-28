@@ -9,7 +9,8 @@
     "setup": "node scripts/setup.mjs",
     "start": "node scripts/start.mjs",
     "render": "node scripts/render.mjs",
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "build:share": "node scripts/build-share-site.mjs"
   },
   "dependencies": {
     "node-web-audio-api": "2.2.0"

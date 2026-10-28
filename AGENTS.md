@@ -26,8 +26,10 @@
 
 ## 远端操作
 
-远端为 `zhaozhe110/strudel-music-lab`，当前可见性为 **public**。按用户已批准的任务范围完成上传与分享，不重复索要同一项权限；不擅自扩大到 Pages、Release 或添加协作者。仓库公开不会改变素材许可，保留 `docs/SAMPLES.md` 和许可原文。
+远端为 `zhaozhe110/strudel-music-lab`，当前可见性为 **public**。按用户已批准的任务范围完成上传与分享，不重复索要同一项权限；不擅自创建 Release 或添加协作者。仓库公开不会改变素材许可，保留 `docs/SAMPLES.md` 和许可原文。
 
 2026-10-28 的授权顺序：用户先批准按 `UPLOAD_PLAN.md` 私有上传，之后明确表示“我可以接受git仓库公开 托管http太麻烦了”。后一次指示覆盖保持私人仓库的旧约束；仓库已改为公开，GitHub 返回 `isPrivate=false`。首次私有上传记录是历史证据，不改写为公开时的验证结果。
 
 `package.json` 中的 `private: true` 用于防止意外发布到 npm，与 GitHub 可见性无关，保留该设置。
+
+后续的长链接改进任务使用 GitHub Pages 提供 v4 的固定自动跳转入口。仅将 `share-site/` 发布到 `gh-pages` 分支，不自行托管 Strudel 引擎，也不扩大发布音频范围。用 `npm run build:share` 从完整官网版乐谱生成跳转目标，再以 `git subtree push --prefix share-site origin gh-pages` 发布。不要把该入口的访问混同于仓库 Traffic 或音乐播放次数。
