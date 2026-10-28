@@ -1,0 +1,48 @@
+{
+  "source": "pieces/little-logic/袖珍电路-v3.strudel",
+  "sourceSha256": "bc13046e71ea08ee3fb93382947e61e96267579b92934c131ae8eac9f35ab594",
+  "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+  "nodeVersion": "26.8.1",
+  "engine": "Pinned Strudel core/transpiler and native Superdough synth/sampler/effects with node-web-audio-api 2.2.0",
+  "hostAdapter": "Editor visuals are no-ops; unused Vite worklet URL import is stubbed. Unsupported DSP is rejected, never substituted.",
+  "localAssets": "Loopback fetch URLs are mapped to repo/public; no local web server is required for rendering.",
+  "selection": {
+    "begin": 8,
+    "cycles": 2,
+    "end": 10
+  },
+  "bpm": 136,
+  "musicalDurationSeconds": 3.5294117647058822,
+  "durationSeconds": 5.529433106575964,
+  "sampleRate": 44100,
+  "channels": 2,
+  "events": 64,
+  "raw": {
+    "peak": 0.40114542841911316,
+    "rms": 0.04182042859127387,
+    "peakDbFS": -7.933963055826552,
+    "rmsDbFS": -27.57223041369002
+  },
+  "rawPeakExceedsUnity": false,
+  "normalization": "peak",
+  "constantGain": 2.094003671711735,
+  "tailFadeSeconds": 0.4,
+  "final": {
+    "peak": 0.8399999737739563,
+    "rms": 0.08757213100653469,
+    "peakDbFS": -1.5144145499487058,
+    "rmsDbFS": -21.1526816382278
+  },
+  "sampleEvents": 0,
+  "sampleSources": [],
+  "samplePitchMappings": [],
+  "outputs": {
+    "wav": "outputs/smoke-v3.wav",
+    "report": "outputs/smoke-v3.render.json",
+    "events": "outputs/smoke-v3.events.json"
+  },
+  "aac": {
+    "created": false,
+    "reason": "Not requested."
+  }
+}

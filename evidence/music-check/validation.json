@@ -1,0 +1,297 @@
+{
+  "checkedCodeBytes": 3047,
+  "cps": 0.55,
+  "bpmAtFourBeats": 132,
+  "totalCycles": 36,
+  "durationSeconds": 65.45454545454545,
+  "total": {
+    "count": 1240,
+    "gains": {
+      "min": 0.049,
+      "max": 0.40599999999999997
+    },
+    "midiRange": [
+      38,
+      81
+    ],
+    "sounds": {
+      "gm_electric_guitar_clean:5": 468,
+      "gm_electric_guitar_clean:2": 260,
+      "gm_electric_bass_finger:1": 132,
+      "RolandTR707:bd:0": 96,
+      "RolandTR707:sd:0": 60,
+      "RolandTR707:hh:0": 192,
+      "RolandTR707:oh:0": 32
+    }
+  },
+  "sections": [
+    {
+      "name": "intro",
+      "start": 0,
+      "end": 4,
+      "count": 32,
+      "gains": {
+        "min": 0.13999999999999999,
+        "max": 0.21
+      },
+      "midiRange": [
+        50,
+        76
+      ],
+      "sounds": {
+        "gm_electric_guitar_clean:5": 32
+      }
+    },
+    {
+      "name": "entrance",
+      "start": 4,
+      "end": 12,
+      "count": 264,
+      "gains": {
+        "min": 0.049,
+        "max": 0.40599999999999997
+      },
+      "midiRange": [
+        38,
+        81
+      ],
+      "sounds": {
+        "gm_electric_guitar_clean:5": 64,
+        "gm_electric_guitar_clean:2": 40,
+        "gm_electric_bass_finger:1": 44,
+        "RolandTR707:bd:0": 32,
+        "RolandTR707:sd:0": 20,
+        "RolandTR707:hh:0": 64
+      }
+    },
+    {
+      "name": "full_a",
+      "start": 12,
+      "end": 20,
+      "count": 420,
+      "gains": {
+        "min": 0.049,
+        "max": 0.40599999999999997
+      },
+      "midiRange": [
+        38,
+        81
+      ],
+      "sounds": {
+        "gm_electric_guitar_clean:5": 154,
+        "gm_electric_guitar_clean:2": 90,
+        "gm_electric_bass_finger:1": 44,
+        "RolandTR707:bd:0": 32,
+        "RolandTR707:sd:0": 20,
+        "RolandTR707:hh:0": 64,
+        "RolandTR707:oh:0": 16
+      }
+    },
+    {
+      "name": "break",
+      "start": 20,
+      "end": 24,
+      "count": 52,
+      "gains": {
+        "min": 0.08645,
+        "max": 0.1512
+      },
+      "midiRange": [
+        50,
+        81
+      ],
+      "sounds": {
+        "gm_electric_guitar_clean:5": 32,
+        "gm_electric_guitar_clean:2": 20
+      }
+    },
+    {
+      "name": "full_b",
+      "start": 24,
+      "end": 32,
+      "count": 420,
+      "gains": {
+        "min": 0.049,
+        "max": 0.40599999999999997
+      },
+      "midiRange": [
+        38,
+        81
+      ],
+      "sounds": {
+        "gm_electric_guitar_clean:5": 154,
+        "gm_electric_guitar_clean:2": 90,
+        "gm_electric_bass_finger:1": 44,
+        "RolandTR707:bd:0": 32,
+        "RolandTR707:sd:0": 20,
+        "RolandTR707:hh:0": 64,
+        "RolandTR707:oh:0": 16
+      }
+    },
+    {
+      "name": "outro",
+      "start": 32,
+      "end": 36,
+      "count": 52,
+      "gains": {
+        "min": 0.05985,
+        "max": 0.13649999999999998
+      },
+      "midiRange": [
+        50,
+        81
+      ],
+      "sounds": {
+        "gm_electric_guitar_clean:5": 32,
+        "gm_electric_guitar_clean:2": 20
+      }
+    }
+  ],
+  "loopRepeats": true,
+  "bassRootsByCycle": [
+    {
+      "cycle": 0,
+      "root": null
+    },
+    {
+      "cycle": 1,
+      "root": null
+    },
+    {
+      "cycle": 2,
+      "root": null
+    },
+    {
+      "cycle": 3,
+      "root": null
+    },
+    {
+      "cycle": 4,
+      "root": "d2"
+    },
+    {
+      "cycle": 5,
+      "root": "fs2"
+    },
+    {
+      "cycle": 6,
+      "root": "g2"
+    },
+    {
+      "cycle": 7,
+      "root": "a2"
+    },
+    {
+      "cycle": 8,
+      "root": "d2"
+    },
+    {
+      "cycle": 9,
+      "root": "fs2"
+    },
+    {
+      "cycle": 10,
+      "root": "g2"
+    },
+    {
+      "cycle": 11,
+      "root": "a2"
+    },
+    {
+      "cycle": 12,
+      "root": "d2"
+    },
+    {
+      "cycle": 13,
+      "root": "fs2"
+    },
+    {
+      "cycle": 14,
+      "root": "g2"
+    },
+    {
+      "cycle": 15,
+      "root": "a2"
+    },
+    {
+      "cycle": 16,
+      "root": "d2"
+    },
+    {
+      "cycle": 17,
+      "root": "fs2"
+    },
+    {
+      "cycle": 18,
+      "root": "g2"
+    },
+    {
+      "cycle": 19,
+      "root": "a2"
+    },
+    {
+      "cycle": 20,
+      "root": null
+    },
+    {
+      "cycle": 21,
+      "root": null
+    },
+    {
+      "cycle": 22,
+      "root": null
+    },
+    {
+      "cycle": 23,
+      "root": null
+    },
+    {
+      "cycle": 24,
+      "root": "d2"
+    },
+    {
+      "cycle": 25,
+      "root": "fs2"
+    },
+    {
+      "cycle": 26,
+      "root": "g2"
+    },
+    {
+      "cycle": 27,
+      "root": "a2"
+    },
+    {
+      "cycle": 28,
+      "root": "d2"
+    },
+    {
+      "cycle": 29,
+      "root": "fs2"
+    },
+    {
+      "cycle": 30,
+      "root": "g2"
+    },
+    {
+      "cycle": 31,
+      "root": "a2"
+    },
+    {
+      "cycle": 32,
+      "root": null
+    },
+    {
+      "cycle": 33,
+      "root": null
+    },
+    {
+      "cycle": 34,
+      "root": null
+    },
+    {
+      "cycle": 35,
+      "root": null
+    }
+  ]
+}

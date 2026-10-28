@@ -1,0 +1,79 @@
+[
+  {
+    "start": 0,
+    "end": 30,
+    "bpm": 136.034,
+    "phase": 0.0974,
+    "strength": 0.8329
+  },
+  {
+    "start": 30,
+    "end": 60,
+    "bpm": 135.87,
+    "phase": 0.06719,
+    "strength": 0.5277
+  },
+  {
+    "start": 60,
+    "end": 90,
+    "bpm": 136.058,
+    "phase": -0.05171,
+    "strength": 0.5651
+  },
+  {
+    "start": 90,
+    "end": 120,
+    "bpm": 135.84,
+    "phase": 0.024,
+    "strength": 0.5593
+  },
+  {
+    "start": 120,
+    "end": 150,
+    "bpm": 135.926,
+    "phase": 0.1012,
+    "strength": 0.6097
+  },
+  {
+    "start": 150,
+    "end": 180,
+    "bpm": 135.774,
+    "phase": -0.07852,
+    "strength": 0.8373
+  },
+  {
+    "start": 180,
+    "end": 210,
+    "bpm": 135.796,
+    "phase": -0.0477,
+    "strength": 0.7705
+  },
+  {
+    "start": 210,
+    "end": 240,
+    "bpm": 135.762,
+    "phase": -0.09741,
+    "strength": 0.6685
+  },
+  {
+    "start": 240,
+    "end": 270,
+    "bpm": 135.848,
+    "phase": 0.07002,
+    "strength": 0.5174
+  },
+  {
+    "start": 270,
+    "end": 295,
+    "bpm": 135.688,
+    "phase": -0.0298,
+    "strength": 0.6351
+  },
+  {
+    "start": 0,
+    "end": 295,
+    "bpm": 135.842,
+    "phase": 0.04151,
+    "strength": 0.4964
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "scoreHashMatches": true,
+  "assetHashesMatch": true,
+  "checkedResources": 42,
+  "master": 0.57,
+  "events": 2621,
+  "durationSeconds": 296.979410430839,
+  "rawPeak": 0.8347107768058777,
+  "rawPeakDbFS": -1.5692795872385572,
+  "nonFiniteSamples": 0,
+  "pcmPeak": 0.8399658203125,
+  "pcmFullScaleSamples": 0,
+  "rmsDbFS": -23.334158842467353,
+  "wavBytes": 52387212,
+  "m4aBytes": 7265169,
+  "channels": 2,
+  "sampleRate": 44100,
+  "sampleWidth": 2
+}

@@ -1,0 +1,393 @@
+{
+  "source": "https://www.musicradar.com/news/tech/sampleradar-451-free-emo-samples-479864",
+  "download": "https://cdn.mos.musicradar.com/audio/samples/musicradar-emo-samples.zip",
+  "kit": "Kit03 99bpm",
+  "license": "Royalty-free use in musical works; do not redistribute source samples. Hosted on localhost only.",
+  "selection": "Existing performances from publisher; unmodified WAV bytes. No synthesized notes or generated instrument.",
+  "files": [
+    {
+      "name": "EMOK3RhyGuitA99A-01.wav",
+      "sha256": "2a68a54696da7b721f343b3849dbd3110b56081953fe5b1fb7e5316278e80419",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213819,
+      "seconds": 4.848503401360544
+    },
+    {
+      "name": "EMOK3RhyGuitA99A-02.wav",
+      "sha256": "a69736d282e2bac9fce51b0f4cd6b7f90483fd3ab8b365a5639c0f3f1641aa7b",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitA99A-03.wav",
+      "sha256": "f8e577220d7922d104f8f4e560493a47c4807dbe598ba982fdf20f5f9eaac250",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitA99A-04.wav",
+      "sha256": "acf279e93819aab42679ba8ebee27cd06ba37fd9d22251d3d2f2c856b242a4b4",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitA99A-05.wav",
+      "sha256": "ff47471012fd195bda501ea029fa4e486d21099f07bc8253181eb064661a490b",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitA99A-06.wav",
+      "sha256": "88b8ece2e9ae53dcebda37ffd178f6e8f4d6ba126d624f4e96fdc7390628d592",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitA99A-07.wav",
+      "sha256": "0bcf95d2d78cd6027d7585a9cf53526feb5c0f3ae1bd1edacb53a1441aaffb8b",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitA99A-08.wav",
+      "sha256": "b88e5bf238c85c0dabfe7463bc0fce667e6a3d2117b2a2957c38fe2e195d5e36",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213819,
+      "seconds": 4.848503401360544
+    },
+    {
+      "name": "EMOK3RhyGuitB99A-01.wav",
+      "sha256": "eb7d53534075aff738310beeb90848cbbd328b17e99f43d68e7a7cc3d51c4907",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213819,
+      "seconds": 4.848503401360544
+    },
+    {
+      "name": "EMOK3RhyGuitB99A-02.wav",
+      "sha256": "10280ba4603f5d1b41db23028a9b452c78da801a34bf2b93bc500f8b9d24204a",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitB99A-03.wav",
+      "sha256": "2c5668a5c814f957e0b13874b893c960d9d5a41b4bceabc357f5754f2705b7cb",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitB99A-04.wav",
+      "sha256": "155f2e0fbc4fc78137a42acf139befe44f58fa2e3291e001af03094466c22406",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitB99A-05.wav",
+      "sha256": "5d1a3aad77c0868439db991d055709661611eb044fba60e1fa5dcb5ec85f5304",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitB99A-06.wav",
+      "sha256": "7d9adc84c1aadc791876c7489b74fc2ae8b7e00cd0ed8908e0f78cc87410cc20",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitB99A-07.wav",
+      "sha256": "67ad67ab76580ffae75e98dbea5a13dd2c5f7213a147d3696aeb7c303706c38b",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitB99A-08.wav",
+      "sha256": "53a3a4e2521a82b46cbf488420cec53a67f829643a67fc0381ac7754c9a84082",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213819,
+      "seconds": 4.848503401360544
+    },
+    {
+      "name": "EMOK3RhyGuitC99A-01.wav",
+      "sha256": "123ea2ff28da5cd05ec5d094359eb190759ab8e02cb6b62c13cfa1f6c3ad407c",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213819,
+      "seconds": 4.848503401360544
+    },
+    {
+      "name": "EMOK3RhyGuitC99A-02.wav",
+      "sha256": "34462e351878db02af303cddf2580edfba5d7ff8ef52b14fb9e98f48406064f0",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitC99A-03.wav",
+      "sha256": "b78559df979a3f916d236e590fb93877cad31dd0064f4ba3c52a3ed9fd4026e3",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitC99A-04.wav",
+      "sha256": "8c6a7e5580ac3e025d322680455d8184511d9538540d68d5dcb21c61ed0c7e89",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitC99A-05.wav",
+      "sha256": "ff2d7a1f9ff51f40a8debc794e52fc014f31a6f1a69032e9399ea0cda9782797",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitC99A-06.wav",
+      "sha256": "d401726c3adb574449be5220fe5525b3a0c3ab4a59fb379f4efa551aefb00096",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitC99A-07.wav",
+      "sha256": "311e7cf515f803200733da9697ed76865db77d95c99ddb4619fd343ab4fca159",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3RhyGuitC99A-08.wav",
+      "sha256": "3d813f9ffcc35460b60e936ca2948ba80a01da296f477d4f49d0784774c9f948",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213819,
+      "seconds": 4.848503401360544
+    },
+    {
+      "name": "EMOK3LeadGuitB99A-01.wav",
+      "sha256": "f6d25aae74ed77c5b890e5ea2e32506136f37a88e632df67ba51f6d94fdea0de",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213819,
+      "seconds": 4.848503401360544
+    },
+    {
+      "name": "EMOK3LeadGuitB99A-02.wav",
+      "sha256": "c6c29cd99adc582fcd1ac25af643160f4efd2526cec0ec069e1c71a5fc8ce230",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3LeadGuitB99A-03.wav",
+      "sha256": "fa19100e8d15150bf9c72aa8d7e2b85d5ba8c74dba513d0de59ce562a66c08ad",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3LeadGuitB99A-04.wav",
+      "sha256": "b28dc47af6a79e8de49ec86621b186e207cffe6c3764b5299a9ed6458d1c1aea",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3LeadGuitB99A-05.wav",
+      "sha256": "760b9a3ee006ccb8a65d450f7c27f5aa8c23a97860bc8e7b713a1cece4e18ee4",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3LeadGuitB99A-06.wav",
+      "sha256": "f54e5c8aefe21e54f530794c7701eb68a256678cdd22e90e3dbd0f72dd3af828",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3LeadGuitB99A-07.wav",
+      "sha256": "0d8efa61664d2a729e61bf1d1ef1cad54947c778b77964fa6b96564920c14764",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3LeadGuitB99A-08.wav",
+      "sha256": "7cbe4cfdc5884ffb6fc3f17da141e8b951927b61c01f19b572bf355cdd343316",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213819,
+      "seconds": 4.848503401360544
+    },
+    {
+      "name": "EMOK3BassA99A-01.wav",
+      "sha256": "31b3f020238b81a512e0877e27770f162598851db8dfc740d74d4427f7f0948e",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213819,
+      "seconds": 4.848503401360544
+    },
+    {
+      "name": "EMOK3BassA99A-02.wav",
+      "sha256": "b0930cf73ba4d747fe99e1bab6de04c6b1879b89db1e43afb51126c0b38dc941",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3BassA99A-03.wav",
+      "sha256": "2977d2a61c50a9495e165f2ccfb1619621f483f8a2fb7e3935493cf48bbc1af8",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3BassA99A-04.wav",
+      "sha256": "dae994725a4afc034c8f7e8e730eb6c08abfe8db1956f76fe63fd80463ff0129",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3BassA99A-05.wav",
+      "sha256": "b3506bf9fbd1166fb1a7ccbc8a47e70db927e50462d735318d923a77f2f87ca1",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3BassA99A-06.wav",
+      "sha256": "a414ca7a9b05d8bda8a0bedaa3a2ea3ecd68ce27bf0db48f6c79202bae2589f0",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3BassA99A-07.wav",
+      "sha256": "e64bf4724774b0f053c0ac7e756e04e67169f077e77952a7e54a2db7867cd5b0",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3BassA99A-08.wav",
+      "sha256": "ec1dd8449fc3a08b7f60d9f170cc729260c76c8125903d7fdfc9acd05b4f928a",
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 213819,
+      "seconds": 4.848503401360544
+    },
+    {
+      "name": "EMOK3Beat99-01.wav",
+      "sha256": "ad77b67c1013a0d7549dfed0f162b51e9fc8575f11f625f9acf58cd2a266e00f",
+      "sampleRate": 44100,
+      "channels": 2,
+      "frames": 213819,
+      "seconds": 4.848503401360544
+    },
+    {
+      "name": "EMOK3Beat99-02.wav",
+      "sha256": "a3cde956fb1e70e36d0f5ae1544454d29345c7175966fb37cb8db6b755a057f1",
+      "sampleRate": 44100,
+      "channels": 2,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3Beat99-03.wav",
+      "sha256": "f932ebc1e18faf9618772e7ae207c19c3de733e6246d07fb099f8b099da250e6",
+      "sampleRate": 44100,
+      "channels": 2,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3Beat99-04.wav",
+      "sha256": "5d3c4ff1d60cfe003ed6c644efbb5e39a2a3b514a54eb21c0a0f6576ce8ac7a5",
+      "sampleRate": 44100,
+      "channels": 2,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3Beat99-05.wav",
+      "sha256": "c2e224a03c1414f6d86d99eed71f389273f937f134ffb7f90e8a1f0aaea4d87b",
+      "sampleRate": 44100,
+      "channels": 2,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3Beat99-06.wav",
+      "sha256": "ef949f477c99346efde922b18c2a2df7c365265ec893c571a25fa149280f6fad",
+      "sampleRate": 44100,
+      "channels": 2,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3Beat99-07.wav",
+      "sha256": "183bbd1a07186184bee677e578ca5bbe44a91e0337a3689e92029efe89fe23b0",
+      "sampleRate": 44100,
+      "channels": 2,
+      "frames": 213818,
+      "seconds": 4.848480725623583
+    },
+    {
+      "name": "EMOK3Beat99-08.wav",
+      "sha256": "3cdaceb9f35618a0e9867b551a13fc42771f2cfd5181b479902e2fc8474b9de4",
+      "sampleRate": 44100,
+      "channels": 2,
+      "frames": 213819,
+      "seconds": 4.848503401360544
+    }
+  ]
+}

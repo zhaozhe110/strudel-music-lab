@@ -1,0 +1,68 @@
+{
+  "method": "Eight-bar excerpts from the existing full-song PCM renders; original speed, synthesis, filter and delay retained. Independent constant gains match RMS exactly. No compressor, limiter or EQ. 8 ms boundary fades; 0.8 s silence between A and B.",
+  "sampleRate": 44100,
+  "bpm": 126,
+  "excerptCycles": 8,
+  "excerptSeconds": 15.238095238095237,
+  "targetRmsDbFS": -20,
+  "matchingErrorDb": 1.8616219676914625e-12,
+  "order": [
+    {
+      "label": "A / v1",
+      "sourceWav": "<LEGACY_WORKSPACE>/袖珍电路-v1-试听.wav",
+      "wavSha256": "fa0cacc5e062d7bd97db5d1431723b7702286f7e746a20561b0923459511160d",
+      "savedScoreFile": "<LEGACY_WORKSPACE>/袖珍电路-v1-顶部可视化存档.strudel",
+      "savedScoreSha256": "91659a68615f51a9121e358fa84a5545054ae45af4065d8306281abce83060ad",
+      "renderedScoreSha256": "be0556dd1fbe02d461461a25c8241c50d192ba87e46d4ed1ea75ddcf72ebd080",
+      "startCycle": 8,
+      "endCycle": 16,
+      "humanBarRange": "9–16",
+      "before": {
+        "peak": 0.79754638671875,
+        "rms": 0.12498807262049609,
+        "peakDbFS": -1.9648809639077534,
+        "rmsDbFS": -18.062628578599337
+      },
+      "constantGain": 0.8000763425133541,
+      "after": {
+        "peak": 0.6380979960706786,
+        "rms": 0.10000000000001513,
+        "peakDbFS": -3.9022523853084157,
+        "rmsDbFS": -19.999999999998685
+      }
+    },
+    {
+      "label": "B / v2",
+      "sourceWav": "<LEGACY_WORKSPACE>/袖珍电路-v2-试听.wav",
+      "wavSha256": "0946d65d1a7441ad189e287d23f02a741cfd7acce20eaed0d7561b645c00029c",
+      "savedScoreFile": "<LEGACY_WORKSPACE>/袖珍电路-v2.strudel",
+      "savedScoreSha256": "9fa33e2b5e6aeb4e11d59fa2393965cf22a224bb867f52541eec34c20cd3c72f",
+      "renderedScoreSha256": "9fa33e2b5e6aeb4e11d59fa2393965cf22a224bb867f52541eec34c20cd3c72f",
+      "startCycle": 8,
+      "endCycle": 16,
+      "humanBarRange": "9–16",
+      "before": {
+        "peak": 0.834381103515625,
+        "rms": 0.12984482799753266,
+        "peakDbFS": -1.5727108014056754,
+        "rmsDbFS": -17.731506891716492
+      },
+      "constantGain": 0.7701500440348708,
+      "after": {
+        "peak": 0.6425986436144226,
+        "rms": 0.09999999999999372,
+        "peakDbFS": -3.8412039096891832,
+        "rmsDbFS": -20.000000000000547
+      }
+    }
+  ],
+  "bStartsAtSeconds": 16.038095238095238,
+  "output": {
+    "wav": "<LEGACY_WORKSPACE>/袖珍电路-v1-v2-主题对照.wav",
+    "m4a": "<LEGACY_WORKSPACE>/袖珍电路-v1-v2-主题对照.m4a",
+    "peak": 0.6425986436144226,
+    "rms": 0.09871278728066481,
+    "peakDbFS": -3.8412039096891832,
+    "rmsDbFS": -20.112531701274268
+  }
+}

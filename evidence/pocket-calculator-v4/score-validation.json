@@ -1,0 +1,40 @@
+{
+  "sha256": "3901855b71de3ff02a12719cc7e51f81a29f2abafc35fce84b6b800ae2d29632",
+  "events": 1250,
+  "bpm": 136,
+  "bars": 64,
+  "musicSeconds": 112.94117647058823,
+  "coreV3Unchanged": true,
+  "exact64barRepeat": true,
+  "sounds": {
+    "pcKit2": 128,
+    "pcKit0": 64,
+    "pcKit3": 72,
+    "square": 684,
+    "pcKit4": 76,
+    "pcKit5": 88,
+    "pc_keys": 60,
+    "pcKit1": 20,
+    "sine": 34,
+    "sawtooth": 24
+  },
+  "keyEvents": 60,
+  "keyNotes": [
+    "bb4",
+    "ab4",
+    "g5",
+    "fs6"
+  ],
+  "sampleBase": "http://127.0.0.1:3009/little-logic-v4/",
+  "finalSilentBars": true,
+  "widgets": [
+    {
+      "type": "_pianoroll",
+      "line": 11
+    },
+    {
+      "type": "_scope",
+      "line": 12
+    }
+  ]
+}

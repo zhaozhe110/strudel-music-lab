@@ -1,0 +1,16 @@
+{
+  "file": "天台晚风-v3-完整版.strudel",
+  "transpiler": "passed",
+  "scoreMatchesDraftC": true,
+  "events": 777,
+  "preloaded": 56,
+  "cpm": 31.5,
+  "loops": 3,
+  "inlineModules": true,
+  "externalFiles": [
+    "samples.json",
+    "preload.json",
+    "audio sample files"
+  ],
+  "audioRenderedAgain": false
+}

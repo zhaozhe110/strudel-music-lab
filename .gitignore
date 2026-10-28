@@ -1,0 +1,35 @@
+# Rebuildable JavaScript dependencies and pinned Strudel runtime
+node_modules/
+.runtime/
+
+# Newly generated audio, temporary analysis and local inputs
+outputs/
+local-inputs/
+stems/
+archives/
+coverage/
+*.log
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches; audio samples under public/ stay tracked
+.venv/
+venv/
+.conda/
+conda-meta/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Operating system and editor state
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.tmp

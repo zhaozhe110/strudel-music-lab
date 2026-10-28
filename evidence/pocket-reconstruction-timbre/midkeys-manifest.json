@@ -1,0 +1,22 @@
+[
+  {
+    "file": "pc-midkeys-ab4.wav",
+    "rootMidi": 68,
+    "rootNote": "ab4",
+    "sourceTimeSeconds": 42.653,
+    "durationSeconds": 0.205,
+    "normalizationScale": 6.51129333202199,
+    "processing": "AI-separated other stem, highpass 330Hz, edge fades",
+    "limitation": "Residual accompaniment and pitch modulation may remain; sampled individualnote, not studio isolated stem"
+  },
+  {
+    "file": "pc-midkeys-bb4.wav",
+    "rootMidi": 70,
+    "rootNote": "bb4",
+    "sourceTimeSeconds": 204.501,
+    "durationSeconds": 0.205,
+    "normalizationScale": 1.1504333415312784,
+    "processing": "AI-separated other stem, highpass 370Hz, edge fades",
+    "limitation": "Residual accompaniment and pitch modulation may remain; sampled individualnote, not studio isolated stem"
+  }
+]

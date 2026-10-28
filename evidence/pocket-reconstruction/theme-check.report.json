@@ -1,0 +1,113 @@
+{
+  "scoreFile": "<LEGACY_WORKSPACE>/Pocket Calculator-主题循环.strudel",
+  "scoreSha256": "1bbbbcc5595c9aada50a02976eab5ec19237fdb18caed129be92a839e1087c0a",
+  "engine": "Installed Strudel core/transpiler/tonal and unmodified Superdough, node-web-audio-api OfflineAudioContext",
+  "hostAdapter": "Unused Vite worklet resource import stub; visualizers are no-ops; local sample URL reads; no synth/envelope/filter/pan/delay substitution.",
+  "postprocessing": "Constant peak normalization to 0.84; 0.15-second tail fade; AAC preview",
+  "bpm": 136,
+  "cps": 0.5666666666666667,
+  "begin": 0,
+  "cycles": 4,
+  "musicalDurationSeconds": 7.0588235294117645,
+  "durationSeconds": 8.058843537414965,
+  "sampleRate": 44100,
+  "channels": 2,
+  "events": 61,
+  "sounds": [
+    "pc_lead",
+    "pcKit2",
+    "pc_bass",
+    "pcKit5",
+    "pcKit4"
+  ],
+  "localSampleFiles": [
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/score.json",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-ab3.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-2.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-bb3.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-bass-bb1.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-5.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-f4.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-4.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-eb4.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-d4.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-c4.wav"
+  ],
+  "localResourceHashes": {
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/score.json": {
+      "sha256": "dbc76a949e8a964709bd085c67b442812d594613ff5bff1263ad70bc15b7b4c3",
+      "bytes": 95447
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-ab3.wav": {
+      "sha256": "5c031f7b96d559fe07cfd65ba61f7cbb98f639551596669ec5c0a1edb1c38edd",
+      "bytes": 19844
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-2.wav": {
+      "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05",
+      "bytes": 32676
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-bb3.wav": {
+      "sha256": "bf5e03d3dd8d0bec68fa7c662d12a47ae6b460aed5b36eab9316b253af472ed2",
+      "bytes": 19184
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-bass-bb1.wav": {
+      "sha256": "8a2371a1329a786f21219227a6297a672f9a9bc1a2f6909d413b00970536af2c",
+      "bytes": 38148
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-5.wav": {
+      "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5",
+      "bytes": 32676
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-f4.wav": {
+      "sha256": "86fbb3b48c56d2ec45bb687366aa2737288ecb887bf5d332a6b7557f3a72832f",
+      "bytes": 19184
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-4.wav": {
+      "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958",
+      "bytes": 32676
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-eb4.wav": {
+      "sha256": "4db1e759764c8586a7d56d7119e4b7e0db55a8c65a2731d75b2b11e0fade1975",
+      "bytes": 19182
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-d4.wav": {
+      "sha256": "ccac7e63a37143630542a32dd888f6246792c3a16f623f200c8b7ff372d04d01",
+      "bytes": 19272
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-c4.wav": {
+      "sha256": "fde4ef6f45273eb6a96c594e00ec2085514c9fd6aab65327fdc455a88020fb69",
+      "bytes": 18124
+    }
+  },
+  "rawPeak": 0.6720767021179199,
+  "rawRmsDbFS": -23.401200881228345,
+  "normalizationGain": 1.2498573412125464,
+  "finalPeak": 0.84,
+  "finalPeakDbFS": -1.5144142787623671,
+  "finalRmsDbFS": -21.46399197242497,
+  "nonFiniteSamples": 0,
+  "wavFile": "<LEGACY_WORKSPACE>/.pocket-reconstruction/theme-check.wav",
+  "m4aFile": "<LEGACY_WORKSPACE>/.pocket-reconstruction/theme-check.m4a",
+  "byBar": [
+    {
+      "cycle": 0,
+      "rmsDbFS": -19.177834457885076,
+      "peak": 0.84
+    },
+    {
+      "cycle": 1,
+      "rmsDbFS": -23.869653772143963,
+      "peak": 0.6119794004315168
+    },
+    {
+      "cycle": 2,
+      "rmsDbFS": -19.188145360981295,
+      "peak": 0.8363719813515513
+    },
+    {
+      "cycle": 3,
+      "rmsDbFS": -23.608279426908474,
+      "peak": 0.6047298816486182
+    }
+  ]
+}

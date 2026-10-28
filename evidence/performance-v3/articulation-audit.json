@@ -1,0 +1,100 @@
+{
+  "checkedAt": "2026-10-27",
+  "sourceCommit": "fdaa55937776dbd644da3d64e864527df4a105a6",
+  "sourceFiles": [
+    {
+      "path": "strudel/packages/superdough/helpers.mjs",
+      "lines": "341-378",
+      "evidence": "Native pitch envelope and immediate fixed-amplitude sine vibrato"
+    },
+    {
+      "path": "strudel/packages/superdough/sampler.mjs",
+      "lines": "292-363",
+      "evidence": "Pitch envelope/vibrato modify AudioBufferSourceNode.detune, base playbackRate maps sample pitch"
+    },
+    {
+      "path": "strudel/packages/superdough/helpers.mjs",
+      "lines": "182-192,621-627",
+      "evidence": "ADSR minima and onceEnded overwriting onended"
+    },
+    {
+      "path": "strudel/packages/superdough/superdoughdata.mjs",
+      "lines": "141-142",
+      "evidence": "vibmod modulation targets vib_gain.gain in cents"
+    }
+  ],
+  "v2Observations": {
+    "guitarEvents": 728,
+    "slideEvents": 0,
+    "vibratoEvents": 0,
+    "minTailSeconds": 0.6386363636363637,
+    "maxTailSeconds": 0.8454545454545455,
+    "limitations": [
+      "Every note triggers a picked sample; no continuous finger-contact slide recording",
+      "Fixed eighth-note subdivision dominates the ostinato",
+      "Same clip/release on each voice causes unnatural same-string tail overlap",
+      "No authored long-note vibrato or phrase-ending pitch gestures",
+      "Sample layer choice and gain do not consistently follow downstroke/upstroke accents"
+    ]
+  },
+  "nativeAPI": {
+    "penv": {
+      "units": "semitones",
+      "formula": "min=-penv*100*panchor; max=penv*100*(1-panchor); getParamADSR(min,max)",
+      "pattack": "seconds",
+      "pdecay": "seconds",
+      "psustain": "fraction 0..1",
+      "prelease": "seconds, minimum .01",
+      "panchor": "0..1, defaults to psustain",
+      "pcurve": "0 linear, 1 exponential; use linear for signed cents",
+      "warning": "Pitch envelope returns to min after holdEnd, causing a downward/upward release tail. Custom slide avoids it."
+    },
+    "vib": {
+      "units": "Hz",
+      "onset": "immediate at event t",
+      "vibmod": "semitones peak amplitude, default .5",
+      "delayedOnset": "No native vibdelay; custom wrapper is required for true delay"
+    },
+    "clip": "event gate multiplier, not portamento or sample legato",
+    "release": "seconds after gate; cannot encode physical same-string fingering by itself"
+  },
+  "extensions": {
+    "instrumentNames": {
+      "roof_live": "roof_clean",
+      "roof_live_soft": "roof_clean_soft"
+    },
+    "module": "guitar-articulation.mjs",
+    "sharedCurveModule": "articulation-curves.mjs",
+    "call": "installGuitarArticulations({getSound,registerSound,getAudioContext}) after samples()",
+    "fields": {
+      "slideFrom": "relative semitones at onset; -2 glides upward to target",
+      "slideTime": "seconds, recommended .055-.12",
+      "pickCents": "brief positive cents offset, recommended 0..5",
+      "pickDecay": "seconds to zero, recommended .035-.065",
+      "vib": "Hz, only set on selected long notes",
+      "vibmod": "semitone peak depth, recommended .08-.18",
+      "vibdelay": "seconds before oscillator starts, recommended .20-.35",
+      "vibattack": "seconds to linearly reach depth, recommended .12-.22"
+    },
+    "staticCurve": "slideFrom*100*(1-smoothstep(t/slideTime)) + pickCents*(1-smoothstep(t/pickDecay)); returns to exactly 0 and holds there",
+    "vibratoCurve": "100*vibmod*clamp((t-vibdelay)/vibattack,0,1)*sin(2*pi*vib*(t-vibdelay)); zero before delay",
+    "curveSampling": "1 kHz control curve, linear interpolation by WebAudio, maximum4097 points",
+    "cleanup": "addEventListener(ended,{once:true}) preserves base onended; stops/disconnects oscillator and gain when last source ends; handle and stop remain owned by base sampler"
+  },
+  "musicalConstraints": [
+    "Use one guitar-string assignment per fretted voice; end the prior same-string note before another fretted note, while genuine open strings may ring.",
+    "Standard tuning MIDI low-to-high = [40,45,50,55,59,64]; constrain each event to plausible 0..20 fret range and chords to <=6 unique strings.",
+    "Short slides generally move 1-2 semitones on the same string. Do not apply a whole-chord pitch ramp, which sounds like a synth wheel.",
+    "Pickups can use soft layers and short gates; strong downstrokes use normal layers. Rotate RR independently of velocity level.",
+    "Apply vibrato only to selected sustained phrase ends, not to every eighth note. Pitch modulation cannot manufacture missing fret/noise articulations.",
+    "Keep strong drum anchors; use coherent 2-8 ms timing offsets for a phrase, not independent full-range randomness on every hit.",
+    "A sample retrigger with short attack is not true hammer-on/pull-off. Simulate sparingly with quieter/softer articulations and acknowledge this limit."
+  ],
+  "tests": {
+    "mockCommand": "node .performance-v3/articulation-mock-test.mjs",
+    "mockResult": "passed",
+    "fragmentCommand": "Node core.repl evaluate(false) + queryArc(0,1)",
+    "fragmentResult": "3 passed",
+    "noSpeakerPlayback": true
+  }
+}

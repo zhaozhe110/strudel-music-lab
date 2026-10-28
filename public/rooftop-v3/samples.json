@@ -1,0 +1,286 @@
+{
+  "_base": "http://127.0.0.1:3009/rooftop-v2/",
+  "roof_clean": {
+    "d3": [
+      "guitar/D3_s3_01.flac",
+      "guitar/D3_s3_02.flac",
+      "guitar/D3_s3_03.flac",
+      "guitar/D3_s3_04.flac"
+    ],
+    "g3": [
+      "guitar/G3_s4_01.flac",
+      "guitar/G3_s4_02.flac",
+      "guitar/G3_s4_03.flac",
+      "guitar/G3_s4_04.flac"
+    ],
+    "b3": [
+      "guitar/B3_s5_01.flac",
+      "guitar/B3_s5_02.flac",
+      "guitar/B3_s5_03.flac",
+      "guitar/B3_s5_04.flac"
+    ],
+    "cs4": [
+      "guitar/Cs4_s5_01.flac",
+      "guitar/Cs4_s5_02.flac",
+      "guitar/Cs4_s5_03.flac",
+      "guitar/Cs4_s5_04.flac"
+    ],
+    "e4": [
+      "guitar/E4_s6_01.flac",
+      "guitar/E4_s6_02.flac",
+      "guitar/E4_s6_03.flac",
+      "guitar/E4_s6_04.flac"
+    ],
+    "g4": [
+      "guitar/G4_s6_01.flac",
+      "guitar/G4_s6_02.flac",
+      "guitar/G4_s6_03.flac",
+      "guitar/G4_s6_04.flac"
+    ],
+    "b4": [
+      "guitar/B4_s6_01.flac",
+      "guitar/B4_s6_02.flac",
+      "guitar/B4_s6_03.flac",
+      "guitar/B4_s6_04.flac"
+    ],
+    "d5": [
+      "guitar/D5_s6_01.flac",
+      "guitar/D5_s6_02.flac",
+      "guitar/D5_s6_03.flac",
+      "guitar/D5_s6_soft_01.flac"
+    ],
+    "f5": [
+      "guitar/F5_s6_01.flac",
+      "guitar/F5_s6_02.flac",
+      "guitar/F5_s6_03.flac",
+      "guitar/F5_s6_04.flac"
+    ],
+    "gs5": [
+      "guitar/Gs5_s6_01.flac",
+      "guitar/Gs5_s6_02.flac",
+      "guitar/Gs5_s6_03.flac",
+      "guitar/Gs5_s6_04.flac"
+    ]
+  },
+  "roof_clean_soft": {
+    "d3": [
+      "guitar/D3_s3_soft_01.flac",
+      "guitar/D3_s3_soft_02.flac",
+      "guitar/D3_s3_soft_03.flac",
+      "guitar/D3_s3_soft_04.flac"
+    ],
+    "g3": [
+      "guitar/G3_s4_soft_01.flac",
+      "guitar/G3_s4_soft_02.flac",
+      "guitar/G3_s4_soft_03.flac",
+      "guitar/G3_s4_soft_04.flac"
+    ],
+    "b3": [
+      "guitar/B3_s5_soft_01.flac",
+      "guitar/B3_s5_soft_02.flac",
+      "guitar/B3_s5_soft_03.flac",
+      "guitar/B3_s5_soft_04.flac"
+    ],
+    "cs4": [
+      "guitar/Cs4_s5_soft_01.flac",
+      "guitar/Cs4_s5_soft_02.flac",
+      "guitar/Cs4_s5_soft_03.flac",
+      "guitar/Cs4_s5_soft_04.flac"
+    ],
+    "e4": [
+      "guitar/E4_s6_soft_01.flac",
+      "guitar/E4_s6_soft_02.flac",
+      "guitar/E4_s6_soft_03.flac",
+      "guitar/E4_s6_soft_04.flac"
+    ],
+    "g4": [
+      "guitar/G4_s6_01.flac",
+      "guitar/G4_s6_02.flac",
+      "guitar/G4_s6_03.flac",
+      "guitar/G4_s6_04.flac"
+    ],
+    "b4": [
+      "guitar/B4_s6_01.flac",
+      "guitar/B4_s6_02.flac",
+      "guitar/B4_s6_03.flac",
+      "guitar/B4_s6_04.flac"
+    ],
+    "d5": [
+      "guitar/D5_s6_01.flac",
+      "guitar/D5_s6_02.flac",
+      "guitar/D5_s6_03.flac",
+      "guitar/D5_s6_soft_01.flac"
+    ],
+    "f5": [
+      "guitar/F5_s6_01.flac",
+      "guitar/F5_s6_02.flac",
+      "guitar/F5_s6_03.flac",
+      "guitar/F5_s6_04.flac"
+    ],
+    "gs5": [
+      "guitar/Gs5_s6_01.flac",
+      "guitar/Gs5_s6_02.flac",
+      "guitar/Gs5_s6_03.flac",
+      "guitar/Gs5_s6_04.flac"
+    ]
+  },
+  "roof_kick": [
+    "drums/mid_kick_snon_vl3_rr1.flac",
+    "drums/mid_kick_snon_vl3_rr2.flac"
+  ],
+  "roof_snare": [
+    "drums/mid_snare_center_vl25.flac",
+    "drums/mid_snare_center_vl26.flac",
+    "drums/mid_snare_center_vl27.flac",
+    "drums/mid_snare_center_vl28.flac"
+  ],
+  "roof_snare_soft": [
+    "drums/mid_snare_center_vl8.flac",
+    "drums/mid_snare_center_vl9.flac"
+  ],
+  "roof_hh": [
+    "drums/mid_hh_closed_vl2_rr1.flac",
+    "drums/mid_hh_closed_vl2_rr2.flac",
+    "drums/mid_hh_closed_vl3_rr1.flac",
+    "drums/mid_hh_closed_vl3_rr2.flac"
+  ],
+  "roof_half": [
+    "drums/mid_hh_half_vl2_rr1.flac",
+    "drums/mid_hh_half_vl2_rr2.flac"
+  ],
+  "roof_oh": [
+    "drums/mid_hh_open_vl2_rr1.flac",
+    "drums/mid_hh_open_vl2_rr2.flac"
+  ],
+  "roof_crash": [
+    "drums/mid_crash_crash_vl2_rr1.flac"
+  ],
+  "roof_ride": [
+    "drums/mid_ride_ride_vl2_rr1.flac",
+    "drums/mid_ride_ride_vl2_rr2.flac"
+  ],
+  "roof_live": {
+    "d3": [
+      "guitar/D3_s3_01.flac",
+      "guitar/D3_s3_02.flac",
+      "guitar/D3_s3_03.flac",
+      "guitar/D3_s3_04.flac"
+    ],
+    "g3": [
+      "guitar/G3_s4_01.flac",
+      "guitar/G3_s4_02.flac",
+      "guitar/G3_s4_03.flac",
+      "guitar/G3_s4_04.flac"
+    ],
+    "b3": [
+      "guitar/B3_s5_01.flac",
+      "guitar/B3_s5_02.flac",
+      "guitar/B3_s5_03.flac",
+      "guitar/B3_s5_04.flac"
+    ],
+    "cs4": [
+      "guitar/Cs4_s5_01.flac",
+      "guitar/Cs4_s5_02.flac",
+      "guitar/Cs4_s5_03.flac",
+      "guitar/Cs4_s5_04.flac"
+    ],
+    "e4": [
+      "guitar/E4_s6_01.flac",
+      "guitar/E4_s6_02.flac",
+      "guitar/E4_s6_03.flac",
+      "guitar/E4_s6_04.flac"
+    ],
+    "g4": [
+      "guitar/G4_s6_01.flac",
+      "guitar/G4_s6_02.flac",
+      "guitar/G4_s6_03.flac",
+      "guitar/G4_s6_04.flac"
+    ],
+    "b4": [
+      "guitar/B4_s6_01.flac",
+      "guitar/B4_s6_02.flac",
+      "guitar/B4_s6_03.flac",
+      "guitar/B4_s6_04.flac"
+    ],
+    "d5": [
+      "guitar/D5_s6_01.flac",
+      "guitar/D5_s6_02.flac",
+      "guitar/D5_s6_03.flac",
+      "guitar/D5_s6_soft_01.flac"
+    ],
+    "f5": [
+      "guitar/F5_s6_01.flac",
+      "guitar/F5_s6_02.flac",
+      "guitar/F5_s6_03.flac",
+      "guitar/F5_s6_04.flac"
+    ],
+    "gs5": [
+      "guitar/Gs5_s6_01.flac",
+      "guitar/Gs5_s6_02.flac",
+      "guitar/Gs5_s6_03.flac",
+      "guitar/Gs5_s6_04.flac"
+    ]
+  },
+  "roof_live_soft": {
+    "d3": [
+      "guitar/D3_s3_soft_01.flac",
+      "guitar/D3_s3_soft_02.flac",
+      "guitar/D3_s3_soft_03.flac",
+      "guitar/D3_s3_soft_04.flac"
+    ],
+    "g3": [
+      "guitar/G3_s4_soft_01.flac",
+      "guitar/G3_s4_soft_02.flac",
+      "guitar/G3_s4_soft_03.flac",
+      "guitar/G3_s4_soft_04.flac"
+    ],
+    "b3": [
+      "guitar/B3_s5_soft_01.flac",
+      "guitar/B3_s5_soft_02.flac",
+      "guitar/B3_s5_soft_03.flac",
+      "guitar/B3_s5_soft_04.flac"
+    ],
+    "cs4": [
+      "guitar/Cs4_s5_soft_01.flac",
+      "guitar/Cs4_s5_soft_02.flac",
+      "guitar/Cs4_s5_soft_03.flac",
+      "guitar/Cs4_s5_soft_04.flac"
+    ],
+    "e4": [
+      "guitar/E4_s6_soft_01.flac",
+      "guitar/E4_s6_soft_02.flac",
+      "guitar/E4_s6_soft_03.flac",
+      "guitar/E4_s6_soft_04.flac"
+    ],
+    "g4": [
+      "guitar/G4_s6_01.flac",
+      "guitar/G4_s6_02.flac",
+      "guitar/G4_s6_03.flac",
+      "guitar/G4_s6_04.flac"
+    ],
+    "b4": [
+      "guitar/B4_s6_01.flac",
+      "guitar/B4_s6_02.flac",
+      "guitar/B4_s6_03.flac",
+      "guitar/B4_s6_04.flac"
+    ],
+    "d5": [
+      "guitar/D5_s6_01.flac",
+      "guitar/D5_s6_02.flac",
+      "guitar/D5_s6_03.flac",
+      "guitar/D5_s6_soft_01.flac"
+    ],
+    "f5": [
+      "guitar/F5_s6_01.flac",
+      "guitar/F5_s6_02.flac",
+      "guitar/F5_s6_03.flac",
+      "guitar/F5_s6_04.flac"
+    ],
+    "gs5": [
+      "guitar/Gs5_s6_01.flac",
+      "guitar/Gs5_s6_02.flac",
+      "guitar/Gs5_s6_03.flac",
+      "guitar/Gs5_s6_04.flac"
+    ]
+  }
+}

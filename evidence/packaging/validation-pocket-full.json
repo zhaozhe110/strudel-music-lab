@@ -1,0 +1,539 @@
+{
+  "scope": "Structural and local-resource validation, not a subjective listening test or browser audio verification.",
+  "ok": true,
+  "results": [
+    {
+      "source": "pieces/reference/Pocket Calculator-复刻版.strudel",
+      "ok": true,
+      "sourceSha256": "9c7ad268f1d0bdd1fe6cacfb2250c6cb7e0f37f4d66e7d66be3c9aa06bfa497b",
+      "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+      "bpm": 135.85,
+      "selection": {
+        "begin": 0,
+        "cycles": 168.01780829166668,
+        "end": 168.01780829166668
+      },
+      "seconds": 296.8294,
+      "events": 2621,
+      "sounds": {
+        "pc_lead": 762,
+        "pcKit2": 617,
+        "pc_bass": 373,
+        "pcKit0": 76,
+        "pcKit4": 199,
+        "pcKit5": 256,
+        "pcKit1": 138,
+        "pcKit3": 40,
+        "pc_keys": 136,
+        "pc_voice": 24
+      },
+      "declaredSampleFiles": 41,
+      "localSampleFilesVerified": 41,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-0.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-0.wav",
+          "bytes": 32676,
+          "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-1.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-1.wav",
+          "bytes": 32676,
+          "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-2.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-2.wav",
+          "bytes": 32676,
+          "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-3.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-3.wav",
+          "bytes": 32676,
+          "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-4.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-4.wav",
+          "bytes": 32676,
+          "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-5.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-5.wav",
+          "bytes": 32676,
+          "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-bass-bb1.wav",
+          "file": "public/pocket-calculator-remake/pc-bass-bb1.wav",
+          "bytes": 38148,
+          "sha256": "8a2371a1329a786f21219227a6297a672f9a9bc1a2f6909d413b00970536af2c"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-ab3.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-ab3.wav",
+          "bytes": 19844,
+          "sha256": "5c031f7b96d559fe07cfd65ba61f7cbb98f639551596669ec5c0a1edb1c38edd"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-bb3.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-bb3.wav",
+          "bytes": 19184,
+          "sha256": "bf5e03d3dd8d0bec68fa7c662d12a47ae6b460aed5b36eab9316b253af472ed2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-f4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-f4.wav",
+          "bytes": 19184,
+          "sha256": "86fbb3b48c56d2ec45bb687366aa2737288ecb887bf5d332a6b7557f3a72832f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-eb4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-eb4.wav",
+          "bytes": 19182,
+          "sha256": "4db1e759764c8586a7d56d7119e4b7e0db55a8c65a2731d75b2b11e0fade1975"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-d4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-d4.wav",
+          "bytes": 19272,
+          "sha256": "ccac7e63a37143630542a32dd888f6246792c3a16f623f200c8b7ff372d04d01"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-c4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-c4.wav",
+          "bytes": 18124,
+          "sha256": "fde4ef6f45273eb6a96c594e00ec2085514c9fd6aab65327fdc455a88020fb69"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-fs6.wav",
+          "file": "public/pocket-calculator-remake/pc-buzz-fs6.wav",
+          "bytes": 49436,
+          "sha256": "111c3193eeeec48c981c77807bde08a7c2ae93689ace5dd6321a5ef309b7676a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-g5.wav",
+          "file": "public/pocket-calculator-remake/pc-buzz-g5.wav",
+          "bytes": 45908,
+          "sha256": "b3d03e9ce25edc96c2322ab1ffb3ef26b073100abc5f69ce5f70ba7308758180"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-ab4.wav",
+          "file": "public/pocket-calculator-remake/pc-midkeys-ab4.wav",
+          "bytes": 36204,
+          "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-bb4.wav",
+          "file": "public/pocket-calculator-remake/pc-midkeys-bb4.wav",
+          "bytes": 36204,
+          "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-00.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-00.wav",
+          "bytes": 398708,
+          "sha256": "471f86c980a52da603c240eb4ec2eb4bd4c673842262c447ec19f76365909448"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-01.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-01.wav",
+          "bytes": 218780,
+          "sha256": "a21397b7a1c5a8d53123586f8d8bd93c5acb73b2c69bc19da889b2b473628c7f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-02.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-02.wav",
+          "bytes": 202904,
+          "sha256": "9d015ad89c01d54067df7a38b3a85cca06fdca2a0266222b317796f407e2990d"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-03.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-03.wav",
+          "bytes": 388124,
+          "sha256": "51fa042a9b7888e59154df7e621babd1b618e7e6352c64d8e7590fd002793050"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-04.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-04.wav",
+          "bytes": 234656,
+          "sha256": "827dba2b31478b50841827eb82128f2f595c191e39231ab18cb48fc7babe47c9"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-05.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-05.wav",
+          "bytes": 217016,
+          "sha256": "16edee8073faae0ea528d60e844d2d3973ffa07f3c0a6c793d7c170379718796"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-06.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-06.wav",
+          "bytes": 204668,
+          "sha256": "bf4edc655009116fe5c80914104c9ce09383af64d29b6c31b83a9c4556831bf6"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-07.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-07.wav",
+          "bytes": 227600,
+          "sha256": "0606fd5f835acdc46d9c6f955bd9c2deb00472d552556a9edfd39214453af384"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-08.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-08.wav",
+          "bytes": 407528,
+          "sha256": "82c94e30993558696bc0fbef5c3b6bcfb1c4fcf10e0177e2ba2fbe238984b64a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-09.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-09.wav",
+          "bytes": 197612,
+          "sha256": "40e6a0351d5dbdb35ab9fa27ac75ce7cb3520b30a92dcfcb51ddca687e27b10d"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-10.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-10.wav",
+          "bytes": 393416,
+          "sha256": "d98e84ea59c1209ce80845626b5ae8b929e459ad9cb8838083bb8d7249937dfb"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-11.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-11.wav",
+          "bytes": 190556,
+          "sha256": "58ae46961cd0987c5504d3f5f015640561cd486a59d412d7d3c2a0347cd9c7b2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-12.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-12.wav",
+          "bytes": 231128,
+          "sha256": "0497fe437b2874c1579e0a71d6e148a86ffe4ae55bd5ff8e2bf800f3c2597ac9"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-13.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-13.wav",
+          "bytes": 181736,
+          "sha256": "941dea0612932f136bcd5b148b0522ebcfbf8886eaf60d1626e05f1d14068494"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-14.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-14.wav",
+          "bytes": 199376,
+          "sha256": "7944207a038647b30bdc8be93ac1e7b4a8a34bcab550a2199a6bb09bc1424d3f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-15.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-15.wav",
+          "bytes": 217016,
+          "sha256": "952ff84a219041544a62a7121450fd3b1696b8b05fd5003c99debbe4cee92a43"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-16.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-16.wav",
+          "bytes": 352844,
+          "sha256": "bb8401977ad6e691346b22ea1195f5ef285ad931ef62ba13629a89f8ec32e778"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-17.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-17.wav",
+          "bytes": 321092,
+          "sha256": "757ffce47d7414c8c3384f00befd3b82bde0dd56a76eebf73036bbac19af809b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-18.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-18.wav",
+          "bytes": 354608,
+          "sha256": "b8e548040be041fa0464256a2a213c7ca2b881ca0fc6b29687a58c6ed11c24bc"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-19.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-19.wav",
+          "bytes": 321092,
+          "sha256": "c8094c467e078e962ec20ece520c836089e80ca17f7b1d8f820dee30b08a634f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-20.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-20.wav",
+          "bytes": 441044,
+          "sha256": "44c0b6b9b79248b3b1088c9ebb824c48081133326cf2e82e2ce9a95a98d65dc1"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-21.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-21.wav",
+          "bytes": 155276,
+          "sha256": "7d24978d0f7a726fb2869a66f25c20c9e29053b0b738a1a2d23ce17b43801498"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-22.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-22.wav",
+          "bytes": 381068,
+          "sha256": "55d83eb71c9f9a17cd65d1a1debac9a6c37b018d053f42e89d99baa82849fa6f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-23.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-23.wav",
+          "bytes": 202904,
+          "sha256": "689d8db6cb834de770b269ea5c740480bf4be7b2f322f34acb7c02ea96575920"
+        }
+      ],
+      "fetchedResources": [
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/score.json",
+          "file": "public/pocket-calculator-remake/score.json",
+          "bytes": 95447,
+          "sha256": "dbc76a949e8a964709bd085c67b442812d594613ff5bff1263ad70bc15b7b4c3"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-0.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-0.wav",
+          "bytes": 32676,
+          "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-1.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-1.wav",
+          "bytes": 32676,
+          "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-2.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-2.wav",
+          "bytes": 32676,
+          "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-3.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-3.wav",
+          "bytes": 32676,
+          "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-4.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-4.wav",
+          "bytes": 32676,
+          "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-5.wav",
+          "file": "public/pocket-calculator-remake/pc-kit-5.wav",
+          "bytes": 32676,
+          "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-bass-bb1.wav",
+          "file": "public/pocket-calculator-remake/pc-bass-bb1.wav",
+          "bytes": 38148,
+          "sha256": "8a2371a1329a786f21219227a6297a672f9a9bc1a2f6909d413b00970536af2c"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-ab3.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-ab3.wav",
+          "bytes": 19844,
+          "sha256": "5c031f7b96d559fe07cfd65ba61f7cbb98f639551596669ec5c0a1edb1c38edd"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-bb3.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-bb3.wav",
+          "bytes": 19184,
+          "sha256": "bf5e03d3dd8d0bec68fa7c662d12a47ae6b460aed5b36eab9316b253af472ed2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-f4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-f4.wav",
+          "bytes": 19184,
+          "sha256": "86fbb3b48c56d2ec45bb687366aa2737288ecb887bf5d332a6b7557f3a72832f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-eb4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-eb4.wav",
+          "bytes": 19182,
+          "sha256": "4db1e759764c8586a7d56d7119e4b7e0db55a8c65a2731d75b2b11e0fade1975"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-d4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-d4.wav",
+          "bytes": 19272,
+          "sha256": "ccac7e63a37143630542a32dd888f6246792c3a16f623f200c8b7ff372d04d01"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-c4.wav",
+          "file": "public/pocket-calculator-remake/pc-lead-c4.wav",
+          "bytes": 18124,
+          "sha256": "fde4ef6f45273eb6a96c594e00ec2085514c9fd6aab65327fdc455a88020fb69"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-fs6.wav",
+          "file": "public/pocket-calculator-remake/pc-buzz-fs6.wav",
+          "bytes": 49436,
+          "sha256": "111c3193eeeec48c981c77807bde08a7c2ae93689ace5dd6321a5ef309b7676a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-g5.wav",
+          "file": "public/pocket-calculator-remake/pc-buzz-g5.wav",
+          "bytes": 45908,
+          "sha256": "b3d03e9ce25edc96c2322ab1ffb3ef26b073100abc5f69ce5f70ba7308758180"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-ab4.wav",
+          "file": "public/pocket-calculator-remake/pc-midkeys-ab4.wav",
+          "bytes": 36204,
+          "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-bb4.wav",
+          "file": "public/pocket-calculator-remake/pc-midkeys-bb4.wav",
+          "bytes": 36204,
+          "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-00.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-00.wav",
+          "bytes": 398708,
+          "sha256": "471f86c980a52da603c240eb4ec2eb4bd4c673842262c447ec19f76365909448"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-01.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-01.wav",
+          "bytes": 218780,
+          "sha256": "a21397b7a1c5a8d53123586f8d8bd93c5acb73b2c69bc19da889b2b473628c7f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-02.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-02.wav",
+          "bytes": 202904,
+          "sha256": "9d015ad89c01d54067df7a38b3a85cca06fdca2a0266222b317796f407e2990d"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-03.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-03.wav",
+          "bytes": 388124,
+          "sha256": "51fa042a9b7888e59154df7e621babd1b618e7e6352c64d8e7590fd002793050"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-04.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-04.wav",
+          "bytes": 234656,
+          "sha256": "827dba2b31478b50841827eb82128f2f595c191e39231ab18cb48fc7babe47c9"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-05.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-05.wav",
+          "bytes": 217016,
+          "sha256": "16edee8073faae0ea528d60e844d2d3973ffa07f3c0a6c793d7c170379718796"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-06.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-06.wav",
+          "bytes": 204668,
+          "sha256": "bf4edc655009116fe5c80914104c9ce09383af64d29b6c31b83a9c4556831bf6"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-07.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-07.wav",
+          "bytes": 227600,
+          "sha256": "0606fd5f835acdc46d9c6f955bd9c2deb00472d552556a9edfd39214453af384"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-08.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-08.wav",
+          "bytes": 407528,
+          "sha256": "82c94e30993558696bc0fbef5c3b6bcfb1c4fcf10e0177e2ba2fbe238984b64a"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-09.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-09.wav",
+          "bytes": 197612,
+          "sha256": "40e6a0351d5dbdb35ab9fa27ac75ce7cb3520b30a92dcfcb51ddca687e27b10d"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-10.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-10.wav",
+          "bytes": 393416,
+          "sha256": "d98e84ea59c1209ce80845626b5ae8b929e459ad9cb8838083bb8d7249937dfb"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-11.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-11.wav",
+          "bytes": 190556,
+          "sha256": "58ae46961cd0987c5504d3f5f015640561cd486a59d412d7d3c2a0347cd9c7b2"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-12.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-12.wav",
+          "bytes": 231128,
+          "sha256": "0497fe437b2874c1579e0a71d6e148a86ffe4ae55bd5ff8e2bf800f3c2597ac9"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-13.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-13.wav",
+          "bytes": 181736,
+          "sha256": "941dea0612932f136bcd5b148b0522ebcfbf8886eaf60d1626e05f1d14068494"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-14.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-14.wav",
+          "bytes": 199376,
+          "sha256": "7944207a038647b30bdc8be93ac1e7b4a8a34bcab550a2199a6bb09bc1424d3f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-15.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-15.wav",
+          "bytes": 217016,
+          "sha256": "952ff84a219041544a62a7121450fd3b1696b8b05fd5003c99debbe4cee92a43"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-16.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-16.wav",
+          "bytes": 352844,
+          "sha256": "bb8401977ad6e691346b22ea1195f5ef285ad931ef62ba13629a89f8ec32e778"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-17.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-17.wav",
+          "bytes": 321092,
+          "sha256": "757ffce47d7414c8c3384f00befd3b82bde0dd56a76eebf73036bbac19af809b"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-18.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-18.wav",
+          "bytes": 354608,
+          "sha256": "b8e548040be041fa0464256a2a213c7ca2b881ca0fc6b29687a58c6ed11c24bc"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-19.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-19.wav",
+          "bytes": 321092,
+          "sha256": "c8094c467e078e962ec20ece520c836089e80ca17f7b1d8f820dee30b08a634f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-20.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-20.wav",
+          "bytes": 441044,
+          "sha256": "44c0b6b9b79248b3b1088c9ebb824c48081133326cf2e82e2ce9a95a98d65dc1"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-21.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-21.wav",
+          "bytes": 155276,
+          "sha256": "7d24978d0f7a726fb2869a66f25c20c9e29053b0b738a1a2d23ce17b43801498"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-22.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-22.wav",
+          "bytes": 381068,
+          "sha256": "55d83eb71c9f9a17cd65d1a1debac9a6c37b018d053f42e89d99baa82849fa6f"
+        },
+        {
+          "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-23.wav",
+          "file": "public/pocket-calculator-remake/pc-voice-23.wav",
+          "bytes": 202904,
+          "sha256": "689d8db6cb834de770b269ea5c740480bf4be7b2f322f34acb7c02ea96575920"
+        }
+      ],
+      "offlineRender": {
+        "supported": true
+      }
+    }
+  ]
+}

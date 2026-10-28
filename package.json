@@ -1,0 +1,20 @@
+{
+  "name": "strudel-music-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local Strudel scores, samples, audio previews and reproducible offline rendering",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "start": "node scripts/start.mjs",
+    "render": "node scripts/render.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "node-web-audio-api": "2.2.0"
+  },
+  "devDependencies": {
+    "pnpm": "10.15.0"
+  }
+}

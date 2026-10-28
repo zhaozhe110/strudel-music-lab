@@ -1,0 +1,630 @@
+{
+  "scope": "Independent composition review of current V2 source and an original V3 blueprint. No transcription of the referenced song.",
+  "evidence": {
+    "source": "<LEGACY_WORKSPACE>/天台晚风-v2.strudel",
+    "referenceURL": "https://www.youtube.com/watch?v=vylz32_g52c",
+    "referenceAudioAuditioned": false,
+    "limits": "Source-code/music-structure review only. Do not treat this document as evidence of listening to the KEXP audio or of perceptual improvement."
+  },
+  "diagnosis": [
+    {
+      "problem": "The main arpeggio is an uninterrupted eight-note ladder in every bar.",
+      "evidence": "left uses eight equally spaced notes in each of four rows; it remains active in all 36 bars.",
+      "consequence": "Changing samples preserves a sequencer-like motor. There is no phrase breath or memorable rhythm cell."
+    },
+    {
+      "problem": "Too many competing upper voices.",
+      "evidence": "The full sections stack left, right, chords, and lead concurrently.",
+      "consequence": "A four-part guitar texture obscures a single singable theme; it is denser than a clear two-guitar conversation."
+    },
+    {
+      "problem": "The supposed human offset is a fixed musical displacement.",
+      "evidence": "right.late(1/16) at 132 BPM equals about 114 ms.",
+      "consequence": "This creates a systematic syncopation, not varied picking microtiming. Retain only if musically intentional."
+    },
+    {
+      "problem": "Rhythmic changes are mostly instrumentation swaps.",
+      "evidence": "The same kick/snare ostinato is reused; hats keep eight eighths; lastOf(4) only adds two ghost hits; full sections repeat identically.",
+      "consequence": "More layers and louder cymbals do not create math-rock phrase development."
+    },
+    {
+      "problem": "A four-bar harmony loop underlies every section.",
+      "evidence": "D/F#/G/A root loop and same four-bar lead recur unchanged.",
+      "consequence": "Neither the melody nor harmony changes direction at the second climax."
+    },
+    {
+      "problem": "Notes have nearly uniform articulation.",
+      "evidence": "Fixed clip/attack/release values per guitar, long shared tails, no slide/late vibrato or string-aware damping.",
+      "consequence": "Repeated long overlap and homogeneous attacks expose sample playback despite real recordings."
+    }
+  ],
+  "direction": {
+    "tempoBPM": 126,
+    "primaryKey": "D major / B minor color",
+    "leadInstrumentCount": 2,
+    "coreRule": "One foreground melodic guitar. The second guitar answers in its rests or plays a sparse rhythmic voicing; never add an unrelated third lead line.",
+    "melodyRule": "Repeat an identifiable rhythm and first few notes, then alter the destination and phrase ending. At least one sustained note and one deliberate rest per two-bar phrase.",
+    "mathRule": "Use displaced accents, interlocking rests and one short odd-meter passage. A clear 4/4 hook must remain the anchor."
+  },
+  "motifs": {
+    "A": {
+      "name": "Question and answer",
+      "lengthQuarter": 8,
+      "meters": [
+        4,
+        4
+      ],
+      "intent": "A singable pickup, step down, leap into a high target, then a slower answer. This is a newly composed phrase; it is not extracted from the reference.",
+      "question": [
+        {
+          "startQuarter": 0.5,
+          "durationQuarter": 0.5,
+          "pitch": "fs4",
+          "articulation": "light-picked",
+          "accent": 0.74
+        },
+        {
+          "startQuarter": 1,
+          "durationQuarter": 0.5,
+          "pitch": "e4",
+          "articulation": "picked",
+          "accent": 0.69
+        },
+        {
+          "startQuarter": 1.75,
+          "durationQuarter": 0.75,
+          "pitch": "a4",
+          "articulation": "picked",
+          "accent": 0.84
+        },
+        {
+          "startQuarter": 2.75,
+          "durationQuarter": 1.25,
+          "pitch": "b4",
+          "articulation": "late-vibrato",
+          "accent": 0.9
+        },
+        {
+          "startQuarter": 4,
+          "durationQuarter": 1,
+          "pitch": "a4",
+          "articulation": "legato-answer",
+          "accent": 0.75
+        },
+        {
+          "startQuarter": 5.5,
+          "durationQuarter": 0.5,
+          "pitch": "fs4",
+          "articulation": "light-picked",
+          "accent": 0.68
+        },
+        {
+          "startQuarter": 6,
+          "durationQuarter": 1.25,
+          "pitch": "e4",
+          "articulation": "late-vibrato",
+          "accent": 0.74
+        }
+      ],
+      "answer": [
+        {
+          "startQuarter": 0.5,
+          "durationQuarter": 0.5,
+          "pitch": "fs4",
+          "articulation": "light-picked",
+          "accent": 0.74
+        },
+        {
+          "startQuarter": 1,
+          "durationQuarter": 0.5,
+          "pitch": "e4",
+          "articulation": "picked",
+          "accent": 0.69
+        },
+        {
+          "startQuarter": 1.75,
+          "durationQuarter": 0.75,
+          "pitch": "a4",
+          "articulation": "picked",
+          "accent": 0.84
+        },
+        {
+          "startQuarter": 2.75,
+          "durationQuarter": 0.75,
+          "pitch": "d5",
+          "articulation": "slide-from-cs5",
+          "accent": 0.94
+        },
+        {
+          "startQuarter": 3.75,
+          "durationQuarter": 0.25,
+          "pitch": "cs5",
+          "articulation": "legato",
+          "accent": 0.65
+        },
+        {
+          "startQuarter": 4,
+          "durationQuarter": 0.75,
+          "pitch": "b4",
+          "articulation": "picked",
+          "accent": 0.79
+        },
+        {
+          "startQuarter": 5,
+          "durationQuarter": 0.5,
+          "pitch": "a4",
+          "articulation": "picked",
+          "accent": 0.7
+        },
+        {
+          "startQuarter": 5.75,
+          "durationQuarter": 0.5,
+          "pitch": "fs4",
+          "articulation": "light-picked",
+          "accent": 0.66
+        },
+        {
+          "startQuarter": 6.5,
+          "durationQuarter": 1.25,
+          "pitch": "d4",
+          "articulation": "late-vibrato",
+          "accent": 0.78
+        }
+      ],
+      "support": {
+        "questionChords": [
+          "Gadd9",
+          "Dadd9/F#"
+        ],
+        "answerChords": [
+          "Em7",
+          "A7sus4"
+        ],
+        "accompanimentRule": "During the held B4/A4/E4, one low two- or three-note voicing is enough. During the lead rest, give the second guitar a 2-note response. Do not keep the V2 continuous eighth-note ladder underneath."
+      },
+      "development": "On the second hook, keep the question prefix but delay one entry by an eighth; let the answer rise to D5 once, then resolve lower. Preserve recognition."
+    },
+    "B": {
+      "name": "Interlocking short-long cells",
+      "lengthQuarter": 8,
+      "meters": [
+        4,
+        4
+      ],
+      "accentGroupsEighths": [
+        [
+          3,
+          3,
+          2
+        ],
+        [
+          3,
+          2,
+          3
+        ]
+      ],
+      "intent": "A contrasting instrumental figure. The rests belong to the groove; do not fill every rest with delay repeats.",
+      "guitarOne": [
+        {
+          "startQuarter": 0,
+          "durationQuarter": 0.42,
+          "pitch": "d4",
+          "articulation": "accent-picked",
+          "accent": 0.95
+        },
+        {
+          "startQuarter": 0.5,
+          "durationQuarter": 0.35,
+          "pitch": "a4",
+          "articulation": "light-picked",
+          "accent": 0.67
+        },
+        {
+          "startQuarter": 1.5,
+          "durationQuarter": 0.42,
+          "pitch": "fs4",
+          "articulation": "accent-picked",
+          "accent": 0.87
+        },
+        {
+          "startQuarter": 2,
+          "durationQuarter": 0.35,
+          "pitch": "e4",
+          "articulation": "light-picked",
+          "accent": 0.65
+        },
+        {
+          "startQuarter": 3,
+          "durationQuarter": 0.45,
+          "pitch": "b4",
+          "articulation": "accent-picked",
+          "accent": 0.9
+        },
+        {
+          "startQuarter": 3.5,
+          "durationQuarter": 0.3,
+          "pitch": "a4",
+          "articulation": "light-picked",
+          "accent": 0.62
+        },
+        {
+          "startQuarter": 4,
+          "durationQuarter": 0.42,
+          "pitch": "g4",
+          "articulation": "accent-picked",
+          "accent": 0.92
+        },
+        {
+          "startQuarter": 4.5,
+          "durationQuarter": 0.35,
+          "pitch": "b4",
+          "articulation": "light-picked",
+          "accent": 0.65
+        },
+        {
+          "startQuarter": 5.5,
+          "durationQuarter": 0.42,
+          "pitch": "a4",
+          "articulation": "accent-picked",
+          "accent": 0.85
+        },
+        {
+          "startQuarter": 6.5,
+          "durationQuarter": 0.4,
+          "pitch": "fs4",
+          "articulation": "accent-picked",
+          "accent": 0.88
+        },
+        {
+          "startQuarter": 7,
+          "durationQuarter": 0.35,
+          "pitch": "e4",
+          "articulation": "light-picked",
+          "accent": 0.64
+        }
+      ],
+      "guitarTwo": [
+        {
+          "startQuarter": 1,
+          "durationQuarter": 0.3,
+          "pitch": "e5",
+          "articulation": "hammer-like",
+          "accent": 0.56
+        },
+        {
+          "startQuarter": 2.5,
+          "durationQuarter": 0.32,
+          "pitch": "d5",
+          "articulation": "picked",
+          "accent": 0.63
+        },
+        {
+          "startQuarter": 5,
+          "durationQuarter": 0.3,
+          "pitch": "d5",
+          "articulation": "hammer-like",
+          "accent": 0.56
+        },
+        {
+          "startQuarter": 6,
+          "durationQuarter": 0.3,
+          "pitch": "e5",
+          "articulation": "picked",
+          "accent": 0.6
+        },
+        {
+          "startQuarter": 7.5,
+          "durationQuarter": 0.35,
+          "pitch": "a4",
+          "articulation": "light-picked",
+          "accent": 0.52
+        }
+      ],
+      "adaptation7of8": "Remove the final eighth-note slot, keep the first 7 eighths at the same tempo. Do not squeeze a 4/4 phrase into 7/8. Let the next bar arrive one eighth early.",
+      "adaptation5of8": "Use a single 3+2 connecting bar: strong low dyad at 0, short reply at .5, rest at 1, two-note pickup at 1.5 and 2."
+    }
+  },
+  "form": [
+    {
+      "name": "intro",
+      "meters": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "beats": 16,
+      "material": "Sparse B fragments; reveal its accents. Bass pickup only in the final bar.",
+      "startQuarter": 0,
+      "startSeconds": 0,
+      "durationSeconds": 7.619
+    },
+    {
+      "name": "theme_A",
+      "meters": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "beats": 32,
+      "material": "A question / answer, then repeat with a different final target. Two-guitar conversation, closed-hat groove.",
+      "startQuarter": 16,
+      "startSeconds": 7.619,
+      "durationSeconds": 15.238
+    },
+    {
+      "name": "turn",
+      "meters": [
+        3.5
+      ],
+      "beats": 3.5,
+      "material": "7/8, group 2+2+3. A short stop then a pickup, not a random drum roll.",
+      "startQuarter": 48,
+      "startSeconds": 22.857,
+      "durationSeconds": 1.667
+    },
+    {
+      "name": "interlock_B",
+      "meters": [
+        3.5,
+        4,
+        3.5,
+        4
+      ],
+      "beats": 15,
+      "material": "B in alternating 7/8 and 4/4; drums follow group heads, melody guitar yields to the interlock.",
+      "startQuarter": 51.5,
+      "startSeconds": 24.524,
+      "durationSeconds": 7.143
+    },
+    {
+      "name": "reset",
+      "meters": [
+        2.5
+      ],
+      "beats": 2.5,
+      "material": "5/8, group 3+2. Leave the middle eighth empty and use the final two as a pickup.",
+      "startQuarter": 66.5,
+      "startSeconds": 31.667,
+      "durationSeconds": 1.19
+    },
+    {
+      "name": "theme_C",
+      "meters": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "beats": 32,
+      "material": "Return to A, wider but not uniformly higher; one sustained D5 at the phrase summit. Stronger backbeat, sparse open hats.",
+      "startQuarter": 69,
+      "startSeconds": 32.857,
+      "durationSeconds": 15.238
+    },
+    {
+      "name": "breath",
+      "meters": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "beats": 16,
+      "material": "Half-time feel. One guitar rings, the other is silent; bass moves only on harmonic changes.",
+      "startQuarter": 101,
+      "startSeconds": 48.095,
+      "durationSeconds": 7.619
+    },
+    {
+      "name": "final_C",
+      "meters": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "beats": 32,
+      "material": "Recognizable A with a changed answer and one displaced accent. Last two bars thin out instead of adding every layer.",
+      "startQuarter": 117,
+      "startSeconds": 55.714,
+      "durationSeconds": 15.238
+    },
+    {
+      "name": "outro",
+      "meters": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "beats": 16,
+      "material": "A short answer in a lower register and a final dyad. Stop new attacks and let real tails decay.",
+      "startQuarter": 149,
+      "startSeconds": 70.952,
+      "durationSeconds": 7.619
+    }
+  ],
+  "drums": {
+    "timingUnit": "quarter notes; onset values relative to each bar",
+    "versePair": [
+      {
+        "beats": 4,
+        "kick": [
+          0,
+          1.5,
+          2.75
+        ],
+        "snare": [
+          1,
+          3
+        ],
+        "closedHat": [
+          0,
+          0.5,
+          1,
+          1.5,
+          2,
+          2.5,
+          3
+        ]
+      },
+      {
+        "beats": 4,
+        "kick": [
+          0,
+          2.5,
+          3.5
+        ],
+        "snare": [
+          1,
+          3
+        ],
+        "closedHat": [
+          0,
+          0.5,
+          1,
+          2,
+          2.5,
+          3,
+          3.5
+        ],
+        "ghostSnare": [
+          2.75
+        ]
+      }
+    ],
+    "sevenEight": {
+      "beats": 3.5,
+      "grouping": [
+        2,
+        2,
+        3
+      ],
+      "kick": [
+        0,
+        2
+      ],
+      "snare": [
+        1,
+        3
+      ],
+      "closedHat": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        3
+      ]
+    },
+    "fiveEight": {
+      "beats": 2.5,
+      "grouping": [
+        3,
+        2
+      ],
+      "kick": [
+        0,
+        1.5
+      ],
+      "snare": [
+        2
+      ],
+      "closedHat": [
+        0,
+        0.5,
+        1.5,
+        2
+      ]
+    },
+    "hookPair": [
+      {
+        "beats": 4,
+        "kick": [
+          0,
+          0.75,
+          2,
+          2.75
+        ],
+        "snare": [
+          1,
+          3
+        ],
+        "hat": [
+          0,
+          0.5,
+          1,
+          1.5,
+          2,
+          2.5,
+          3,
+          3.5
+        ]
+      },
+      {
+        "beats": 4,
+        "kick": [
+          0,
+          1.75,
+          2.5
+        ],
+        "snare": [
+          1,
+          3
+        ],
+        "hat": [
+          0,
+          0.5,
+          1,
+          1.5,
+          2,
+          2.5,
+          3
+        ],
+        "snarePickup": [
+          3.5,
+          3.75
+        ]
+      }
+    ],
+    "rules": [
+      "Bass attacks share selected kick positions, not every guitar note.",
+      "Do not play closed and open hats at the same instant.",
+      "Sparse crash only on a major return; omit it on repeat 2 to keep development.",
+      "Ghost-note sample is quieter than full backbeat; not simply the same sample at equal velocity.",
+      "Keep the triplet/two-sixteenth fill confined to a phrase boundary."
+    ]
+  },
+  "performance": {
+    "slide": "Use only at 2–4 chosen phrase targets per 8 bars; approach by 1–2 semitones over about 50–90 ms. Do not sweep every note.",
+    "vibrato": "Only on sustained notes; begin roughly 180–250 ms after the pluck. Start shallow, about 6–12 cents, 4.3–5.2 Hz. No continuous oscillator on short eighths.",
+    "picking": "Accent phrase heads, lighter passing notes, sparse hammer-like notes with a softened attack; alternate pick recordings without resetting the exact RR order every bar.",
+    "muting": "Use short damped articulations for rhythmic dyads; let open strings ring only where a player could hold them. A new note on the same string damps the previous note.",
+    "microtiming": "Keep the score grid exact. Apply correlated small offsets: snare about 3–8 ms late, hats within roughly ±4 ms, bass near selected kick attacks. Never randomize the whole ensemble independently by tens of ms.",
+    "density": "During the main melody, at most one other guitar role. Do not stack four unrelated guitar parts as in V2."
+  },
+  "iterationGates": [
+    "Render hook alone with bass/drums and no decoration: the 4-note prefix and question/answer must remain recognizable.",
+    "Compare dry guitar against processed guitar at matched level. Reject long delays that refill intentional rests.",
+    "Audit actual event durations and bar lengths, not only a time-signature label: 7/8 must be 3.5 quarters, 5/8 2.5 quarters.",
+    "Count distinct kick/snare patterns and phrase endings; section labels with identical event timings are not rhythmic development.",
+    "Check actual slide trajectory and vibrato start time in render; presence of a parameter alone is insufficient.",
+    "For tonal judgment, explicitly distinguish model/source analysis from genuinely auditioned audio. Do not claim a listening pass from a nonzero RMS test."
+  ],
+  "formTotalQuarter": 165,
+  "durationSeconds": 78.57142857142857
+}

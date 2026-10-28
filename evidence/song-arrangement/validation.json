@@ -1,0 +1,77 @@
+{
+  "events": 119,
+  "preloaded": 48,
+  "totalBeats": 201,
+  "seconds": 121.81818181818181,
+  "finitePlayback": true,
+  "pitchAndSpeedUnchanged": true,
+  "slicesMatchSchedule": true,
+  "approvedSourcesAndBaseGainAndPanPreserved": true,
+  "fullLengthEvents": 72,
+  "shortSegmentMinimumBeats": 1,
+  "sections": [
+    {
+      "name": "intro",
+      "startBeat": 0,
+      "beats": 16,
+      "startSeconds": 0,
+      "endSeconds": 9.696969696969697
+    },
+    {
+      "name": "verse",
+      "startBeat": 16,
+      "beats": 32,
+      "startSeconds": 9.696969696969697,
+      "endSeconds": 29.09090909090909
+    },
+    {
+      "name": "turn_7_8",
+      "startBeat": 48,
+      "beats": 3.5,
+      "startSeconds": 29.09090909090909,
+      "endSeconds": 31.21212121212121
+    },
+    {
+      "name": "theme",
+      "startBeat": 51.5,
+      "beats": 32,
+      "startSeconds": 31.21212121212121,
+      "endSeconds": 50.60606060606061
+    },
+    {
+      "name": "math_interlude",
+      "startBeat": 83.5,
+      "beats": 13.5,
+      "startSeconds": 50.60606060606061,
+      "endSeconds": 58.78787878787879
+    },
+    {
+      "name": "breath",
+      "startBeat": 97,
+      "beats": 16,
+      "startSeconds": 58.78787878787879,
+      "endSeconds": 68.48484848484848
+    },
+    {
+      "name": "build",
+      "startBeat": 113,
+      "beats": 16,
+      "startSeconds": 68.48484848484848,
+      "endSeconds": 78.18181818181819
+    },
+    {
+      "name": "final_theme",
+      "startBeat": 129,
+      "beats": 48,
+      "startSeconds": 78.18181818181819,
+      "endSeconds": 107.27272727272727
+    },
+    {
+      "name": "outro",
+      "startBeat": 177,
+      "beats": 24,
+      "startSeconds": 107.27272727272727,
+      "endSeconds": 121.81818181818181
+    }
+  ]
+}

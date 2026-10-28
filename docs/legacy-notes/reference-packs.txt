@@ -1,0 +1,27 @@
+本轮采用现成录制素材，在 Strudel 中编排。没有录制新采样、合成吉他、重新模拟滑音或揉弦。
+
+已接入：MusicRadar / SampleRadar — 451 free emo samples
+https://www.musicradar.com/news/tech/sampleradar-451-free-emo-samples-479864
+下载包：https://cdn.mos.musicradar.com/audio/samples/musicradar-emo-samples.zip
+使用 Kit03 99bpm，原始 24-bit / 44.1kHz WAV，保留原速和原音高。
+其中旋律、乐句、实际演奏来自源套装；Emo乐队-素材参考版.strudel 负责声部进出、声像、音量和段落排列。
+厂商允许在音乐作品中使用，禁止重新分发原采样；当前仅服务在 127.0.0.1 本机地址，没有上传。
+
+交付：
+Emo乐队-素材参考版.strudel — 原生 Strudel s/n/stack/cat 编排
+Emo乐队-素材参考版.wav / .m4a — 约 58 秒试听，由实际 Strudel 引擎在浏览器 OfflineAudioContext 中渲染
+打开Emo乐队素材参考版.webloc — 在本地编辑器打开
+
+其他已找到的现成素材方向（本轮未安装，也未主观试听）：
+Karoryfer Black And Green Guitars，Gretsch / Hofner 电吉他录音，CC0：
+https://shop.karoryfer.com/pages/free-black-and-green-guitars
+https://github.com/sfzinstruments/karoryfer.black-and-green-guitars
+
+Karoryfer Shinyguitar，archtop 拾音器与麦克风录音，CC0：
+https://shop.karoryfer.com/pages/free-shinyguitar
+https://github.com/sfzinstruments/karoryfer.shinyguitar
+
+后两者提供音频/SFZ，未核实到可直接运行的 Strudel 音色映射；SFZ 奏法引擎不能直接当作 Strudel 脚本运行。
+
+技术检查：48 个来源文件可读取，47 个乐句事件，每个两小节；无重采样变速、逐音变调、bitcrusher 或自写技法处理；输出峰值约 0.875，没有削波。
+这些检查证明播放链与录音保真处理，不证明风格已经接近 Chinese Football；请以实际试听判断音色方向。

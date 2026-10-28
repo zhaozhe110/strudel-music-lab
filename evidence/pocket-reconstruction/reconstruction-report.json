@@ -1,0 +1,35 @@
+{
+  "source": "<USER_HOME>/Downloads/Kraftwerk - Pocket Calculator (2009 Remaster).mp3",
+  "sourceSha256": "30cbd8b3c2876f1ecc950caa91bcdc0cf9ba4484107f546136d55c72af200800",
+  "sourceDurationSeconds": 296.82938775510206,
+  "fixedGridReferenceBpm": 135.85,
+  "timing": "Absolute source seconds retain small tempo drift; local event onsets refined against measured electronic kit attacks.",
+  "eventCounts": {
+    "lead": 762,
+    "bass": 373,
+    "drums": 1326,
+    "keys": 136,
+    "voice": 24
+  },
+  "sampleMethod": "One-shot instrument notes, single simultaneous kit strikes, and AI-separated vocal phrases. No continuous mix or instrumental stem used as playback backing.",
+  "leadLevelCalibration": "Linear spectral activation relative to sampled root-note activation, divided by source sample peak normalization; mono lead pan .2. Approximate.",
+  "bassCorrections": {
+    "discarded": [
+      30
+    ],
+    "octaveOrDetuningCorrections": {
+      "53": 41,
+      "33": 34,
+      "35": 34,
+      "45": 46,
+      "47": 46
+    }
+  },
+  "midKeyCorrections": "Drop Bb4 candidates only when overlapping Bb3 within .16s and lower spectral strength; retain independently verified Ab4/Bb4 square-keyboard voice.",
+  "limitations": [
+    "AI stem separation residuals",
+    "Approximate automatic pitches and envelopes, particularly overlapping voices",
+    "Sample note transposition changes envelope duration",
+    "Browser realtime audio output not verified because Ego AudioWorklet initialization stayed pending; offline actual-engine render verified separately."
+  ]
+}

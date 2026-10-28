@@ -1,0 +1,13 @@
+{
+  "events": 2374,
+  "modifiedLeftEvents": 544,
+  "comparisonBaseline": "天台晚风-拨弦连续性试验.strudel",
+  "changedFieldsOnly": [
+    "cut"
+  ],
+  "originalNotesOnsetsRestsAndOtherTracksPreserved": true,
+  "audibleNoteEndsChanged": true,
+  "samplesAndFxPreserved": true,
+  "notesPerAB": 32,
+  "subjectiveListeningVerified": false
+}

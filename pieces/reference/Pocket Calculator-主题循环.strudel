@@ -1,0 +1,26 @@
+// @title Pocket Calculator — editable four-bar theme
+// 原曲主题的四小节循环；完整转写另见 Pocket Calculator-复刻版.strudel。
+// 使用同一套本地单音采样，音符可以直接在下方修改。
+setcpm(136/4)
+const base = 'http://127.0.0.1:3009/pocket-calculator-remake/'
+const data = await (await fetch(base + 'score.json')).json()
+await samples(data.samples,base)
+
+const lead = note(`<
+  [ab3 bb3 f4 ~ f4 ~ ~ eb4]
+  [ab3 f4 eb4 ~ eb4 d4 ~ ~]
+  [ab3 bb3 f4 ~ f4 ~ ~ eb4]
+  [ab3 f4 eb4 ~ eb4 d4 ~ c4]
+>`).s('pc_lead').gain(.38).pan(.2).color('#ffe66b')
+
+const bass = note(`<
+  [~ bb1 ~ bb1 bb2 bb1 ~ ~]
+  [~ ~ ~ ~ ~ ~ ~ ~]
+  [~ bb1 ~ bb1 bb2 bb1 ~ ~]
+  [~ ~ ~ ~ ~ ~ ~ ~]
+>`).s('pc_bass').gain(.6).color('#69dce3')
+
+const drums = s("pcKit2 pcKit5 pcKit4 pcKit5 pcKit2 pcKit5 pcKit4 pcKit5")
+  .gain(".27 .08 .48 .08 .27 .08 .54 .08").color('#a3aab4')
+
+stack(lead,bass,drums)._pianoroll({cycles:4,fold:1,labels:1})

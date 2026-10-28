@@ -1,0 +1,610 @@
+{
+  "repository": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars",
+  "commit": "b3b3249d37dc977a1a297bd2dc053e6d9b6b805c",
+  "license": "CC0-1.0",
+  "velocityLayer": "mf",
+  "rootMapping": "Official SFZ numeric pitch_keycenter. Every required guitar note has its own recorded root.",
+  "guitarFiles": [
+    {
+      "path": "green/twang_d4_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d4_mf_rr1.wav",
+      "bytes": 731178,
+      "sha256": "6f9037e5af6789314ee39073fab283ab65fbb747dbde32be3fe91af62fc8a2c4"
+    },
+    {
+      "path": "green/twang_d4_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d4_mf_rr2.wav",
+      "bytes": 818462,
+      "sha256": "d84636adc2c07fb1f76d8320cd231a618a82bf4e9bfbca01859c768e0342b194"
+    },
+    {
+      "path": "green/twang_d4_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d4_mf_rr3.wav",
+      "bytes": 786554,
+      "sha256": "61df1ae1c7af7b4d5756d9ad99e36d7976fe47f78f6456e481a449c5e6316b85"
+    },
+    {
+      "path": "green/twang_d4_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d4_mf_rr4.wav",
+      "bytes": 818540,
+      "sha256": "f62e16d9f37d652b54b8d746a9597e8f81701181ebec012fb2733511798eb135"
+    },
+    {
+      "path": "green/twang_gb4_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_gb4_mf_rr1.wav",
+      "bytes": 719580,
+      "sha256": "366c6d5f61eb67bdeb541c8efe532a44584a455def4743ae2778761b13f3f059"
+    },
+    {
+      "path": "green/twang_gb4_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_gb4_mf_rr2.wav",
+      "bytes": 722912,
+      "sha256": "713d3cfa1f1d84d4a7f09798e301888b439585048f11e1ef0fb8be0dd4dede7d"
+    },
+    {
+      "path": "green/twang_gb4_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_gb4_mf_rr3.wav",
+      "bytes": 698694,
+      "sha256": "a0eb415428ed25f6829a25b88f9ad680f3bf8f61e59faa923c1748d9c563dfb8"
+    },
+    {
+      "path": "green/twang_gb4_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_gb4_mf_rr4.wav",
+      "bytes": 646464,
+      "sha256": "9b7e57b92f4319b43e389975567386a0f97dfc4dd1948abcf3c3d42696940a07"
+    },
+    {
+      "path": "green/twang_g4_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_g4_mf_rr1.wav",
+      "bytes": 759152,
+      "sha256": "5281bb39ee797565282c4f71d670448c07ca0c430a76b7c6380c0ce524b44f11"
+    },
+    {
+      "path": "green/twang_g4_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_g4_mf_rr2.wav",
+      "bytes": 697728,
+      "sha256": "fa4c7125a57c145932f280641dc2520aaa3602bc9a8012cc9707a9b060a2df80"
+    },
+    {
+      "path": "green/twang_g4_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_g4_mf_rr3.wav",
+      "bytes": 746724,
+      "sha256": "e28a94f5a1653ae8fb9389a35627bb8be3a3e1847678f02c544edea794ede002"
+    },
+    {
+      "path": "green/twang_g4_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_g4_mf_rr4.wav",
+      "bytes": 719276,
+      "sha256": "fff922d8cd90a5df9362b9fa72429af9aa4d2980ef7c328eb3baf05bbbd4f518"
+    },
+    {
+      "path": "green/twang_a4_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_a4_mf_rr1.wav",
+      "bytes": 762278,
+      "sha256": "2ad4595753cd426f1690186abc62f62b2b9ab22d2b0ea3be3f13f0ba0dac9153"
+    },
+    {
+      "path": "green/twang_a4_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_a4_mf_rr2.wav",
+      "bytes": 768200,
+      "sha256": "6dfc9beb0c7bc887da9704688da442a286a68ebdfbf3ef722ec1372aadfa4910"
+    },
+    {
+      "path": "green/twang_a4_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_a4_mf_rr3.wav",
+      "bytes": 705530,
+      "sha256": "166c2827c22b71d92d44df99ffddba587e876aff05e729d13dfa8b01c7383839"
+    },
+    {
+      "path": "green/twang_a4_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_a4_mf_rr4.wav",
+      "bytes": 735092,
+      "sha256": "af3427ed9b704e344c43bb6c97cc641c2fb40cb4f262dd1984e508491aa084b5"
+    },
+    {
+      "path": "green/twang_b4_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_b4_mf_rr1.wav",
+      "bytes": 726492,
+      "sha256": "ad6f37aa4c13953f37b62377d25661bedeed4b17fae92a5081b399bc2ad3e57b"
+    },
+    {
+      "path": "green/twang_b4_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_b4_mf_rr2.wav",
+      "bytes": 696290,
+      "sha256": "7badee52fea7adcfd39679bd30ee7d6a32b5393a7e3c39bd03b8c4ae05185bce"
+    },
+    {
+      "path": "green/twang_b4_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_b4_mf_rr3.wav",
+      "bytes": 734354,
+      "sha256": "00b39da17d7db3f9094342162f62e1259a7b568dcdfba9cebae3985348a28c7b"
+    },
+    {
+      "path": "green/twang_b4_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_b4_mf_rr4.wav",
+      "bytes": 719498,
+      "sha256": "c268f603044f6a3ea6c1f878e1435536f2a0fd548fef97244f82a8f8a6c4c20b"
+    },
+    {
+      "path": "green/twang_db5_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_db5_mf_rr1.wav",
+      "bytes": 578724,
+      "sha256": "f9577eaab83568547a6a57050646753fd061b6ded05548287b82fb9e14dffd4c"
+    },
+    {
+      "path": "green/twang_db5_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_db5_mf_rr2.wav",
+      "bytes": 650924,
+      "sha256": "7bdb7b1548d0a4dbc9945403902cf170a11922d277a6165689d977c475710456"
+    },
+    {
+      "path": "green/twang_db5_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_db5_mf_rr3.wav",
+      "bytes": 632274,
+      "sha256": "cba5277989b1cffef79907c16f5062038ae9267ecd69bb1401cc7cd2d6cb6b6f"
+    },
+    {
+      "path": "green/twang_db5_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_db5_mf_rr4.wav",
+      "bytes": 663956,
+      "sha256": "0a5a3bf60cfa482e86dbc5fbaed9097b64bc44935ffc6f30c965db9af1141157"
+    },
+    {
+      "path": "green/twang_d5_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d5_mf_rr1.wav",
+      "bytes": 652412,
+      "sha256": "656792dd44badae066a37cc8a3e6cb90c279eda9d1379c6b87a81e89790e4b88"
+    },
+    {
+      "path": "green/twang_d5_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d5_mf_rr2.wav",
+      "bytes": 606818,
+      "sha256": "e69f4a20f5b7323f703282f73f7b046ff558e1a7380de7b0a4fd3fe37c4c8b5d"
+    },
+    {
+      "path": "green/twang_d5_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d5_mf_rr3.wav",
+      "bytes": 602718,
+      "sha256": "76468f23d4beacadfbcd01f3641472008d0085db6948daee512b7a99ec824baa"
+    },
+    {
+      "path": "green/twang_d5_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d5_mf_rr4.wav",
+      "bytes": 673166,
+      "sha256": "9c525a29769df38e3f1c1feda516db7396daea42767b5fb22e6e506d9ca36c95"
+    },
+    {
+      "path": "green/twang_e5_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_e5_mf_rr1.wav",
+      "bytes": 678110,
+      "sha256": "5be9d64bb782ee361013d5fdc28b1aeacc1c2f3dac70cea74141c57b6eb13dd5"
+    },
+    {
+      "path": "green/twang_e5_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_e5_mf_rr2.wav",
+      "bytes": 627938,
+      "sha256": "07646e3e92fae157e2c2425b9c262e71120176fc36a5935918da42e1b54ab21b"
+    },
+    {
+      "path": "green/twang_e5_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_e5_mf_rr3.wav",
+      "bytes": 617066,
+      "sha256": "e126735b81353e4a0bc12f4c4992b58f6c19e526863571475879489a5e400af7"
+    },
+    {
+      "path": "green/twang_e5_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_e5_mf_rr4.wav",
+      "bytes": 639686,
+      "sha256": "14de455f98655929cd84dfba49d1b2cf81f722957110422e5c7ae18e00da3b25"
+    },
+    {
+      "path": "green/twang_gb5_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_gb5_mf_rr1.wav",
+      "bytes": 612468,
+      "sha256": "5b6cd1b8e16f225f3af0ca33a008952845b6ae3d86b106d11bc234693964afa2"
+    },
+    {
+      "path": "green/twang_gb5_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_gb5_mf_rr2.wav",
+      "bytes": 604152,
+      "sha256": "640213cc30d3ec95d0235ad56f27c3f004fe004d259e55d14c3dbff9883f03d0"
+    },
+    {
+      "path": "green/twang_gb5_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_gb5_mf_rr3.wav",
+      "bytes": 605646,
+      "sha256": "f76a6df542e1e3a315935db682656c53b2e3c43c76594856941a0030bfb22dc2"
+    },
+    {
+      "path": "green/twang_gb5_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_gb5_mf_rr4.wav",
+      "bytes": 625350,
+      "sha256": "dd5388ebaa7d2f7a1b01244f0c33754ab573aca0e886f5cb844c88eafbab06d5"
+    },
+    {
+      "path": "green/twang_a5_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_a5_mf_rr1.wav",
+      "bytes": 586956,
+      "sha256": "0a9d29520e0d61cafa1f103f46d11e18a0af81e91a9c30c0b91e0a3f493f09d6"
+    },
+    {
+      "path": "green/twang_a5_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_a5_mf_rr2.wav",
+      "bytes": 575562,
+      "sha256": "94104c33b59df7a79d4f43485acb179cb517e21f67edc20e3b3bc7859d965551"
+    },
+    {
+      "path": "green/twang_a5_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_a5_mf_rr3.wav",
+      "bytes": 522740,
+      "sha256": "16f01c82f007af9442d40df78d4bac4bea478231de6fdf32a790dc8fc3b45d09"
+    },
+    {
+      "path": "green/twang_a5_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_a5_mf_rr4.wav",
+      "bytes": 518058,
+      "sha256": "0dfc31876377f538a4212ca29890ced14693c34a5feba9198cda7a2e0cd6ef6c"
+    },
+    {
+      "path": "green/twang_b5_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_b5_mf_rr1.wav",
+      "bytes": 652664,
+      "sha256": "dbd767193f093142eda8431d228bb8946d96f62564179256f8fd1cebcc0c7402"
+    },
+    {
+      "path": "green/twang_b5_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_b5_mf_rr2.wav",
+      "bytes": 633590,
+      "sha256": "d02b7f935a2956659bf56b68206f6d788072bd9135e4e5a27b7a14f2fec2cb65"
+    },
+    {
+      "path": "green/twang_b5_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_b5_mf_rr3.wav",
+      "bytes": 602778,
+      "sha256": "893981448ad3c9cfdbfbf8fdffcb85a470f1c596943c98fc20cb673921b14686"
+    },
+    {
+      "path": "green/twang_b5_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_b5_mf_rr4.wav",
+      "bytes": 580056,
+      "sha256": "853e7debf69b66e17f88bf8541a98b30772e7a48ae7db9504a600ed58ac35f13"
+    },
+    {
+      "path": "green/twang_db6_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_db6_mf_rr1.wav",
+      "bytes": 559794,
+      "sha256": "0c1585dfebbfd9ab2e8ba5260382df0b0551be5f8b057134f5b50bacb5b49420"
+    },
+    {
+      "path": "green/twang_db6_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_db6_mf_rr2.wav",
+      "bytes": 567056,
+      "sha256": "c5daac1922fb4f41dc594ef0b36802670c2fe6f80f2d5ccc56b884f738fcbe00"
+    },
+    {
+      "path": "green/twang_db6_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_db6_mf_rr3.wav",
+      "bytes": 629412,
+      "sha256": "178cffefb9cf024375f5128d9d32a09f412a8316b5629165aba49dde2bf48787"
+    },
+    {
+      "path": "green/twang_db6_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_db6_mf_rr4.wav",
+      "bytes": 588840,
+      "sha256": "963f46eb787b65568438db977c7dbcfc19356895c13e6bf29613f9b46a2c5491"
+    },
+    {
+      "path": "green/twang_d6_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d6_mf_rr1.wav",
+      "bytes": 650688,
+      "sha256": "15cf6fb297241633eb38de6604e18c77faeea4be8c6416168c41bde1e713b789"
+    },
+    {
+      "path": "green/twang_d6_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d6_mf_rr2.wav",
+      "bytes": 656808,
+      "sha256": "3fef04f9b2d1d6e5611d621c87380b733744770b85e808297a8995ed8949a815"
+    },
+    {
+      "path": "green/twang_d6_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d6_mf_rr3.wav",
+      "bytes": 620478,
+      "sha256": "2d31510f9e934d534f586c2e06f80bdd9ac7e9cb02caaa5b32a7fcba821df5ef"
+    },
+    {
+      "path": "green/twang_d6_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d6_mf_rr4.wav",
+      "bytes": 665264,
+      "sha256": "5e6722874bead1a2bd3e0529b839c279e0219a2f38a02445483aef223aef197e"
+    },
+    {
+      "path": "green/twang_e6_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_e6_mf_rr1.wav",
+      "bytes": 527580,
+      "sha256": "9e9696255bcb57049a7009406180cbda28dd1bfb8493ab4cec368f5cfec80c7b"
+    },
+    {
+      "path": "green/twang_e6_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_e6_mf_rr2.wav",
+      "bytes": 530618,
+      "sha256": "6daf59ea60db43362f50ec572dcf0789a874bab05184d9adbe230d4a20ba6570"
+    },
+    {
+      "path": "green/twang_e6_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_e6_mf_rr3.wav",
+      "bytes": 564422,
+      "sha256": "9d47ad8649f20606e861fca47f4f7fb9b0ff149aac17bce3e5d69b741ebc5b9b"
+    },
+    {
+      "path": "green/twang_e6_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_e6_mf_rr4.wav",
+      "bytes": 570614,
+      "sha256": "611c5f686003d3c8f15facdcb9ea99deea029e956c96ef0c1ac3f35c8a71fddf"
+    },
+    {
+      "path": "black/twang_d5_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_d5_mf_rr1.wav",
+      "bytes": 356946,
+      "sha256": "2d49d8fecfcb3a0feca7a313b323390733d8a9b4045d51df9e97222b416defc1"
+    },
+    {
+      "path": "black/twang_d5_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_d5_mf_rr2.wav",
+      "bytes": 301428,
+      "sha256": "8c20f0fac57eaf1585452f507e64fc9498728a0f9bdc75f6bcf4a757b0f99e64"
+    },
+    {
+      "path": "black/twang_d5_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_d5_mf_rr3.wav",
+      "bytes": 332766,
+      "sha256": "cc99348a676dd53fb41f1ccd113badd81fbb80d368c0d8290bd215be5f77dec3"
+    },
+    {
+      "path": "black/twang_d5_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_d5_mf_rr4.wav",
+      "bytes": 363594,
+      "sha256": "8925e8297a14253c5aab3d77a833f0ba93d859bc97e2c0cbc73b4ced6be9e0e6"
+    },
+    {
+      "path": "black/twang_e5_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_e5_mf_rr1.wav",
+      "bytes": 383328,
+      "sha256": "372036c52fd3911fcf8deebbb36d04b937cb2ad532b5a24a6c7b46e8d1e5188f"
+    },
+    {
+      "path": "black/twang_e5_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_e5_mf_rr2.wav",
+      "bytes": 337944,
+      "sha256": "1340d05ca5085fc08244a10b06e4c9b9ed9c8b82e6b924a3dc03626d388ecca3"
+    },
+    {
+      "path": "black/twang_e5_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_e5_mf_rr3.wav",
+      "bytes": 371754,
+      "sha256": "7c5c2a6da2212999c8a913c784786170588ec9d8537032da48b323bf3091ab50"
+    },
+    {
+      "path": "black/twang_e5_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_e5_mf_rr4.wav",
+      "bytes": 459552,
+      "sha256": "94fc39d80314548e3a0d013a891667e6ce7d40d915252164c5cb98aa574a8978"
+    },
+    {
+      "path": "black/twang_gb5_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_gb5_mf_rr1.wav",
+      "bytes": 340260,
+      "sha256": "98537afa30e18b4189999493a000e4275b58f9b976301a65d57636bcb3c43d8d"
+    },
+    {
+      "path": "black/twang_gb5_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_gb5_mf_rr2.wav",
+      "bytes": 344000,
+      "sha256": "ca4754cb859df2fd2628ee34c50cd3e7f73b94fd30218e2e5a078620fcb65c40"
+    },
+    {
+      "path": "black/twang_gb5_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_gb5_mf_rr3.wav",
+      "bytes": 291276,
+      "sha256": "fda432e85c33aab26d5f5a173e96f98334d8bfbb3432610f5e3b0f1ca21ef683"
+    },
+    {
+      "path": "black/twang_gb5_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_gb5_mf_rr4.wav",
+      "bytes": 351126,
+      "sha256": "830b4c11aa1e075da5a420b5d38c2a398d6d217a8bb93a6debedcfaf3fb4892b"
+    },
+    {
+      "path": "black/twang_g5_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_g5_mf_rr1.wav",
+      "bytes": 302856,
+      "sha256": "9622d7e6ed203cff5fbaa1c3a639fb62d0dbab2b5c8130ea0f12c4b893bedefe"
+    },
+    {
+      "path": "black/twang_g5_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_g5_mf_rr2.wav",
+      "bytes": 308480,
+      "sha256": "31d56b5ce71207e330ad662d929990dee3fc26b5918ae115caeb1f033840a4f2"
+    },
+    {
+      "path": "black/twang_g5_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_g5_mf_rr3.wav",
+      "bytes": 333228,
+      "sha256": "40aaf0c0fe1b226b0b565d6895395dfd747aa63c05e6e7aaabfdf36351ab67b9"
+    },
+    {
+      "path": "black/twang_g5_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_g5_mf_rr4.wav",
+      "bytes": 315170,
+      "sha256": "58d70e871d619cc96275f659c3b893b45418ab27f671c4a4fc19d759bec437e2"
+    },
+    {
+      "path": "black/twang_ab5_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_ab5_mf_rr1.wav",
+      "bytes": 397218,
+      "sha256": "f4b9b9396a5ead019d54adeb2bbae1e5ad34ee27dfe2528158abbeac2ce68183"
+    },
+    {
+      "path": "black/twang_ab5_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_ab5_mf_rr2.wav",
+      "bytes": 375156,
+      "sha256": "11d5428ea4a6a46808772f43b642b32358e8a69b3a4951bb9036bed528a08f56"
+    },
+    {
+      "path": "black/twang_ab5_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_ab5_mf_rr3.wav",
+      "bytes": 327078,
+      "sha256": "d80ffe86d7e519b77c2258128c00f054d83f9304dd677f26b0bd568c201229b9"
+    },
+    {
+      "path": "black/twang_ab5_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_ab5_mf_rr4.wav",
+      "bytes": 444672,
+      "sha256": "7746c521c0cdeedfe58086bef12df8ec4d89ab8542c427fe84f84613ffcc0dd8"
+    },
+    {
+      "path": "black/twang_a5_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_a5_mf_rr1.wav",
+      "bytes": 344228,
+      "sha256": "76ad3f59309cc50130fc13906fe0dd2e9575ff787a6acdbab6b04f50167952dd"
+    },
+    {
+      "path": "black/twang_a5_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_a5_mf_rr2.wav",
+      "bytes": 334466,
+      "sha256": "0b8f4d52e5fb96d8433d1a36d8731ebb842e505330dedd5bfa765e1ee83dd1b0"
+    },
+    {
+      "path": "black/twang_a5_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_a5_mf_rr3.wav",
+      "bytes": 308190,
+      "sha256": "50b646f3b9b9440e3dc1bad5d90c8b49ab1e0fae7654fb408682f0d42d37f6b8"
+    },
+    {
+      "path": "black/twang_a5_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_a5_mf_rr4.wav",
+      "bytes": 392996,
+      "sha256": "9ebbf010259d0b820c35b02761eeeecba21f8dcc99d8492f9ba5dadf2fa48234"
+    },
+    {
+      "path": "black/twang_b5_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_b5_mf_rr1.wav",
+      "bytes": 339992,
+      "sha256": "10120575173c3545ac6fbab6974400256a2ae5116718017431f17b128422faa7"
+    },
+    {
+      "path": "black/twang_b5_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_b5_mf_rr2.wav",
+      "bytes": 330498,
+      "sha256": "168393432ea49f45d6c906308e9c036b40f51c4038c476ebf439babd10be8417"
+    },
+    {
+      "path": "black/twang_b5_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_b5_mf_rr3.wav",
+      "bytes": 331616,
+      "sha256": "e4d4b9e83283d80c06c499954bbb5d24f1bdfc68d1b58a9754703df3b94d5db9"
+    },
+    {
+      "path": "black/twang_b5_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_b5_mf_rr4.wav",
+      "bytes": 335274,
+      "sha256": "3259383a54f2594d4e333a5de08661126e7cc730308015aaabb5bd55b551e7b2"
+    },
+    {
+      "path": "black/twang_db6_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_db6_mf_rr1.wav",
+      "bytes": 400940,
+      "sha256": "846a3d2be5e665eccf404dd50fdf99930c50adae5932bf5b9eaf8f5e99ef874b"
+    },
+    {
+      "path": "black/twang_db6_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_db6_mf_rr2.wav",
+      "bytes": 346488,
+      "sha256": "d6324df176dace7d14ecce84960c52ca391f392d52f6cc48df72109f0ec23148"
+    },
+    {
+      "path": "black/twang_db6_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_db6_mf_rr3.wav",
+      "bytes": 366486,
+      "sha256": "75ba305715edee207fc97f44022cf8dead6bb0aadebbaded1c0ed3bd94fdaf98"
+    },
+    {
+      "path": "black/twang_db6_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_db6_mf_rr4.wav",
+      "bytes": 399314,
+      "sha256": "3efecc446dd71b03bbd7b222a8f642da6a0e88a708f5cbea794c9f5ccbcf8610"
+    },
+    {
+      "path": "black/twang_d6_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_d6_mf_rr1.wav",
+      "bytes": 325016,
+      "sha256": "4071d8613db4c27bcb7ef3e70fa717d144be1bdf4f4e11eb86146249d636c5fb"
+    },
+    {
+      "path": "black/twang_d6_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_d6_mf_rr2.wav",
+      "bytes": 340494,
+      "sha256": "8015b0512bef77f1878c9ab03cc7521726e730ddecbcff20b7af21caf00fcf7d"
+    },
+    {
+      "path": "black/twang_d6_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_d6_mf_rr3.wav",
+      "bytes": 348294,
+      "sha256": "708796db7a590a3102a22fe543d71ad826de9437e2bf31ca672a4dbc736bb52b"
+    },
+    {
+      "path": "black/twang_d6_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_d6_mf_rr4.wav",
+      "bytes": 419226,
+      "sha256": "93701247a34613e17ffdaa480de912210aa53aa4de6dd0ebcc657f90bd65b431"
+    },
+    {
+      "path": "black/twang_e6_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_e6_mf_rr1.wav",
+      "bytes": 378302,
+      "sha256": "207dfb884c01c9c6fdc4f8beabf95962ebf98554471f49fa53d6a495c4c1c56f"
+    },
+    {
+      "path": "black/twang_e6_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_e6_mf_rr2.wav",
+      "bytes": 350106,
+      "sha256": "80ff30d564a721dfbcb04085eb09580a90cb958222f2af712e414210b9fe5941"
+    },
+    {
+      "path": "black/twang_e6_mf_rr3.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_e6_mf_rr3.wav",
+      "bytes": 333246,
+      "sha256": "062cc5eb8e0a1eed1f4018131256a7efd522f17e6067414a671f338712a634d0"
+    },
+    {
+      "path": "black/twang_e6_mf_rr4.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_e6_mf_rr4.wav",
+      "bytes": 369810,
+      "sha256": "882d071f4b6f2da2b25916120e765887062f759084b163579a200cbf2305a10d"
+    },
+    {
+      "path": "black/twang_gb6_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_gb6_mf_rr1.wav",
+      "bytes": 304734,
+      "sha256": "890cbd0bc5d5facb50313254864fde96e20feb13bb916d36fe51d15ce973c4db"
+    },
+    {
+      "path": "black/twang_gb6_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_gb6_mf_rr2.wav",
+      "bytes": 286418,
+      "sha256": "dada41a9afba5ef3170491f2f07f744d63ddae591b2afabad921d5a122d366d5"
+    },
+    {
+      "path": "black/twang_a6_mf_rr1.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_a6_mf_rr1.wav",
+      "bytes": 301404,
+      "sha256": "27f89a7577682d4d92ad3e0027f5940bff9df3d9d72bf0fd369ec28b28628fb3"
+    },
+    {
+      "path": "black/twang_a6_mf_rr2.wav",
+      "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/black/ord/twang_a6_mf_rr2.wav",
+      "bytes": 358494,
+      "sha256": "4e11f1f08174b732a7c7910d6b8452f55f7206eae4ec0a0e2ea32497d6c08401"
+    }
+  ],
+  "drums": "Same approved SampleRadar Kit03; supplied single hits, unmodified. No redistribution of raw drums."
+}

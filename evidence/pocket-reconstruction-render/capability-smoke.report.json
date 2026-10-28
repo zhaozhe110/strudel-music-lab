@@ -1,0 +1,46 @@
+{
+  "scoreFile": "<LEGACY_WORKSPACE>/.pocket-reconstruction-render/capability-smoke.strudel",
+  "scoreSha256": "3a048d06a752a44596efbc7eb706c3bda7a714d6d1d7b42dc56edcf4b1cd3c72",
+  "engine": "Installed Strudel core/transpiler/tonal and unmodified Superdough, node-web-audio-api OfflineAudioContext",
+  "hostAdapter": "Unused Vite worklet resource import stub; visualizers are no-ops; local sample URL reads; no synth/envelope/filter/pan/delay substitution.",
+  "postprocessing": "Constant peak normalization to 0.84; 0.15-second tail fade; AAC preview",
+  "bpm": 128,
+  "cps": 0.5333333333333333,
+  "begin": 0,
+  "cycles": 2,
+  "musicalDurationSeconds": 3.75,
+  "durationSeconds": 4.75,
+  "sampleRate": 44100,
+  "channels": 2,
+  "events": 26,
+  "sounds": [
+    "square",
+    "sine",
+    "testkick",
+    "white"
+  ],
+  "localSampleFiles": [
+    "<LEGACY_WORKSPACE>/.audio-preview/assets/707-bd.wav"
+  ],
+  "rawPeak": 0.4449240267276764,
+  "rawRmsDbFS": -23.556977477990017,
+  "normalizationGain": 1.8879627746292442,
+  "finalPeak": 0.84,
+  "finalPeakDbFS": -1.5144142787623671,
+  "finalRmsDbFS": -18.0371089386422,
+  "nonFiniteSamples": 0,
+  "wavFile": "<LEGACY_WORKSPACE>/.pocket-reconstruction-render/capability-smoke.wav",
+  "m4aFile": "<LEGACY_WORKSPACE>/.pocket-reconstruction-render/capability-smoke.m4a",
+  "byBar": [
+    {
+      "cycle": 0,
+      "rmsDbFS": -17.012898621041433,
+      "peak": 0.84
+    },
+    {
+      "cycle": 1,
+      "rmsDbFS": -17.008507351519636,
+      "peak": 0.8194499748914423
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "_base": "http://127.0.0.1:3009/band-reference/",
+  "band_rhythm_a": [
+    "EMOK3RhyGuitA99A-01.wav",
+    "EMOK3RhyGuitA99A-02.wav",
+    "EMOK3RhyGuitA99A-03.wav",
+    "EMOK3RhyGuitA99A-04.wav",
+    "EMOK3RhyGuitA99A-05.wav",
+    "EMOK3RhyGuitA99A-06.wav",
+    "EMOK3RhyGuitA99A-07.wav",
+    "EMOK3RhyGuitA99A-08.wav"
+  ],
+  "band_rhythm_b": [
+    "EMOK3RhyGuitB99A-01.wav",
+    "EMOK3RhyGuitB99A-02.wav",
+    "EMOK3RhyGuitB99A-03.wav",
+    "EMOK3RhyGuitB99A-04.wav",
+    "EMOK3RhyGuitB99A-05.wav",
+    "EMOK3RhyGuitB99A-06.wav",
+    "EMOK3RhyGuitB99A-07.wav",
+    "EMOK3RhyGuitB99A-08.wav"
+  ],
+  "band_rhythm_c": [
+    "EMOK3RhyGuitC99A-01.wav",
+    "EMOK3RhyGuitC99A-02.wav",
+    "EMOK3RhyGuitC99A-03.wav",
+    "EMOK3RhyGuitC99A-04.wav",
+    "EMOK3RhyGuitC99A-05.wav",
+    "EMOK3RhyGuitC99A-06.wav",
+    "EMOK3RhyGuitC99A-07.wav",
+    "EMOK3RhyGuitC99A-08.wav"
+  ],
+  "band_lead": [
+    "EMOK3LeadGuitB99A-01.wav",
+    "EMOK3LeadGuitB99A-02.wav",
+    "EMOK3LeadGuitB99A-03.wav",
+    "EMOK3LeadGuitB99A-04.wav",
+    "EMOK3LeadGuitB99A-05.wav",
+    "EMOK3LeadGuitB99A-06.wav",
+    "EMOK3LeadGuitB99A-07.wav",
+    "EMOK3LeadGuitB99A-08.wav"
+  ],
+  "band_bass": [
+    "EMOK3BassA99A-01.wav",
+    "EMOK3BassA99A-02.wav",
+    "EMOK3BassA99A-03.wav",
+    "EMOK3BassA99A-04.wav",
+    "EMOK3BassA99A-05.wav",
+    "EMOK3BassA99A-06.wav",
+    "EMOK3BassA99A-07.wav",
+    "EMOK3BassA99A-08.wav"
+  ],
+  "band_drums": [
+    "EMOK3Beat99-01.wav",
+    "EMOK3Beat99-02.wav",
+    "EMOK3Beat99-03.wav",
+    "EMOK3Beat99-04.wav",
+    "EMOK3Beat99-05.wav",
+    "EMOK3Beat99-06.wav",
+    "EMOK3Beat99-07.wav",
+    "EMOK3Beat99-08.wav"
+  ]
+}

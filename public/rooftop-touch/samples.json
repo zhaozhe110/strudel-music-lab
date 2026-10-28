@@ -1,0 +1,61 @@
+{
+  "_base": "http://127.0.0.1:3009/rooftop-touch/",
+  "restore_green_soft": {
+    "a3": [
+      "twang_a4_p_rr1.wav",
+      "twang_a4_p_rr2.wav",
+      "twang_a4_p_rr1.wav",
+      "twang_a4_p_rr2.wav"
+    ],
+    "cs4": [
+      "twang_db5_p_rr1.wav",
+      "twang_db5_p_rr2.wav",
+      "twang_db5_p_rr1.wav",
+      "twang_db5_p_rr2.wav"
+    ],
+    "d4": [
+      "twang_d5_p_rr1.wav",
+      "twang_d5_p_rr2.wav",
+      "twang_d5_p_rr1.wav",
+      "twang_d5_p_rr2.wav"
+    ],
+    "e4": [
+      "twang_e5_p_rr1.wav",
+      "twang_e5_p_rr2.wav",
+      "twang_e5_p_rr1.wav",
+      "twang_e5_p_rr2.wav"
+    ],
+    "fs4": [
+      "twang_gb5_p_rr1.wav",
+      "twang_gb5_p_rr2.wav",
+      "twang_gb5_p_rr1.wav",
+      "twang_gb5_p_rr2.wav"
+    ],
+    "a4": [
+      "twang_a5_p_rr1.wav",
+      "twang_a5_p_rr2.wav",
+      "twang_a5_p_rr1.wav",
+      "twang_a5_p_rr2.wav"
+    ],
+    "b4": [
+      "twang_b5_p_rr1.wav",
+      "twang_b5_p_rr2.wav",
+      "twang_b5_p_rr1.wav",
+      "twang_b5_p_rr2.wav"
+    ]
+  },
+  "restore_green_hammer": {
+    "fs4": [
+      "hammer_gb5_rr1.wav",
+      "hammer_gb5_rr2.wav"
+    ],
+    "b4": [
+      "hammer_b5_rr1.wav",
+      "hammer_b5_rr2.wav"
+    ],
+    "cs5": [
+      "hammer_db6_rr1.wav",
+      "hammer_db6_rr2.wav"
+    ]
+  }
+}

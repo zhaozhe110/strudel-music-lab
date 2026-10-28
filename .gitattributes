@@ -1,0 +1,13 @@
+* text=auto
+*.strudel text eol=lf
+*.mjs text eol=lf
+*.js text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.wav -text
+*.flac -text
+*.m4a -text
+*.mp3 -text
+*.png -text
+*.jpg -text

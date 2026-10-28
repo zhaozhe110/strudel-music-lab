@@ -1,0 +1,45 @@
+// "Emo 乐队 · 素材参考版"
+// 复用 MusicRadar / SampleRadar 的真人演奏分轨，约 58 秒一轮。
+// 来源：https://www.musicradar.com/news/tech/sampleradar-451-free-emo-samples-479864
+// Kit03，原速 99 BPM；吉他旋律来自该套装，本文件负责重新编排。
+// 采样可用于音乐作品；不要把原 WAV 重新上传或打包分发。
+
+const MASTER = 0.72;
+const GUITARS = 1;
+const BASS = 1;
+const DRUMS = 1;
+const BASE = 'http://127.0.0.1:3009/band-reference/';
+
+await samples(BASE + 'samples.json');
+const bank = await (await fetch(BASE + 'samples.json')).json();
+const urls = [...new Set(Object.entries(bank)
+  .filter(([name]) => !name.startsWith('_'))
+  .flatMap(([, files]) => files))];
+await Promise.all(urls.map(file => loadBuffer(BASE + file, getAudioContext())));
+
+setcpm(99 / 4);
+
+// 每个原始乐句长两小节；保持原音高和原播放速度。
+const left = i => s('band_rhythm_a').n(i).gain(0.48 * GUITARS).pan(0.22);
+const right = i => s('band_rhythm_b').n(i).gain(0.42 * GUITARS).pan(0.78);
+const open = i => s('band_rhythm_c').n(i).gain(0.48 * GUITARS).pan(0.35);
+const lead = i => s('band_lead').n(i).gain(0.38 * GUITARS).pan(0.58);
+const bass = i => s('band_bass').n(i).gain(0.48 * BASS);
+const drums = i => s('band_drums').n(i).gain(0.65 * DRUMS);
+
+const band = i => stack(left(i), right(i), lead(i), bass(i), drums(i));
+
+cat(
+  left(0),                                      // 0:00 吉他原声入口
+  stack(left(1), right(1), bass(1)),             // 0:05 贝斯加入
+  band(2),                                     // 0:10 全乐队
+  band(3),
+  stack(open(4), bass(4), drums(4)),             // 0:19 减少声部
+  band(5),
+  band(6),
+  band(7),
+  stack(open(0), bass(0)),                      // 0:39 留白
+  band(1),                                     // 0:44 回归
+  band(2),
+  stack(left(3), right(3), lead(3)),             // 0:53 吉他收尾
+).slow(2).postgain(MASTER)

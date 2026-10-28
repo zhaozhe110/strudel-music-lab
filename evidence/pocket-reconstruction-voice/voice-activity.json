@@ -1,0 +1,108 @@
+{
+  "note": "Energy-based candidates only; may include instrument leakage. Listen before choosing vocal slices.",
+  "rmsThreshold": 0.007,
+  "segments": [
+    {
+      "startSeconds": 28.48,
+      "endSeconds": 31.85,
+      "durationSeconds": 3.37,
+      "rms": 0.0565
+    },
+    {
+      "startSeconds": 35.56,
+      "endSeconds": 38.79,
+      "durationSeconds": 3.23,
+      "rms": 0.06489
+    },
+    {
+      "startSeconds": 57.18,
+      "endSeconds": 58.37,
+      "durationSeconds": 1.19,
+      "rms": 0.0939
+    },
+    {
+      "startSeconds": 60.72,
+      "endSeconds": 61.83,
+      "durationSeconds": 1.11,
+      "rms": 0.062
+    },
+    {
+      "startSeconds": 64.26,
+      "endSeconds": 65.31,
+      "durationSeconds": 1.05,
+      "rms": 0.07668
+    },
+    {
+      "startSeconds": 67.78,
+      "endSeconds": 68.93,
+      "durationSeconds": 1.15,
+      "rms": 0.07649
+    },
+    {
+      "startSeconds": 70.8,
+      "endSeconds": 74.11,
+      "durationSeconds": 3.31,
+      "rms": 0.07578
+    },
+    {
+      "startSeconds": 77.92,
+      "endSeconds": 80.09,
+      "durationSeconds": 2.17,
+      "rms": 0.05441
+    },
+    {
+      "startSeconds": 80.38,
+      "endSeconds": 81.09,
+      "durationSeconds": 0.71,
+      "rms": 0.04171
+    },
+    {
+      "startSeconds": 99.58,
+      "endSeconds": 100.75,
+      "durationSeconds": 1.17,
+      "rms": 0.0427
+    },
+    {
+      "startSeconds": 103.22,
+      "endSeconds": 104.13,
+      "durationSeconds": 0.91,
+      "rms": 0.05301
+    },
+    {
+      "startSeconds": 106.66,
+      "endSeconds": 107.67,
+      "durationSeconds": 1.01,
+      "rms": 0.079
+    },
+    {
+      "startSeconds": 110.16,
+      "endSeconds": 111.27,
+      "durationSeconds": 1.11,
+      "rms": 0.09016
+    },
+    {
+      "startSeconds": 113.02,
+      "endSeconds": 116.69,
+      "durationSeconds": 3.67,
+      "rms": 0.07427
+    },
+    {
+      "startSeconds": 120.1,
+      "endSeconds": 123.79,
+      "durationSeconds": 3.69,
+      "rms": 0.07077
+    },
+    {
+      "startSeconds": 240.46,
+      "endSeconds": 243.73,
+      "durationSeconds": 3.27,
+      "rms": 0.05097
+    },
+    {
+      "startSeconds": 247.62,
+      "endSeconds": 250.79,
+      "durationSeconds": 3.17,
+      "rms": 0.06218
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "date": "2026-10-28",
+  "ok": true,
+  "scope": "Current tracked payload; package-manifest.json and this audit are excluded. Credential checks cover common patterns, not a proof that arbitrary secrets cannot exist.",
+  "payloadFiles": 604,
+  "payloadBytes": 220179649,
+  "largestFile": {
+    "file": "audio/reference/Pocket Calculator-复刻版.m4a",
+    "bytes": 7265169,
+    "sha256": "c225120a3a9b5eff5fa2f92c3dd0d0ddb9fe09ff3f6ee6da714fc8dc963b7e07"
+  },
+  "maintainedDocs": [
+    "README.md",
+    "HANDOFF.md",
+    "AGENTS.md",
+    "UPLOAD_PLAN.md",
+    "docs/CATALOG.md",
+    "docs/SAMPLES.md",
+    "docs/VALIDATION.md",
+    "research/README.md",
+    "evidence/README.md"
+  ],
+  "localLinksChecked": 122,
+  "importedFilesChecked": 563,
+  "personalPathRedactions": 62,
+  "findings": {
+    "forbiddenPaths": [],
+    "nonRegularFiles": [],
+    "personalPaths": [],
+    "commonCredentialPatterns": [],
+    "internalDomains": [],
+    "brokenLinks": [],
+    "importMismatches": [],
+    "sourceMismatches": []
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "source": "pieces/little-logic/袖珍电路-v4.strudel",
+  "sourceSha256": "3901855b71de3ff02a12719cc7e51f81a29f2abafc35fce84b6b800ae2d29632",
+  "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+  "nodeVersion": "26.8.1",
+  "engine": "Pinned Strudel core/transpiler and native Superdough synth/sampler/effects with node-web-audio-api 2.2.0",
+  "hostAdapter": "Editor visuals are no-ops; unused Vite worklet URL import is stubbed. Unsupported DSP is rejected, never substituted.",
+  "localAssets": "Loopback fetch URLs are mapped to repo/public; no local web server is required for rendering.",
+  "selection": {
+    "begin": 16,
+    "cycles": 1,
+    "end": 17
+  },
+  "bpm": 136,
+  "musicalDurationSeconds": 1.7647058823529411,
+  "excerptMode": "Only note onsets inside the selected range are scheduled; pre-existing sustained notes and effect tails are not reconstructed. Render the full piece from zero for a complete timeline.",
+  "durationSeconds": 3.764716553287982,
+  "sampleRate": 44100,
+  "channels": 2,
+  "events": 23,
+  "raw": {
+    "peak": 0.47943246364593506,
+    "rms": 0.031574750736854854,
+    "peakDbFS": -6.385451241468731,
+    "rmsDbFS": -30.013201384913142
+  },
+  "rawPeakExceedsUnity": false,
+  "normalization": "peak",
+  "constantGain": 1.752071592340787,
+  "tailFadeSeconds": 0.4,
+  "final": {
+    "peak": 0.8399999737739563,
+    "rms": 0.055321223805498816,
+    "peakDbFS": -1.5144145499487058,
+    "rmsDbFS": -25.14216442154513
+  },
+  "sampleEvents": 9,
+  "sampleSources": [
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-2.wav",
+      "sound": "pcKit2",
+      "file": "public/little-logic-v4/pc-kit-2.wav",
+      "bytes": 32676,
+      "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-midkeys-bb4.wav",
+      "sound": "pc_keys",
+      "file": "public/little-logic-v4/pc-midkeys-bb4.wav",
+      "bytes": 36204,
+      "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7",
+      "durationSeconds": 0.20498866213151928,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-0.wav",
+      "sound": "pcKit0",
+      "file": "public/little-logic-v4/pc-kit-0.wav",
+      "bytes": 32676,
+      "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-4.wav",
+      "sound": "pcKit4",
+      "file": "public/little-logic-v4/pc-kit-4.wav",
+      "bytes": 32676,
+      "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-5.wav",
+      "sound": "pcKit5",
+      "file": "public/little-logic-v4/pc-kit-5.wav",
+      "bytes": 32676,
+      "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-3.wav",
+      "sound": "pcKit3",
+      "file": "public/little-logic-v4/pc-kit-3.wav",
+      "bytes": 32676,
+      "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    }
+  ],
+  "samplePitchMappings": [
+    {
+      "sound": "pcKit2",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-2.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit2:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_keys",
+      "note": "bb4",
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-midkeys-bb4.wav",
+      "index": 0,
+      "midi": 70,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit0",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-0.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit0:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit4",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-4.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit4:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit5",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-5.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit5:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit3",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-3.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit3:0",
+      "playbackRate": 1
+    }
+  ],
+  "outputs": {
+    "wav": "outputs/managed-v4.wav",
+    "report": "outputs/managed-v4.render.json",
+    "events": "outputs/managed-v4.events.json"
+  },
+  "aac": {
+    "created": false,
+    "reason": "Not requested."
+  }
+}

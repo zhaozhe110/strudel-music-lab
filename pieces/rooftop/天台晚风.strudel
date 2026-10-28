@@ -1,0 +1,84 @@
+// "天台晚风" — original emo / math-rock sketch
+// 双吉他 · 清音泛音感 · 错拍 · 36 小节循环，约 65 秒
+// 灵感方向：清亮、青涩、欲言又止；不是原曲扒谱或翻奏。
+// 按 play 开始；修改后按 update。BPM 可以在 116–144 之间试。
+const BPM = 132;
+setcpm(BPM / 4);
+
+// 根音 D → F# → G → A，加上七度与九度色彩，四小节一个呼吸。
+const left = note(`<
+  [d3 a3 e4 fs4 a4 fs4 e4 a3]
+  [fs3 cs4 e4 a4 cs5 a4 e4 cs4]
+  [g3 d4 a4 b4 d5 b4 a4 d4]
+  [a3 e4 b4 cs5 e5 b4 a4 e4]
+>`).s("gm_electric_guitar_clean:5")
+  .clip(0.78).attack(0.003).release(0.22)
+  .gain("0.30 0.21 0.25 0.27 0.29 0.20 0.25 0.22")
+  .pan(0.23).hpf(160).lpf(6500).orbit(0)
+  .delay(0.16).delaysync(3/16).delayfeedback(0.24)
+  .room(0.26).roomsize(2.2);
+
+// 右边的吉他晚半个八分音符进来，让两条旋律交错。
+const right = note(`<
+  [~ a4 ~ e5 fs5 ~ e5 cs5]
+  [~ e5 ~ cs5 e5 ~ a4 cs5]
+  [~ d5 ~ fs5 a5 ~ fs5 d5]
+  [~ e5 ~ b4 cs5 ~ b4 a4]
+>`).s("gm_electric_guitar_clean:2")
+  .late(1/16).clip(0.65).attack(0.003).release(0.3)
+  .gain(0.19).pan(0.77).hpf(350).lpf(7200).orbit(1)
+  .delay(0.18).delaysync(3/16).delayfeedback(0.28)
+  .room(0.32).roomsize(2.8);
+
+const bass = note(`<
+  [d2 ~ d2 a2 ~ d2 e2 fs2]
+  [fs2 ~ fs2 cs3 ~ e2 fs2 ~]
+  [g2 ~ g2 d3 ~ g2 fs2 e2]
+  [a2 ~ e2 a2 ~ b2 a2 ~]
+>`).s("gm_electric_bass_finger:1")
+  .clip(0.87).attack(0.005).release(0.11)
+  .gain(0.42).lpf(1300).pan(0.5).orbit(4);
+
+const chords = note(`<
+  [d3,fs3,a3,e4]
+  [fs3,a3,cs4,e4]
+  [g3,b3,d4,a4]
+  [a3,b3,e4]
+>`).struct("x ~ ~ x ~ x ~ ~")
+  .s("gm_electric_guitar_clean:5")
+  .clip(1.2).release(0.35).gain(0.12)
+  .hpf(240).lpf(5200).pan(0.55).room(0.2).orbit(3);
+
+const lead = note(`<
+  [a4 ~ fs4 e4 d4 ~ e4 fs4]
+  [cs5 ~ b4 a4 gs4 a4 ~ e4]
+  [b4 a4 fs4 ~ g4 a4 b4 d5]
+  [cs5 b4 a4 e4 ~ fs4 e4 ~]
+>`).s("gm_electric_guitar_clean:2")
+  .clip(0.9).release(0.28).gain(0.28)
+  .pan(0.62).hpf(250).lpf(6000).orbit(2)
+  .delay(0.2).delaysync(1/8).delayfeedback(0.22).room(0.3);
+
+// 707 的干鼓，留一点轻重变化；每四小节换一个军鼓尾音。
+const kick = s("bd ~ ~ [~ bd] bd ~ ~ bd")
+  .bank("RolandTR707").gain(0.58);
+const snare = s("~ ~ sd ~ ~ ~ sd ~")
+  .bank("RolandTR707").gain(0.43).room(0.1)
+  .lastOf(4, p => stack(p, s("~ ~ ~ ~ ~ ~ ~ [sd sd]").bank("RolandTR707").gain(0.19)));
+const hats = s("hh*8").bank("RolandTR707")
+  .gain("0.13 0.07 0.10 0.07 0.12 0.07 0.10 0.08")
+  .pan(0.6).hpf(4500);
+const drums = stack(kick, snare, hats).orbit(5);
+const openHat = s("~ ~ ~ oh ~ ~ ~ oh")
+  .bank("RolandTR707").gain(0.12).clip(0.25).pan(0.64).orbit(5);
+
+// 0:00 独白 → 0:07 进入 → 0:22 展开 → 0:36 留白
+// → 0:44 再推一次 → 0:58 收尾，然后循环。
+arrange(
+  [4, left],
+  [8, stack(left, right, bass, drums)],
+  [8, stack(left, right, bass, chords, lead, drums, openHat)],
+  [4, stack(left.mul(gain(0.72)), right.mul(gain(0.65)))],
+  [8, stack(left, right, bass, chords, lead, drums, openHat)],
+  [4, stack(left.mul(gain(0.65)), right.mul(gain(0.45)))]
+).mul(gain(0.7))

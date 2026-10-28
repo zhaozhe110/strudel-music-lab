@@ -1,0 +1,86 @@
+{
+  "node": "26.8.1",
+  "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+  "runtimeMode": "Read-only STRUDEL_RUNTIME override",
+  "dependencyInstall": "npm install with official npm registry succeeded; package-lock generated",
+  "defaultValidation": {
+    "passed": 8,
+    "total": 8,
+    "report": "outputs/validation.json"
+  },
+  "referenceFull": {
+    "ok": true,
+    "seconds": 296.8294,
+    "events": 2621,
+    "sampleFiles": 41,
+    "report": "outputs/validation-pocket-full.json"
+  },
+  "v4Loop": {
+    "ok": true,
+    "periodCycles": 64,
+    "report": "outputs/validation-v4-loop.json"
+  },
+  "server": {
+    "ok": true,
+    "port": 52242,
+    "loopbackOnly": true,
+    "indexStatus": 200,
+    "sampleStatus": 200,
+    "sampleSha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158",
+    "missingStatus": 404,
+    "report": "outputs/start-validation.json"
+  },
+  "renders": [
+    {
+      "source": "pieces/little-logic/袖珍电路-v1-顶部可视化存档.strudel",
+      "events": 59,
+      "durationSeconds": 5.809523809523809,
+      "rawPeak": 0.41652441024780273,
+      "finalPeakDbFS": -1.5144145499487058,
+      "aacCreated": false,
+      "report": "outputs/smoke-v1.render.json"
+    },
+    {
+      "source": "pieces/little-logic/袖珍电路-v2.strudel",
+      "events": 54,
+      "durationSeconds": 5.809523809523809,
+      "rawPeak": 0.37974703311920166,
+      "finalPeakDbFS": -1.5144145499487058,
+      "aacCreated": false,
+      "report": "outputs/smoke-v2.render.json"
+    },
+    {
+      "source": "pieces/little-logic/袖珍电路-v3.strudel",
+      "events": 64,
+      "durationSeconds": 5.529433106575964,
+      "rawPeak": 0.40114542841911316,
+      "finalPeakDbFS": -1.5144145499487058,
+      "aacCreated": false,
+      "report": "outputs/smoke-v3.render.json"
+    },
+    {
+      "source": "pieces/little-logic/袖珍电路-v4.strudel",
+      "events": 93,
+      "durationSeconds": 9.058843537414965,
+      "rawPeak": 0.48733869194984436,
+      "finalPeakDbFS": -1.5144145499487058,
+      "aacCreated": true,
+      "report": "outputs/smoke-v4.render.json"
+    },
+    {
+      "source": "pieces/reference/Pocket Calculator-复刻版.strudel",
+      "events": 76,
+      "durationSeconds": 10,
+      "rawPeak": 0.5857707262039185,
+      "finalPeakDbFS": -1.5144145499487058,
+      "aacCreated": true,
+      "report": "outputs/smoke-pocket.render.json"
+    }
+  ],
+  "limitations": [
+    "Fresh managed clone/install/build is tested separately by the root agent.",
+    "Offline export rejects worklet DSP and reverb; browser runtime retains upstream capabilities.",
+    "Excerpt export begins with note onsets inside the interval and a fresh effect state; it does not recreate earlier sustained notes or effect tails.",
+    "No subjective listening or interactive browser QA was performed."
+  ]
+}

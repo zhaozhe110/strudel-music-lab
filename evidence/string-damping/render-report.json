@@ -1,0 +1,26 @@
+{
+  "state": "done",
+  "engine": "Native Strudel webaudioOutput / OfflineAudioContext",
+  "A": "Previous soft-picking version",
+  "B": "Same version plus per-string cut groups",
+  "AStart": 0.1,
+  "BStart": 10,
+  "seconds": 20,
+  "sampleRate": 44100,
+  "rawA": {
+    "rms": 0.027524629832108304,
+    "peak": 0.33060792088508606
+  },
+  "rawB": {
+    "rms": 0.026957384049901122,
+    "peak": 0.33188679814338684
+  },
+  "BLevelMatch": 1.021042315573245,
+  "commonGain": 2.50833308913386,
+  "peak": 0.8500000238418579,
+  "matchedA": 0.06904093979674267,
+  "matchedB": 0.06904093977803033,
+  "notesPerVersion": 32,
+  "sampleFiles": 20,
+  "subjectiveListeningVerified": false
+}

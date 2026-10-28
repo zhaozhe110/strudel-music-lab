@@ -1,0 +1,80 @@
+[
+  {
+    "start": 0.17122760416666666,
+    "end": 0.29575677083333335,
+    "duration": 0.12452916666666666,
+    "value": {
+      "note": 56,
+      "s": "sawtooth",
+      "gain": 0.2,
+      "cutoff": 600,
+      "decay": 0.18,
+      "sustain": 0
+    }
+  },
+  {
+    "start": 0.29830395833333334,
+    "end": 0.422833125,
+    "duration": 0.12452916666666666,
+    "value": {
+      "note": 58,
+      "s": "sawtooth",
+      "gain": 0.2,
+      "cutoff": 600,
+      "decay": 0.18,
+      "sustain": 0
+    }
+  },
+  {
+    "start": 0.422833125,
+    "end": 0.5473622916666666,
+    "duration": 0.12452916666666666,
+    "value": {
+      "note": 65,
+      "s": "sawtooth",
+      "gain": 0.2,
+      "cutoff": 600,
+      "decay": 0.18,
+      "sustain": 0
+    }
+  },
+  {
+    "start": 4.6995609375,
+    "end": 4.8240901041671576,
+    "duration": 0.12452916666715752,
+    "value": {
+      "note": 56,
+      "s": "sawtooth",
+      "gain": 0.2,
+      "cutoff": 600,
+      "decay": 0.18,
+      "sustain": 0
+    }
+  },
+  {
+    "start": 4.826637291666581,
+    "end": 4.951166458333095,
+    "duration": 0.12452916666651391,
+    "value": {
+      "note": 58,
+      "s": "sawtooth",
+      "gain": 0.2,
+      "cutoff": 600,
+      "decay": 0.18,
+      "sustain": 0
+    }
+  },
+  {
+    "start": 4.951166458333095,
+    "end": 5.075695625000066,
+    "duration": 0.12452916666697178,
+    "value": {
+      "note": 65,
+      "s": "sawtooth",
+      "gain": 0.2,
+      "cutoff": 600,
+      "decay": 0.18,
+      "sustain": 0
+    }
+  }
+]

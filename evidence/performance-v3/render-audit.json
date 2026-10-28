@@ -1,0 +1,64 @@
+{
+  "sourceCommit": "fdaa55937776dbd644da3d64e864527df4a105a6",
+  "files": {
+    "renderer": ".performance-v3/render-v3.mjs",
+    "comparison": ".performance-v3/compare-previews.mjs",
+    "sharedArticulation": ".performance-v3/articulation-curves.mjs",
+    "browserInstrument": ".performance-v3/guitar-articulation.mjs"
+  },
+  "v2Limitations": [
+    "No pitch-envelope or vibrato scheduling was implemented in the v2 preview renderer.",
+    "The v2 browser song did not author slide/vibrato controls.",
+    "Space effects are deterministic random-IR and native delay approximations; they are not recorded browser output."
+  ],
+  "v3VerifiedSemantics": {
+    "amplitude": "Imports exact local getADSRValues/getParamADSR; stock sample envelope max=1, GM font envelope max=.3; gain*velocity and postgain preserved.",
+    "sampleSelection": "Nearest named MIDI root; sample n uses getSoundIndex modulo; source rate=abs(speed)*2^(semitoneDifference/12).",
+    "pan": "Native StereoPanner with pan=2*value.pan-1.",
+    "pitchEnvelope": "Imports exact getPitchEnvelope, including panchor and semitone-to-cent conversion; this returns to its min at note release.",
+    "authoredSlide": "Browser and renderer share scheduleStaticDetune: smoothstep glide/pick curve, 1 kHz control resolution, settled detune exactly zero.",
+    "vibrato": "Stock starts sine LFO at note onset; articulated instrument uses shared scheduleVibratoDepth, starts sine phase zero after vibdelay and fades depth over vibattack.",
+    "choking": "cut groups ramp prior voice to zero over 10ms.",
+    "sampleAttack": "No sample offset/trim unless event.begin is explicitly authored; note.attack uses Strudel minimum 1ms."
+  },
+  "remainingDifferences": [
+    "Reverb impulse generation and send behavior remain a native-node approximation.",
+    "AudioWorklet-only effects are rejected unless allowUnsupportedControls is explicitly selected; do not treat such a render as equivalent.",
+    "No browser loopback was captured and no subjective listening claim is made by this audit."
+  ],
+  "test": {
+    "smokeFile": ".performance-v3/renderer-smoke/render.wav",
+    "notes": 4,
+    "checks": [
+      "native pitch envelope",
+      "custom slide + pick detune",
+      "delayed vibrato",
+      "stock vibrato",
+      "non-silent finite stereo samples",
+      "WAV and M4A creation"
+    ],
+    "comparisonFile": ".performance-v3/renderer-smoke/compare.m4a",
+    "comparison": "Two identical excerpts RMS match to -22dBFS with a .6s gap; smoke only."
+  },
+  "metrics": [
+    "sample peak/RMS and clipping headroom",
+    "per-orbit peak/RMS",
+    "per-section dynamic energy",
+    "onset attack-to-body ratio (contains overlapping sounds)",
+    "inter-onset interval variety",
+    "50ms RMS envelope",
+    "silence below -70dBFS",
+    "tail RMS"
+  ],
+  "command": "node .performance-v3/render-v3.mjs <input-directory> <output-prefix>",
+  "inputSchema": {
+    "events": "[{start,end,midi?,durationCycles?,durationSeconds?,value}]",
+    "cps": "cycles per second",
+    "totalCycles": "score length in cycles",
+    "sections": "optional [{name,start,end}] in cycles",
+    "instrumentAliases": "optional mapping; roof_live and roof_live_soft are built in aliases",
+    "renderOptions": "optional {normalize:peak|rms|none,targetRmsDb,peakCeiling,tailSeconds,sampleRate}"
+  },
+  "output": "<prefix>.wav, .m4a, -report.json, -envelope.json",
+  "comparisonCommand": "node .performance-v3/compare-previews.mjs a.wav b.wav out-prefix [a-start-sec] [b-start-sec] [length-sec]"
+}

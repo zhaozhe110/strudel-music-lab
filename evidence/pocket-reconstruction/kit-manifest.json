@@ -1,0 +1,68 @@
+[
+  {
+    "name": "pcKit0",
+    "file": "pc-kit-0.wav",
+    "sourceTimeSeconds": 163.42226757369613,
+    "durationSeconds": 0.18498866213151927,
+    "normalizationScale": 5.1657308650286895,
+    "normalizedRms": 0.10973074817779055,
+    "numEvents": 76,
+    "sourceStem": "AI-separated drums.wav",
+    "role": "individual electronic kit strike, possibly simultaneous kick/snare/hat"
+  },
+  {
+    "name": "pcKit1",
+    "file": "pc-kit-1.wav",
+    "sourceTimeSeconds": 129.62501133786847,
+    "durationSeconds": 0.18498866213151927,
+    "normalizationScale": 0.9612192683857887,
+    "normalizedRms": 0.11921693028915732,
+    "numEvents": 138,
+    "sourceStem": "AI-separated drums.wav",
+    "role": "individual electronic kit strike, possibly simultaneous kick/snare/hat"
+  },
+  {
+    "name": "pcKit2",
+    "file": "pc-kit-2.wav",
+    "sourceTimeSeconds": 94.7585260770975,
+    "durationSeconds": 0.18498866213151927,
+    "normalizationScale": 2.361797035189728,
+    "normalizedRms": 0.13992576921180602,
+    "numEvents": 617,
+    "sourceStem": "AI-separated drums.wav",
+    "role": "individual electronic kit strike, possibly simultaneous kick/snare/hat"
+  },
+  {
+    "name": "pcKit3",
+    "file": "pc-kit-3.wav",
+    "sourceTimeSeconds": 187.7251700680272,
+    "durationSeconds": 0.18498866213151927,
+    "normalizationScale": 3.706898263976205,
+    "normalizedRms": 0.08932710634741335,
+    "numEvents": 40,
+    "sourceStem": "AI-separated drums.wav",
+    "role": "individual electronic kit strike, possibly simultaneous kick/snare/hat"
+  },
+  {
+    "name": "pcKit4",
+    "file": "pc-kit-4.wav",
+    "sourceTimeSeconds": 180.87519274376416,
+    "durationSeconds": 0.18498866213151927,
+    "normalizationScale": 0.9211306382016038,
+    "normalizedRms": 0.10683474736718616,
+    "numEvents": 199,
+    "sourceStem": "AI-separated drums.wav",
+    "role": "individual electronic kit strike, possibly simultaneous kick/snare/hat"
+  },
+  {
+    "name": "pcKit5",
+    "file": "pc-kit-5.wav",
+    "sourceTimeSeconds": 65.40172335600907,
+    "durationSeconds": 0.18498866213151927,
+    "normalizationScale": 7.62856290798469,
+    "normalizedRms": 0.10854933475380754,
+    "numEvents": 256,
+    "sourceStem": "AI-separated drums.wav",
+    "role": "individual electronic kit strike, possibly simultaneous kick/snare/hat"
+  }
+]

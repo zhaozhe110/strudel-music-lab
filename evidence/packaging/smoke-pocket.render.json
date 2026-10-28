@@ -1,0 +1,345 @@
+{
+  "source": "pieces/reference/Pocket Calculator-复刻版.strudel",
+  "sourceSha256": "9c7ad268f1d0bdd1fe6cacfb2250c6cb7e0f37f4d66e7d66be3c9aa06bfa497b",
+  "runtimeRevision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+  "nodeVersion": "26.8.1",
+  "engine": "Pinned Strudel core/transpiler and native Superdough synth/sampler/effects with node-web-audio-api 2.2.0",
+  "hostAdapter": "Editor visuals are no-ops; unused Vite worklet URL import is stubbed. Unsupported DSP is rejected, never substituted.",
+  "localAssets": "Loopback fetch URLs are mapped to repo/public; no local web server is required for rendering.",
+  "selection": {
+    "begin": 15.849166666666667,
+    "cycles": 4.528333333333333,
+    "end": 20.3775
+  },
+  "bpm": 135.85,
+  "musicalDurationSeconds": 8,
+  "durationSeconds": 10,
+  "sampleRate": 44100,
+  "channels": 2,
+  "events": 76,
+  "raw": {
+    "peak": 0.5857707262039185,
+    "rms": 0.06890622222957987,
+    "peakDbFS": -4.645446718154075,
+    "rmsDbFS": -23.234831190886638
+  },
+  "rawPeakExceedsUnity": false,
+  "normalization": "peak",
+  "constantGain": 1.4340081578395216,
+  "tailFadeSeconds": 0.4,
+  "final": {
+    "peak": 0.8399999737739563,
+    "rms": 0.0988120848106838,
+    "peakDbFS": -1.5144145499487058,
+    "rmsDbFS": -20.1037987508301
+  },
+  "sampleEvents": 76,
+  "sampleSources": [
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-1.wav",
+      "sound": "pcKit1",
+      "file": "public/pocket-calculator-remake/pc-kit-1.wav",
+      "bytes": 32676,
+      "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-c4.wav",
+      "sound": "pc_lead",
+      "file": "public/pocket-calculator-remake/pc-lead-c4.wav",
+      "bytes": 18124,
+      "sha256": "fde4ef6f45273eb6a96c594e00ec2085514c9fd6aab65327fdc455a88020fb69",
+      "durationSeconds": 0.20498866213151928,
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-bass-bb1.wav",
+      "sound": "pc_bass",
+      "file": "public/pocket-calculator-remake/pc-bass-bb1.wav",
+      "bytes": 38148,
+      "sha256": "8a2371a1329a786f21219227a6297a672f9a9bc1a2f6909d413b00970536af2c",
+      "durationSeconds": 0.21600907029478458,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-2.wav",
+      "sound": "pcKit2",
+      "file": "public/pocket-calculator-remake/pc-kit-2.wav",
+      "bytes": 32676,
+      "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-00.wav",
+      "sound": "pc_voice",
+      "file": "public/pocket-calculator-remake/pc-voice-00.wav",
+      "bytes": 398708,
+      "sha256": "471f86c980a52da603c240eb4ec2eb4bd4c673842262c447ec19f76365909448",
+      "durationSeconds": 2.26,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-ab3.wav",
+      "sound": "pc_lead",
+      "file": "public/pocket-calculator-remake/pc-lead-ab3.wav",
+      "bytes": 19844,
+      "sha256": "5c031f7b96d559fe07cfd65ba61f7cbb98f639551596669ec5c0a1edb1c38edd",
+      "durationSeconds": 0.22448979591836735,
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-ab4.wav",
+      "sound": "pc_keys",
+      "file": "public/pocket-calculator-remake/pc-midkeys-ab4.wav",
+      "bytes": 36204,
+      "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39",
+      "durationSeconds": 0.20498866213151928,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-4.wav",
+      "sound": "pcKit4",
+      "file": "public/pocket-calculator-remake/pc-kit-4.wav",
+      "bytes": 32676,
+      "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-5.wav",
+      "sound": "pcKit5",
+      "file": "public/pocket-calculator-remake/pc-kit-5.wav",
+      "bytes": 32676,
+      "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-bb3.wav",
+      "sound": "pc_lead",
+      "file": "public/pocket-calculator-remake/pc-lead-bb3.wav",
+      "bytes": 19184,
+      "sha256": "bf5e03d3dd8d0bec68fa7c662d12a47ae6b460aed5b36eab9316b253af472ed2",
+      "durationSeconds": 0.21700680272108844,
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-01.wav",
+      "sound": "pc_voice",
+      "file": "public/pocket-calculator-remake/pc-voice-01.wav",
+      "bytes": 218780,
+      "sha256": "a21397b7a1c5a8d53123586f8d8bd93c5acb73b2c69bc19da889b2b473628c7f",
+      "durationSeconds": 1.24,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-f4.wav",
+      "sound": "pc_lead",
+      "file": "public/pocket-calculator-remake/pc-lead-f4.wav",
+      "bytes": 19184,
+      "sha256": "86fbb3b48c56d2ec45bb687366aa2737288ecb887bf5d332a6b7557f3a72832f",
+      "durationSeconds": 0.21700680272108844,
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-02.wav",
+      "sound": "pc_voice",
+      "file": "public/pocket-calculator-remake/pc-voice-02.wav",
+      "bytes": 202904,
+      "sha256": "9d015ad89c01d54067df7a38b3a85cca06fdca2a0266222b317796f407e2990d",
+      "durationSeconds": 1.15,
+      "sampleRate": 44100,
+      "channels": 2
+    }
+  ],
+  "samplePitchMappings": [
+    {
+      "sound": "pcKit1",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-1.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit1:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_lead",
+      "note": "c4",
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-c4.wav",
+      "index": 0,
+      "midi": 60,
+      "label": "pc_lead:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_bass",
+      "note": "bb1",
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-bass-bb1.wav",
+      "index": 0,
+      "midi": 34,
+      "label": "pc_bass:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit2",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-2.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit2:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_voice",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-00.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pc_voice:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_lead",
+      "note": "ab3",
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-ab3.wav",
+      "index": 0,
+      "midi": 56,
+      "label": "pc_lead:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_keys",
+      "note": "ab4",
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-ab4.wav",
+      "index": 0,
+      "midi": 68,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_bass",
+      "note": "bb2",
+      "speed": 1,
+      "transpose": 12,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-bass-bb1.wav",
+      "index": 0,
+      "midi": 46,
+      "label": "pc_bass:0",
+      "playbackRate": 2
+    },
+    {
+      "sound": "pcKit4",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-4.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit4:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit5",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-5.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit5:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_lead",
+      "note": "bb3",
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-bb3.wav",
+      "index": 0,
+      "midi": 58,
+      "label": "pc_lead:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_voice",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-01.wav",
+      "index": 1,
+      "midi": 36,
+      "label": "pc_voice:1",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_lead",
+      "note": "f4",
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-lead-f4.wav",
+      "index": 0,
+      "midi": 65,
+      "label": "pc_lead:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_bass",
+      "note": "ab1",
+      "speed": 1,
+      "transpose": -2,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-bass-bb1.wav",
+      "index": 0,
+      "midi": 32,
+      "label": "pc_bass:0",
+      "playbackRate": 0.8908987181403393
+    },
+    {
+      "sound": "pc_voice",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-voice-02.wav",
+      "index": 2,
+      "midi": 36,
+      "label": "pc_voice:2",
+      "playbackRate": 1
+    }
+  ],
+  "outputs": {
+    "wav": "outputs/smoke-pocket.wav",
+    "report": "outputs/smoke-pocket.render.json",
+    "events": "outputs/smoke-pocket.events.json",
+    "m4a": "outputs/smoke-pocket.m4a"
+  },
+  "aac": {
+    "created": true
+  }
+}

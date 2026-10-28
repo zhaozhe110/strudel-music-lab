@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-28",
+  "ok": true,
+  "node": "26.8.1",
+  "npmCi": "Succeeded in a separate empty directory using committed package-lock.json",
+  "managedSetup": {
+    "ok": true,
+    "mode": "Fresh git init, depth-1 fetch from Codeberg, detached checkout, frozen pnpm install, complete upstream site build, sample mirror",
+    "revision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+    "pnpm": "10.15.0",
+    "trackedRuntimeChanges": false
+  },
+  "validation": {
+    "ok": true,
+    "report": "evidence/packaging/managed-validation.json"
+  },
+  "render": {
+    "events": 23,
+    "sampleEvents": 9,
+    "seconds": 3.764716553287982,
+    "finalPeakDbFS": -1.5144145499487058,
+    "report": "evidence/packaging/managed-v4.render.json"
+  },
+  "server": {
+    "port": 55744,
+    "loopbackOnly": true,
+    "indexStatus": 200,
+    "sampleStatus": 200,
+    "sampleHashMatches": true,
+    "missingStatus": 404
+  },
+  "scope": "Fresh managed runtime and HTTP smoke checks; no browser playback or subjective listening claim."
+}

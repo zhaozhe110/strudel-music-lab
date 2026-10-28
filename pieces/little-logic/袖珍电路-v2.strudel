@@ -1,0 +1,197 @@
+// 袖珍电路 / LITTLE LOGIC — v2 旋律打磨版
+// 126 BPM · E major · 64 小节，约 2 分 02 秒后循环
+// 本轮练习：两小节主题、重复中的变奏、长短句、八小节落地。
+// 顶部是音符图和波形；黄＝旋律，青＝贝斯，绿＝按键，紫＝和声。
+const showVisuals = p => {
+  p.gain(.85)._pianoroll({
+    width: 760, height: 210, cycles: 4, playhead: .25,
+    fold: 1, labels: 1, fill: 1, fillActive: 1,
+    colorizeInactive: 1, playheadColor: '#ffe45c', background: '#08110d'
+  })
+  return p._scope({ width: 760, height: 75, thickness: 2, scale: .9 })
+}
+
+setcpm(126/4)
+
+// —— 鼓：保留稳定脉冲，给旋律留出前景 ——
+const kick = note("e1*4").sound("sine")
+  .penv(30).panchor(0).pattack(0).pdecay(.045).psustain(0)
+  .attack(.002).decay(.16).sustain(0).release(.035)
+  .gain(.72).color("#8b99aa")
+
+const snare = stack(
+  sound("~ white ~ white").hpf(1200).lpf(6800)
+    .attack(.001).decay(.075).sustain(0).release(.025).gain(.18),
+  note("~ e3 ~ e3").sound("triangle")
+    .penv(7).pattack(0).pdecay(.025).psustain(0)
+    .attack(.001).decay(.065).sustain(0).release(.02).gain(.16)
+).color("#8b99aa")
+
+const hats = sound("white*8").hpf(7200).lpf(12500)
+  .attack(.001).decay(.025).sustain(0).release(.009)
+  .gain("[.08 .13]*4").pan(.58).color("#8b99aa")
+
+const tick = note("~ b5 ~ [~ e6]").sound("sine")
+  .attack(.001).decay(.018).sustain(0).release(.008)
+  .gain(.065).pan(.27).color("#8b99aa")
+
+const drums = stack(kick, snare, hats)
+
+// —— 贝斯：八小节 E E E B / A A B E，和旋律一起收住 ——
+const bassNotes = note(`<
+  [e2 ~ e2 b1 e2 ~ b1 e2]
+  [e2 ~ e2 b1 e2 ~ b1 ~]
+  [e2 ~ e2 b1 e2 ~ b1 e2]
+  [b1 ~ b1 f#2 b1 ~ f#2 b1]
+  [a1 ~ a1 e2 a1 ~ e2 a1]
+  [a1 ~ a1 e2 a1 ~ e2 ~]
+  [b1 ~ b1 f#2 b1 ~ f#2 d#2]
+  [e2 ~ e2 b1 e2@2 ~@2]
+>`)
+
+const introBassNotes = note(`<
+  [e2 ~ e2 b1 e2 ~ b1 e2]
+  [e2 ~ e2 b1 e2 ~ b1 ~]
+  [e2 ~ e2 b1 e2 ~ b1 e2]
+  [b1 ~ b1 f#2 b1 ~ f#2 b1]
+>`)
+
+const bridgeBassNotes = note(`<
+  [c#2 ~ c#2 g#1 c#2 ~ g#1 c#2]
+  [c#2 ~ c#2 g#1 c#2 ~ g#1 ~]
+  [a1 ~ a1 e2 a1 ~ e2 a1]
+  [a1 ~ a1 e2 a1 ~ e2 ~]
+  [f#2 ~ f#2 c#2 f#2 ~ c#2 f#2]
+  [f#2 ~ f#2 c#2 f#2 ~ c#2 ~]
+  [b1 ~ b1 f#2 b1 ~ f#2 b1]
+  [b1 ~ b1 f#2 b1@2 ~@2]
+>`)
+
+const bassVoice = p => p.sound("square").lpf(450).lpq(.8)
+  .lpenv(1.2).lpa(.002).lpd(.095).lps(0)
+  .attack(.003).decay(.14).sustain(.08).release(.035)
+  .clip(.68).gain(.29).color("#53dfed")
+const bass = bassVoice(bassNotes)
+const introBass = bassVoice(introBassNotes)
+const bridgeBass = bassVoice(bridgeBassNotes)
+
+// —— 主题：先记住“同音两下—停一下—再回答”的节奏 ——
+// 第 1/3 小节相同；第 5 小节抬高；第 8 小节落在 E 长音。
+const hookNotes = note(`<
+  [b4 b4 ~ g#4 b4@2 c#5 b4]
+  [g#4 f#4 e4@3 ~ b3 e4]
+  [b4 b4 ~ g#4 b4@2 c#5 b4]
+  [g#4 f#4 d#4@2 ~ f#4 b4 ~]
+  [c#5 c#5 ~ b4 a4@2 b4 c#5]
+  [e5@2 c#5 b4 a4@2 ~ e4]
+  [f#4 f#4 ~ d#4 f#4@2 g#4 f#4]
+  [g#4 f#4 e4@4 ~@2]
+>`)
+
+// 第二轮：保留标志性的开头，只改变第 4/6 小节的答句。
+const hookLiftNotes = note(`<
+  [b4 b4 ~ g#4 b4@2 c#5 b4]
+  [g#4 f#4 e4@3 ~ b3 e4]
+  [b4 b4 ~ g#4 b4@2 c#5 b4]
+  [g#4 f#4 d#4 f#4 b4@2 ~@2]
+  [c#5 c#5 ~ b4 a4@2 b4 c#5]
+  [e5@3 c#5 b4 a4 ~ e4]
+  [f#4 f#4 ~ d#4 f#4@2 g#4 f#4]
+  [g#4 f#4 e4@4 ~@2]
+>`)
+
+// 最后一轮：第 2 小节更活跃，第 8 小节下行到 E，结束感更明确。
+const hookFinalNotes = note(`<
+  [b4 b4 ~ g#4 b4@2 c#5 b4]
+  [g#4 b4 g#4 f#4 e4 ~ b3 e4]
+  [b4 b4 ~ g#4 b4@2 c#5 b4]
+  [g#4 f#4 d#4@2 ~ f#4 b4 ~]
+  [c#5 c#5 ~ b4 a4@2 b4 c#5]
+  [e5@2 c#5 b4 a4@2 ~ e4]
+  [f#4 f#4 ~ d#4 f#4@2 g#4 f#4]
+  [b4 g#4 f#4 e4@4 ~]
+>`)
+
+// 圆润的方波：削弱高次谐波；长音保留声音主体，短音仍有清晰音头。
+const leadVoice = p => p.sound("square").partials([1,0,.3,0,.09,0,.025])
+  .lpf(2300).lpq(.65).lpenv(.65).lpa(.003).lpd(.16).lps(.2)
+  .attack(.004).decay(.08).sustain(.38).release(.045).clip(.9)
+  .delay(.075).delaysync(1/8).delayfeedback(.16)
+  .gain(.21).pan(.48).orbit(1).color("#ffe45c")
+const hook = leadVoice(hookNotes)
+const hookLift = leadVoice(hookLiftNotes)
+const hookFinal = leadVoice(hookFinalNotes)
+
+// —— B 段：更长的句子，先停留在 C# 小调，再经 B 回到主题 ——
+const bridgeNotes = note(`<
+  [g#4@3 e4 f#4@2 ~ g#4]
+  [c#5@2 b4 g#4 e4@2 ~@2]
+  [a4@3 g#4 e4@2 ~ c#4]
+  [e4 f#4 a4@2 b4 a4 e4 ~]
+  [a4@3 f#4 g#4@2 ~ a4]
+  [c#5@2 a4 g#4 f#4@2 ~@2]
+  [f#4@2 d#4 f#4 b4@2 a4 f#4]
+  [d#4 f#4 b4@4 ~@2]
+>`)
+const bridge = bridgeNotes.sound("triangle").lpf(2400)
+  .attack(.008).decay(.11).sustain(.5).release(.06).clip(.94)
+  .delay(.075).delaysync(1/8).delayfeedback(.16)
+  .gain(.27).pan(.48).orbit(1).color("#ffe45c")
+
+// 每两小节才回答一次，而且只落在三种主题共有的休止处。
+const answer = note(`<
+  ~ [~@5 b5 ~@2] ~ [~@7 f#5]
+  ~ [~@6 e5 ~] ~ [~@7 b4]
+>`).sound("sine").fm(.45).fmh(2).lpf(4200)
+  .attack(.002).decay(.065).sustain(0).release(.025)
+  .gain(.13).pan(.68).orbit(2).color("#9bff7a")
+
+// 前奏和间奏的按键声，也借用主题的“双击”节奏。
+const keys = note(`<
+  [b5 b5 ~ g#5 ~@4]
+  [~@4 e5@2 ~@2]
+  [b5 b5 ~ g#5 ~@4]
+  [~@4 f#5 b5 ~@2]
+>`).sound("sine").fm(.35).fmh(2).lpf(5000)
+  .attack(.002).decay(.05).sustain(0).release(.018)
+  .gain(.13).pan(".35 .65 .4 .6").orbit(3).color("#9bff7a")
+
+const teaser = leadVoice(note(`<
+  [b4 b4 ~ g#4 ~@4] ~
+  [b4 b4 ~ g#4 ~@4] [~@4 f#4 b4 ~@2]
+>`)).gain(.13).lpf(1500)
+
+// 稀疏双音和声；第 8 小节与旋律、贝斯一起回到 E。
+const harmony = note(`<
+  [g#3,b3] [g#3,b3] [g#3,b3] [d#3,f#3]
+  [c#3,e3] [c#3,e3] [d#3,f#3] [g#3,b3]
+>`).struct("~ 1 ~ ~").sound("triangle").lpf(1500)
+  .attack(.008).decay(.22).sustain(0).release(.05)
+  .gain(.085).pan(.34).color("#bda1ff")
+
+const bridgeHarmony = note("<[e3,g#3]!2 [c#3,e3]!2 [a3,c#4]!2 [d#3,f#3]!2>")
+  .struct("~ 1 ~ ~").sound("triangle").lpf(1500)
+  .attack(.008).decay(.22).sustain(0).release(.05)
+  .gain(.085).pan(.34).color("#bda1ff")
+
+const shutdown = note("<[b5 b5 ~@2 g#5 ~@3] [e5@4 ~@4]>")
+  .sound("sine").attack(.003).decay(.1).sustain(.15).release(.05)
+  .gain(.12).pan(.5).orbit(3).color("#9bff7a")
+
+// —— 整曲：主题第一次、答句变奏、B 段、主题回归、结尾变奏 ——
+const song = arrange(
+  [4, stack(hats, keys)],                         // 00:00 按键双击
+  [4, stack(kick, hats, introBass, teaser)],       // 00:08 提前露出主题
+  [8, stack(drums, bass, hook)],                   // 00:15 先记住旋律
+  [8, stack(drums, bass, hookLift, answer, harmony)], // 00:30 改变答句
+  [8, stack(drums, bridgeBass, bridge, bridgeHarmony)], // 00:46 长句 B 段
+  [4, stack(hats, tick, keys)],                    // 01:01 按键间奏
+  [4, stack(kick, hats, introBass, teaser)],       // 01:09 主题预告
+  [8, stack(drums, bass, hook, answer, harmony)],  // 01:16 熟悉的主题回来
+  [8, stack(drums, bass, hookFinal, answer, harmony)], // 01:31 旋律结尾变奏
+  [4, stack(kick, hats, introBass, keys)],         // 01:47 逐层退出
+  [2, shutdown],                                 // 01:54 双击、落地
+  [2, silence]                                   // 01:58 留白，然后循环
+)
+
+showVisuals(song)

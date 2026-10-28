@@ -1,0 +1,88 @@
+// @title Pocket Calculator — 2009 reference reconstruction
+// 根据你提供的 MP3 转写；约 4:57。原曲：Kraftwerk。
+// 乐器由短单音/单次鼓击重新演奏；人声来自录音的分离片段。
+// 这是转写与采样复刻，含自动分离/识谱误差，不是原始多轨。
+// 本机启动 Strudel 后播放；素材保存在本地 pocket-calculator-remake/。
+
+// 播放时：顶部音符图滚动；下方音名会按实际发声高亮。
+const showNotes = p => p._pianoroll({
+  width: 920, height: 200, cycles: 4, fold: 1, labels: 1,
+  fill: 1, fillActive: 1, colorizeInactive: 1,
+  playheadColor: '#ffe66b', background: '#08110d'
+})
+
+// 音高面板：修改某个音名，会替换全曲中对应的音高。
+const LEAD_NOTES = note("ab3 bb3 c4 d4 eb4 f4")
+const BASS_NOTES = note("ab1 bb1 eb2 f2 bb2")
+const KEY_NOTES  = note("ab4 bb4 g5 fs6")
+const DRUM_SOUNDS = s("pcKit0 pcKit1 pcKit2 pcKit3 pcKit4 pcKit5")
+// 这里的数字是人声片段编号，不是音阶级数。
+const VOICE_CLIPS = n("0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23")
+
+const BPM = 135.85
+const VOICE = 1       // 改成 0：器乐版
+const LEAD = 1        // 主旋律
+const BASS = 1        // 贝斯
+const DRUMS = 1       // 电子鼓
+const KEYS = 1        // 计算器蜂鸣声
+const MASTER = .57
+const START = 0      // 从原曲第几秒开始，例如 28
+const END = 296.8294  // 循环终点；例如 56 可试听一个短段落
+if (!Number.isFinite(START) || !Number.isFinite(END) || START < 0 || END <= START) {
+  throw new Error('START、END 必须是有效秒数，且 END 大于 START')
+}
+
+setcpm(BPM/4)
+const base = 'http://127.0.0.1:3009/pocket-calculator-remake/'
+const data = await (await fetch(base + 'score.json')).json()
+await samples(data.samples, base)
+
+// 保留录音中的细微速度变化，不强行把每一击吸附到网格。
+// 行格式：[起点秒数, 时值秒数, 音高/采样编号, 力度, 声像]
+// 每次查询只返回与当前播放窗口相交的音符。
+const referenceCps = 135.85/240
+const spanSeconds = END - START
+const timeline = (source, palette, originalValues) => {
+  // 用实际播放的原生音符提供音高与源码位置，使高亮能对应到上方面板。
+  const tokens = palette.queryArc(0,1).filter(h => h.hasOnset())
+  if (tokens.length !== originalValues.length) {
+    throw new Error('音高面板可以改音名，但请保留原来的项目数')
+  }
+  const sounds = new Map(originalValues.map((value,i) => [value,tokens[i]]))
+  const rows = source.filter(e => e[0] >= START && e[0] < END)
+    .map(e => [e[0]-START, ...e.slice(1)])
+    .sort((a,b) => a[0]-b[0])
+  const period = spanSeconds * referenceCps
+  return new Pattern(state => {
+    const lo = Number(state.span.begin), hi = Number(state.span.end)
+    const out = []
+    for (let loop = Math.floor(lo/period); loop <= Math.floor(hi/period); loop++) {
+      for (const [t, d, value, velocity=1, pan=.5] of rows) {
+        const a = loop*period + t*referenceCps
+        if (a >= hi) break
+        const b = Math.min(loop*period+period, a+d*referenceCps)
+        if (b <= lo) continue
+        const whole = new TimeSpan(a,b)
+        const part = whole.intersection(state.span)
+        const token = sounds.get(value)
+        if (!token) throw new Error('音高面板缺少原始值：' + value)
+        if (part) out.push(new Hap(whole,part,
+          {...token.value,velocity,pan}, token.context))
+      }
+    }
+    return out
+  })
+}
+
+const lead = timeline(data.lead,LEAD_NOTES,[56,58,60,62,63,65]).s('pc_lead')
+  .gain(LEAD).color('#ffe66b')
+const bass = timeline(data.bass,BASS_NOTES,[32,34,39,41,46]).s('pc_bass')
+  .gain(BASS).color('#69dce3')
+const drums = timeline(data.drums,DRUM_SOUNDS,['pcKit0','pcKit1','pcKit2','pcKit3','pcKit4','pcKit5'])
+  .gain(DRUMS).color('#a3aab4')
+const voice = timeline(data.voice,VOICE_CLIPS,Array.from({length:24},(_,i)=>i)).s('pc_voice')
+  .gain(VOICE).clip(1).release(.007).color('#fd8c8c')
+const keys = timeline(data.keys,KEY_NOTES,[68,70,79,90]).s('pc_keys')
+  .gain(KEYS).color('#a0f485')
+
+showNotes(stack(lead,bass,drums,voice,keys))

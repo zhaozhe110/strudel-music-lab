@@ -1,0 +1,51 @@
+{
+  "file": "<LEGACY_WORKSPACE>/天台晚风-preview.wav",
+  "events": 1240,
+  "sampleRate": 44100,
+  "channels": 2,
+  "duration": 67.95455782312925,
+  "rawPeak": 0.5613621473312378,
+  "finalPeak": 0.82,
+  "peakDbFS": -1.7237229523256667,
+  "rmsDbFS": -20.081899039021565,
+  "nonzeroSamples": 5931584,
+  "normalization": 1.4607326195724952,
+  "sources": [
+    {
+      "url": "https://felixroos.github.io/webaudiofontdata/sound/0330_FluidR3_GM_sf2_file.js",
+      "file": "<LEGACY_WORKSPACE>/.audio-preview/assets/0330_FluidR3_GM_sf2_file.js",
+      "bytes": 448468
+    },
+    {
+      "url": "https://felixroos.github.io/webaudiofontdata/sound/0270_FluidR3_GM_sf2_file.js",
+      "file": "<LEGACY_WORKSPACE>/.audio-preview/assets/0270_FluidR3_GM_sf2_file.js",
+      "bytes": 256816
+    },
+    {
+      "url": "https://felixroos.github.io/webaudiofontdata/sound/0270_Stratocaster_sf2_file.js",
+      "file": "<LEGACY_WORKSPACE>/.audio-preview/assets/0270_Stratocaster_sf2_file.js",
+      "bytes": 747199
+    },
+    {
+      "url": "https://strudel.b-cdn.net/tidal-drum-machines/machines/RolandTR707/rolandtr707-bd/Bassdrum-01.wav",
+      "file": "<LEGACY_WORKSPACE>/.audio-preview/assets/707-bd.wav",
+      "bytes": 26288
+    },
+    {
+      "url": "https://strudel.b-cdn.net/tidal-drum-machines/machines/RolandTR707/rolandtr707-hh/Hat%20Closed.wav",
+      "file": "<LEGACY_WORKSPACE>/.audio-preview/assets/707-hh.wav",
+      "bytes": 26044
+    },
+    {
+      "url": "https://strudel.b-cdn.net/tidal-drum-machines/machines/RolandTR707/rolandtr707-sd/Snaredrum-01.wav",
+      "file": "<LEGACY_WORKSPACE>/.audio-preview/assets/707-sd.wav",
+      "bytes": 32336
+    },
+    {
+      "url": "https://strudel.b-cdn.net/tidal-drum-machines/machines/RolandTR707/rolandtr707-oh/Hat%20Open.wav",
+      "file": "<LEGACY_WORKSPACE>/.audio-preview/assets/707-oh.wav",
+      "bytes": 56704
+    }
+  ],
+  "notes": "Same Strudel event timings, notes, soundfont choices and 707 samples. Native offline renderer approximates envelopes, filters, reverb and delay; not a bit-exact recording of browser Strudel. Original composition, not a transcription of Chinese Football."
+}

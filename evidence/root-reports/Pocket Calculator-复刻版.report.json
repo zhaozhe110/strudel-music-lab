@@ -1,0 +1,1098 @@
+{
+  "scoreFile": "<LEGACY_WORKSPACE>/Pocket Calculator-复刻版.strudel",
+  "scoreSha256": "7a68f99d14f2c3a4152ec2fc83749a623458abb323dfddfb69082057aadbde1d",
+  "engine": "Installed Strudel core/transpiler/tonal and unmodified Superdough, node-web-audio-api OfflineAudioContext",
+  "hostAdapter": "Unused Vite worklet resource import stub; visualizers are no-ops; local sample URL reads; no synth/envelope/filter/pan/delay substitution.",
+  "postprocessing": "Constant peak normalization to 0.84; 0.15-second tail fade; AAC preview",
+  "bpm": 135.85,
+  "cps": 0.5660416666666667,
+  "begin": 0,
+  "cycles": 168.01780829166668,
+  "musicalDurationSeconds": 296.8294,
+  "durationSeconds": 296.979410430839,
+  "sampleRate": 44100,
+  "channels": 2,
+  "events": 2621,
+  "sounds": [
+    "pc_lead",
+    "pcKit2",
+    "pc_bass",
+    "pcKit0",
+    "pcKit4",
+    "pcKit5",
+    "pcKit1",
+    "pcKit3",
+    "pc_keys",
+    "pc_voice"
+  ],
+  "localSampleFiles": [
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/score.json",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-ab3.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-2.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-bb3.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-bass-bb1.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-0.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-f4.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-4.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-5.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-eb4.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-d4.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-1.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-3.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-c4.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-midkeys-ab4.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-midkeys-bb4.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-00.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-01.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-02.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-03.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-04.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-05.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-06.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-07.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-08.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-09.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-10.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-11.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-12.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-13.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-14.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-15.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-16.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-17.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-buzz-fs6.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-buzz-g5.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-18.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-19.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-20.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-21.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-22.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-23.wav"
+  ],
+  "localResourceHashes": {
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/score.json": {
+      "sha256": "dbc76a949e8a964709bd085c67b442812d594613ff5bff1263ad70bc15b7b4c3",
+      "bytes": 95447
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-ab3.wav": {
+      "sha256": "5c031f7b96d559fe07cfd65ba61f7cbb98f639551596669ec5c0a1edb1c38edd",
+      "bytes": 19844
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-2.wav": {
+      "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05",
+      "bytes": 32676
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-bb3.wav": {
+      "sha256": "bf5e03d3dd8d0bec68fa7c662d12a47ae6b460aed5b36eab9316b253af472ed2",
+      "bytes": 19184
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-bass-bb1.wav": {
+      "sha256": "8a2371a1329a786f21219227a6297a672f9a9bc1a2f6909d413b00970536af2c",
+      "bytes": 38148
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-0.wav": {
+      "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158",
+      "bytes": 32676
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-f4.wav": {
+      "sha256": "86fbb3b48c56d2ec45bb687366aa2737288ecb887bf5d332a6b7557f3a72832f",
+      "bytes": 19184
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-4.wav": {
+      "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958",
+      "bytes": 32676
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-5.wav": {
+      "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5",
+      "bytes": 32676
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-eb4.wav": {
+      "sha256": "4db1e759764c8586a7d56d7119e4b7e0db55a8c65a2731d75b2b11e0fade1975",
+      "bytes": 19182
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-d4.wav": {
+      "sha256": "ccac7e63a37143630542a32dd888f6246792c3a16f623f200c8b7ff372d04d01",
+      "bytes": 19272
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-1.wav": {
+      "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2",
+      "bytes": 32676
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-3.wav": {
+      "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695",
+      "bytes": 32676
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-c4.wav": {
+      "sha256": "fde4ef6f45273eb6a96c594e00ec2085514c9fd6aab65327fdc455a88020fb69",
+      "bytes": 18124
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-midkeys-ab4.wav": {
+      "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39",
+      "bytes": 36204
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-midkeys-bb4.wav": {
+      "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7",
+      "bytes": 36204
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-00.wav": {
+      "sha256": "471f86c980a52da603c240eb4ec2eb4bd4c673842262c447ec19f76365909448",
+      "bytes": 398708
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-01.wav": {
+      "sha256": "a21397b7a1c5a8d53123586f8d8bd93c5acb73b2c69bc19da889b2b473628c7f",
+      "bytes": 218780
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-02.wav": {
+      "sha256": "9d015ad89c01d54067df7a38b3a85cca06fdca2a0266222b317796f407e2990d",
+      "bytes": 202904
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-03.wav": {
+      "sha256": "51fa042a9b7888e59154df7e621babd1b618e7e6352c64d8e7590fd002793050",
+      "bytes": 388124
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-04.wav": {
+      "sha256": "827dba2b31478b50841827eb82128f2f595c191e39231ab18cb48fc7babe47c9",
+      "bytes": 234656
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-05.wav": {
+      "sha256": "16edee8073faae0ea528d60e844d2d3973ffa07f3c0a6c793d7c170379718796",
+      "bytes": 217016
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-06.wav": {
+      "sha256": "bf4edc655009116fe5c80914104c9ce09383af64d29b6c31b83a9c4556831bf6",
+      "bytes": 204668
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-07.wav": {
+      "sha256": "0606fd5f835acdc46d9c6f955bd9c2deb00472d552556a9edfd39214453af384",
+      "bytes": 227600
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-08.wav": {
+      "sha256": "82c94e30993558696bc0fbef5c3b6bcfb1c4fcf10e0177e2ba2fbe238984b64a",
+      "bytes": 407528
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-09.wav": {
+      "sha256": "40e6a0351d5dbdb35ab9fa27ac75ce7cb3520b30a92dcfcb51ddca687e27b10d",
+      "bytes": 197612
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-10.wav": {
+      "sha256": "d98e84ea59c1209ce80845626b5ae8b929e459ad9cb8838083bb8d7249937dfb",
+      "bytes": 393416
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-11.wav": {
+      "sha256": "58ae46961cd0987c5504d3f5f015640561cd486a59d412d7d3c2a0347cd9c7b2",
+      "bytes": 190556
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-12.wav": {
+      "sha256": "0497fe437b2874c1579e0a71d6e148a86ffe4ae55bd5ff8e2bf800f3c2597ac9",
+      "bytes": 231128
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-13.wav": {
+      "sha256": "941dea0612932f136bcd5b148b0522ebcfbf8886eaf60d1626e05f1d14068494",
+      "bytes": 181736
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-14.wav": {
+      "sha256": "7944207a038647b30bdc8be93ac1e7b4a8a34bcab550a2199a6bb09bc1424d3f",
+      "bytes": 199376
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-15.wav": {
+      "sha256": "952ff84a219041544a62a7121450fd3b1696b8b05fd5003c99debbe4cee92a43",
+      "bytes": 217016
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-16.wav": {
+      "sha256": "bb8401977ad6e691346b22ea1195f5ef285ad931ef62ba13629a89f8ec32e778",
+      "bytes": 352844
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-17.wav": {
+      "sha256": "757ffce47d7414c8c3384f00befd3b82bde0dd56a76eebf73036bbac19af809b",
+      "bytes": 321092
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-buzz-fs6.wav": {
+      "sha256": "111c3193eeeec48c981c77807bde08a7c2ae93689ace5dd6321a5ef309b7676a",
+      "bytes": 49436
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-buzz-g5.wav": {
+      "sha256": "b3d03e9ce25edc96c2322ab1ffb3ef26b073100abc5f69ce5f70ba7308758180",
+      "bytes": 45908
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-18.wav": {
+      "sha256": "b8e548040be041fa0464256a2a213c7ca2b881ca0fc6b29687a58c6ed11c24bc",
+      "bytes": 354608
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-19.wav": {
+      "sha256": "c8094c467e078e962ec20ece520c836089e80ca17f7b1d8f820dee30b08a634f",
+      "bytes": 321092
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-20.wav": {
+      "sha256": "44c0b6b9b79248b3b1088c9ebb824c48081133326cf2e82e2ce9a95a98d65dc1",
+      "bytes": 441044
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-21.wav": {
+      "sha256": "7d24978d0f7a726fb2869a66f25c20c9e29053b0b738a1a2d23ce17b43801498",
+      "bytes": 155276
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-22.wav": {
+      "sha256": "55d83eb71c9f9a17cd65d1a1debac9a6c37b018d053f42e89d99baa82849fa6f",
+      "bytes": 381068
+    },
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-voice-23.wav": {
+      "sha256": "689d8db6cb834de770b269ea5c740480bf4be7b2f322f34acb7c02ea96575920",
+      "bytes": 202904
+    }
+  },
+  "rawPeak": 0.8347107768058777,
+  "rawRmsDbFS": -23.389024150937033,
+  "normalizationGain": 1.0063365938731044,
+  "finalPeak": 0.84,
+  "finalPeakDbFS": -1.5144142787623671,
+  "finalRmsDbFS": -23.334158842467353,
+  "nonFiniteSamples": 0,
+  "wavFile": "<LEGACY_WORKSPACE>/Pocket Calculator-复刻版.wav",
+  "m4aFile": "<LEGACY_WORKSPACE>/Pocket Calculator-复刻版.m4a",
+  "byBar": [
+    {
+      "cycle": 0,
+      "rmsDbFS": -22.186560797473682,
+      "peak": 0.5017531636932924
+    },
+    {
+      "cycle": 1,
+      "rmsDbFS": -26.233631111917912,
+      "peak": 0.5748673415679082
+    },
+    {
+      "cycle": 2,
+      "rmsDbFS": -21.672183920072353,
+      "peak": 0.5261882575581491
+    },
+    {
+      "cycle": 3,
+      "rmsDbFS": -25.690631514418918,
+      "peak": 0.6706703475826369
+    },
+    {
+      "cycle": 4,
+      "rmsDbFS": -20.430514301637622,
+      "peak": 0.5896133988540375
+    },
+    {
+      "cycle": 5,
+      "rmsDbFS": -25.570442156727925,
+      "peak": 0.48487596402859356
+    },
+    {
+      "cycle": 6,
+      "rmsDbFS": -20.893724761378675,
+      "peak": 0.5885704859918753
+    },
+    {
+      "cycle": 7,
+      "rmsDbFS": -25.18089432596172,
+      "peak": 0.5298849088943306
+    },
+    {
+      "cycle": 8,
+      "rmsDbFS": -20.855347082585478,
+      "peak": 0.5940355965168258
+    },
+    {
+      "cycle": 9,
+      "rmsDbFS": -24.119754263980152,
+      "peak": 0.7533279849084444
+    },
+    {
+      "cycle": 10,
+      "rmsDbFS": -21.843955661052334,
+      "peak": 0.5639273433973695
+    },
+    {
+      "cycle": 11,
+      "rmsDbFS": -28.26352662670729,
+      "peak": 0.3831055554139306
+    },
+    {
+      "cycle": 12,
+      "rmsDbFS": -21.450794461640783,
+      "peak": 0.526351589456905
+    },
+    {
+      "cycle": 13,
+      "rmsDbFS": -27.946573136011096,
+      "peak": 0.3652816245615666
+    },
+    {
+      "cycle": 14,
+      "rmsDbFS": -21.92132815194144,
+      "peak": 0.549294172866091
+    },
+    {
+      "cycle": 15,
+      "rmsDbFS": -26.52130753868135,
+      "peak": 0.5336575578492134
+    },
+    {
+      "cycle": 16,
+      "rmsDbFS": -20.533220913815427,
+      "peak": 0.5894837170453302
+    },
+    {
+      "cycle": 17,
+      "rmsDbFS": -25.164487165881752,
+      "peak": 0.4734654044383929
+    },
+    {
+      "cycle": 18,
+      "rmsDbFS": -21.54474946750391,
+      "peak": 0.5165255832157429
+    },
+    {
+      "cycle": 19,
+      "rmsDbFS": -25.22294860341806,
+      "peak": 0.5594200907832644
+    },
+    {
+      "cycle": 20,
+      "rmsDbFS": -20.49259256793473,
+      "peak": 0.5514832281892983
+    },
+    {
+      "cycle": 21,
+      "rmsDbFS": -23.825833078006777,
+      "peak": 0.7355383039694809
+    },
+    {
+      "cycle": 22,
+      "rmsDbFS": -21.517017956296215,
+      "peak": 0.5263968161376474
+    },
+    {
+      "cycle": 23,
+      "rmsDbFS": -25.825386275385895,
+      "peak": 0.46931075798177435
+    },
+    {
+      "cycle": 24,
+      "rmsDbFS": -20.73666533555576,
+      "peak": 0.5691747180455355
+    },
+    {
+      "cycle": 25,
+      "rmsDbFS": -25.461551262768477,
+      "peak": 0.4334411715749712
+    },
+    {
+      "cycle": 26,
+      "rmsDbFS": -21.65036054990045,
+      "peak": 0.5345523743257611
+    },
+    {
+      "cycle": 27,
+      "rmsDbFS": -25.414431734050012,
+      "peak": 0.48567852767360015
+    },
+    {
+      "cycle": 28,
+      "rmsDbFS": -20.803057115836992,
+      "peak": 0.538467121432738
+    },
+    {
+      "cycle": 29,
+      "rmsDbFS": -25.466208872191935,
+      "peak": 0.5284543301997562
+    },
+    {
+      "cycle": 30,
+      "rmsDbFS": -21.91330825909072,
+      "peak": 0.560577629887998
+    },
+    {
+      "cycle": 31,
+      "rmsDbFS": -25.180602274314477,
+      "peak": 0.6521019759680774
+    },
+    {
+      "cycle": 32,
+      "rmsDbFS": -20.611708047465953,
+      "peak": 0.5552899471105759
+    },
+    {
+      "cycle": 33,
+      "rmsDbFS": -27.660291423896965,
+      "peak": 0.5410665159110641
+    },
+    {
+      "cycle": 34,
+      "rmsDbFS": -22.398351483682948,
+      "peak": 0.4876169768003323
+    },
+    {
+      "cycle": 35,
+      "rmsDbFS": -27.25459093040246,
+      "peak": 0.5684294375306472
+    },
+    {
+      "cycle": 36,
+      "rmsDbFS": -20.685855464293024,
+      "peak": 0.5973441621442486
+    },
+    {
+      "cycle": 37,
+      "rmsDbFS": -28.25582216613278,
+      "peak": 0.5487232010173004
+    },
+    {
+      "cycle": 38,
+      "rmsDbFS": -21.76166544959314,
+      "peak": 0.481439486071352
+    },
+    {
+      "cycle": 39,
+      "rmsDbFS": -28.029647803288672,
+      "peak": 0.47994730551852477
+    },
+    {
+      "cycle": 40,
+      "rmsDbFS": -20.152322715511353,
+      "peak": 0.6688624200173049
+    },
+    {
+      "cycle": 41,
+      "rmsDbFS": -25.17418566034776,
+      "peak": 0.5214249403550655
+    },
+    {
+      "cycle": 42,
+      "rmsDbFS": -21.145309819791542,
+      "peak": 0.5225286753051226
+    },
+    {
+      "cycle": 43,
+      "rmsDbFS": -25.327286696432925,
+      "peak": 0.4703014262299753
+    },
+    {
+      "cycle": 44,
+      "rmsDbFS": -20.324262643174237,
+      "peak": 0.6295122686368865
+    },
+    {
+      "cycle": 45,
+      "rmsDbFS": -25.522471508439626,
+      "peak": 0.5459553761417263
+    },
+    {
+      "cycle": 46,
+      "rmsDbFS": -21.879500322382007,
+      "peak": 0.671098561473646
+    },
+    {
+      "cycle": 47,
+      "rmsDbFS": -25.450264252139494,
+      "peak": 0.5402289225822995
+    },
+    {
+      "cycle": 48,
+      "rmsDbFS": -20.373194925787935,
+      "peak": 0.565266029154414
+    },
+    {
+      "cycle": 49,
+      "rmsDbFS": -24.87705558039492,
+      "peak": 0.5222131082396234
+    },
+    {
+      "cycle": 50,
+      "rmsDbFS": -22.597048220826203,
+      "peak": 0.671098561473646
+    },
+    {
+      "cycle": 51,
+      "rmsDbFS": -24.452279536133066,
+      "peak": 0.5779366376602091
+    },
+    {
+      "cycle": 52,
+      "rmsDbFS": -21.447385999421755,
+      "peak": 0.671098561473646
+    },
+    {
+      "cycle": 53,
+      "rmsDbFS": -24.249435933251622,
+      "peak": 0.7768001523551314
+    },
+    {
+      "cycle": 54,
+      "rmsDbFS": -21.241858147554844,
+      "peak": 0.5435241721313073
+    },
+    {
+      "cycle": 55,
+      "rmsDbFS": -25.22804454157999,
+      "peak": 0.7586716312046102
+    },
+    {
+      "cycle": 56,
+      "rmsDbFS": -21.543634629544655,
+      "peak": 0.48812814626092615
+    },
+    {
+      "cycle": 57,
+      "rmsDbFS": -26.623105100207294,
+      "peak": 0.4603021610135815
+    },
+    {
+      "cycle": 58,
+      "rmsDbFS": -22.23687693855034,
+      "peak": 0.6191230882505102
+    },
+    {
+      "cycle": 59,
+      "rmsDbFS": -25.953685593729826,
+      "peak": 0.6160274599130556
+    },
+    {
+      "cycle": 60,
+      "rmsDbFS": -20.95780559858051,
+      "peak": 0.470414163028988
+    },
+    {
+      "cycle": 61,
+      "rmsDbFS": -26.8792675118323,
+      "peak": 0.5791173299463308
+    },
+    {
+      "cycle": 62,
+      "rmsDbFS": -22.162240551284015,
+      "peak": 0.5677896059610444
+    },
+    {
+      "cycle": 63,
+      "rmsDbFS": -27.123620872250818,
+      "peak": 0.5476522164222637
+    },
+    {
+      "cycle": 64,
+      "rmsDbFS": -20.99238568740367,
+      "peak": 0.6638338609279567
+    },
+    {
+      "cycle": 65,
+      "rmsDbFS": -23.87215611485786,
+      "peak": 0.45618650307484443
+    },
+    {
+      "cycle": 66,
+      "rmsDbFS": -21.062464923713456,
+      "peak": 0.6238235439663019
+    },
+    {
+      "cycle": 67,
+      "rmsDbFS": -24.991155990057724,
+      "peak": 0.4954427521095037
+    },
+    {
+      "cycle": 68,
+      "rmsDbFS": -20.24902792573712,
+      "peak": 0.5683073734785106
+    },
+    {
+      "cycle": 69,
+      "rmsDbFS": -24.229208016038793,
+      "peak": 0.49135714532070307
+    },
+    {
+      "cycle": 70,
+      "rmsDbFS": -21.107282802632568,
+      "peak": 0.5800588126796659
+    },
+    {
+      "cycle": 71,
+      "rmsDbFS": -25.654222655214344,
+      "peak": 0.38195350469286793
+    },
+    {
+      "cycle": 72,
+      "rmsDbFS": -23.536914787567206,
+      "peak": 0.6980230722052355
+    },
+    {
+      "cycle": 73,
+      "rmsDbFS": -25.36845700147118,
+      "peak": 0.671098561473646
+    },
+    {
+      "cycle": 74,
+      "rmsDbFS": -25.486169643450364,
+      "peak": 0.7624111099281262
+    },
+    {
+      "cycle": 75,
+      "rmsDbFS": -25.618198601699085,
+      "peak": 0.5447888996690474
+    },
+    {
+      "cycle": 76,
+      "rmsDbFS": -25.490671605416757,
+      "peak": 0.5959265396340777
+    },
+    {
+      "cycle": 77,
+      "rmsDbFS": -25.5770873018037,
+      "peak": 0.5722144428465816
+    },
+    {
+      "cycle": 78,
+      "rmsDbFS": -26.030189774082864,
+      "peak": 0.49690821053199835
+    },
+    {
+      "cycle": 79,
+      "rmsDbFS": -25.874364244918215,
+      "peak": 0.5131331023013722
+    },
+    {
+      "cycle": 80,
+      "rmsDbFS": -20.3124856652434,
+      "peak": 0.6365788475294026
+    },
+    {
+      "cycle": 81,
+      "rmsDbFS": -24.395143827503247,
+      "peak": 0.5686576103337567
+    },
+    {
+      "cycle": 82,
+      "rmsDbFS": -21.611702010513177,
+      "peak": 0.5360432352672138
+    },
+    {
+      "cycle": 83,
+      "rmsDbFS": -25.14254060035764,
+      "peak": 0.44983875248739247
+    },
+    {
+      "cycle": 84,
+      "rmsDbFS": -20.972195153109535,
+      "peak": 0.6433654288811945
+    },
+    {
+      "cycle": 85,
+      "rmsDbFS": -24.73960931911364,
+      "peak": 0.7754544486648682
+    },
+    {
+      "cycle": 86,
+      "rmsDbFS": -21.68956225511554,
+      "peak": 0.48873774673358694
+    },
+    {
+      "cycle": 87,
+      "rmsDbFS": -25.14259450056961,
+      "peak": 0.4265139316471299
+    },
+    {
+      "cycle": 88,
+      "rmsDbFS": -23.99233647404941,
+      "peak": 0.7017432366168164
+    },
+    {
+      "cycle": 89,
+      "rmsDbFS": -27.49222496675348,
+      "peak": 0.5383284422737504
+    },
+    {
+      "cycle": 90,
+      "rmsDbFS": -27.59911177036168,
+      "peak": 0.5348611034050472
+    },
+    {
+      "cycle": 91,
+      "rmsDbFS": -26.45951498236724,
+      "peak": 0.671098561473646
+    },
+    {
+      "cycle": 92,
+      "rmsDbFS": -26.63949630320363,
+      "peak": 0.6466347660613949
+    },
+    {
+      "cycle": 93,
+      "rmsDbFS": -25.879077578810765,
+      "peak": 0.671098561473646
+    },
+    {
+      "cycle": 94,
+      "rmsDbFS": -25.620233901670844,
+      "peak": 0.671098561473646
+    },
+    {
+      "cycle": 95,
+      "rmsDbFS": -26.518218098706807,
+      "peak": 0.671098561473646
+    },
+    {
+      "cycle": 96,
+      "rmsDbFS": -23.974470025512744,
+      "peak": 0.620287465341457
+    },
+    {
+      "cycle": 97,
+      "rmsDbFS": -22.716076702396094,
+      "peak": 0.6301123319182501
+    },
+    {
+      "cycle": 98,
+      "rmsDbFS": -23.711594033701196,
+      "peak": 0.671098561473646
+    },
+    {
+      "cycle": 99,
+      "rmsDbFS": -23.19529690488329,
+      "peak": 0.671098561473646
+    },
+    {
+      "cycle": 100,
+      "rmsDbFS": -23.701400754978806,
+      "peak": 0.6473372191889488
+    },
+    {
+      "cycle": 101,
+      "rmsDbFS": -22.885484654028506,
+      "peak": 0.6221934040425094
+    },
+    {
+      "cycle": 102,
+      "rmsDbFS": -24.571906312003534,
+      "peak": 0.5139898899774017
+    },
+    {
+      "cycle": 103,
+      "rmsDbFS": -24.34202221408286,
+      "peak": 0.5110946026395227
+    },
+    {
+      "cycle": 104,
+      "rmsDbFS": -23.73835452591228,
+      "peak": 0.5765303518113916
+    },
+    {
+      "cycle": 105,
+      "rmsDbFS": -23.624560463802826,
+      "peak": 0.671098561473646
+    },
+    {
+      "cycle": 106,
+      "rmsDbFS": -24.166815634330373,
+      "peak": 0.5319932879766909
+    },
+    {
+      "cycle": 107,
+      "rmsDbFS": -23.860247377085145,
+      "peak": 0.5970203774988266
+    },
+    {
+      "cycle": 108,
+      "rmsDbFS": -24.70757705502837,
+      "peak": 0.5826178990287361
+    },
+    {
+      "cycle": 109,
+      "rmsDbFS": -24.73996866525859,
+      "peak": 0.6460516177985584
+    },
+    {
+      "cycle": 110,
+      "rmsDbFS": -24.589685124370106,
+      "peak": 0.523206355728238
+    },
+    {
+      "cycle": 111,
+      "rmsDbFS": -23.376137308871677,
+      "peak": 0.7199968809185695
+    },
+    {
+      "cycle": 112,
+      "rmsDbFS": -22.782595669791217,
+      "peak": 0.4875554649155824
+    },
+    {
+      "cycle": 113,
+      "rmsDbFS": -24.27375572391857,
+      "peak": 0.48388202674312414
+    },
+    {
+      "cycle": 114,
+      "rmsDbFS": -23.82050409850236,
+      "peak": 0.48721614484534304
+    },
+    {
+      "cycle": 115,
+      "rmsDbFS": -23.928824144257344,
+      "peak": 0.48285752845786917
+    },
+    {
+      "cycle": 116,
+      "rmsDbFS": -24.266195788742877,
+      "peak": 0.4254731781490351
+    },
+    {
+      "cycle": 117,
+      "rmsDbFS": -24.04558832805005,
+      "peak": 0.5679177882113717
+    },
+    {
+      "cycle": 118,
+      "rmsDbFS": -24.19375244887626,
+      "peak": 0.49538696853776565
+    },
+    {
+      "cycle": 119,
+      "rmsDbFS": -24.36389555368732,
+      "peak": 0.5049657275932238
+    },
+    {
+      "cycle": 120,
+      "rmsDbFS": -22.347581092609452,
+      "peak": 0.6351846181299607
+    },
+    {
+      "cycle": 121,
+      "rmsDbFS": -23.4264064408909,
+      "peak": 0.6717845194590193
+    },
+    {
+      "cycle": 122,
+      "rmsDbFS": -23.611565921804658,
+      "peak": 0.4894818276017713
+    },
+    {
+      "cycle": 123,
+      "rmsDbFS": -24.09535482401289,
+      "peak": 0.5260767503970081
+    },
+    {
+      "cycle": 124,
+      "rmsDbFS": -24.1868735296247,
+      "peak": 0.4618947819867049
+    },
+    {
+      "cycle": 125,
+      "rmsDbFS": -24.782763687330146,
+      "peak": 0.40264816011684557
+    },
+    {
+      "cycle": 126,
+      "rmsDbFS": -23.29311454010316,
+      "peak": 0.5957452730170965
+    },
+    {
+      "cycle": 127,
+      "rmsDbFS": -23.389396721779306,
+      "peak": 0.5640315327136158
+    },
+    {
+      "cycle": 128,
+      "rmsDbFS": -23.626027330444455,
+      "peak": 0.577513762197033
+    },
+    {
+      "cycle": 129,
+      "rmsDbFS": -23.66783714950092,
+      "peak": 0.4774642767704911
+    },
+    {
+      "cycle": 130,
+      "rmsDbFS": -24.776502869414742,
+      "peak": 0.45545669800243826
+    },
+    {
+      "cycle": 131,
+      "rmsDbFS": -23.151315531791823,
+      "peak": 0.6701143113353117
+    },
+    {
+      "cycle": 132,
+      "rmsDbFS": -22.425180162241112,
+      "peak": 0.5306100953269263
+    },
+    {
+      "cycle": 133,
+      "rmsDbFS": -23.288915708053253,
+      "peak": 0.5977787941451242
+    },
+    {
+      "cycle": 134,
+      "rmsDbFS": -22.910081374108863,
+      "peak": 0.4370999440664724
+    },
+    {
+      "cycle": 135,
+      "rmsDbFS": -23.847903880392757,
+      "peak": 0.505979009181796
+    },
+    {
+      "cycle": 136,
+      "rmsDbFS": -23.268467215495313,
+      "peak": 0.5530436086572504
+    },
+    {
+      "cycle": 137,
+      "rmsDbFS": -23.95083086787013,
+      "peak": 0.5031120335061324
+    },
+    {
+      "cycle": 138,
+      "rmsDbFS": -23.763689550024935,
+      "peak": 0.48693572742827235
+    },
+    {
+      "cycle": 139,
+      "rmsDbFS": -23.484387938197262,
+      "peak": 0.47447319764329404
+    },
+    {
+      "cycle": 140,
+      "rmsDbFS": -23.046425979194368,
+      "peak": 0.5771665844408822
+    },
+    {
+      "cycle": 141,
+      "rmsDbFS": -22.972598060660616,
+      "peak": 0.6466180309898735
+    },
+    {
+      "cycle": 142,
+      "rmsDbFS": -23.727335383048043,
+      "peak": 0.4201131566753591
+    },
+    {
+      "cycle": 143,
+      "rmsDbFS": -23.781176574088324,
+      "peak": 0.601130667018563
+    },
+    {
+      "cycle": 144,
+      "rmsDbFS": -23.47166392711387,
+      "peak": 0.4558168319429928
+    },
+    {
+      "cycle": 145,
+      "rmsDbFS": -24.14727704060461,
+      "peak": 0.5310275723799341
+    },
+    {
+      "cycle": 146,
+      "rmsDbFS": -23.200344702549415,
+      "peak": 0.5451159833429056
+    },
+    {
+      "cycle": 147,
+      "rmsDbFS": -23.85419014880748,
+      "peak": 0.47096803991224584
+    },
+    {
+      "cycle": 148,
+      "rmsDbFS": -23.9083890167457,
+      "peak": 0.5915328335805106
+    },
+    {
+      "cycle": 149,
+      "rmsDbFS": -23.500246890786805,
+      "peak": 0.5934603659222359
+    },
+    {
+      "cycle": 150,
+      "rmsDbFS": -22.335675348853535,
+      "peak": 0.8133155985562251
+    },
+    {
+      "cycle": 151,
+      "rmsDbFS": -23.304268996647018,
+      "peak": 0.5031659576254793
+    },
+    {
+      "cycle": 152,
+      "rmsDbFS": -22.076002794334457,
+      "peak": 0.5222201261728421
+    },
+    {
+      "cycle": 153,
+      "rmsDbFS": -21.626756675321612,
+      "peak": 0.6651723067556604
+    },
+    {
+      "cycle": 154,
+      "rmsDbFS": -21.679591371615548,
+      "peak": 0.5620188854382384
+    },
+    {
+      "cycle": 155,
+      "rmsDbFS": -22.43724213401915,
+      "peak": 0.6061631249596994
+    },
+    {
+      "cycle": 156,
+      "rmsDbFS": -21.61004455180378,
+      "peak": 0.7039897550171474
+    },
+    {
+      "cycle": 157,
+      "rmsDbFS": -22.550845903999445,
+      "peak": 0.5803392900790717
+    },
+    {
+      "cycle": 158,
+      "rmsDbFS": -22.2290968064168,
+      "peak": 0.5519885193810423
+    },
+    {
+      "cycle": 159,
+      "rmsDbFS": -22.08511008822143,
+      "peak": 0.6316289252815046
+    },
+    {
+      "cycle": 160,
+      "rmsDbFS": -21.39756026112022,
+      "peak": 0.84
+    },
+    {
+      "cycle": 161,
+      "rmsDbFS": -21.12745053324514,
+      "peak": 0.6107012684764337
+    },
+    {
+      "cycle": 162,
+      "rmsDbFS": -21.046905317261476,
+      "peak": 0.7449497123097247
+    },
+    {
+      "cycle": 163,
+      "rmsDbFS": -25.17411379053481,
+      "peak": 0.44247954977259196
+    },
+    {
+      "cycle": 164,
+      "rmsDbFS": -26.33174867928132,
+      "peak": 0.4457040501572287
+    },
+    {
+      "cycle": 165,
+      "rmsDbFS": -30.940195703277222,
+      "peak": 0.3089303200207539
+    },
+    {
+      "cycle": 166,
+      "rmsDbFS": -36.32929041195382,
+      "peak": 0.1053572023039215
+    },
+    {
+      "cycle": 167,
+      "rmsDbFS": -79.29845413800412,
+      "peak": 0.0018980998767737902
+    },
+    {
+      "cycle": 168,
+      "rmsDbFS": null,
+      "peak": 0
+    }
+  ]
+}

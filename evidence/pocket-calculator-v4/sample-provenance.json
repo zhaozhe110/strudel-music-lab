@@ -1,0 +1,61 @@
+{
+  "source": "User-provided local reconstruction of Pocket Calculator; short single-strike/instrument samples only",
+  "sourceDirectory": "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake",
+  "destinations": [
+    "<LEGACY_WORKSPACE>/strudel/website/public/little-logic-v4",
+    "<LEGACY_WORKSPACE>/strudel/website/dist/little-logic-v4"
+  ],
+  "files": [
+    {
+      "file": "pc-kit-0.wav",
+      "bytes": 32676,
+      "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158"
+    },
+    {
+      "file": "pc-kit-1.wav",
+      "bytes": 32676,
+      "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2"
+    },
+    {
+      "file": "pc-kit-2.wav",
+      "bytes": 32676,
+      "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05"
+    },
+    {
+      "file": "pc-kit-3.wav",
+      "bytes": 32676,
+      "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695"
+    },
+    {
+      "file": "pc-kit-4.wav",
+      "bytes": 32676,
+      "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958"
+    },
+    {
+      "file": "pc-kit-5.wav",
+      "bytes": 32676,
+      "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5"
+    },
+    {
+      "file": "pc-midkeys-ab4.wav",
+      "bytes": 36204,
+      "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39"
+    },
+    {
+      "file": "pc-midkeys-bb4.wav",
+      "bytes": 36204,
+      "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7"
+    },
+    {
+      "file": "pc-buzz-g5.wav",
+      "bytes": 45908,
+      "sha256": "b3d03e9ce25edc96c2322ab1ffb3ef26b073100abc5f69ce5f70ba7308758180"
+    },
+    {
+      "file": "pc-buzz-fs6.wav",
+      "bytes": 49436,
+      "sha256": "111c3193eeeec48c981c77807bde08a7c2ae93689ace5dd6321a5ef309b7676a"
+    }
+  ],
+  "limitations": "AI-separated source snippets can include bleed; six kit samples are composite strikes, not six reliably isolated drum instruments."
+}

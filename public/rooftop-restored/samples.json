@@ -1,0 +1,188 @@
+{
+  "_base": "http://127.0.0.1:3009/rooftop-restored/",
+  "restore_green": {
+    "d3": [
+      "green/twang_d4_mf_rr1.wav",
+      "green/twang_d4_mf_rr2.wav",
+      "green/twang_d4_mf_rr3.wav",
+      "green/twang_d4_mf_rr4.wav"
+    ],
+    "fs3": [
+      "green/twang_gb4_mf_rr1.wav",
+      "green/twang_gb4_mf_rr2.wav",
+      "green/twang_gb4_mf_rr3.wav",
+      "green/twang_gb4_mf_rr4.wav"
+    ],
+    "g3": [
+      "green/twang_g4_mf_rr1.wav",
+      "green/twang_g4_mf_rr2.wav",
+      "green/twang_g4_mf_rr3.wav",
+      "green/twang_g4_mf_rr4.wav"
+    ],
+    "a3": [
+      "green/twang_a4_mf_rr1.wav",
+      "green/twang_a4_mf_rr2.wav",
+      "green/twang_a4_mf_rr3.wav",
+      "green/twang_a4_mf_rr4.wav"
+    ],
+    "b3": [
+      "green/twang_b4_mf_rr1.wav",
+      "green/twang_b4_mf_rr2.wav",
+      "green/twang_b4_mf_rr3.wav",
+      "green/twang_b4_mf_rr4.wav"
+    ],
+    "cs4": [
+      "green/twang_db5_mf_rr1.wav",
+      "green/twang_db5_mf_rr2.wav",
+      "green/twang_db5_mf_rr3.wav",
+      "green/twang_db5_mf_rr4.wav"
+    ],
+    "d4": [
+      "green/twang_d5_mf_rr1.wav",
+      "green/twang_d5_mf_rr2.wav",
+      "green/twang_d5_mf_rr3.wav",
+      "green/twang_d5_mf_rr4.wav"
+    ],
+    "e4": [
+      "green/twang_e5_mf_rr1.wav",
+      "green/twang_e5_mf_rr2.wav",
+      "green/twang_e5_mf_rr3.wav",
+      "green/twang_e5_mf_rr4.wav"
+    ],
+    "fs4": [
+      "green/twang_gb5_mf_rr1.wav",
+      "green/twang_gb5_mf_rr2.wav",
+      "green/twang_gb5_mf_rr3.wav",
+      "green/twang_gb5_mf_rr4.wav"
+    ],
+    "a4": [
+      "green/twang_a5_mf_rr1.wav",
+      "green/twang_a5_mf_rr2.wav",
+      "green/twang_a5_mf_rr3.wav",
+      "green/twang_a5_mf_rr4.wav"
+    ],
+    "b4": [
+      "green/twang_b5_mf_rr1.wav",
+      "green/twang_b5_mf_rr2.wav",
+      "green/twang_b5_mf_rr3.wav",
+      "green/twang_b5_mf_rr4.wav"
+    ],
+    "cs5": [
+      "green/twang_db6_mf_rr1.wav",
+      "green/twang_db6_mf_rr2.wav",
+      "green/twang_db6_mf_rr3.wav",
+      "green/twang_db6_mf_rr4.wav"
+    ],
+    "d5": [
+      "green/twang_d6_mf_rr1.wav",
+      "green/twang_d6_mf_rr2.wav",
+      "green/twang_d6_mf_rr3.wav",
+      "green/twang_d6_mf_rr4.wav"
+    ],
+    "e5": [
+      "green/twang_e6_mf_rr1.wav",
+      "green/twang_e6_mf_rr2.wav",
+      "green/twang_e6_mf_rr3.wav",
+      "green/twang_e6_mf_rr4.wav"
+    ]
+  },
+  "restore_black": {
+    "d4": [
+      "black/twang_d5_mf_rr1.wav",
+      "black/twang_d5_mf_rr2.wav",
+      "black/twang_d5_mf_rr3.wav",
+      "black/twang_d5_mf_rr4.wav"
+    ],
+    "e4": [
+      "black/twang_e5_mf_rr1.wav",
+      "black/twang_e5_mf_rr2.wav",
+      "black/twang_e5_mf_rr3.wav",
+      "black/twang_e5_mf_rr4.wav"
+    ],
+    "fs4": [
+      "black/twang_gb5_mf_rr1.wav",
+      "black/twang_gb5_mf_rr2.wav",
+      "black/twang_gb5_mf_rr3.wav",
+      "black/twang_gb5_mf_rr4.wav"
+    ],
+    "g4": [
+      "black/twang_g5_mf_rr1.wav",
+      "black/twang_g5_mf_rr2.wav",
+      "black/twang_g5_mf_rr3.wav",
+      "black/twang_g5_mf_rr4.wav"
+    ],
+    "gs4": [
+      "black/twang_ab5_mf_rr1.wav",
+      "black/twang_ab5_mf_rr2.wav",
+      "black/twang_ab5_mf_rr3.wav",
+      "black/twang_ab5_mf_rr4.wav"
+    ],
+    "a4": [
+      "black/twang_a5_mf_rr1.wav",
+      "black/twang_a5_mf_rr2.wav",
+      "black/twang_a5_mf_rr3.wav",
+      "black/twang_a5_mf_rr4.wav"
+    ],
+    "b4": [
+      "black/twang_b5_mf_rr1.wav",
+      "black/twang_b5_mf_rr2.wav",
+      "black/twang_b5_mf_rr3.wav",
+      "black/twang_b5_mf_rr4.wav"
+    ],
+    "cs5": [
+      "black/twang_db6_mf_rr1.wav",
+      "black/twang_db6_mf_rr2.wav",
+      "black/twang_db6_mf_rr3.wav",
+      "black/twang_db6_mf_rr4.wav"
+    ],
+    "d5": [
+      "black/twang_d6_mf_rr1.wav",
+      "black/twang_d6_mf_rr2.wav",
+      "black/twang_d6_mf_rr3.wav",
+      "black/twang_d6_mf_rr4.wav"
+    ],
+    "e5": [
+      "black/twang_e6_mf_rr1.wav",
+      "black/twang_e6_mf_rr2.wav",
+      "black/twang_e6_mf_rr3.wav",
+      "black/twang_e6_mf_rr4.wav"
+    ],
+    "fs5": [
+      "black/twang_gb6_mf_rr1.wav",
+      "black/twang_gb6_mf_rr2.wav"
+    ],
+    "a5": [
+      "black/twang_a6_mf_rr1.wav",
+      "black/twang_a6_mf_rr2.wav"
+    ]
+  },
+  "restore_kick": [
+    "drums/EMOK3DHit-Kick01.wav",
+    "drums/EMOK3DHit-Kick02.wav",
+    "drums/EMOK3DHit-Kick03.wav"
+  ],
+  "restore_snare": [
+    "drums/EMOK3DHit-Snare01.wav",
+    "drums/EMOK3DHit-Snare02.wav",
+    "drums/EMOK3DHit-Snare03.wav",
+    "drums/EMOK3DHit-Snare04.wav",
+    "drums/EMOK3DHit-Snare05.wav",
+    "drums/EMOK3DHit-Snare06.wav"
+  ],
+  "restore_hh": [
+    "drums/EMOK3DHit-ClHat01.wav",
+    "drums/EMOK3DHit-ClHat02.wav"
+  ],
+  "restore_oh": [
+    "drums/EMOK3DHit-OpHat01.wav",
+    "drums/EMOK3DHit-OpHat02.wav"
+  ],
+  "restore_crash": [
+    "drums/EMOK3DHit-Crash01.wav",
+    "drums/EMOK3DHit-Crash02.wav"
+  ],
+  "restore_tom": [
+    "drums/EMOK3DHit-Tom01.wav",
+    "drums/EMOK3DHit-Tom02.wav"
+  ]
+}

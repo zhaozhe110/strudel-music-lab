@@ -1,0 +1,328 @@
+{
+  "scoreFile": "<LEGACY_WORKSPACE>/袖珍电路-v4.strudel",
+  "scoreSha256": "3901855b71de3ff02a12719cc7e51f81a29f2abafc35fce84b6b800ae2d29632",
+  "engine": "Local Strudel core/transpiler and unmodified Superdough synth/sampler/effects source with node-web-audio-api OfflineAudioContext",
+  "hostAdapter": "Only the unused Vite ?audioworklet URL import is stubbed; no oscillator, envelope, filter, panning, or delay logic is substituted.",
+  "postprocessing": "Constant peak normalization to 0.84 and 0.4-second tail fade; AAC compression for preview.",
+  "bpm": 136,
+  "beginCycle": 16,
+  "endCycle": 32,
+  "cycles": 16,
+  "musicalDurationSeconds": 28.235294117647058,
+  "durationSeconds": 30.23530612244898,
+  "sampleRate": 44100,
+  "channels": 2,
+  "events": 380,
+  "rawPeak": 0.4898214340209961,
+  "rawRmsDbFS": -27.32025592713778,
+  "sampleEventCount": 148,
+  "sampleSources": [
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-2.wav",
+      "sound": "pcKit2",
+      "bytes": 32676,
+      "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-midkeys-bb4.wav",
+      "sound": "pc_keys",
+      "bytes": 36204,
+      "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7",
+      "durationSeconds": 0.20498866213151928,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-0.wav",
+      "sound": "pcKit0",
+      "bytes": 32676,
+      "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-4.wav",
+      "sound": "pcKit4",
+      "bytes": 32676,
+      "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-5.wav",
+      "sound": "pcKit5",
+      "bytes": 32676,
+      "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-3.wav",
+      "sound": "pcKit3",
+      "bytes": 32676,
+      "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-midkeys-ab4.wav",
+      "sound": "pc_keys",
+      "bytes": 36204,
+      "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39",
+      "durationSeconds": 0.20498866213151928,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-1.wav",
+      "sound": "pcKit1",
+      "bytes": 32676,
+      "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-buzz-g5.wav",
+      "sound": "pc_keys",
+      "bytes": 45908,
+      "sha256": "b3d03e9ce25edc96c2322ab1ffb3ef26b073100abc5f69ce5f70ba7308758180",
+      "durationSeconds": 0.26,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-buzz-fs6.wav",
+      "sound": "pc_keys",
+      "bytes": 49436,
+      "sha256": "111c3193eeeec48c981c77807bde08a7c2ae93689ace5dd6321a5ef309b7676a",
+      "durationSeconds": 0.28,
+      "sampleRate": 44100,
+      "channels": 2
+    }
+  ],
+  "samplePitchMappings": [
+    {
+      "sound": "pcKit2",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-2.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit2:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_keys",
+      "note": "bb4",
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-midkeys-bb4.wav",
+      "index": 0,
+      "midi": 70,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit0",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-0.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit0:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit4",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-4.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit4:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit5",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-5.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit5:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit3",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-3.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit3:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_keys",
+      "note": "ab4",
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-midkeys-ab4.wav",
+      "index": 0,
+      "midi": 68,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit1",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-1.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit1:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_keys",
+      "note": "g5",
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-buzz-g5.wav",
+      "index": 0,
+      "midi": 79,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_keys",
+      "note": "fs6",
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-buzz-fs6.wav",
+      "index": 0,
+      "midi": 90,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    }
+  ],
+  "normalizationGain": 1.7149106626558803,
+  "finalPeak": 0.84,
+  "finalPeakDbFS": -1.5144142787623671,
+  "finalRmsDbFS": -22.63542591450376,
+  "nonFiniteSamples": 0,
+  "wavFile": "<LEGACY_WORKSPACE>/袖珍电路-v4-主段试听.wav",
+  "m4aFile": "<LEGACY_WORKSPACE>/袖珍电路-v4-主段试听.m4a",
+  "byBar": [
+    {
+      "bar": 1,
+      "sourceBar": 17,
+      "rmsDbFS": -22.03774232917876,
+      "peak": 0.8221838439297917
+    },
+    {
+      "bar": 2,
+      "sourceBar": 18,
+      "rmsDbFS": -22.192928905051275,
+      "peak": 0.8224198110452381
+    },
+    {
+      "bar": 3,
+      "sourceBar": 19,
+      "rmsDbFS": -22.091098354348336,
+      "peak": 0.8357423191495575
+    },
+    {
+      "bar": 4,
+      "sourceBar": 20,
+      "rmsDbFS": -22.362692073652113,
+      "peak": 0.737932902076458
+    },
+    {
+      "bar": 5,
+      "sourceBar": 21,
+      "rmsDbFS": -22.06524321792884,
+      "peak": 0.8221249160363306
+    },
+    {
+      "bar": 6,
+      "sourceBar": 22,
+      "rmsDbFS": -22.261531927850996,
+      "peak": 0.8055950030664992
+    },
+    {
+      "bar": 7,
+      "sourceBar": 23,
+      "rmsDbFS": -22.090745935983207,
+      "peak": 0.84
+    },
+    {
+      "bar": 8,
+      "sourceBar": 24,
+      "rmsDbFS": -22.33901067200457,
+      "peak": 0.7412004614351216
+    },
+    {
+      "bar": 9,
+      "sourceBar": 25,
+      "rmsDbFS": -22.392223851756725,
+      "peak": 0.678616125405216
+    },
+    {
+      "bar": 10,
+      "sourceBar": 26,
+      "rmsDbFS": -22.613489055394552,
+      "peak": 0.6123660962004615
+    },
+    {
+      "bar": 11,
+      "sourceBar": 27,
+      "rmsDbFS": -22.42289324466837,
+      "peak": 0.6799839373850063
+    },
+    {
+      "bar": 12,
+      "sourceBar": 28,
+      "rmsDbFS": -22.59413171244358,
+      "peak": 0.7144267033673082
+    },
+    {
+      "bar": 13,
+      "sourceBar": 29,
+      "rmsDbFS": -22.416581825621854,
+      "peak": 0.6813517493647966
+    },
+    {
+      "bar": 14,
+      "sourceBar": 30,
+      "rmsDbFS": -22.61914607668367,
+      "peak": 0.6135036140883736
+    },
+    {
+      "bar": 15,
+      "sourceBar": 31,
+      "rmsDbFS": -22.433900134820025,
+      "peak": 0.6767007388802897
+    },
+    {
+      "bar": 16,
+      "sourceBar": 32,
+      "rmsDbFS": -22.547548550882727,
+      "peak": 0.7184438684617855
+    }
+  ]
+}

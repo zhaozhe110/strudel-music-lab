@@ -1,0 +1,49 @@
+// 电路夜行 / CIRCUIT AFTER DARK
+// 原创四小节循环 · 124 BPM · Am9 → Fmaj7 → Dm9 → E7
+// 每个 $: 是一条同时播放的轨道。第一次播放鼓机采样需要联网。
+setcpm(124/4)
+
+// 1. 底鼓：四拍机械脉冲
+$: sound("bd*4").bank("RolandTR808").gain(.65)
+
+// 2. 军鼓：第二、第四拍
+$: sound("~ sd ~ sd").bank("RolandTR808").gain(.38)
+
+// 3. 踩镲：弱强交替，第四小节结尾加速一下
+$: sound("<hh*8 hh*8 hh*8 [hh hh hh hh hh hh hh hh*2]>")
+  .bank("RolandTR808").gain("[.16 .28]*4").pan(.6)
+
+// 4. 锯齿贝斯：短音、八度跳跃，滤波器随每个音符打开
+$: note(`<[a2 ~ a2 a3 e3 a2 g2 e2]
+           [f2 ~ f2 f3 c3 f2 e2 c2]
+           [d2 ~ d2 d3 a2 d2 c3 a2]
+           [e2 ~ e2 e3 b2 e2 g#2 b2]>`)
+  .sound("sawtooth").lpf(500).lpq(1)
+  .lpenv(2).lpa(.005).lpd(.13).lps(0)
+  .attack(.005).decay(.14).sustain(0).release(.06).gain(.32)
+
+// 5. 方波主旋律：四小节问答，最后一个小节回到开头
+$: note(`<[e5 ~ g5 a5 ~ e5 d5 c5]
+           [e5 g5 a5 c6 b5 a5 g5 e5]
+           [f5 ~ a5 g5 e5 d5 c5 a4]
+           [b4 e5 g#5 b5 a5 g#5 e5 ~]>`)
+  .sound("square").lpf(2600)
+  .attack(.008).decay(.16).sustain(.12).release(.09)
+  .delay(.18).delaysync(3/16).delayfeedback(.25)
+  .pan(.44).gain(.16).orbit(1)
+
+// 6. 轻轻的和弦短音：逗号表示几个音一起弹
+$: note("<[c4,e4,g4,b4] [c4,e4,a4] [c4,e4,f4,a4] [b3,d4,g#4]>")
+  .struct("~ 1 ~ 1").sound("sawtooth").lpf(1200)
+  .attack(.015).decay(.2).sustain(0).release(.12)
+  .pan(.3).gain(.085)
+
+// 7. 高频电子琶音：像闪烁的小指示灯
+$: note(`<[a5 e6 b5 e6 a5 e6 g5 e6]
+           [a5 e6 c6 e6 a5 e6 c6 e6]
+           [a5 e6 f5 e6 a5 e6 c6 e6]
+           [g#5 e6 b5 e6 g#5 e6 d6 b5]>`)
+  .sound("triangle").lpf(4200)
+  .attack(.003).decay(.08).sustain(0).release(.04)
+  .delay(.25).delaysync(1/8).delayfeedback(.22)
+  .pan(.72).gain(.09).orbit(2)

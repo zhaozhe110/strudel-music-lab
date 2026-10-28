@@ -1,0 +1,88 @@
+{
+  "scoreFile": "<LEGACY_WORKSPACE>/Pocket Calculator-复刻版.strudel",
+  "scoreSha256": "dffccd6a348935b9e1ab177d67c5ea0ac123d0e32727fad891dd925fc6fa0871",
+  "engine": "Installed Strudel core/transpiler/tonal and unmodified Superdough, node-web-audio-api OfflineAudioContext",
+  "hostAdapter": "Unused Vite worklet resource import stub; visualizers are no-ops; local sample URL reads; no synth/envelope/filter/pan/delay substitution.",
+  "postprocessing": "Constant peak normalization to 0.84; 0.15-second tail fade; AAC preview",
+  "bpm": 135.85,
+  "cps": 0.5660416666666667,
+  "begin": 0,
+  "cycles": 8,
+  "musicalDurationSeconds": 14.133235185866765,
+  "durationSeconds": 15.133242630385487,
+  "sampleRate": 44100,
+  "channels": 2,
+  "events": 127,
+  "sounds": [
+    "pc_lead",
+    "pcKit2",
+    "pc_bass",
+    "pcKit0",
+    "pcKit4",
+    "pcKit5",
+    "pcKit1",
+    "pcKit3"
+  ],
+  "localSampleFiles": [
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/score.json",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-lead-ab3.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-2.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-bass-bb1.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-0.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-4.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-5.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-1.wav",
+    "<LEGACY_WORKSPACE>/strudel/website/public/pocket-calculator-remake/pc-kit-3.wav"
+  ],
+  "rawPeak": 0.8418282270431519,
+  "rawRmsDbFS": -20.791253242544666,
+  "normalizationGain": 0.9978282659283434,
+  "finalPeak": 0.84,
+  "finalPeakDbFS": -1.5144142787623671,
+  "finalRmsDbFS": -20.810137197910066,
+  "nonFiniteSamples": 0,
+  "wavFile": "<LEGACY_WORKSPACE>/.pocket-reconstruction-render/first8-check.wav",
+  "m4aFile": "<LEGACY_WORKSPACE>/.pocket-reconstruction-render/first8-check.m4a",
+  "byBar": [
+    {
+      "cycle": 0,
+      "rmsDbFS": -19.74993199818723,
+      "peak": 0.650798804321921
+    },
+    {
+      "cycle": 1,
+      "rmsDbFS": -23.220808056029917,
+      "peak": 0.7200087853365879
+    },
+    {
+      "cycle": 2,
+      "rmsDbFS": -19.31118748807004,
+      "peak": 0.7576051999449995
+    },
+    {
+      "cycle": 3,
+      "rmsDbFS": -23.05587122447558,
+      "peak": 0.84
+    },
+    {
+      "cycle": 4,
+      "rmsDbFS": -18.22332922912779,
+      "peak": 0.7990211713300651
+    },
+    {
+      "cycle": 5,
+      "rmsDbFS": -22.987314241349026,
+      "peak": 0.5341460515477217
+    },
+    {
+      "cycle": 6,
+      "rmsDbFS": -18.830963344152046,
+      "peak": 0.7664016414022156
+    },
+    {
+      "cycle": 7,
+      "rmsDbFS": -22.30091280699447,
+      "peak": 0.6636692969337561
+    }
+  ]
+}

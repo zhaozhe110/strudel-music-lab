@@ -1,0 +1,104 @@
+{
+  "checkedAt": "2026-10-28T02:28:02.196Z",
+  "browser": "Ego Lite",
+  "mode": "Native Strudel repl scheduler + webaudioOutput; worklets disabled only for test initialization. Standard UI startup remained pending before score evaluation.",
+  "nativeAudioOutput": {
+    "peak": 0.27517202496528625,
+    "rms": 0.04778166332762353
+  },
+  "sampleFiles": {
+    "loaded": 56,
+    "expected": 56
+  },
+  "cyclesPlayed": 75.29968249999997,
+  "eventsScheduled": 1480,
+  "errors": [],
+  "loopDurationStable": true,
+  "repeatedNotes": [
+    [
+      {
+        "cycle": 18.750525,
+        "local": 18.750525,
+        "secondsBefore": 0.5257142857142857,
+        "secondsAfter": 0.5257142857142857
+      },
+      {
+        "cycle": 60.000525,
+        "local": 18.750525,
+        "secondsBefore": 0.5257142857142857,
+        "secondsAfter": 0.5257142857142857
+      }
+    ],
+    [
+      {
+        "cycle": 19.376575,
+        "local": 19.376575,
+        "secondsBefore": 0.2057142857142857,
+        "secondsAfter": 0.2057142857142857
+      },
+      {
+        "cycle": 60.626575,
+        "local": 19.376575,
+        "secondsBefore": 0.2057142857142857,
+        "secondsAfter": 0.2057142857142857
+      }
+    ],
+    [
+      {
+        "cycle": 19.499475,
+        "local": 19.499475,
+        "secondsBefore": 0.2057142857142857,
+        "secondsAfter": 0.2057142857142857
+      },
+      {
+        "cycle": 60.749475,
+        "local": 19.499475,
+        "secondsBefore": 0.2057142857142857,
+        "secondsAfter": 0.2057142857142857
+      }
+    ],
+    [
+      {
+        "cycle": 19.6896,
+        "local": 19.6896,
+        "secondsBefore": 0.29714285714285715,
+        "secondsAfter": 0.29714285714285715
+      },
+      {
+        "cycle": 60.9396,
+        "local": 19.6896,
+        "secondsBefore": 0.29714285714285715,
+        "secondsAfter": 0.29714285714285715
+      }
+    ],
+    [
+      {
+        "cycle": 19.87605,
+        "local": 19.87605,
+        "secondsBefore": 0.09142857142857143,
+        "secondsAfter": 0.09142857142857143
+      },
+      {
+        "cycle": 61.12605,
+        "local": 19.87605,
+        "secondsBefore": 0.09142857142857143,
+        "secondsAfter": 0.09142857142857143
+      }
+    ],
+    [
+      {
+        "cycle": 19.9375,
+        "local": 19.9375,
+        "secondsBefore": 0.5028571428571429,
+        "secondsAfter": 0.5028571428571429
+      },
+      {
+        "cycle": 61.1875,
+        "local": 19.9375,
+        "secondsBefore": 0.5028571428571429,
+        "secondsAfter": 0.5028571428571429
+      }
+    ]
+  ],
+  "directAuditoryReview": false
+}

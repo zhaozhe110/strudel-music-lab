@@ -1,0 +1,53 @@
+Pocket Calculator · Strudel 复刻版
+
+来源：你提供的 Kraftwerk - Pocket Calculator (2009 Remaster).mp3。
+原文件时长约 4 分 57 秒，平均速度约 135.85 BPM；原录音有细微速度变化。
+
+打开与试听
+1. 双击「启动Strudel.command」，保持本地服务运行。
+2. 双击「打开Pocket Calculator复刻版.webloc」，在编辑器点击 play。
+3. 也可以直接播放「Pocket Calculator-复刻版.m4a」。
+
+可修改的控制
+VOICE = 0：关闭原曲分离人声，得到器乐版。
+LEAD / BASS / DRUMS / KEYS：分别调整主旋律、贝斯、鼓、计算器声的音量。
+MASTER：总音量。BPM：改变速度；人声采样不会自动时间拉伸。
+START / END：选择原曲秒数范围循环；从该范围内的下一次起音开始。
+「Pocket Calculator-主题循环.strudel」是便于改音符的四小节简版。
+
+做了什么
+完整谱含 2621 个演奏事件，按原录音时间触发：762 个主旋律音符、
+373 个贝斯音符、1326 次鼓击、136 个按键/蜂鸣音、24 段人声。
+乐器使用原曲中提取的短单音、单次鼓击采样，由 Strudel 重新演奏。
+人声来自你提供音频的机器分离结果，共约 37.6 秒。
+没有用整段原曲或连续伴奏音轨充当复刻；这是一版包含采样的重奏，非纯合成器版。
+
+文件与依赖
+主谱：Pocket Calculator-复刻版.strudel
+可编辑音符简版：Pocket Calculator-主题循环.strudel
+素材和事件：strudel/website/public/pocket-calculator-remake/
+预览服务使用的副本：strudel/website/dist/pocket-calculator-remake/
+必须保留素材目录；谱内路径指向本机 127.0.0.1:3009，无需外部采样网站。
+
+验证与限制
+完整谱使用本地实际 Strudel/Superdough 引擎离线生成音频，非另写合成器代播。
+Ego Lite 中已确认最终代码加载、采样注册和 2621 个事件查询成功；
+该浏览器的常规 play 入口停在 AudioWorklet 初始化，因此未确认其实时声音输出。
+可直接听导出的音频，或用你常用浏览器打开本地编辑器。
+转写包含机器识谱、音色采样和分离误差，尤其重叠声部与较弱的按键变化。
+采样可能有少量串音，人声分离有残留，不能声称与原版逐点相同。
+
+分析：.pocket-reconstruction-analysis/
+音色来源：.pocket-reconstruction-timbre/*manifest.json
+人声来源：.pocket-reconstruction-voice/phrases-manifest.json
+渲染证据：Pocket Calculator-复刻版.report.json
+
+最终音频检查：296.979 秒，含 0.15 秒尾音；2621 个事件。
+MASTER=.57 时原始峰值 0.83471，无非有限样本或 PCM 削波。
+导出音频的统一峰值为约 -1.51 dBFS。乐谱与 42 个资源散列已校验。
+
+2026-10-28 谱面修正：音符图移至顶部，高度 200px；新增实际参与播放的
+音高、鼓击和人声片段面板，并保留源码位置供音符高亮。
+2621 个事件的时间、音高、音量和声像与原渲染逐项一致；原音频继续有效。
+修改音高面板会替换全曲对应音高；请保留每行项目数。
+显示回归检查：.pocket-visual-fix/validation.json。

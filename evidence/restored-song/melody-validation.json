@@ -1,0 +1,18 @@
+[
+  {
+    "id": "original",
+    "events": 1208,
+    "originalMelodyEvents": 680,
+    "exactOriginalMelody": true,
+    "bpm": 132,
+    "seconds": 65.45454545454545
+  },
+  {
+    "id": "full",
+    "events": 2374,
+    "originalMelodyEvents": 680,
+    "exactOriginalMelody": true,
+    "bpm": 132,
+    "seconds": 127.27272727272727
+  }
+]

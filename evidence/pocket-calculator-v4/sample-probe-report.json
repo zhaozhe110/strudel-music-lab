@@ -1,0 +1,297 @@
+{
+  "description": "Native sampler probe only: six one-shot drums, four root-note keys and two transposed key notes; no source melody, lead, bass or voice timeline.",
+  "registrationThroughCoreEvalScope": true,
+  "eventCount": 12,
+  "sources": [
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-0.wav",
+      "durationSeconds": 0.18498866213151927,
+      "channels": 2,
+      "decodedSampleRate": 44100,
+      "bytes": 32676,
+      "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158",
+      "stats": {
+        "peak": 0.77996826171875,
+        "rms": 0.10971924669681288,
+        "peakDbFS": -2.1584613831352866,
+        "rmsDbFS": -19.194343656155205
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-1.wav",
+      "durationSeconds": 0.18498866213151927,
+      "channels": 2,
+      "decodedSampleRate": 44100,
+      "bytes": 32676,
+      "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2",
+      "stats": {
+        "peak": 0.77996826171875,
+        "rms": 0.1192043366305936,
+        "peakDbFS": -2.1584613831352866,
+        "rmsDbFS": -18.474158895191145
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-2.wav",
+      "durationSeconds": 0.18498866213151927,
+      "channels": 2,
+      "decodedSampleRate": 44100,
+      "bytes": 32676,
+      "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05",
+      "stats": {
+        "peak": 0.77996826171875,
+        "rms": 0.13991230896259002,
+        "peakDbFS": -2.1584613831352866,
+        "rmsDbFS": -17.082881524405632
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-3.wav",
+      "durationSeconds": 0.18498866213151927,
+      "channels": 2,
+      "decodedSampleRate": 44100,
+      "bytes": 32676,
+      "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695",
+      "stats": {
+        "peak": 0.77996826171875,
+        "rms": 0.08931718046284536,
+        "peakDbFS": -2.1584613831352866,
+        "rmsDbFS": -20.98129990116449
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-4.wav",
+      "durationSeconds": 0.18498866213151927,
+      "channels": 2,
+      "decodedSampleRate": 44100,
+      "bytes": 32676,
+      "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958",
+      "stats": {
+        "peak": 0.77996826171875,
+        "rms": 0.10682202844167041,
+        "peakDbFS": -2.1584613831352866,
+        "rmsDbFS": -19.426783589561897
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-kit-5.wav",
+      "durationSeconds": 0.18498866213151927,
+      "channels": 2,
+      "decodedSampleRate": 44100,
+      "bytes": 32676,
+      "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5",
+      "stats": {
+        "peak": 0.77996826171875,
+        "rms": 0.10853611891166545,
+        "peakDbFS": -2.1584613831352866,
+        "rmsDbFS": -19.288514243924517
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-ab4.wav",
+      "durationSeconds": 0.20498866213151928,
+      "channels": 2,
+      "decodedSampleRate": 44100,
+      "bytes": 36204,
+      "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39",
+      "stats": {
+        "peak": 0.799957275390625,
+        "rms": 0.2619086939302878,
+        "peakDbFS": -1.9386641491007353,
+        "rmsDbFS": -11.637001702875068
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-bb4.wav",
+      "durationSeconds": 0.20498866213151928,
+      "channels": 2,
+      "decodedSampleRate": 44100,
+      "bytes": 36204,
+      "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7",
+      "stats": {
+        "peak": 0.799957275390625,
+        "rms": 0.14218413281517644,
+        "peakDbFS": -1.9386641491007353,
+        "rmsDbFS": -16.942977328848503
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-g5.wav",
+      "durationSeconds": 0.26,
+      "channels": 2,
+      "decodedSampleRate": 44100,
+      "bytes": 45908,
+      "sha256": "b3d03e9ce25edc96c2322ab1ffb3ef26b073100abc5f69ce5f70ba7308758180",
+      "stats": {
+        "peak": 0.799957275390625,
+        "rms": 0.14428485755357348,
+        "peakDbFS": -1.9386641491007353,
+        "rmsDbFS": -16.815584899404982
+      }
+    },
+    {
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-fs6.wav",
+      "durationSeconds": 0.28,
+      "channels": 2,
+      "decodedSampleRate": 44100,
+      "bytes": 49436,
+      "sha256": "111c3193eeeec48c981c77807bde08a7c2ae93689ace5dd6321a5ef309b7676a",
+      "stats": {
+        "peak": 0.799957275390625,
+        "rms": 0.17969866204346305,
+        "peakDbFS": -1.9386641491007353,
+        "rmsDbFS": -14.909103128861613
+      }
+    }
+  ],
+  "pitches": [
+    {
+      "note": "ab4",
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-ab4.wav",
+      "index": 0,
+      "midi": 68,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    },
+    {
+      "note": "bb4",
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-bb4.wav",
+      "index": 0,
+      "midi": 70,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    },
+    {
+      "note": "g5",
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-g5.wav",
+      "index": 0,
+      "midi": 79,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    },
+    {
+      "note": "fs6",
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-buzz-fs6.wav",
+      "index": 0,
+      "midi": 90,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    },
+    {
+      "note": "a4",
+      "transpose": 1,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-ab4.wav",
+      "index": 0,
+      "midi": 69,
+      "label": "pc_keys:0",
+      "playbackRate": 1.0594630943592953
+    },
+    {
+      "note": "c5",
+      "transpose": 2,
+      "url": "http://127.0.0.1:3009/pocket-calculator-remake/pc-midkeys-bb4.wav",
+      "index": 0,
+      "midi": 72,
+      "label": "pc_keys:0",
+      "playbackRate": 1.122462048309373
+    }
+  ],
+  "output": {
+    "wav": "<LEGACY_WORKSPACE>/.pocket-calculator-v4/sample-probe.wav",
+    "m4a": "<LEGACY_WORKSPACE>/.pocket-calculator-v4/sample-probe.m4a",
+    "peak": 0.3119873106479645,
+    "rms": 0.026765157509066016,
+    "peakDbFS": -10.117261390633594,
+    "rmsDbFS": -31.44860393026114
+  },
+  "sections": [
+    {
+      "step": 1,
+      "peak": 0.3119873106479645,
+      "rms": 0.026693821867957587,
+      "peakDbFS": -10.117261390633594,
+      "rmsDbFS": -31.471784839470978
+    },
+    {
+      "step": 2,
+      "peak": 0.3119873106479645,
+      "rms": 0.02900241714422559,
+      "peakDbFS": -10.117261390633594,
+      "rmsDbFS": -30.751316105018645
+    },
+    {
+      "step": 3,
+      "peak": 0.3119873106479645,
+      "rms": 0.034040401274666586,
+      "peakDbFS": -10.117261390633594,
+      "rmsDbFS": -29.360106580241208
+    },
+    {
+      "step": 4,
+      "peak": 0.3119873106479645,
+      "rms": 0.021730993018696357,
+      "peakDbFS": -10.117261390633594,
+      "rmsDbFS": -33.25840855441176
+    },
+    {
+      "step": 5,
+      "peak": 0.3119873106479645,
+      "rms": 0.025962710043810216,
+      "peakDbFS": -10.117261390633594,
+      "rmsDbFS": -31.712999538170124
+    },
+    {
+      "step": 6,
+      "peak": 0.3119873106479645,
+      "rms": 0.026405354774161293,
+      "peakDbFS": -10.117261390633594,
+      "rmsDbFS": -31.566159861805122
+    },
+    {
+      "step": 7,
+      "peak": 0.19998931884765625,
+      "rms": 0.04192466810839148,
+      "peakDbFS": -13.979863975659983,
+      "rmsDbFS": -27.550607334969293
+    },
+    {
+      "step": 8,
+      "peak": 0.19998931884765625,
+      "rms": 0.022759930597267265,
+      "peakDbFS": -13.979863975659983,
+      "rmsDbFS": -32.85658133171667
+    },
+    {
+      "step": 9,
+      "peak": 0.19998931884765625,
+      "rms": 0.02598647622354278,
+      "peakDbFS": -13.979863975659983,
+      "rmsDbFS": -31.705052140202625
+    },
+    {
+      "step": 10,
+      "peak": 0.19998931884765625,
+      "rms": 0.033618536664652705,
+      "peakDbFS": -13.979863975659983,
+      "rmsDbFS": -29.468423885924775
+    },
+    {
+      "step": 11,
+      "peak": 0.19901923835277557,
+      "rms": 0.04061267918691946,
+      "peakDbFS": -14.022098802799672,
+      "rmsDbFS": -27.826767189901393
+    },
+    {
+      "step": 12,
+      "peak": 0.19818593561649323,
+      "rms": 0.021424975368644208,
+      "peakDbFS": -14.05854337449975,
+      "rmsDbFS": -33.38159337387643
+    }
+  ]
+}

@@ -1,0 +1,2994 @@
+[
+  {
+    "time": 0.527035,
+    "midi": 34,
+    "peakEnvelope": 0.3767,
+    "freq": 57.87,
+    "gain": 1.06021,
+    "detectedTime": 0.541519
+  },
+  {
+    "time": 0.9708,
+    "midi": 34,
+    "peakEnvelope": 0.38167,
+    "freq": 57.87,
+    "gain": 1.0742,
+    "detectedTime": 0.983424
+  },
+  {
+    "time": 1.190119,
+    "midi": 46,
+    "peakEnvelope": 0.19708,
+    "freq": 116.414,
+    "gain": 0.55468,
+    "detectedTime": 1.199252
+  },
+  {
+    "time": 1.411502,
+    "midi": 34,
+    "peakEnvelope": 0.36767,
+    "freq": 57.87,
+    "gain": 1.0348,
+    "detectedTime": 1.424331
+  },
+  {
+    "time": 4.059348,
+    "midi": 34,
+    "peakEnvelope": 0.3797,
+    "freq": 58.543,
+    "gain": 1.06866,
+    "detectedTime": 4.075374
+  },
+  {
+    "time": 4.502273,
+    "midi": 34,
+    "peakEnvelope": 0.40611,
+    "freq": 58.543,
+    "gain": 1.14299,
+    "detectedTime": 4.515102
+  },
+  {
+    "time": 4.722001,
+    "midi": 46,
+    "peakEnvelope": 0.23694,
+    "freq": 116.414,
+    "gain": 0.66686,
+    "detectedTime": 4.730862
+  },
+  {
+    "time": 4.943067,
+    "midi": 34,
+    "peakEnvelope": 0.3783,
+    "freq": 57.87,
+    "gain": 1.06472,
+    "detectedTime": 4.955374
+  },
+  {
+    "time": 7.150663,
+    "midi": 34,
+    "peakEnvelope": 0.35482,
+    "freq": 58.543,
+    "gain": 0.99863,
+    "detectedTime": 7.16415
+  },
+  {
+    "time": 7.579462,
+    "midi": 34,
+    "peakEnvelope": 0.3919,
+    "freq": 57.87,
+    "gain": 1.10299,
+    "detectedTime": 7.587075
+  },
+  {
+    "time": 7.799643,
+    "midi": 46,
+    "peakEnvelope": 0.14841,
+    "freq": 116.414,
+    "gain": 0.4177,
+    "detectedTime": 7.810975
+  },
+  {
+    "time": 8.020981,
+    "midi": 34,
+    "peakEnvelope": 0.37469,
+    "freq": 57.87,
+    "gain": 1.05455,
+    "detectedTime": 8.027574
+  },
+  {
+    "time": 8.23953,
+    "midi": 46,
+    "peakEnvelope": 0.20524,
+    "freq": 117.087,
+    "gain": 0.57764,
+    "detectedTime": 8.2439
+  },
+  {
+    "time": 8.461571,
+    "midi": 34,
+    "peakEnvelope": 0.37909,
+    "freq": 57.87,
+    "gain": 1.06694,
+    "detectedTime": 8.469365
+  },
+  {
+    "time": 8.903407,
+    "midi": 46,
+    "peakEnvelope": 0.20216,
+    "freq": 116.414,
+    "gain": 0.56897,
+    "detectedTime": 8.907007
+  },
+  {
+    "time": 9.34479,
+    "midi": 46,
+    "peakEnvelope": 0.26646,
+    "freq": 116.414,
+    "gain": 0.74994,
+    "detectedTime": 9.34381
+  },
+  {
+    "time": 11.109961,
+    "midi": 34,
+    "peakEnvelope": 0.42068,
+    "freq": 57.87,
+    "gain": 1.18399,
+    "detectedTime": 11.11771
+  },
+  {
+    "time": 11.329893,
+    "midi": 46,
+    "peakEnvelope": 0.23606,
+    "freq": 117.087,
+    "gain": 0.66438,
+    "detectedTime": 11.334331
+  },
+  {
+    "time": 11.551389,
+    "midi": 34,
+    "peakEnvelope": 0.39471,
+    "freq": 57.87,
+    "gain": 1.1109,
+    "detectedTime": 11.557982
+  },
+  {
+    "time": 11.770165,
+    "midi": 46,
+    "peakEnvelope": 0.26432,
+    "freq": 116.414,
+    "gain": 0.74392,
+    "detectedTime": 11.773175
+  },
+  {
+    "time": 11.991911,
+    "midi": 34,
+    "peakEnvelope": 0.39165,
+    "freq": 57.87,
+    "gain": 1.10229,
+    "detectedTime": 12.000181
+  },
+  {
+    "time": 12.433657,
+    "midi": 46,
+    "peakEnvelope": 0.2101,
+    "freq": 117.087,
+    "gain": 0.59132,
+    "detectedTime": 12.435964
+  },
+  {
+    "time": 12.875153,
+    "midi": 46,
+    "peakEnvelope": 0.26191,
+    "freq": 116.414,
+    "gain": 0.73714,
+    "detectedTime": 12.874308
+  },
+  {
+    "time": 14.198351,
+    "midi": 34,
+    "peakEnvelope": 0.3709,
+    "freq": 58.543,
+    "gain": 1.04389,
+    "detectedTime": 14.206417
+  },
+  {
+    "time": 14.634269,
+    "midi": 34,
+    "peakEnvelope": 0.34509,
+    "freq": 57.87,
+    "gain": 0.97125,
+    "detectedTime": 14.647891
+  },
+  {
+    "time": 15.075312,
+    "midi": 34,
+    "peakEnvelope": 0.33577,
+    "freq": 58.543,
+    "gain": 0.94502,
+    "detectedTime": 15.089819
+  },
+  {
+    "time": 15.295539,
+    "midi": 46,
+    "peakEnvelope": 0.12086,
+    "freq": 116.414,
+    "gain": 0.34016,
+    "detectedTime": 15.303741
+  },
+  {
+    "time": 15.510029,
+    "midi": 34,
+    "peakEnvelope": 0.36676,
+    "freq": 58.543,
+    "gain": 1.03224,
+    "detectedTime": 15.531383
+  },
+  {
+    "time": 15.958056,
+    "midi": 46,
+    "peakEnvelope": 0.18202,
+    "freq": 116.414,
+    "gain": 0.51229,
+    "detectedTime": 15.963197
+  },
+  {
+    "time": 16.39928,
+    "midi": 46,
+    "peakEnvelope": 0.21813,
+    "freq": 116.414,
+    "gain": 0.61392,
+    "detectedTime": 16.402948
+  },
+  {
+    "time": 18.164156,
+    "midi": 34,
+    "peakEnvelope": 0.35102,
+    "freq": 57.87,
+    "gain": 0.98794,
+    "detectedTime": 18.17805
+  },
+  {
+    "time": 18.605017,
+    "midi": 34,
+    "peakEnvelope": 0.35612,
+    "freq": 57.87,
+    "gain": 1.00229,
+    "detectedTime": 18.620408
+  },
+  {
+    "time": 18.824428,
+    "midi": 46,
+    "peakEnvelope": 0.20969,
+    "freq": 117.087,
+    "gain": 0.59017,
+    "detectedTime": 18.831179
+  },
+  {
+    "time": 19.04021,
+    "midi": 34,
+    "peakEnvelope": 0.36316,
+    "freq": 58.543,
+    "gain": 1.0221,
+    "detectedTime": 19.060272
+  },
+  {
+    "time": 21.252727,
+    "midi": 34,
+    "peakEnvelope": 0.34187,
+    "freq": 58.543,
+    "gain": 0.96218,
+    "detectedTime": 21.269524
+  },
+  {
+    "time": 21.693566,
+    "midi": 34,
+    "peakEnvelope": 0.35922,
+    "freq": 58.543,
+    "gain": 1.01101,
+    "detectedTime": 21.70966
+  },
+  {
+    "time": 22.136128,
+    "midi": 34,
+    "peakEnvelope": 0.36602,
+    "freq": 58.543,
+    "gain": 1.03015,
+    "detectedTime": 22.151202
+  },
+  {
+    "time": 22.356831,
+    "midi": 46,
+    "peakEnvelope": 0.16278,
+    "freq": 116.414,
+    "gain": 0.45814,
+    "detectedTime": 22.36161
+  },
+  {
+    "time": 22.57572,
+    "midi": 34,
+    "peakEnvelope": 0.34256,
+    "freq": 58.543,
+    "gain": 0.96413,
+    "detectedTime": 22.593424
+  },
+  {
+    "time": 23.019484,
+    "midi": 46,
+    "peakEnvelope": 0.18638,
+    "freq": 117.76,
+    "gain": 0.52456,
+    "detectedTime": 23.024739
+  },
+  {
+    "time": 25.22631,
+    "midi": 34,
+    "peakEnvelope": 0.35201,
+    "freq": 58.543,
+    "gain": 0.99072,
+    "detectedTime": 25.240295
+  },
+  {
+    "time": 25.667829,
+    "midi": 34,
+    "peakEnvelope": 0.35186,
+    "freq": 58.543,
+    "gain": 0.9903,
+    "detectedTime": 25.682608
+  },
+  {
+    "time": 25.880301,
+    "midi": 46,
+    "peakEnvelope": 0.18978,
+    "freq": 117.087,
+    "gain": 0.53413,
+    "detectedTime": 25.894512
+  },
+  {
+    "time": 26.108124,
+    "midi": 34,
+    "peakEnvelope": 0.3539,
+    "freq": 58.543,
+    "gain": 0.99604,
+    "detectedTime": 26.124898
+  },
+  {
+    "time": 26.550391,
+    "midi": 46,
+    "peakEnvelope": 0.25183,
+    "freq": 116.414,
+    "gain": 0.70877,
+    "detectedTime": 26.555669
+  },
+  {
+    "time": 26.991911,
+    "midi": 46,
+    "peakEnvelope": 0.16428,
+    "freq": 116.414,
+    "gain": 0.46236,
+    "detectedTime": 26.994308
+  },
+  {
+    "time": 28.316015,
+    "midi": 34,
+    "peakEnvelope": 0.35978,
+    "freq": 58.543,
+    "gain": 1.01259,
+    "detectedTime": 28.332222
+  },
+  {
+    "time": 28.758305,
+    "midi": 34,
+    "peakEnvelope": 0.31985,
+    "freq": 58.543,
+    "gain": 0.90021,
+    "detectedTime": 28.772222
+  },
+  {
+    "time": 28.971775,
+    "midi": 46,
+    "peakEnvelope": 0.10423,
+    "freq": 116.414,
+    "gain": 0.29335,
+    "detectedTime": 28.984785
+  },
+  {
+    "time": 29.199643,
+    "midi": 34,
+    "peakEnvelope": 0.32386,
+    "freq": 58.543,
+    "gain": 0.9115,
+    "detectedTime": 29.214376
+  },
+  {
+    "time": 29.419462,
+    "midi": 46,
+    "peakEnvelope": 0.21044,
+    "freq": 116.414,
+    "gain": 0.59228,
+    "detectedTime": 29.424286
+  },
+  {
+    "time": 29.640029,
+    "midi": 34,
+    "peakEnvelope": 0.33165,
+    "freq": 58.543,
+    "gain": 0.93342,
+    "detectedTime": 29.656508
+  },
+  {
+    "time": 30.082228,
+    "midi": 46,
+    "peakEnvelope": 0.1885,
+    "freq": 116.414,
+    "gain": 0.53053,
+    "detectedTime": 30.088503
+  },
+  {
+    "time": 30.523339,
+    "midi": 46,
+    "peakEnvelope": 0.18789,
+    "freq": 115.741,
+    "gain": 0.52881,
+    "detectedTime": 30.5261
+  },
+  {
+    "time": 32.289031,
+    "midi": 34,
+    "peakEnvelope": 0.35447,
+    "freq": 57.87,
+    "gain": 0.99765,
+    "detectedTime": 32.30381
+  },
+  {
+    "time": 32.501752,
+    "midi": 46,
+    "peakEnvelope": 0.22129,
+    "freq": 115.741,
+    "gain": 0.62281,
+    "detectedTime": 32.503129
+  },
+  {
+    "time": 32.730369,
+    "midi": 34,
+    "peakEnvelope": 0.35783,
+    "freq": 57.87,
+    "gain": 1.0071,
+    "detectedTime": 32.746463
+  },
+  {
+    "time": 32.950618,
+    "midi": 46,
+    "peakEnvelope": 0.24593,
+    "freq": 115.741,
+    "gain": 0.69216,
+    "detectedTime": 32.955828
+  },
+  {
+    "time": 33.171321,
+    "midi": 34,
+    "peakEnvelope": 0.37482,
+    "freq": 57.87,
+    "gain": 1.05492,
+    "detectedTime": 33.171179
+  },
+  {
+    "time": 33.613475,
+    "midi": 46,
+    "peakEnvelope": 0.23401,
+    "freq": 116.414,
+    "gain": 0.65861,
+    "detectedTime": 33.617823
+  },
+  {
+    "time": 34.054813,
+    "midi": 46,
+    "peakEnvelope": 0.23409,
+    "freq": 115.741,
+    "gain": 0.65884,
+    "detectedTime": 34.057392
+  },
+  {
+    "time": 34.49606,
+    "midi": 32,
+    "peakEnvelope": 0.04276,
+    "freq": 50.468,
+    "gain": 0.12035,
+    "detectedTime": 34.460544
+  },
+  {
+    "time": 35.379167,
+    "midi": 34,
+    "peakEnvelope": 0.38401,
+    "freq": 58.543,
+    "gain": 1.08079,
+    "detectedTime": 35.378231
+  },
+  {
+    "time": 35.821412,
+    "midi": 34,
+    "peakEnvelope": 0.32787,
+    "freq": 58.543,
+    "gain": 0.92278,
+    "detectedTime": 35.835918
+  },
+  {
+    "time": 36.035221,
+    "midi": 46,
+    "peakEnvelope": 0.16273,
+    "freq": 116.414,
+    "gain": 0.458,
+    "detectedTime": 36.048141
+  },
+  {
+    "time": 36.26275,
+    "midi": 34,
+    "peakEnvelope": 0.32586,
+    "freq": 58.543,
+    "gain": 0.91712,
+    "detectedTime": 36.278231
+  },
+  {
+    "time": 36.482636,
+    "midi": 46,
+    "peakEnvelope": 0.21113,
+    "freq": 116.414,
+    "gain": 0.59422,
+    "detectedTime": 36.491633
+  },
+  {
+    "time": 36.703702,
+    "midi": 34,
+    "peakEnvelope": 0.36878,
+    "freq": 58.543,
+    "gain": 1.03792,
+    "detectedTime": 36.70322
+  },
+  {
+    "time": 37.145561,
+    "midi": 46,
+    "peakEnvelope": 0.23983,
+    "freq": 116.414,
+    "gain": 0.675,
+    "detectedTime": 37.149864
+  },
+  {
+    "time": 37.587194,
+    "midi": 46,
+    "peakEnvelope": 0.21562,
+    "freq": 115.741,
+    "gain": 0.60686,
+    "detectedTime": 37.589569
+  },
+  {
+    "time": 39.352863,
+    "midi": 34,
+    "peakEnvelope": 0.40036,
+    "freq": 57.87,
+    "gain": 1.1268,
+    "detectedTime": 39.366961
+  },
+  {
+    "time": 39.566763,
+    "midi": 46,
+    "peakEnvelope": 0.08039,
+    "freq": 117.76,
+    "gain": 0.22626,
+    "detectedTime": 39.543152
+  },
+  {
+    "time": 39.79445,
+    "midi": 34,
+    "peakEnvelope": 0.35525,
+    "freq": 58.543,
+    "gain": 0.99984,
+    "detectedTime": 39.809342
+  },
+  {
+    "time": 40.015267,
+    "midi": 46,
+    "peakEnvelope": 0.23545,
+    "freq": 116.414,
+    "gain": 0.66267,
+    "detectedTime": 40.020771
+  },
+  {
+    "time": 40.235403,
+    "midi": 34,
+    "peakEnvelope": 0.39531,
+    "freq": 57.87,
+    "gain": 1.11259,
+    "detectedTime": 40.235057
+  },
+  {
+    "time": 40.677444,
+    "midi": 46,
+    "peakEnvelope": 0.26206,
+    "freq": 116.414,
+    "gain": 0.73756,
+    "detectedTime": 40.681655
+  },
+  {
+    "time": 41.118963,
+    "midi": 46,
+    "peakEnvelope": 0.25894,
+    "freq": 115.741,
+    "gain": 0.72878,
+    "detectedTime": 41.121361
+  },
+  {
+    "time": 41.332704,
+    "midi": 30,
+    "peakEnvelope": 0.06271,
+    "freq": 45.085,
+    "gain": 0.1765,
+    "detectedTime": 41.334082
+  },
+  {
+    "time": 42.443385,
+    "midi": 34,
+    "peakEnvelope": 0.40886,
+    "freq": 57.87,
+    "gain": 1.15073,
+    "detectedTime": 42.459683
+  },
+  {
+    "time": 42.885698,
+    "midi": 34,
+    "peakEnvelope": 0.34181,
+    "freq": 58.543,
+    "gain": 0.96202,
+    "detectedTime": 42.897664
+  },
+  {
+    "time": 43.099212,
+    "midi": 46,
+    "peakEnvelope": 0.23273,
+    "freq": 117.087,
+    "gain": 0.65501,
+    "detectedTime": 43.104535
+  },
+  {
+    "time": 43.327013,
+    "midi": 34,
+    "peakEnvelope": 0.33374,
+    "freq": 57.87,
+    "gain": 0.9393,
+    "detectedTime": 43.34195
+  },
+  {
+    "time": 43.547194,
+    "midi": 46,
+    "peakEnvelope": 0.2231,
+    "freq": 116.414,
+    "gain": 0.62791,
+    "detectedTime": 43.553016
+  },
+  {
+    "time": 43.767761,
+    "midi": 34,
+    "peakEnvelope": 0.36018,
+    "freq": 57.87,
+    "gain": 1.01372,
+    "detectedTime": 43.783061
+  },
+  {
+    "time": 44.209983,
+    "midi": 46,
+    "peakEnvelope": 0.24586,
+    "freq": 116.414,
+    "gain": 0.69197,
+    "detectedTime": 44.21449
+  },
+  {
+    "time": 44.651344,
+    "midi": 46,
+    "peakEnvelope": 0.24613,
+    "freq": 116.414,
+    "gain": 0.69273,
+    "detectedTime": 44.653107
+  },
+  {
+    "time": 44.864745,
+    "midi": 46,
+    "peakEnvelope": 0.07414,
+    "freq": 114.395,
+    "gain": 0.20867,
+    "detectedTime": 44.871247
+  },
+  {
+    "time": 46.416945,
+    "midi": 34,
+    "peakEnvelope": 0.37566,
+    "freq": 58.543,
+    "gain": 1.05728,
+    "detectedTime": 46.429705
+  },
+  {
+    "time": 46.630301,
+    "midi": 46,
+    "peakEnvelope": 0.06828,
+    "freq": 119.106,
+    "gain": 0.19217,
+    "detectedTime": 46.606712
+  },
+  {
+    "time": 46.858101,
+    "midi": 34,
+    "peakEnvelope": 0.33949,
+    "freq": 58.543,
+    "gain": 0.95549,
+    "detectedTime": 46.872585
+  },
+  {
+    "time": 47.078328,
+    "midi": 46,
+    "peakEnvelope": 0.21758,
+    "freq": 116.414,
+    "gain": 0.61237,
+    "detectedTime": 47.084308
+  },
+  {
+    "time": 47.29894,
+    "midi": 34,
+    "peakEnvelope": 0.38022,
+    "freq": 57.87,
+    "gain": 1.07012,
+    "detectedTime": 47.314082
+  },
+  {
+    "time": 47.740958,
+    "midi": 46,
+    "peakEnvelope": 0.27165,
+    "freq": 115.068,
+    "gain": 0.76455,
+    "detectedTime": 47.745397
+  },
+  {
+    "time": 48.182387,
+    "midi": 46,
+    "peakEnvelope": 0.21831,
+    "freq": 115.741,
+    "gain": 0.61443,
+    "detectedTime": 48.184354
+  },
+  {
+    "time": 49.506287,
+    "midi": 34,
+    "peakEnvelope": 0.35229,
+    "freq": 57.87,
+    "gain": 0.99151,
+    "detectedTime": 49.522721
+  },
+  {
+    "time": 49.949167,
+    "midi": 34,
+    "peakEnvelope": 0.35428,
+    "freq": 57.87,
+    "gain": 0.99711,
+    "detectedTime": 49.962517
+  },
+  {
+    "time": 50.163339,
+    "midi": 46,
+    "peakEnvelope": 0.0791,
+    "freq": 117.087,
+    "gain": 0.22262,
+    "detectedTime": 50.177211
+  },
+  {
+    "time": 50.39055,
+    "midi": 34,
+    "peakEnvelope": 0.37174,
+    "freq": 57.87,
+    "gain": 1.04625,
+    "detectedTime": 50.40517
+  },
+  {
+    "time": 50.610618,
+    "midi": 46,
+    "peakEnvelope": 0.0778,
+    "freq": 117.76,
+    "gain": 0.21897,
+    "detectedTime": 50.613741
+  },
+  {
+    "time": 50.831298,
+    "midi": 34,
+    "peakEnvelope": 0.38669,
+    "freq": 58.543,
+    "gain": 1.08833,
+    "detectedTime": 50.847256
+  },
+  {
+    "time": 51.27377,
+    "midi": 46,
+    "peakEnvelope": 0.18048,
+    "freq": 116.414,
+    "gain": 0.50796,
+    "detectedTime": 51.278639
+  },
+  {
+    "time": 51.714654,
+    "midi": 46,
+    "peakEnvelope": 0.13368,
+    "freq": 116.414,
+    "gain": 0.37624,
+    "detectedTime": 51.726485
+  },
+  {
+    "time": 53.480777,
+    "midi": 34,
+    "peakEnvelope": 0.3557,
+    "freq": 58.543,
+    "gain": 1.00111,
+    "detectedTime": 53.494399
+  },
+  {
+    "time": 53.921911,
+    "midi": 34,
+    "peakEnvelope": 0.36288,
+    "freq": 58.543,
+    "gain": 1.02132,
+    "detectedTime": 53.937075
+  },
+  {
+    "time": 54.36284,
+    "midi": 34,
+    "peakEnvelope": 0.3907,
+    "freq": 57.87,
+    "gain": 1.09961,
+    "detectedTime": 54.379048
+  },
+  {
+    "time": 54.804836,
+    "midi": 46,
+    "peakEnvelope": 0.16036,
+    "freq": 116.414,
+    "gain": 0.45133,
+    "detectedTime": 54.810612
+  },
+  {
+    "time": 55.24631,
+    "midi": 46,
+    "peakEnvelope": 0.05637,
+    "freq": 117.76,
+    "gain": 0.15865,
+    "detectedTime": 55.248118
+  },
+  {
+    "time": 56.570482,
+    "midi": 34,
+    "peakEnvelope": 0.34456,
+    "freq": 57.87,
+    "gain": 0.96975,
+    "detectedTime": 56.586984
+  },
+  {
+    "time": 56.790255,
+    "midi": 32,
+    "peakEnvelope": 0.25072,
+    "freq": 51.814,
+    "gain": 0.70564,
+    "detectedTime": 56.802222
+  },
+  {
+    "time": 57.012591,
+    "midi": 34,
+    "peakEnvelope": 0.18312,
+    "freq": 57.87,
+    "gain": 0.51539,
+    "detectedTime": 57.03381
+  },
+  {
+    "time": 57.226378,
+    "midi": 41,
+    "peakEnvelope": 0.13648,
+    "freq": 86.806,
+    "gain": 0.38412,
+    "detectedTime": 57.209932
+  },
+  {
+    "time": 57.454042,
+    "midi": 34,
+    "peakEnvelope": 0.32137,
+    "freq": 58.543,
+    "gain": 0.90449,
+    "detectedTime": 57.46907
+  },
+  {
+    "time": 57.672704,
+    "midi": 41,
+    "peakEnvelope": 0.18738,
+    "freq": 86.806,
+    "gain": 0.52738,
+    "detectedTime": 57.670431
+  },
+  {
+    "time": 57.892001,
+    "midi": 34,
+    "peakEnvelope": 0.32345,
+    "freq": 58.543,
+    "gain": 0.91034,
+    "detectedTime": 57.909501
+  },
+  {
+    "time": 58.336287,
+    "midi": 46,
+    "peakEnvelope": 0.05317,
+    "freq": 116.414,
+    "gain": 0.14965,
+    "detectedTime": 58.341859
+  },
+  {
+    "time": 58.778146,
+    "midi": 46,
+    "peakEnvelope": 0.06743,
+    "freq": 116.414,
+    "gain": 0.18978,
+    "detectedTime": 58.780227
+  },
+  {
+    "time": 60.322387,
+    "midi": 32,
+    "peakEnvelope": 0.25711,
+    "freq": 51.814,
+    "gain": 0.72363,
+    "detectedTime": 60.340159
+  },
+  {
+    "time": 60.543339,
+    "midi": 34,
+    "peakEnvelope": 0.16392,
+    "freq": 57.198,
+    "gain": 0.46135,
+    "detectedTime": 60.572653
+  },
+  {
+    "time": 60.757353,
+    "midi": 41,
+    "peakEnvelope": 0.09653,
+    "freq": 86.806,
+    "gain": 0.27168,
+    "detectedTime": 60.698163
+  },
+  {
+    "time": 60.950278,
+    "midi": 34,
+    "peakEnvelope": 0.32959,
+    "freq": 57.87,
+    "gain": 0.92762,
+    "detectedTime": 60.98424
+  },
+  {
+    "time": 61.19114,
+    "midi": 41,
+    "peakEnvelope": 0.14994,
+    "freq": 86.806,
+    "gain": 0.422,
+    "detectedTime": 61.208005
+  },
+  {
+    "time": 61.424269,
+    "midi": 34,
+    "peakEnvelope": 0.30388,
+    "freq": 57.87,
+    "gain": 0.85526,
+    "detectedTime": 61.425737
+  },
+  {
+    "time": 61.865516,
+    "midi": 39,
+    "peakEnvelope": 0.20781,
+    "freq": 76.712,
+    "gain": 0.58488,
+    "detectedTime": 61.865057
+  },
+  {
+    "time": 63.633453,
+    "midi": 34,
+    "peakEnvelope": 0.35678,
+    "freq": 57.87,
+    "gain": 1.00415,
+    "detectedTime": 63.634853
+  },
+  {
+    "time": 63.854745,
+    "midi": 32,
+    "peakEnvelope": 0.27011,
+    "freq": 51.814,
+    "gain": 0.76022,
+    "detectedTime": 63.891519
+  },
+  {
+    "time": 64.076287,
+    "midi": 34,
+    "peakEnvelope": 0.32186,
+    "freq": 58.543,
+    "gain": 0.90587,
+    "detectedTime": 64.072336
+  },
+  {
+    "time": 64.290301,
+    "midi": 41,
+    "peakEnvelope": 0.12186,
+    "freq": 86.806,
+    "gain": 0.34297,
+    "detectedTime": 64.264671
+  },
+  {
+    "time": 64.517489,
+    "midi": 34,
+    "peakEnvelope": 0.3054,
+    "freq": 58.543,
+    "gain": 0.85954,
+    "detectedTime": 64.532132
+  },
+  {
+    "time": 64.730346,
+    "midi": 41,
+    "peakEnvelope": 0.21235,
+    "freq": 86.806,
+    "gain": 0.59765,
+    "detectedTime": 64.738118
+  },
+  {
+    "time": 64.956468,
+    "midi": 34,
+    "peakEnvelope": 0.28622,
+    "freq": 57.87,
+    "gain": 0.80556,
+    "detectedTime": 64.958367
+  },
+  {
+    "time": 67.38572,
+    "midi": 32,
+    "peakEnvelope": 0.22989,
+    "freq": 51.814,
+    "gain": 0.64702,
+    "detectedTime": 67.400272
+  },
+  {
+    "time": 67.606695,
+    "midi": 34,
+    "peakEnvelope": 0.35452,
+    "freq": 57.87,
+    "gain": 0.99779,
+    "detectedTime": 67.589388
+  },
+  {
+    "time": 67.820255,
+    "midi": 53,
+    "peakEnvelope": 0.12153,
+    "freq": 175.63,
+    "gain": 0.34204,
+    "detectedTime": 67.752812
+  },
+  {
+    "time": 68.048215,
+    "midi": 34,
+    "peakEnvelope": 0.31876,
+    "freq": 57.87,
+    "gain": 0.89714,
+    "detectedTime": 68.04771
+  },
+  {
+    "time": 68.265289,
+    "midi": 41,
+    "peakEnvelope": 0.17129,
+    "freq": 86.806,
+    "gain": 0.48209,
+    "detectedTime": 68.275283
+  },
+  {
+    "time": 68.473702,
+    "midi": 34,
+    "peakEnvelope": 0.27524,
+    "freq": 57.87,
+    "gain": 0.77466,
+    "detectedTime": 68.491519
+  },
+  {
+    "time": 68.927738,
+    "midi": 39,
+    "peakEnvelope": 0.18591,
+    "freq": 76.712,
+    "gain": 0.52324,
+    "detectedTime": 68.926372
+  },
+  {
+    "time": 69.372568,
+    "midi": 46,
+    "peakEnvelope": 0.10313,
+    "freq": 116.414,
+    "gain": 0.29026,
+    "detectedTime": 69.376213
+  },
+  {
+    "time": 70.695902,
+    "midi": 34,
+    "peakEnvelope": 0.35048,
+    "freq": 57.87,
+    "gain": 0.98642,
+    "detectedTime": 70.70102
+  },
+  {
+    "time": 71.13919,
+    "midi": 34,
+    "peakEnvelope": 0.29727,
+    "freq": 58.543,
+    "gain": 0.83666,
+    "detectedTime": 71.153061
+  },
+  {
+    "time": 71.352931,
+    "midi": 46,
+    "peakEnvelope": 0.20002,
+    "freq": 116.414,
+    "gain": 0.56295,
+    "detectedTime": 71.359184
+  },
+  {
+    "time": 71.580505,
+    "midi": 34,
+    "peakEnvelope": 0.28426,
+    "freq": 58.543,
+    "gain": 0.80004,
+    "detectedTime": 71.581338
+  },
+  {
+    "time": 71.801117,
+    "midi": 46,
+    "peakEnvelope": 0.18085,
+    "freq": 116.414,
+    "gain": 0.509,
+    "detectedTime": 71.807574
+  },
+  {
+    "time": 72.004428,
+    "midi": 34,
+    "peakEnvelope": 0.3185,
+    "freq": 57.87,
+    "gain": 0.89641,
+    "detectedTime": 72.022948
+  },
+  {
+    "time": 72.462818,
+    "midi": 46,
+    "peakEnvelope": 0.20976,
+    "freq": 116.414,
+    "gain": 0.59036,
+    "detectedTime": 72.463605
+  },
+  {
+    "time": 72.683929,
+    "midi": 46,
+    "peakEnvelope": 0.05886,
+    "freq": 115.068,
+    "gain": 0.16566,
+    "detectedTime": 72.682857
+  },
+  {
+    "time": 72.904859,
+    "midi": 46,
+    "peakEnvelope": 0.18337,
+    "freq": 116.414,
+    "gain": 0.51609,
+    "detectedTime": 72.908571
+  },
+  {
+    "time": 74.670119,
+    "midi": 34,
+    "peakEnvelope": 0.42142,
+    "freq": 57.87,
+    "gain": 1.18608,
+    "detectedTime": 74.671361
+  },
+  {
+    "time": 74.88402,
+    "midi": 46,
+    "peakEnvelope": 0.2241,
+    "freq": 116.414,
+    "gain": 0.63072,
+    "detectedTime": 74.853379
+  },
+  {
+    "time": 75.112024,
+    "midi": 34,
+    "peakEnvelope": 0.36692,
+    "freq": 58.543,
+    "gain": 1.03269,
+    "detectedTime": 75.113855
+  },
+  {
+    "time": 75.331843,
+    "midi": 46,
+    "peakEnvelope": 0.2581,
+    "freq": 115.741,
+    "gain": 0.72642,
+    "detectedTime": 75.331587
+  },
+  {
+    "time": 75.552568,
+    "midi": 34,
+    "peakEnvelope": 0.38614,
+    "freq": 57.87,
+    "gain": 1.08678,
+    "detectedTime": 75.556553
+  },
+  {
+    "time": 75.994473,
+    "midi": 46,
+    "peakEnvelope": 0.2507,
+    "freq": 116.414,
+    "gain": 0.70559,
+    "detectedTime": 75.99356
+  },
+  {
+    "time": 76.436151,
+    "midi": 46,
+    "peakEnvelope": 0.24154,
+    "freq": 115.741,
+    "gain": 0.67981,
+    "detectedTime": 76.440317
+  },
+  {
+    "time": 77.759847,
+    "midi": 34,
+    "peakEnvelope": 0.37774,
+    "freq": 57.87,
+    "gain": 1.06314,
+    "detectedTime": 77.764014
+  },
+  {
+    "time": 78.202682,
+    "midi": 34,
+    "peakEnvelope": 0.33893,
+    "freq": 58.543,
+    "gain": 0.95391,
+    "detectedTime": 78.203764
+  },
+  {
+    "time": 78.416174,
+    "midi": 46,
+    "peakEnvelope": 0.1629,
+    "freq": 115.741,
+    "gain": 0.45848,
+    "detectedTime": 78.421383
+  },
+  {
+    "time": 78.644269,
+    "midi": 34,
+    "peakEnvelope": 0.31927,
+    "freq": 57.87,
+    "gain": 0.89858,
+    "detectedTime": 78.646122
+  },
+  {
+    "time": 78.863929,
+    "midi": 46,
+    "peakEnvelope": 0.24042,
+    "freq": 116.414,
+    "gain": 0.67666,
+    "detectedTime": 78.863605
+  },
+  {
+    "time": 79.066831,
+    "midi": 34,
+    "peakEnvelope": 0.35898,
+    "freq": 57.87,
+    "gain": 1.01034,
+    "detectedTime": 79.088594
+  },
+  {
+    "time": 79.526582,
+    "midi": 46,
+    "peakEnvelope": 0.21694,
+    "freq": 116.414,
+    "gain": 0.61057,
+    "detectedTime": 79.525964
+  },
+  {
+    "time": 79.746786,
+    "midi": 46,
+    "peakEnvelope": 0.10218,
+    "freq": 114.395,
+    "gain": 0.28758,
+    "detectedTime": 79.729773
+  },
+  {
+    "time": 79.968101,
+    "midi": 46,
+    "peakEnvelope": 0.23278,
+    "freq": 115.741,
+    "gain": 0.65515,
+    "detectedTime": 79.97322
+  },
+  {
+    "time": 80.182205,
+    "midi": 46,
+    "peakEnvelope": 0.05004,
+    "freq": 115.068,
+    "gain": 0.14084,
+    "detectedTime": 80.246689
+  },
+  {
+    "time": 81.734156,
+    "midi": 34,
+    "peakEnvelope": 0.42062,
+    "freq": 57.87,
+    "gain": 1.18382,
+    "detectedTime": 81.734535
+  },
+  {
+    "time": 82.17538,
+    "midi": 34,
+    "peakEnvelope": 0.40167,
+    "freq": 58.543,
+    "gain": 1.13049,
+    "detectedTime": 82.176825
+  },
+  {
+    "time": 82.395244,
+    "midi": 46,
+    "peakEnvelope": 0.26834,
+    "freq": 115.741,
+    "gain": 0.75524,
+    "detectedTime": 82.360317
+  },
+  {
+    "time": 83.057806,
+    "midi": 46,
+    "peakEnvelope": 0.30231,
+    "freq": 115.741,
+    "gain": 0.85084,
+    "detectedTime": 83.057415
+  },
+  {
+    "time": 83.499598,
+    "midi": 46,
+    "peakEnvelope": 0.22749,
+    "freq": 115.741,
+    "gain": 0.64026,
+    "detectedTime": 83.504694
+  },
+  {
+    "time": 84.823498,
+    "midi": 34,
+    "peakEnvelope": 0.38951,
+    "freq": 58.543,
+    "gain": 1.09627,
+    "detectedTime": 84.828458
+  },
+  {
+    "time": 85.265561,
+    "midi": 34,
+    "peakEnvelope": 0.37824,
+    "freq": 57.87,
+    "gain": 1.06455,
+    "detectedTime": 85.268299
+  },
+  {
+    "time": 85.479371,
+    "midi": 46,
+    "peakEnvelope": 0.20069,
+    "freq": 116.414,
+    "gain": 0.56484,
+    "detectedTime": 85.486735
+  },
+  {
+    "time": 85.707557,
+    "midi": 34,
+    "peakEnvelope": 0.34538,
+    "freq": 58.543,
+    "gain": 0.97206,
+    "detectedTime": 85.71102
+  },
+  {
+    "time": 85.927239,
+    "midi": 46,
+    "peakEnvelope": 0.26123,
+    "freq": 116.414,
+    "gain": 0.73522,
+    "detectedTime": 85.928844
+  },
+  {
+    "time": 86.148101,
+    "midi": 34,
+    "peakEnvelope": 0.36237,
+    "freq": 58.543,
+    "gain": 1.01988,
+    "detectedTime": 86.153515
+  },
+  {
+    "time": 86.590006,
+    "midi": 46,
+    "peakEnvelope": 0.22608,
+    "freq": 116.414,
+    "gain": 0.6363,
+    "detectedTime": 86.589841
+  },
+  {
+    "time": 87.031412,
+    "midi": 46,
+    "peakEnvelope": 0.23667,
+    "freq": 116.414,
+    "gain": 0.6661,
+    "detectedTime": 87.036939
+  },
+  {
+    "time": 88.797194,
+    "midi": 34,
+    "peakEnvelope": 0.35101,
+    "freq": 57.87,
+    "gain": 0.98791,
+    "detectedTime": 88.802109
+  },
+  {
+    "time": 89.008985,
+    "midi": 46,
+    "peakEnvelope": 0.11704,
+    "freq": 117.087,
+    "gain": 0.32941,
+    "detectedTime": 89.013447
+  },
+  {
+    "time": 89.238804,
+    "midi": 34,
+    "peakEnvelope": 0.3333,
+    "freq": 58.543,
+    "gain": 0.93806,
+    "detectedTime": 89.243152
+  },
+  {
+    "time": 89.459031,
+    "midi": 46,
+    "peakEnvelope": 0.26672,
+    "freq": 117.087,
+    "gain": 0.75068,
+    "detectedTime": 89.460272
+  },
+  {
+    "time": 90.121911,
+    "midi": 46,
+    "peakEnvelope": 0.27798,
+    "freq": 116.414,
+    "gain": 0.78237,
+    "detectedTime": 90.122834
+  },
+  {
+    "time": 90.563158,
+    "midi": 46,
+    "peakEnvelope": 0.27178,
+    "freq": 116.414,
+    "gain": 0.76492,
+    "detectedTime": 90.569728
+  },
+  {
+    "time": 91.887013,
+    "midi": 34,
+    "peakEnvelope": 0.35515,
+    "freq": 57.87,
+    "gain": 0.99956,
+    "detectedTime": 91.911723
+  },
+  {
+    "time": 92.329847,
+    "midi": 34,
+    "peakEnvelope": 0.35995,
+    "freq": 57.87,
+    "gain": 1.01307,
+    "detectedTime": 92.335215
+  },
+  {
+    "time": 92.543657,
+    "midi": 46,
+    "peakEnvelope": 0.24267,
+    "freq": 117.087,
+    "gain": 0.68299,
+    "detectedTime": 92.54644
+  },
+  {
+    "time": 92.771434,
+    "midi": 34,
+    "peakEnvelope": 0.35761,
+    "freq": 57.87,
+    "gain": 1.00648,
+    "detectedTime": 92.777574
+  },
+  {
+    "time": 92.991389,
+    "midi": 46,
+    "peakEnvelope": 0.26099,
+    "freq": 117.087,
+    "gain": 0.73455,
+    "detectedTime": 92.993197
+  },
+  {
+    "time": 93.654201,
+    "midi": 46,
+    "peakEnvelope": 0.20656,
+    "freq": 116.414,
+    "gain": 0.58136,
+    "detectedTime": 93.655193
+  },
+  {
+    "time": 94.095131,
+    "midi": 46,
+    "peakEnvelope": 0.27243,
+    "freq": 116.414,
+    "gain": 0.76675,
+    "detectedTime": 94.101542
+  },
+  {
+    "time": 95.861366,
+    "midi": 34,
+    "peakEnvelope": 0.40491,
+    "freq": 57.87,
+    "gain": 1.13961,
+    "detectedTime": 95.884626
+  },
+  {
+    "time": 96.07479,
+    "midi": 46,
+    "peakEnvelope": 0.28212,
+    "freq": 117.087,
+    "gain": 0.79402,
+    "detectedTime": 96.075918
+  },
+  {
+    "time": 96.302682,
+    "midi": 34,
+    "peakEnvelope": 0.32897,
+    "freq": 58.543,
+    "gain": 0.92588,
+    "detectedTime": 96.310748
+  },
+  {
+    "time": 96.521979,
+    "midi": 46,
+    "peakEnvelope": 0.2635,
+    "freq": 117.087,
+    "gain": 0.74161,
+    "detectedTime": 96.525193
+  },
+  {
+    "time": 96.743294,
+    "midi": 34,
+    "peakEnvelope": 0.36321,
+    "freq": 58.543,
+    "gain": 1.02224,
+    "detectedTime": 96.752812
+  },
+  {
+    "time": 97.185267,
+    "midi": 46,
+    "peakEnvelope": 0.20662,
+    "freq": 116.414,
+    "gain": 0.58153,
+    "detectedTime": 97.187143
+  },
+  {
+    "time": 97.62665,
+    "midi": 46,
+    "peakEnvelope": 0.19264,
+    "freq": 116.414,
+    "gain": 0.54218,
+    "detectedTime": 97.625805
+  },
+  {
+    "time": 98.950165,
+    "midi": 34,
+    "peakEnvelope": 0.34511,
+    "freq": 58.543,
+    "gain": 0.9713,
+    "detectedTime": 98.960975
+  },
+  {
+    "time": 99.171616,
+    "midi": 32,
+    "peakEnvelope": 0.26083,
+    "freq": 51.814,
+    "gain": 0.7341,
+    "detectedTime": 99.222313
+  },
+  {
+    "time": 99.834428,
+    "midi": 34,
+    "peakEnvelope": 0.3621,
+    "freq": 58.543,
+    "gain": 1.01912,
+    "detectedTime": 99.84102
+  },
+  {
+    "time": 100.047421,
+    "midi": 41,
+    "peakEnvelope": 0.24358,
+    "freq": 86.806,
+    "gain": 0.68555,
+    "detectedTime": 100.056825
+  },
+  {
+    "time": 100.274995,
+    "midi": 34,
+    "peakEnvelope": 0.33877,
+    "freq": 58.543,
+    "gain": 0.95346,
+    "detectedTime": 100.285556
+  },
+  {
+    "time": 100.71699,
+    "midi": 46,
+    "peakEnvelope": 0.28614,
+    "freq": 116.414,
+    "gain": 0.80533,
+    "detectedTime": 100.720023
+  },
+  {
+    "time": 101.158033,
+    "midi": 46,
+    "peakEnvelope": 0.20466,
+    "freq": 115.741,
+    "gain": 0.57601,
+    "detectedTime": 101.157778
+  },
+  {
+    "time": 102.702908,
+    "midi": 32,
+    "peakEnvelope": 0.25277,
+    "freq": 51.814,
+    "gain": 0.71141,
+    "detectedTime": 102.731156
+  },
+  {
+    "time": 103.13792,
+    "midi": 41,
+    "peakEnvelope": 0.09111,
+    "freq": 86.133,
+    "gain": 0.25643,
+    "detectedTime": 103.159274
+  },
+  {
+    "time": 103.34767,
+    "midi": 34,
+    "peakEnvelope": 0.34917,
+    "freq": 58.543,
+    "gain": 0.98273,
+    "detectedTime": 103.373084
+  },
+  {
+    "time": 103.577738,
+    "midi": 41,
+    "peakEnvelope": 0.2033,
+    "freq": 86.806,
+    "gain": 0.57218,
+    "detectedTime": 103.589705
+  },
+  {
+    "time": 103.804133,
+    "midi": 34,
+    "peakEnvelope": 0.35695,
+    "freq": 58.543,
+    "gain": 1.00463,
+    "detectedTime": 103.818934
+  },
+  {
+    "time": 104.247444,
+    "midi": 39,
+    "peakEnvelope": 0.23431,
+    "freq": 77.385,
+    "gain": 0.65946,
+    "detectedTime": 104.247007
+  },
+  {
+    "time": 106.013793,
+    "midi": 34,
+    "peakEnvelope": 0.37141,
+    "freq": 58.543,
+    "gain": 1.04532,
+    "detectedTime": 106.027438
+  },
+  {
+    "time": 106.235629,
+    "midi": 32,
+    "peakEnvelope": 0.3012,
+    "freq": 51.141,
+    "gain": 0.84772,
+    "detectedTime": 106.246281
+  },
+  {
+    "time": 106.670709,
+    "midi": 41,
+    "peakEnvelope": 0.11372,
+    "freq": 86.806,
+    "gain": 0.32006,
+    "detectedTime": 106.681791
+  },
+  {
+    "time": 106.898373,
+    "midi": 34,
+    "peakEnvelope": 0.37661,
+    "freq": 57.87,
+    "gain": 1.05996,
+    "detectedTime": 106.909569
+  },
+  {
+    "time": 107.109575,
+    "midi": 41,
+    "peakEnvelope": 0.22525,
+    "freq": 86.806,
+    "gain": 0.63396,
+    "detectedTime": 107.122472
+  },
+  {
+    "time": 107.339076,
+    "midi": 34,
+    "peakEnvelope": 0.3381,
+    "freq": 58.543,
+    "gain": 0.95157,
+    "detectedTime": 107.351247
+  },
+  {
+    "time": 109.766763,
+    "midi": 32,
+    "peakEnvelope": 0.23757,
+    "freq": 51.814,
+    "gain": 0.66863,
+    "detectedTime": 109.779433
+  },
+  {
+    "time": 110.201707,
+    "midi": 41,
+    "peakEnvelope": 0.10625,
+    "freq": 86.806,
+    "gain": 0.29904,
+    "detectedTime": 110.217143
+  },
+  {
+    "time": 110.42928,
+    "midi": 34,
+    "peakEnvelope": 0.3385,
+    "freq": 58.543,
+    "gain": 0.9527,
+    "detectedTime": 110.43644
+  },
+  {
+    "time": 110.647784,
+    "midi": 41,
+    "peakEnvelope": 0.18351,
+    "freq": 86.806,
+    "gain": 0.51648,
+    "detectedTime": 110.645646
+  },
+  {
+    "time": 110.846763,
+    "midi": 34,
+    "peakEnvelope": 0.36364,
+    "freq": 58.543,
+    "gain": 1.02345,
+    "detectedTime": 110.8839
+  },
+  {
+    "time": 111.309484,
+    "midi": 39,
+    "peakEnvelope": 0.21296,
+    "freq": 76.712,
+    "gain": 0.59937,
+    "detectedTime": 111.307279
+  },
+  {
+    "time": 113.077806,
+    "midi": 34,
+    "peakEnvelope": 0.30689,
+    "freq": 58.543,
+    "gain": 0.86373,
+    "detectedTime": 113.094082
+  },
+  {
+    "time": 113.51411,
+    "midi": 34,
+    "peakEnvelope": 0.32342,
+    "freq": 57.87,
+    "gain": 0.91026,
+    "detectedTime": 113.534104
+  },
+  {
+    "time": 113.732478,
+    "midi": 46,
+    "peakEnvelope": 0.04242,
+    "freq": 115.741,
+    "gain": 0.11939,
+    "detectedTime": 113.695397
+  },
+  {
+    "time": 113.961412,
+    "midi": 34,
+    "peakEnvelope": 0.31444,
+    "freq": 58.543,
+    "gain": 0.88498,
+    "detectedTime": 113.976757
+  },
+  {
+    "time": 114.181684,
+    "midi": 46,
+    "peakEnvelope": 0.08625,
+    "freq": 115.741,
+    "gain": 0.24275,
+    "detectedTime": 114.183016
+  },
+  {
+    "time": 114.844632,
+    "midi": 46,
+    "peakEnvelope": 0.09904,
+    "freq": 116.414,
+    "gain": 0.27875,
+    "detectedTime": 114.850068
+  },
+  {
+    "time": 117.051661,
+    "midi": 34,
+    "peakEnvelope": 0.3812,
+    "freq": 58.543,
+    "gain": 1.07288,
+    "detectedTime": 117.067959
+  },
+  {
+    "time": 117.269575,
+    "midi": 46,
+    "peakEnvelope": 0.32119,
+    "freq": 117.087,
+    "gain": 0.90398,
+    "detectedTime": 117.264694
+  },
+  {
+    "time": 117.492772,
+    "midi": 34,
+    "peakEnvelope": 0.34811,
+    "freq": 58.543,
+    "gain": 0.97975,
+    "detectedTime": 117.494172
+  },
+  {
+    "time": 117.712931,
+    "midi": 46,
+    "peakEnvelope": 0.21477,
+    "freq": 116.414,
+    "gain": 0.60446,
+    "detectedTime": 117.716485
+  },
+  {
+    "time": 117.933634,
+    "midi": 34,
+    "peakEnvelope": 0.35505,
+    "freq": 57.87,
+    "gain": 0.99928,
+    "detectedTime": 117.936145
+  },
+  {
+    "time": 118.37538,
+    "midi": 46,
+    "peakEnvelope": 0.24952,
+    "freq": 116.414,
+    "gain": 0.70227,
+    "detectedTime": 118.381655
+  },
+  {
+    "time": 118.595834,
+    "midi": 46,
+    "peakEnvelope": 0.11201,
+    "freq": 115.068,
+    "gain": 0.31525,
+    "detectedTime": 118.594059
+  },
+  {
+    "time": 118.816718,
+    "midi": 46,
+    "peakEnvelope": 0.21117,
+    "freq": 116.414,
+    "gain": 0.59433,
+    "detectedTime": 118.821043
+  },
+  {
+    "time": 120.140641,
+    "midi": 34,
+    "peakEnvelope": 0.39439,
+    "freq": 57.87,
+    "gain": 1.11,
+    "detectedTime": 120.144104
+  },
+  {
+    "time": 120.583566,
+    "midi": 34,
+    "peakEnvelope": 0.32771,
+    "freq": 57.87,
+    "gain": 0.92233,
+    "detectedTime": 120.584082
+  },
+  {
+    "time": 120.796174,
+    "midi": 46,
+    "peakEnvelope": 0.14482,
+    "freq": 116.414,
+    "gain": 0.40759,
+    "detectedTime": 120.803764
+  },
+  {
+    "time": 121.025017,
+    "midi": 34,
+    "peakEnvelope": 0.32376,
+    "freq": 58.543,
+    "gain": 0.91121,
+    "detectedTime": 121.026871
+  },
+  {
+    "time": 121.245516,
+    "midi": 46,
+    "peakEnvelope": 0.207,
+    "freq": 116.414,
+    "gain": 0.5826,
+    "detectedTime": 121.244512
+  },
+  {
+    "time": 121.466196,
+    "midi": 34,
+    "peakEnvelope": 0.29229,
+    "freq": 57.87,
+    "gain": 0.82264,
+    "detectedTime": 121.469342
+  },
+  {
+    "time": 121.908033,
+    "midi": 46,
+    "peakEnvelope": 0.18583,
+    "freq": 116.414,
+    "gain": 0.52301,
+    "detectedTime": 121.907143
+  },
+  {
+    "time": 122.344314,
+    "midi": 46,
+    "peakEnvelope": 0.16875,
+    "freq": 116.414,
+    "gain": 0.47494,
+    "detectedTime": 122.35322
+  },
+  {
+    "time": 124.115698,
+    "midi": 34,
+    "peakEnvelope": 0.37431,
+    "freq": 57.87,
+    "gain": 1.05349,
+    "detectedTime": 124.11839
+  },
+  {
+    "time": 124.555403,
+    "midi": 34,
+    "peakEnvelope": 0.38262,
+    "freq": 58.543,
+    "gain": 1.07687,
+    "detectedTime": 124.560839
+  },
+  {
+    "time": 124.776831,
+    "midi": 46,
+    "peakEnvelope": 0.31864,
+    "freq": 115.741,
+    "gain": 0.8968,
+    "detectedTime": 124.743197
+  },
+  {
+    "time": 124.997738,
+    "midi": 34,
+    "peakEnvelope": 0.38574,
+    "freq": 57.87,
+    "gain": 1.08565,
+    "detectedTime": 125.003537
+  },
+  {
+    "time": 125.439961,
+    "midi": 46,
+    "peakEnvelope": 0.22557,
+    "freq": 116.414,
+    "gain": 0.63486,
+    "detectedTime": 125.440068
+  },
+  {
+    "time": 125.879666,
+    "midi": 46,
+    "peakEnvelope": 0.15109,
+    "freq": 116.414,
+    "gain": 0.42524,
+    "detectedTime": 125.887324
+  },
+  {
+    "time": 127.205244,
+    "midi": 34,
+    "peakEnvelope": 0.11839,
+    "freq": 57.87,
+    "gain": 0.33321,
+    "detectedTime": 127.212585
+  },
+  {
+    "time": 141.333589,
+    "midi": 34,
+    "peakEnvelope": 0.43159,
+    "freq": 59.216,
+    "gain": 1.2147,
+    "detectedTime": 141.347234
+  },
+  {
+    "time": 141.7764,
+    "midi": 34,
+    "peakEnvelope": 0.39694,
+    "freq": 58.543,
+    "gain": 1.11718,
+    "detectedTime": 141.787234
+  },
+  {
+    "time": 141.990391,
+    "midi": 46,
+    "peakEnvelope": 0.20112,
+    "freq": 116.414,
+    "gain": 0.56605,
+    "detectedTime": 142.003243
+  },
+  {
+    "time": 142.218078,
+    "midi": 34,
+    "peakEnvelope": 0.37331,
+    "freq": 57.87,
+    "gain": 1.05067,
+    "detectedTime": 142.229592
+  },
+  {
+    "time": 142.430051,
+    "midi": 46,
+    "peakEnvelope": 0.2388,
+    "freq": 116.414,
+    "gain": 0.6721,
+    "detectedTime": 142.442721
+  },
+  {
+    "time": 142.658849,
+    "midi": 34,
+    "peakEnvelope": 0.35546,
+    "freq": 57.87,
+    "gain": 1.00043,
+    "detectedTime": 142.672132
+  },
+  {
+    "time": 143.100732,
+    "midi": 46,
+    "peakEnvelope": 0.25684,
+    "freq": 115.741,
+    "gain": 0.72287,
+    "detectedTime": 143.104671
+  },
+  {
+    "time": 143.540482,
+    "midi": 46,
+    "peakEnvelope": 0.26023,
+    "freq": 115.741,
+    "gain": 0.73241,
+    "detectedTime": 143.54356
+  },
+  {
+    "time": 145.307942,
+    "midi": 34,
+    "peakEnvelope": 0.39027,
+    "freq": 58.543,
+    "gain": 1.0984,
+    "detectedTime": 145.321474
+  },
+  {
+    "time": 145.520505,
+    "midi": 46,
+    "peakEnvelope": 0.05506,
+    "freq": 116.414,
+    "gain": 0.15496,
+    "detectedTime": 145.492063
+  },
+  {
+    "time": 145.749711,
+    "midi": 34,
+    "peakEnvelope": 0.39506,
+    "freq": 58.543,
+    "gain": 1.11189,
+    "detectedTime": 145.76424
+  },
+  {
+    "time": 146.190641,
+    "midi": 34,
+    "peakEnvelope": 0.38329,
+    "freq": 58.543,
+    "gain": 1.07876,
+    "detectedTime": 146.206825
+  },
+  {
+    "time": 148.398509,
+    "midi": 34,
+    "peakEnvelope": 0.3467,
+    "freq": 58.543,
+    "gain": 0.97578,
+    "detectedTime": 148.408821
+  },
+  {
+    "time": 148.84089,
+    "midi": 34,
+    "peakEnvelope": 0.39051,
+    "freq": 58.543,
+    "gain": 1.09908,
+    "detectedTime": 148.856145
+  },
+  {
+    "time": 149.282251,
+    "midi": 34,
+    "peakEnvelope": 0.33971,
+    "freq": 57.87,
+    "gain": 0.9561,
+    "detectedTime": 149.291746
+  },
+  {
+    "time": 149.723521,
+    "midi": 34,
+    "peakEnvelope": 0.34111,
+    "freq": 57.87,
+    "gain": 0.96004,
+    "detectedTime": 149.72458
+  },
+  {
+    "time": 152.373747,
+    "midi": 34,
+    "peakEnvelope": 0.33849,
+    "freq": 57.87,
+    "gain": 0.95267,
+    "detectedTime": 152.391429
+  },
+  {
+    "time": 152.58606,
+    "midi": 46,
+    "peakEnvelope": 0.10335,
+    "freq": 116.414,
+    "gain": 0.29088,
+    "detectedTime": 152.597256
+  },
+  {
+    "time": 152.815335,
+    "midi": 34,
+    "peakEnvelope": 0.33675,
+    "freq": 57.87,
+    "gain": 0.94777,
+    "detectedTime": 152.819864
+  },
+  {
+    "time": 153.256242,
+    "midi": 34,
+    "peakEnvelope": 0.35073,
+    "freq": 57.87,
+    "gain": 0.98712,
+    "detectedTime": 153.260794
+  },
+  {
+    "time": 153.69792,
+    "midi": 46,
+    "peakEnvelope": 0.06903,
+    "freq": 116.414,
+    "gain": 0.19428,
+    "detectedTime": 153.70644
+  },
+  {
+    "time": 155.462092,
+    "midi": 34,
+    "peakEnvelope": 0.36135,
+    "freq": 57.87,
+    "gain": 1.01701,
+    "detectedTime": 155.486621
+  },
+  {
+    "time": 184.189688,
+    "midi": 34,
+    "peakEnvelope": 0.13995,
+    "freq": 57.87,
+    "gain": 0.39389,
+    "detectedTime": 184.210476
+  },
+  {
+    "time": 184.404224,
+    "midi": 46,
+    "peakEnvelope": 0.15553,
+    "freq": 117.087,
+    "gain": 0.43773,
+    "detectedTime": 184.427188
+  },
+  {
+    "time": 184.63148,
+    "midi": 34,
+    "peakEnvelope": 0.22891,
+    "freq": 57.87,
+    "gain": 0.64426,
+    "detectedTime": 184.630181
+  },
+  {
+    "time": 184.850459,
+    "midi": 46,
+    "peakEnvelope": 0.14816,
+    "freq": 116.414,
+    "gain": 0.41699,
+    "detectedTime": 184.872789
+  },
+  {
+    "time": 185.515176,
+    "midi": 45,
+    "peakEnvelope": 0.16105,
+    "freq": 111.703,
+    "gain": 0.45327,
+    "detectedTime": 185.586893
+  },
+  {
+    "time": 187.72377,
+    "midi": 34,
+    "peakEnvelope": 0.19963,
+    "freq": 57.87,
+    "gain": 0.56185,
+    "detectedTime": 187.750635
+  },
+  {
+    "time": 188.165698,
+    "midi": 34,
+    "peakEnvelope": 0.20462,
+    "freq": 58.543,
+    "gain": 0.5759,
+    "detectedTime": 188.188027
+  },
+  {
+    "time": 191.258645,
+    "midi": 34,
+    "peakEnvelope": 0.071,
+    "freq": 57.87,
+    "gain": 0.19983,
+    "detectedTime": 191.28424
+  },
+  {
+    "time": 191.700709,
+    "midi": 34,
+    "peakEnvelope": 0.14316,
+    "freq": 57.87,
+    "gain": 0.40292,
+    "detectedTime": 191.71
+  },
+  {
+    "time": 194.793294,
+    "midi": 34,
+    "peakEnvelope": 0.06671,
+    "freq": 57.87,
+    "gain": 0.18775,
+    "detectedTime": 194.806712
+  },
+  {
+    "time": 195.234995,
+    "midi": 34,
+    "peakEnvelope": 0.21761,
+    "freq": 58.543,
+    "gain": 0.61246,
+    "detectedTime": 195.234082
+  },
+  {
+    "time": 197.8864,
+    "midi": 34,
+    "peakEnvelope": 0.30608,
+    "freq": 58.543,
+    "gain": 0.86145,
+    "detectedTime": 197.892834
+  },
+  {
+    "time": 198.329167,
+    "midi": 33,
+    "peakEnvelope": 0.23524,
+    "freq": 54.506,
+    "gain": 0.66208,
+    "detectedTime": 198.349705
+  },
+  {
+    "time": 198.77114,
+    "midi": 46,
+    "peakEnvelope": 0.22118,
+    "freq": 115.741,
+    "gain": 0.62251,
+    "detectedTime": 198.752857
+  },
+  {
+    "time": 199.2125,
+    "midi": 34,
+    "peakEnvelope": 0.24721,
+    "freq": 58.543,
+    "gain": 0.69577,
+    "detectedTime": 199.236032
+  },
+  {
+    "time": 199.65504,
+    "midi": 46,
+    "peakEnvelope": 0.10205,
+    "freq": 114.395,
+    "gain": 0.28722,
+    "detectedTime": 199.659138
+  },
+  {
+    "time": 200.096264,
+    "midi": 46,
+    "peakEnvelope": 0.06768,
+    "freq": 117.76,
+    "gain": 0.19048,
+    "detectedTime": 200.101701
+  },
+  {
+    "time": 201.864201,
+    "midi": 34,
+    "peakEnvelope": 0.24552,
+    "freq": 57.87,
+    "gain": 0.69101,
+    "detectedTime": 201.87932
+  },
+  {
+    "time": 202.305335,
+    "midi": 34,
+    "peakEnvelope": 0.22156,
+    "freq": 57.87,
+    "gain": 0.62357,
+    "detectedTime": 202.298231
+  },
+  {
+    "time": 202.526196,
+    "midi": 47,
+    "peakEnvelope": 0.05476,
+    "freq": 123.816,
+    "gain": 0.15412,
+    "detectedTime": 202.56542
+  },
+  {
+    "time": 205.399303,
+    "midi": 34,
+    "peakEnvelope": 0.20938,
+    "freq": 57.87,
+    "gain": 0.58929,
+    "detectedTime": 205.416871
+  },
+  {
+    "time": 205.840913,
+    "midi": 34,
+    "peakEnvelope": 0.21476,
+    "freq": 58.543,
+    "gain": 0.60444,
+    "detectedTime": 205.884694
+  },
+  {
+    "time": 208.93402,
+    "midi": 34,
+    "peakEnvelope": 0.19112,
+    "freq": 57.87,
+    "gain": 0.5379,
+    "detectedTime": 208.965964
+  },
+  {
+    "time": 209.37606,
+    "midi": 34,
+    "peakEnvelope": 0.1704,
+    "freq": 57.87,
+    "gain": 0.47959,
+    "detectedTime": 209.405261
+  },
+  {
+    "time": 212.026627,
+    "midi": 34,
+    "peakEnvelope": 0.11433,
+    "freq": 57.198,
+    "gain": 0.32178,
+    "detectedTime": 212.04068
+  },
+  {
+    "time": 212.24826,
+    "midi": 34,
+    "peakEnvelope": 0.22383,
+    "freq": 57.87,
+    "gain": 0.62996,
+    "detectedTime": 212.250431
+  },
+  {
+    "time": 212.460505,
+    "midi": 34,
+    "peakEnvelope": 0.25404,
+    "freq": 57.87,
+    "gain": 0.71499,
+    "detectedTime": 212.455034
+  },
+  {
+    "time": 212.899235,
+    "midi": 34,
+    "peakEnvelope": 0.22701,
+    "freq": 57.87,
+    "gain": 0.63891,
+    "detectedTime": 212.896281
+  },
+  {
+    "time": 216.001956,
+    "midi": 34,
+    "peakEnvelope": 0.2592,
+    "freq": 57.87,
+    "gain": 0.72951,
+    "detectedTime": 216.02576
+  },
+  {
+    "time": 216.446582,
+    "midi": 34,
+    "peakEnvelope": 0.21517,
+    "freq": 58.543,
+    "gain": 0.60559,
+    "detectedTime": 216.473787
+  },
+  {
+    "time": 219.097398,
+    "midi": 33,
+    "peakEnvelope": 0.09228,
+    "freq": 55.179,
+    "gain": 0.25972,
+    "detectedTime": 219.140522
+  },
+  {
+    "time": 219.540732,
+    "midi": 34,
+    "peakEnvelope": 0.16566,
+    "freq": 57.87,
+    "gain": 0.46625,
+    "detectedTime": 219.574921
+  },
+  {
+    "time": 219.982772,
+    "midi": 34,
+    "peakEnvelope": 0.19908,
+    "freq": 57.87,
+    "gain": 0.56031,
+    "detectedTime": 219.992494
+  },
+  {
+    "time": 223.075766,
+    "midi": 34,
+    "peakEnvelope": 0.24353,
+    "freq": 57.87,
+    "gain": 0.68541,
+    "detectedTime": 223.11585
+  },
+  {
+    "time": 223.517398,
+    "midi": 34,
+    "peakEnvelope": 0.21194,
+    "freq": 57.87,
+    "gain": 0.5965,
+    "detectedTime": 223.526259
+  },
+  {
+    "time": 226.169076,
+    "midi": 33,
+    "peakEnvelope": 0.10625,
+    "freq": 55.852,
+    "gain": 0.29904,
+    "detectedTime": 226.197324
+  },
+  {
+    "time": 226.611911,
+    "midi": 34,
+    "peakEnvelope": 0.18301,
+    "freq": 57.87,
+    "gain": 0.51508,
+    "detectedTime": 226.643061
+  },
+  {
+    "time": 227.053793,
+    "midi": 34,
+    "peakEnvelope": 0.18393,
+    "freq": 58.543,
+    "gain": 0.51767,
+    "detectedTime": 227.089388
+  },
+  {
+    "time": 230.14733,
+    "midi": 34,
+    "peakEnvelope": 0.09994,
+    "freq": 57.198,
+    "gain": 0.28128,
+    "detectedTime": 230.16
+  },
+  {
+    "time": 230.589122,
+    "midi": 34,
+    "peakEnvelope": 0.20879,
+    "freq": 57.87,
+    "gain": 0.58763,
+    "detectedTime": 230.611723
+  },
+  {
+    "time": 233.240459,
+    "midi": 34,
+    "peakEnvelope": 0.30315,
+    "freq": 58.543,
+    "gain": 0.85321,
+    "detectedTime": 233.251655
+  },
+  {
+    "time": 233.683566,
+    "midi": 34,
+    "peakEnvelope": 0.19784,
+    "freq": 59.216,
+    "gain": 0.55682,
+    "detectedTime": 233.692608
+  },
+  {
+    "time": 234.125652,
+    "midi": 34,
+    "peakEnvelope": 0.29945,
+    "freq": 58.543,
+    "gain": 0.84279,
+    "detectedTime": 234.135601
+  },
+  {
+    "time": 234.566854,
+    "midi": 34,
+    "peakEnvelope": 0.29304,
+    "freq": 58.543,
+    "gain": 0.82475,
+    "detectedTime": 234.578413
+  },
+  {
+    "time": 237.218555,
+    "midi": 34,
+    "peakEnvelope": 0.20411,
+    "freq": 58.543,
+    "gain": 0.57446,
+    "detectedTime": 237.250045
+  },
+  {
+    "time": 237.433634,
+    "midi": 34,
+    "peakEnvelope": 0.09449,
+    "freq": 58.543,
+    "gain": 0.26594,
+    "detectedTime": 237.45966
+  },
+  {
+    "time": 237.661072,
+    "midi": 34,
+    "peakEnvelope": 0.17523,
+    "freq": 58.543,
+    "gain": 0.49318,
+    "detectedTime": 237.685782
+  },
+  {
+    "time": 238.102546,
+    "midi": 34,
+    "peakEnvelope": 0.27306,
+    "freq": 58.543,
+    "gain": 0.76852,
+    "detectedTime": 238.119796
+  },
+  {
+    "time": 240.755289,
+    "midi": 34,
+    "peakEnvelope": 0.13172,
+    "freq": 58.543,
+    "gain": 0.37072,
+    "detectedTime": 240.778277
+  },
+  {
+    "time": 241.196786,
+    "midi": 34,
+    "peakEnvelope": 0.15795,
+    "freq": 57.87,
+    "gain": 0.44455,
+    "detectedTime": 241.212857
+  },
+  {
+    "time": 244.289484,
+    "midi": 34,
+    "peakEnvelope": 0.17181,
+    "freq": 57.198,
+    "gain": 0.48355,
+    "detectedTime": 244.296009
+  },
+  {
+    "time": 244.731412,
+    "midi": 34,
+    "peakEnvelope": 0.19411,
+    "freq": 57.87,
+    "gain": 0.54632,
+    "detectedTime": 244.756757
+  },
+  {
+    "time": 247.825448,
+    "midi": 34,
+    "peakEnvelope": 0.19668,
+    "freq": 57.87,
+    "gain": 0.55355,
+    "detectedTime": 247.852268
+  },
+  {
+    "time": 248.267013,
+    "midi": 34,
+    "peakEnvelope": 0.18792,
+    "freq": 57.87,
+    "gain": 0.5289,
+    "detectedTime": 248.283492
+  },
+  {
+    "time": 249.151276,
+    "midi": 34,
+    "peakEnvelope": 0.13765,
+    "freq": 58.543,
+    "gain": 0.38741,
+    "detectedTime": 249.164785
+  },
+  {
+    "time": 250.919824,
+    "midi": 46,
+    "peakEnvelope": 0.10694,
+    "freq": 116.414,
+    "gain": 0.30098,
+    "detectedTime": 250.975397
+  },
+  {
+    "time": 251.36123,
+    "midi": 34,
+    "peakEnvelope": 0.23496,
+    "freq": 59.216,
+    "gain": 0.66129,
+    "detectedTime": 251.382857
+  },
+  {
+    "time": 251.803385,
+    "midi": 34,
+    "peakEnvelope": 0.2124,
+    "freq": 57.87,
+    "gain": 0.59779,
+    "detectedTime": 251.826599
+  },
+  {
+    "time": 252.687444,
+    "midi": 46,
+    "peakEnvelope": 0.06748,
+    "freq": 115.068,
+    "gain": 0.18992,
+    "detectedTime": 252.725964
+  },
+  {
+    "time": 254.895357,
+    "midi": 34,
+    "peakEnvelope": 0.24161,
+    "freq": 57.87,
+    "gain": 0.68,
+    "detectedTime": 254.919048
+  },
+  {
+    "time": 255.111707,
+    "midi": 46,
+    "peakEnvelope": 0.05187,
+    "freq": 117.087,
+    "gain": 0.14599,
+    "detectedTime": 255.151451
+  },
+  {
+    "time": 255.33606,
+    "midi": 34,
+    "peakEnvelope": 0.18633,
+    "freq": 57.87,
+    "gain": 0.52442,
+    "detectedTime": 255.358934
+  },
+  {
+    "time": 258.430369,
+    "midi": 34,
+    "peakEnvelope": 0.21989,
+    "freq": 57.87,
+    "gain": 0.61887,
+    "detectedTime": 258.434626
+  },
+  {
+    "time": 258.872001,
+    "midi": 34,
+    "peakEnvelope": 0.21159,
+    "freq": 57.87,
+    "gain": 0.59551,
+    "detectedTime": 258.903719
+  },
+  {
+    "time": 261.965834,
+    "midi": 34,
+    "peakEnvelope": 0.20335,
+    "freq": 57.198,
+    "gain": 0.57232,
+    "detectedTime": 262.02161
+  },
+  {
+    "time": 262.410006,
+    "midi": 34,
+    "peakEnvelope": 0.12835,
+    "freq": 57.198,
+    "gain": 0.36124,
+    "detectedTime": 262.398299
+  },
+  {
+    "time": 265.061571,
+    "midi": 46,
+    "peakEnvelope": 0.06349,
+    "freq": 115.741,
+    "gain": 0.17869,
+    "detectedTime": 265.063515
+  },
+  {
+    "time": 265.500459,
+    "midi": 34,
+    "peakEnvelope": 0.23448,
+    "freq": 57.198,
+    "gain": 0.65994,
+    "detectedTime": 265.545986
+  },
+  {
+    "time": 265.936106,
+    "midi": 34,
+    "peakEnvelope": 0.07779,
+    "freq": 57.87,
+    "gain": 0.21894,
+    "detectedTime": 265.961111
+  },
+  {
+    "time": 266.163861,
+    "midi": 46,
+    "peakEnvelope": 0.15687,
+    "freq": 116.414,
+    "gain": 0.44151,
+    "detectedTime": 266.22805
+  },
+  {
+    "time": 266.829484,
+    "midi": 46,
+    "peakEnvelope": 0.15033,
+    "freq": 116.414,
+    "gain": 0.4231,
+    "detectedTime": 266.855011
+  },
+  {
+    "time": 267.269462,
+    "midi": 46,
+    "peakEnvelope": 0.14311,
+    "freq": 116.414,
+    "gain": 0.40278,
+    "detectedTime": 267.245238
+  },
+  {
+    "time": 268.810414,
+    "midi": 46,
+    "peakEnvelope": 0.18806,
+    "freq": 115.741,
+    "gain": 0.52929,
+    "detectedTime": 268.836281
+  },
+  {
+    "time": 269.03792,
+    "midi": 34,
+    "peakEnvelope": 0.21939,
+    "freq": 57.87,
+    "gain": 0.61747,
+    "detectedTime": 269.044535
+  },
+  {
+    "time": 269.253566,
+    "midi": 46,
+    "peakEnvelope": 0.15714,
+    "freq": 115.741,
+    "gain": 0.44227,
+    "detectedTime": 269.269365
+  },
+  {
+    "time": 269.482591,
+    "midi": 34,
+    "peakEnvelope": 0.23577,
+    "freq": 58.543,
+    "gain": 0.66357,
+    "detectedTime": 269.462653
+  },
+  {
+    "time": 269.695221,
+    "midi": 46,
+    "peakEnvelope": 0.12372,
+    "freq": 116.414,
+    "gain": 0.34821,
+    "detectedTime": 269.638866
+  },
+  {
+    "time": 270.364632,
+    "midi": 46,
+    "peakEnvelope": 0.09014,
+    "freq": 117.087,
+    "gain": 0.2537,
+    "detectedTime": 270.403107
+  },
+  {
+    "time": 270.802999,
+    "midi": 46,
+    "peakEnvelope": 0.07221,
+    "freq": 117.76,
+    "gain": 0.20323,
+    "detectedTime": 270.810091
+  },
+  {
+    "time": 272.570958,
+    "midi": 34,
+    "peakEnvelope": 0.26039,
+    "freq": 58.543,
+    "gain": 0.73286,
+    "detectedTime": 272.592653
+  },
+  {
+    "time": 272.789122,
+    "midi": 46,
+    "peakEnvelope": 0.1308,
+    "freq": 116.414,
+    "gain": 0.36813,
+    "detectedTime": 272.772177
+  },
+  {
+    "time": 273.018124,
+    "midi": 34,
+    "peakEnvelope": 0.25217,
+    "freq": 59.216,
+    "gain": 0.70973,
+    "detectedTime": 273.038639
+  },
+  {
+    "time": 273.459416,
+    "midi": 33,
+    "peakEnvelope": 0.12095,
+    "freq": 54.506,
+    "gain": 0.34041,
+    "detectedTime": 273.499615
+  },
+  {
+    "time": 276.106559,
+    "midi": 34,
+    "peakEnvelope": 0.18957,
+    "freq": 57.87,
+    "gain": 0.53354,
+    "detectedTime": 276.131565
+  },
+  {
+    "time": 276.325312,
+    "midi": 46,
+    "peakEnvelope": 0.05082,
+    "freq": 115.741,
+    "gain": 0.14303,
+    "detectedTime": 276.343628
+  },
+  {
+    "time": 276.548781,
+    "midi": 34,
+    "peakEnvelope": 0.15949,
+    "freq": 57.87,
+    "gain": 0.44888,
+    "detectedTime": 276.567506
+  },
+  {
+    "time": 279.64089,
+    "midi": 34,
+    "peakEnvelope": 0.21314,
+    "freq": 57.198,
+    "gain": 0.59988,
+    "detectedTime": 279.656644
+  },
+  {
+    "time": 280.090459,
+    "midi": 34,
+    "peakEnvelope": 0.18851,
+    "freq": 57.198,
+    "gain": 0.53056,
+    "detectedTime": 280.109184
+  },
+  {
+    "time": 280.531684,
+    "midi": 35,
+    "peakEnvelope": 0.1174,
+    "freq": 60.562,
+    "gain": 0.33042,
+    "detectedTime": 280.538594
+  },
+  {
+    "time": 283.180913,
+    "midi": 34,
+    "peakEnvelope": 0.20808,
+    "freq": 57.87,
+    "gain": 0.58564,
+    "detectedTime": 283.244558
+  },
+  {
+    "time": 283.625879,
+    "midi": 34,
+    "peakEnvelope": 0.14267,
+    "freq": 57.87,
+    "gain": 0.40154,
+    "detectedTime": 283.638277
+  },
+  {
+    "time": 286.716763,
+    "midi": 33,
+    "peakEnvelope": 0.20983,
+    "freq": 55.852,
+    "gain": 0.59056,
+    "detectedTime": 286.761882
+  },
+  {
+    "time": 286.93402,
+    "midi": 34,
+    "peakEnvelope": 0.16198,
+    "freq": 57.198,
+    "gain": 0.45589,
+    "detectedTime": 286.919864
+  },
+  {
+    "time": 287.157716,
+    "midi": 34,
+    "peakEnvelope": 0.15921,
+    "freq": 59.216,
+    "gain": 0.44809,
+    "detectedTime": 287.199615
+  },
+  {
+    "time": 287.602682,
+    "midi": 34,
+    "peakEnvelope": 0.18819,
+    "freq": 58.543,
+    "gain": 0.52966,
+    "detectedTime": 287.636576
+  },
+  {
+    "time": 290.246559,
+    "midi": 34,
+    "peakEnvelope": 0.16579,
+    "freq": 58.543,
+    "gain": 0.46661,
+    "detectedTime": 290.299773
+  },
+  {
+    "time": 290.697512,
+    "midi": 34,
+    "peakEnvelope": 0.0714,
+    "freq": 59.216,
+    "gain": 0.20095,
+    "detectedTime": 290.710884
+  },
+  {
+    "time": 291.138532,
+    "midi": 34,
+    "peakEnvelope": 0.20252,
+    "freq": 58.543,
+    "gain": 0.56999,
+    "detectedTime": 291.161111
+  },
+  {
+    "time": 291.578917,
+    "midi": 34,
+    "peakEnvelope": 0.15735,
+    "freq": 57.87,
+    "gain": 0.44286,
+    "detectedTime": 291.614558
+  },
+  {
+    "time": 293.789008,
+    "midi": 34,
+    "peakEnvelope": 0.08111,
+    "freq": 57.87,
+    "gain": 0.22828,
+    "detectedTime": 293.811202
+  },
+  {
+    "time": 294.232296,
+    "midi": 34,
+    "peakEnvelope": 0.08277,
+    "freq": 57.87,
+    "gain": 0.23295,
+    "detectedTime": 294.252948
+  }
+]

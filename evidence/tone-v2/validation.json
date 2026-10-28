@@ -1,0 +1,46 @@
+{
+  "cps": 0.55,
+  "totalCycles": 36,
+  "seconds": 65.45454545454545,
+  "events": 1208,
+  "usedSampleFiles": 50,
+  "sampleMapFetched": true,
+  "melodicTracksPreserved": true,
+  "simultaneousHatConflicts": false,
+  "guitarTransposeRange": [
+    -1,
+    2
+  ],
+  "sections": [
+    {
+      "begin": 0,
+      "end": 4,
+      "events": 32
+    },
+    {
+      "begin": 4,
+      "end": 12,
+      "events": 264
+    },
+    {
+      "begin": 12,
+      "end": 20,
+      "events": 404
+    },
+    {
+      "begin": 20,
+      "end": 24,
+      "events": 52
+    },
+    {
+      "begin": 24,
+      "end": 32,
+      "events": 404
+    },
+    {
+      "begin": 32,
+      "end": 36,
+      "events": 52
+    }
+  ]
+}

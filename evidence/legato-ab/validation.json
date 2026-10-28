@@ -1,0 +1,25 @@
+{
+  "allEventsUnchanged": 2374,
+  "changedFieldsOnlyOnLeft": [
+    "s",
+    "gain"
+  ],
+  "notesTimingRestsEnvelopeFxUnchanged": true,
+  "ABNotes": 32,
+  "hammers": [
+    {
+      "start": 0.375,
+      "note": "fs4"
+    },
+    {
+      "start": 2.375,
+      "note": "b4"
+    },
+    {
+      "start": 3.375,
+      "note": "cs5"
+    }
+  ],
+  "softNotes": 21,
+  "ordinaryNotes": 8
+}

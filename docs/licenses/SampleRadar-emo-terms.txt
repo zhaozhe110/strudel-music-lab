@@ -1,0 +1,16 @@
+SampleRadar: 451 free emo samples — 使用条款核对记录
+
+来源：https://www.musicradar.com/news/tech/sampleradar-451-free-emo-samples-479864
+栏目：What you need to know
+核对日期：2026-10-28
+
+禁止重新分发的原文摘录（逐字保留）：
+“all we ask is that you don't re-distribute them.”
+
+同段说明的中文摘要：这批24-bit WAV可用于音乐作品，属于royalty-free素材；
+上述禁止重新分发的条件仍然适用。这里没有将素材标为CC0。
+
+下载包：https://cdn.mos.musicradar.com/audio/samples/musicradar-emo-samples.zip
+已检查本地下载ZIP，未发现独立的LICENSE、README或terms文本文件。
+本文件记录官网条款摘录及来源，不是另行授予许可，也不是官网全文副本。
+本记录不对私人个人备份的法律性质作结论。

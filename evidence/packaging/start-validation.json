@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "port": 52242,
+  "loopbackOnly": true,
+  "indexStatus": 200,
+  "sampleStatus": 200,
+  "sampleSha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158",
+  "missingStatus": 404
+}

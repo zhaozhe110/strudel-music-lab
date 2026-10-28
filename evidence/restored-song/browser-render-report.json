@@ -1,0 +1,36 @@
+{
+  "engine": "Installed Strudel webaudioOutput, browser OfflineAudioContext, scheduling polyphony 4096 for offline rendering.",
+  "audioSource": "Existing Black And Green mf multisamples and SampleRadar Kit03 hits; original GM finger bass.",
+  "auditoryReview": false,
+  "preMasterStats": {
+    "peak": 0.575406014919281,
+    "rms": 0.07221871178636408,
+    "rmsDb": -22.827005252845524,
+    "seconds": 130.27274376417233,
+    "initialArpeggio": {
+      "peak": 0.24884434044361115,
+      "rms": 0.021332677474880626,
+      "rmsDb": -33.41909265229558
+    },
+    "originalTheme": {
+      "peak": 0.5671456456184387,
+      "rms": 0.09060188564774793,
+      "rmsDb": -20.857255269887638
+    },
+    "lateTheme": {
+      "peak": 0.5668628811836243,
+      "rms": 0.09068986707262891,
+      "rmsDb": -20.848824693259157
+    },
+    "tail": {
+      "peak": 3.246844708181714e-17,
+      "rms": 6.743021942349792e-18,
+      "rmsDb": -343.4229085418196
+    }
+  },
+  "finalPeak": 0.8391337717572849,
+  "linearOutputGain": 1.4583333333333335,
+  "note": "Final level matches MASTER 1.05 instead of 0.72. The used gain/filter/delay/reverb chain is linear; no compression/distortion/limiter is applied.",
+  "events": 2374,
+  "sources": 117
+}

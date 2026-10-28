@@ -1,0 +1,123 @@
+{
+  "scoreFile": "<LEGACY_WORKSPACE>/袖珍电路-v3.strudel",
+  "scoreSha256": "bc13046e71ea08ee3fb93382947e61e96267579b92934c131ae8eac9f35ab594",
+  "engine": "Local Strudel core/transpiler and unmodified Superdough synth/effects source with node-web-audio-api OfflineAudioContext",
+  "hostAdapter": "Only the unused Vite ?audioworklet URL import is stubbed; no oscillator, envelope, filter, panning, or delay logic is substituted.",
+  "postprocessing": "Constant peak normalization to 0.84 and 0.4-second tail fade; AAC compression for preview.",
+  "bpm": 136,
+  "beginCycle": 8,
+  "endCycle": 24,
+  "cycles": 16,
+  "musicalDurationSeconds": 28.235294117647058,
+  "durationSeconds": 30.23530612244898,
+  "sampleRate": 44100,
+  "channels": 2,
+  "events": 524,
+  "rawPeak": 0.4146721363067627,
+  "rawRmsDbFS": -25.897516148106916,
+  "normalizationGain": 2.025696752816282,
+  "finalPeak": 0.84,
+  "finalPeakDbFS": -1.5144142787623671,
+  "finalRmsDbFS": -19.76602750961454,
+  "nonFiniteSamples": 0,
+  "wavFile": "<LEGACY_WORKSPACE>/袖珍电路-v3-主段试听.wav",
+  "m4aFile": "<LEGACY_WORKSPACE>/袖珍电路-v3-主段试听.m4a",
+  "byBar": [
+    {
+      "bar": 1,
+      "sourceBar": 9,
+      "rmsDbFS": -19.420358243177734,
+      "peak": 0.689118987891984
+    },
+    {
+      "bar": 2,
+      "sourceBar": 10,
+      "rmsDbFS": -19.557323296912415,
+      "peak": 0.84
+    },
+    {
+      "bar": 3,
+      "sourceBar": 11,
+      "rmsDbFS": -19.4207005468335,
+      "peak": 0.6845905991107717
+    },
+    {
+      "bar": 4,
+      "sourceBar": 12,
+      "rmsDbFS": -19.514491894718503,
+      "peak": 0.7096637221210617
+    },
+    {
+      "bar": 5,
+      "sourceBar": 13,
+      "rmsDbFS": -19.42045362213893,
+      "peak": 0.687672149263394
+    },
+    {
+      "bar": 6,
+      "sourceBar": 14,
+      "rmsDbFS": -19.558782747586957,
+      "peak": 0.8386024840435103
+    },
+    {
+      "bar": 7,
+      "sourceBar": 15,
+      "rmsDbFS": -19.420424147284294,
+      "peak": 0.6868506279391074
+    },
+    {
+      "bar": 8,
+      "sourceBar": 16,
+      "rmsDbFS": -19.51466881466452,
+      "peak": 0.7088421404263074
+    },
+    {
+      "bar": 9,
+      "sourceBar": 17,
+      "rmsDbFS": -19.395598720904246,
+      "peak": 0.7046106536051805
+    },
+    {
+      "bar": 10,
+      "sourceBar": 18,
+      "rmsDbFS": -19.515798352305843,
+      "peak": 0.7508773726312497
+    },
+    {
+      "bar": 11,
+      "sourceBar": 19,
+      "rmsDbFS": -19.41608288405383,
+      "peak": 0.6849572893315033
+    },
+    {
+      "bar": 12,
+      "sourceBar": 20,
+      "rmsDbFS": -19.51250163851834,
+      "peak": 0.7078441562249713
+    },
+    {
+      "bar": 13,
+      "sourceBar": 21,
+      "rmsDbFS": -19.394767441718756,
+      "peak": 0.705253116122307
+    },
+    {
+      "bar": 14,
+      "sourceBar": 22,
+      "rmsDbFS": -19.51594460761333,
+      "peak": 0.750050659446742
+    },
+    {
+      "bar": 15,
+      "sourceBar": 23,
+      "rmsDbFS": -19.417063596783347,
+      "peak": 0.6828149829151576
+    },
+    {
+      "bar": 16,
+      "sourceBar": 24,
+      "rmsDbFS": -19.512129319469498,
+      "peak": 0.7097548815272693
+    }
+  ]
+}

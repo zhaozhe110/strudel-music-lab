@@ -1,0 +1,145 @@
+// 袖珍电路 / LITTLE LOGIC — v3 调式与机械短句
+// 136 BPM · Bb Mixolydian · Bb C D Eb F G Ab
+// 64 小节，约 1 分 53 秒；顶部音符图和波形，全部为合成音色。
+// 本轮依据：Pocket Calculator 的 Bb 八度持续低音、Ab 切分音与大三度 D。
+// 原曲同期分析：E&MM 1981 年 7 月，第 82 页。这里重新写了旋律与节奏。
+const showVisuals = p => {
+  p.gain(.85)._pianoroll({
+    width: 760, height: 210, cycles: 4, playhead: .25,
+    fold: 1, labels: 1, fill: 1, fillActive: 1,
+    colorizeInactive: 1, playheadColor: '#ffe45c', background: '#08110d'
+  })
+  return p._scope({ width: 760, height: 75, thickness: 2, scale: .9 })
+}
+
+setcpm(136/4)
+
+// —— 干燥鼓机：稳定的四拍，短噪声，不加混响 ——
+const kick = note("f1*4").sound("sine")
+  .penv(25).pattack(0).pdecay(.035).psustain(0)
+  .attack(.001).decay(.13).sustain(0).release(.025)
+  .gain(.64).color("#8b99aa")
+
+const snare = stack(
+  sound("~ white ~ white").hpf(1400).lpf(5800)
+    .attack(.001).decay(.055).sustain(0).release(.018).gain(.2),
+  note("~ bb3 ~ bb3").sound("triangle")
+    .penv(6).pattack(0).pdecay(.018).psustain(0)
+    .attack(.001).decay(.035).sustain(0).release(.015).gain(.14)
+).color("#8b99aa")
+
+const hats = sound("white*8").hpf(6800).lpf(11000)
+  .attack(.001).decay(.018).sustain(0).release(.008)
+  .gain("[.09 .13]*4").pan(.6).color("#8b99aa")
+
+const click = note("~ f6 ~ [~ bb5]").sound("sine")
+  .penv(7).pattack(0).pdecay(.012).psustain(0)
+  .attack(.001).decay(.014).sustain(0).release(.006)
+  .gain(.07).pan(.3).color("#8b99aa")
+
+const drums = stack(kick, snare, hats, click)
+
+// —— 音高中心一直是 Bb：只在两个八度间跳动，不轮换和弦根音 ——
+const bass = note(`<
+  [bb1 ~ bb2 bb1 ~ bb1 bb2 ~]
+  [bb1 ~ bb2 ~ bb1 bb1 ~ bb2]
+>`).sound("square").lpf(360).lpq(.8)
+  .lpenv(1.3).lpa(.002).lpd(.075).lps(0)
+  .attack(.002).decay(.105).sustain(0).release(.028)
+  .clip(.66).gain(.3).color("#53dfed")
+
+// Ab 是 Bb 的降七级。固定短音的切分，不急着解决到 Bb。
+const pulse = note("~ ab3 ~ [ab3 ~] ~ ab3 [~ ab3] ~")
+  .sound("square").hpf(180).lpf(1500).lpq(1.2)
+  .attack(.001).decay(.055).sustain(0).release(.015)
+  .clip(.5).gain(.105).pan(.5).color("#ffb86b")
+
+// —— 四小节短句：反复碰到 Ab，Eb→D 是短促的半音摩擦 ——
+// 这里没有长音主歌；句尾停在 D 或休止，交给循环继续。
+const hookNotes = note(`<
+  [ab4 ~ ab4 bb4 ~ f4 ab4 ~]
+  [~ ab4 c5 ~ ab4 ~ eb5 d5]
+  [ab4 ~ ab4 bb4 ~ f4 ab4 ~]
+  [~ c5 bb4 ~ ab4 ab4 [eb5 d5] ~]
+>`)
+
+// 第二种排列：相同音高材料，在格子里移动位置。
+const shiftedNotes = note(`<
+  [~ ab4 ab4 ~ bb4 f4 ~ ab4]
+  [c5 ~ ab4 c5 ~ eb5 d5 ~]
+  [ab4 ~ ab4 bb4 ~ f4 ab4 ~]
+  [~ c5 bb4 ~ [ab4 ab4] ~ eb5 d5]
+>`)
+
+// 末段减少音符，让按键声露出来；不增加抒情的旋律高点。
+const cutNotes = note(`<
+  [ab4 ~ ab4 bb4 ~ f4 ab4 ~]
+  [~ ab4 c5 ~ ab4 ~ eb5 d5]
+  ~
+  [~ c5 bb4 ~ ab4 ab4 [eb5 d5] ~]
+>`)
+
+// 较窄、带鼻音的方波，短门限与短滤波包络让每一下都像按钮。
+const leadVoice = p => p.sound("square").hpf(300).lpf(2200).lpq(1.6)
+  .lpenv(1.1).lpa(.001).lpd(.07).lps(0)
+  .attack(.001).decay(.07).sustain(.08).release(.02).clip(.62)
+  .gain(.18).pan(.46).orbit(1).color("#ffe45c")
+const hook = leadVoice(hookNotes)
+const shiftedHook = leadVoice(shiftedNotes)
+const cutHook = leadVoice(cutNotes)
+
+// —— 中段换一种机器音色，Bb 低音仍保持原位 ——
+const dataNotes = note(`<
+  [c5 ~ ab4 ~ eb5 d5 ~ ab4]
+  [~ ab4 ~ d5 ~ c5 bb4 ~]
+  [g4 ~ ab4 ~ c5 ab4 ~ eb5]
+  [d5 ~ c5 ~ ab4 ~ ~ ~]
+>`)
+const data = dataNotes.sound("sine").fm(1.1).fmh(1.5).lpf(4600)
+  .attack(.001).decay(.075).sustain(0).release(.018)
+  .clip(.55).gain(.17).pan(.57).orbit(2).color("#9bff7a")
+
+// 两组应答分别对齐移位主题、减音主题的休止处。
+const answerVoice = p => p.sound("sine").fm(.8).fmh(2.5).lpf(5000)
+  .attack(.001).decay(.04).sustain(0).release(.012)
+  .gain(.12).pan(.7).orbit(3).color("#9bff7a")
+const shiftedAnswer = answerVoice(note(`<
+  [f5 ~@7] [~@7 bb5] [~@7 f5] [~@3 bb5 ~@4]
+>`))
+const cutAnswer = answerVoice(note(`<
+  [~ f5 ~@6] [~@5 bb5 ~@2]
+  [~ f5 ~ bb5 ~ f5 ~ ~] [~@7 f5]
+>`))
+
+// Ab-C-Eb / Bb：降七级和弦叠在持续低音上，短暂保持悬置。
+// 门限很短，避免 Eb 与旋律的 D 长时间挤在一起。
+const suspension = note("<[~ [ab3,c4,eb4] ~@6] ~ [~@5 [ab3,c4,eb4] ~@2] ~>")
+  .sound("sawtooth").lpf(1100)
+  .attack(.002).decay(.065).sustain(0).release(.018).clip(.3)
+  .gain(.065).pan(.35).color("#bda1ff")
+
+// 裸露按键：不唱长旋律，依次按下几个短音。
+const keys = answerVoice(note(`<
+  [ab5 ~ bb5 ~ ~ f5 ~ ~]
+  [~ c6 ~ ab5 ~ ~ eb6 d6]
+  [ab5 ~ ~ bb5 ~ f5 ~ ~]
+  [~ c6 bb5 ~ ab5 ~ ~ ~]
+>`)).gain(.105)
+
+// —— 编排：变化来自声部开关、位置和音色，Bb 持续音贯穿全曲 ——
+const song = arrange(
+  [4, stack(kick, hats, bass)],                   // 00:00 启动节拍
+  [4, stack(drums, bass, pulse)],                 // 00:07 Ab 切分进入
+  [8, stack(drums, bass, pulse, hook)],           // 00:14 机械短句
+  [8, stack(drums, bass, pulse, shiftedHook, shiftedAnswer)], // 00:28 改变位置
+  [8, stack(drums, bass, pulse, data, suspension)], // 00:42 更换计算模块
+  [4, stack(bass, hats, keys)],                   // 00:56 裸露按键
+  [4, stack(kick, hats, bass, pulse)],             // 01:04 重新接通
+  [8, stack(drums, bass, pulse, hook, suspension)], // 01:11 原短句回归
+  [8, stack(drums, bass, pulse, cutHook, cutAnswer)], // 01:25 减音与回答
+  [4, stack(drums, bass, pulse)],                 // 01:39 只留循环骨架
+  [2, stack(bass, pulse)],                        // 01:46 未解决的短句
+  [2, silence]                                   // 01:49 暂停，然后重启
+)
+
+showVisuals(song)

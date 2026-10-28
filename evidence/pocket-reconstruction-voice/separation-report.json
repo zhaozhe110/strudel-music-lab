@@ -1,0 +1,31 @@
+{
+  "model": "torchaudio.pipelines.HDEMUCS_HIGH_MUSDB_PLUS",
+  "modelWeights": "models/hdemucs_high_trained.pt",
+  "source": "<LEGACY_WORKSPACE>/.pocket-reconstruction-analysis/reference.wav",
+  "duration": 296.82938775510206,
+  "sampleRate": 44100,
+  "device": "mps",
+  "adapter": "CPU complex spectral transforms with MPS neural layers",
+  "chunkSeconds": 8.0,
+  "overlapSeconds": 2.0,
+  "elapsedSeconds": 146.7681372500083,
+  "stems": {
+    "drums": {
+      "peak": 1.0799732208251953,
+      "rms": 0.06611612439155579
+    },
+    "bass": {
+      "peak": 0.9842844009399414,
+      "rms": 0.08614552021026611
+    },
+    "other": {
+      "peak": 1.0336169004440308,
+      "rms": 0.12298399955034256
+    },
+    "vocals": {
+      "peak": 0.8519975543022156,
+      "rms": 0.023089205846190453
+    }
+  },
+  "note": "AI-separated estimates, not official isolated stems; may contain bleed/artifacts."
+}

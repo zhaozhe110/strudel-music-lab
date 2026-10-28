@@ -1,0 +1,23 @@
+{
+  "startCycle": 4,
+  "lengthCycles": 8,
+  "matching": "RMS matched; not BS.1770 LUFS",
+  "targetRmsDbFS": -22,
+  "gapSeconds": 0.5,
+  "segments": [
+    {
+      "file": "天台晚风-preview.wav",
+      "fromSeconds": 0,
+      "toSeconds": 14.54546485260771,
+      "gain": 0.6612008660758145,
+      "originalRmsDbFS": -18.406668275232626
+    },
+    {
+      "file": "天台晚风-v2-preview.wav",
+      "fromSeconds": 15.04546485260771,
+      "toSeconds": 29.59092970521542,
+      "gain": 0.565578596597849,
+      "originalRmsDbFS": -17.0498593186294
+    }
+  ]
+}

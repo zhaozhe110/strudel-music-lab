@@ -1,0 +1,411 @@
+{
+  "scoreFile": "<LEGACY_WORKSPACE>/袖珍电路-v3.strudel",
+  "scoreSha256": "bc13046e71ea08ee3fb93382947e61e96267579b92934c131ae8eac9f35ab594",
+  "engine": "Local Strudel core/transpiler and unmodified Superdough synth/effects source with node-web-audio-api OfflineAudioContext",
+  "hostAdapter": "Only the unused Vite ?audioworklet URL import is stubbed; no oscillator, envelope, filter, panning, or delay logic is substituted.",
+  "postprocessing": "Constant peak normalization to 0.84 and 0.4-second tail fade; AAC compression for preview.",
+  "bpm": 136,
+  "beginCycle": 0,
+  "endCycle": 64,
+  "cycles": 64,
+  "musicalDurationSeconds": 112.94117647058823,
+  "durationSeconds": 114.941179138322,
+  "sampleRate": 44100,
+  "channels": 2,
+  "events": 1767,
+  "rawPeak": 0.42308127880096436,
+  "rawRmsDbFS": -26.216107879069096,
+  "normalizationGain": 1.9854341047200346,
+  "finalPeak": 0.84,
+  "finalPeakDbFS": -1.5144142787623671,
+  "finalRmsDbFS": -20.258998325376474,
+  "nonFiniteSamples": 0,
+  "wavFile": "<LEGACY_WORKSPACE>/袖珍电路-v3-试听.wav",
+  "m4aFile": "<LEGACY_WORKSPACE>/袖珍电路-v3-试听.m4a",
+  "byBar": [
+    {
+      "bar": 1,
+      "sourceBar": 1,
+      "rmsDbFS": -19.876940188112357,
+      "peak": 0.6320711466660355
+    },
+    {
+      "bar": 2,
+      "sourceBar": 2,
+      "rmsDbFS": -20.018995955173402,
+      "peak": 0.6315195588243996
+    },
+    {
+      "bar": 3,
+      "sourceBar": 3,
+      "rmsDbFS": -19.876382059384763,
+      "peak": 0.6310838860848624
+    },
+    {
+      "bar": 4,
+      "sourceBar": 4,
+      "rmsDbFS": -20.019214387720744,
+      "peak": 0.6267031946178471
+    },
+    {
+      "bar": 5,
+      "sourceBar": 5,
+      "rmsDbFS": -19.813165303971413,
+      "peak": 0.7317246439412318
+    },
+    {
+      "bar": 6,
+      "sourceBar": 6,
+      "rmsDbFS": -19.94840179827206,
+      "peak": 0.727180937616492
+    },
+    {
+      "bar": 7,
+      "sourceBar": 7,
+      "rmsDbFS": -19.81313861845716,
+      "peak": 0.7294740330053313
+    },
+    {
+      "bar": 8,
+      "sourceBar": 8,
+      "rmsDbFS": -19.948483143683696,
+      "peak": 0.7277724064069868
+    },
+    {
+      "bar": 9,
+      "sourceBar": 9,
+      "rmsDbFS": -19.58549578199491,
+      "peak": 0.6845116358881204
+    },
+    {
+      "bar": 10,
+      "sourceBar": 10,
+      "rmsDbFS": -19.732764153321327,
+      "peak": 0.8365006538345473
+    },
+    {
+      "bar": 11,
+      "sourceBar": 11,
+      "rmsDbFS": -19.58551687726544,
+      "peak": 0.6842218185475998
+    },
+    {
+      "bar": 12,
+      "sourceBar": 12,
+      "rmsDbFS": -19.68490709813773,
+      "peak": 0.7792306645444164
+    },
+    {
+      "bar": 13,
+      "sourceBar": 13,
+      "rmsDbFS": -19.585664660335397,
+      "peak": 0.6838608782092626
+    },
+    {
+      "bar": 14,
+      "sourceBar": 14,
+      "rmsDbFS": -19.73242970675314,
+      "peak": 0.8377061945645935
+    },
+    {
+      "bar": 15,
+      "sourceBar": 15,
+      "rmsDbFS": -19.586012463755104,
+      "peak": 0.6835759720241652
+    },
+    {
+      "bar": 16,
+      "sourceBar": 16,
+      "rmsDbFS": -19.68438586486379,
+      "peak": 0.7799459181197967
+    },
+    {
+      "bar": 17,
+      "sourceBar": 17,
+      "rmsDbFS": -19.563934314108195,
+      "peak": 0.706051726892422
+    },
+    {
+      "bar": 18,
+      "sourceBar": 18,
+      "rmsDbFS": -19.683548639067546,
+      "peak": 0.7469073921764703
+    },
+    {
+      "bar": 19,
+      "sourceBar": 19,
+      "rmsDbFS": -19.582526435871046,
+      "peak": 0.6826489470601114
+    },
+    {
+      "bar": 20,
+      "sourceBar": 20,
+      "rmsDbFS": -19.681371712512025,
+      "peak": 0.7803779814559505
+    },
+    {
+      "bar": 21,
+      "sourceBar": 21,
+      "rmsDbFS": -19.56506561732089,
+      "peak": 0.7020004378620498
+    },
+    {
+      "bar": 22,
+      "sourceBar": 22,
+      "rmsDbFS": -19.682855056431443,
+      "peak": 0.7443881469559712
+    },
+    {
+      "bar": 23,
+      "sourceBar": 23,
+      "rmsDbFS": -19.58293697990722,
+      "peak": 0.6815108607539511
+    },
+    {
+      "bar": 24,
+      "sourceBar": 24,
+      "rmsDbFS": -19.68094909439992,
+      "peak": 0.7779563676384443
+    },
+    {
+      "bar": 25,
+      "sourceBar": 25,
+      "rmsDbFS": -19.734288939360926,
+      "peak": 0.7085277776134151
+    },
+    {
+      "bar": 26,
+      "sourceBar": 26,
+      "rmsDbFS": -19.88141983230706,
+      "peak": 0.7272159665804749
+    },
+    {
+      "bar": 27,
+      "sourceBar": 27,
+      "rmsDbFS": -19.760846624072286,
+      "peak": 0.7337563238522393
+    },
+    {
+      "bar": 28,
+      "sourceBar": 28,
+      "rmsDbFS": -19.908339565979478,
+      "peak": 0.7590024437436022
+    },
+    {
+      "bar": 29,
+      "sourceBar": 29,
+      "rmsDbFS": -19.72194449488498,
+      "peak": 0.7031289385395526
+    },
+    {
+      "bar": 30,
+      "sourceBar": 30,
+      "rmsDbFS": -19.897556046700736,
+      "peak": 0.724100400584605
+    },
+    {
+      "bar": 31,
+      "sourceBar": 31,
+      "rmsDbFS": -19.72909317376546,
+      "peak": 0.7061684112116353
+    },
+    {
+      "bar": 32,
+      "sourceBar": 32,
+      "rmsDbFS": -19.897337076743568,
+      "peak": 0.77730856848695
+    },
+    {
+      "bar": 33,
+      "sourceBar": 33,
+      "rmsDbFS": -24.796095802734612,
+      "peak": 0.3082869239007592
+    },
+    {
+      "bar": 34,
+      "sourceBar": 34,
+      "rmsDbFS": -24.7807705710345,
+      "peak": 0.3020201712395638
+    },
+    {
+      "bar": 35,
+      "sourceBar": 35,
+      "rmsDbFS": -24.796995126446255,
+      "peak": 0.28920501411217553
+    },
+    {
+      "bar": 36,
+      "sourceBar": 36,
+      "rmsDbFS": -24.79332243969596,
+      "peak": 0.2852986337520636
+    },
+    {
+      "bar": 37,
+      "sourceBar": 37,
+      "rmsDbFS": -19.8376949652831,
+      "peak": 0.6310838860848624
+    },
+    {
+      "bar": 38,
+      "sourceBar": 38,
+      "rmsDbFS": -19.97345570832496,
+      "peak": 0.6267031946178471
+    },
+    {
+      "bar": 39,
+      "sourceBar": 39,
+      "rmsDbFS": -19.83763914212662,
+      "peak": 0.6321913812180849
+    },
+    {
+      "bar": 40,
+      "sourceBar": 40,
+      "rmsDbFS": -19.973478181052712,
+      "peak": 0.6259984733998805
+    },
+    {
+      "bar": 41,
+      "sourceBar": 41,
+      "rmsDbFS": -19.580226131623235,
+      "peak": 0.6847484955888357
+    },
+    {
+      "bar": 42,
+      "sourceBar": 42,
+      "rmsDbFS": -19.732770945671277,
+      "peak": 0.8358871144299214
+    },
+    {
+      "bar": 43,
+      "sourceBar": 43,
+      "rmsDbFS": -19.58890303852415,
+      "peak": 0.6845116358881204
+    },
+    {
+      "bar": 44,
+      "sourceBar": 44,
+      "rmsDbFS": -19.685021038964884,
+      "peak": 0.7787664124305486
+    },
+    {
+      "bar": 45,
+      "sourceBar": 45,
+      "rmsDbFS": -19.580284982117277,
+      "peak": 0.6842218185475998
+    },
+    {
+      "bar": 46,
+      "sourceBar": 46,
+      "rmsDbFS": -19.73264689126831,
+      "peak": 0.8371071519440484
+    },
+    {
+      "bar": 47,
+      "sourceBar": 47,
+      "rmsDbFS": -19.589072176140046,
+      "peak": 0.6838608782092626
+    },
+    {
+      "bar": 48,
+      "sourceBar": 48,
+      "rmsDbFS": -19.68469515838081,
+      "peak": 0.7796234978077312
+    },
+    {
+      "bar": 49,
+      "sourceBar": 49,
+      "rmsDbFS": -19.582257459163767,
+      "peak": 0.6835759720241652
+    },
+    {
+      "bar": 50,
+      "sourceBar": 50,
+      "rmsDbFS": -19.72716759703253,
+      "peak": 0.8382976633550884
+    },
+    {
+      "bar": 51,
+      "sourceBar": 51,
+      "rmsDbFS": -19.801079657476187,
+      "peak": 0.7253492541552516
+    },
+    {
+      "bar": 52,
+      "sourceBar": 52,
+      "rmsDbFS": -19.678650579308496,
+      "peak": 0.7801971562634983
+    },
+    {
+      "bar": 53,
+      "sourceBar": 53,
+      "rmsDbFS": -19.583073018278686,
+      "peak": 0.6826489470601114
+    },
+    {
+      "bar": 54,
+      "sourceBar": 54,
+      "rmsDbFS": -19.726273574710472,
+      "peak": 0.84
+    },
+    {
+      "bar": 55,
+      "sourceBar": 55,
+      "rmsDbFS": -19.802073993395158,
+      "peak": 0.7265827233836086
+    },
+    {
+      "bar": 56,
+      "sourceBar": 56,
+      "rmsDbFS": -19.679474031834737,
+      "peak": 0.7804917072478004
+    },
+    {
+      "bar": 57,
+      "sourceBar": 57,
+      "rmsDbFS": -19.815065250949793,
+      "peak": 0.727180937616492
+    },
+    {
+      "bar": 58,
+      "sourceBar": 58,
+      "rmsDbFS": -19.946275429815717,
+      "peak": 0.7317135790488927
+    },
+    {
+      "bar": 59,
+      "sourceBar": 59,
+      "rmsDbFS": -19.815162105734537,
+      "peak": 0.7277724064069868
+    },
+    {
+      "bar": 60,
+      "sourceBar": 60,
+      "rmsDbFS": -19.94644977672117,
+      "peak": 0.7272159074099276
+    },
+    {
+      "bar": 61,
+      "sourceBar": 61,
+      "rmsDbFS": -24.720500669800487,
+      "peak": 0.28220564131997655
+    },
+    {
+      "bar": 62,
+      "sourceBar": 62,
+      "rmsDbFS": -24.70386450861231,
+      "peak": 0.2822207002242564
+    },
+    {
+      "bar": 63,
+      "sourceBar": 63,
+      "rmsDbFS": null,
+      "peak": 0
+    },
+    {
+      "bar": 64,
+      "sourceBar": 64,
+      "rmsDbFS": null,
+      "peak": 0
+    }
+  ]
+}

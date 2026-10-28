@@ -1,0 +1,54 @@
+{
+  "sourceMatches": true,
+  "sourceSha256": "9fa33e2b5e6aeb4e11d59fa2393965cf22a224bb867f52541eec34c20cd3c72f",
+  "preserved": [
+    "袖珍电路-v1-顶部可视化存档.strudel",
+    "袖珍电路-v1-试听.m4a",
+    "袖珍电路-v1-试听.wav"
+  ],
+  "fullWav": {
+    "peak": 0.8399658203125,
+    "rms": 0.11683058533099758,
+    "peakDbFS": -1.5147677157072617,
+    "rmsDbFS": -18.648868948987836
+  },
+  "lastTwoBarsAndTail": {
+    "peak": 0,
+    "rms": 0,
+    "peakDbFS": null,
+    "rmsDbFS": null
+  },
+  "abPcm": {
+    "A": {
+      "peak": 0.638092041015625,
+      "rms": 0.09999999225154141,
+      "peakDbFS": -3.9023334468266557,
+      "rmsDbFS": -20.00000067302259
+    },
+    "B": {
+      "peak": 0.642608642578125,
+      "rms": 0.09999999764110333,
+      "peakDbFS": -3.8410687565568455,
+      "rmsDbFS": -20.000000204891162
+    },
+    "matchingErrorDb": 4.681314287324767e-7
+  },
+  "files": [
+    {
+      "file": "<LEGACY_WORKSPACE>/袖珍电路-v2-试听.wav",
+      "bytes": 21856844
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/袖珍电路-v2-试听.m4a",
+      "bytes": 2121067
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/袖珍电路-v1-v2-主题对照.wav",
+      "bytes": 5517164
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/袖珍电路-v1-v2-主题对照.m4a",
+      "bytes": 585235
+    }
+  ]
+}

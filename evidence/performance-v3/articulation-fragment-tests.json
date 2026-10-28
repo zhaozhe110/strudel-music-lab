@@ -1,0 +1,75 @@
+{
+  "cases": {
+    "slideIntoTarget": "note(\"e4@3 ~\").s(\"roof_live_soft\").gain(.13).clip(.92).release(.16).fmap(v=>({...v,slideFrom:-2,slideTime:.085,pickCents:2,pickDecay:.04}))",
+    "delayedTailVibrato": "note(\"a4@3 ~\").s(\"roof_live\").gain(.14).clip(.95).release(.22).fmap(v=>({...v,vib:5.1,vibmod:.12,vibdelay:.28,vibattack:.16}))",
+    "mutedPickup": "note(\"~ d3 ~ a3\").s(\"roof_live_soft\").gain(.10).clip(.30).attack(.001).release(.035).lpf(2800).fmap(v=>({...v,pickCents:3,pickDecay:.035}))"
+  },
+  "result": {
+    "slideIntoTarget": [
+      {
+        "start": 0,
+        "end": 0.75,
+        "value": {
+          "note": "e4",
+          "s": "roof_live_soft",
+          "gain": 0.13,
+          "clip": 0.92,
+          "release": 0.16,
+          "slideFrom": -2,
+          "slideTime": 0.085,
+          "pickCents": 2,
+          "pickDecay": 0.04
+        }
+      }
+    ],
+    "delayedTailVibrato": [
+      {
+        "start": 0,
+        "end": 0.75,
+        "value": {
+          "note": "a4",
+          "s": "roof_live",
+          "gain": 0.14,
+          "clip": 0.95,
+          "release": 0.22,
+          "vib": 5.1,
+          "vibmod": 0.12,
+          "vibdelay": 0.28,
+          "vibattack": 0.16
+        }
+      }
+    ],
+    "mutedPickup": [
+      {
+        "start": 0.25,
+        "end": 0.5,
+        "value": {
+          "note": "d3",
+          "s": "roof_live_soft",
+          "gain": 0.1,
+          "clip": 0.3,
+          "attack": 0.001,
+          "release": 0.035,
+          "cutoff": 2800,
+          "pickCents": 3,
+          "pickDecay": 0.035
+        }
+      },
+      {
+        "start": 0.75,
+        "end": 1,
+        "value": {
+          "note": "a3",
+          "s": "roof_live_soft",
+          "gain": 0.1,
+          "clip": 0.3,
+          "attack": 0.001,
+          "release": 0.035,
+          "cutoff": 2800,
+          "pickCents": 3,
+          "pickDecay": 0.035
+        }
+      }
+    ]
+  }
+}

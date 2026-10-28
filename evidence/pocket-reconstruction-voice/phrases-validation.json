@@ -1,0 +1,9 @@
+{
+  "clipCount": 24,
+  "coveredSeconds": 37.64,
+  "sourceStemSeconds": 296.82938775510206,
+  "fractionVocalStemSquaredEnergyInsideClips": 0.9999549388885498,
+  "maximumClipPeak": 0.851959228515625,
+  "overlappingClips": false,
+  "note": "Energy preservation is a numerical check, not a speech-recognition or separation-quality score."
+}

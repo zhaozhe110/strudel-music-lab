@@ -1,0 +1,25 @@
+天台晚风 · 同弦止音试验
+
+基准是用户刚试听并反馈“好了一些”的轻拨+3处hammer版本。
+20秒AB前10秒为该基准，后10秒只增加左吉他的同弦止音。
+两段均为原版四小节32个音，按相同长度窗口匹配RMS，不改采样和效果器。
+播放引擎：本地Strudel原生webaudioOutput，浏览器OfflineAudioContext。
+
+完整试验代码：../天台晚风-同弦止音试验.strudel
+STRING_DAMPING=false 可关闭本次改动。
+完整2374个事件比对通过，544个左吉他事件只新增cut字段。
+音高、入拍、原始事件结束时间、其他声部均不变；实际发声音长会因止音缩短。
+分弦是本次编配选择，不是源WAV实际弦号的元数据。
+
+限制：这不是前后音真实过渡采样。现有Black&Green是逐目标音的poly采样库，
+完整SFZ预设也不具备按前音/音程自动切换的真实连奏。
+同弦止音解决不合理复音，不能保证消除单音拼接感。
+代码与音频可运行已验证；没有冒充人耳试听或确认达到真人音质。
+
+一手音源依据：
+https://github.com/sfzinstruments/karoryfer.black-and-green-guitars/blob/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Programs/01-green_keyswitch.sfz
+https://github.com/sfzinstruments/karoryfer.black-and-green-guitars/blob/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Programs/modules/maps_green/hammer.sfz
+
+另已核实的外部音源路线：Ample Guitar M Lite v4有专用legato/HP引擎，
+可考虑Strudel MIDI驱动。但该免费产品是钢弦木吉他，不是用户已认可的电吉他音色；
+因此本轮没有安装它，也没有用它替换当前音色。

@@ -1,0 +1,350 @@
+{
+  "file": "<LEGACY_WORKSPACE>/天台晚风-v2-preview.wav",
+  "m4a": "<LEGACY_WORKSPACE>/天台晚风-v2-preview.m4a",
+  "events": 1208,
+  "sampleRate": 44100,
+  "channels": 2,
+  "duration": 68.45455782312925,
+  "rawPeak": 0.491801917552948,
+  "finalPeak": 0.8199999928474426,
+  "peakDbFS": -1.7237230280894764,
+  "rmsDbFS": -17.550713167204727,
+  "nonzeroSamples": 5892584,
+  "normalization": 1.6673379479284314,
+  "orbitStats": {
+    "0": {
+      "rawPeak": 0.3599252998828888,
+      "rawRmsDbFS": -24.43543631550176,
+      "finalRmsDbFS": -19.994963622536154
+    },
+    "1": {
+      "rawPeak": 0.17938090860843658,
+      "rawRmsDbFS": -32.65504362382542,
+      "finalRmsDbFS": -28.214570930859814
+    },
+    "2": {
+      "rawPeak": 0.21269437670707703,
+      "rawRmsDbFS": -32.26892711836415,
+      "finalRmsDbFS": -27.828454425398547
+    },
+    "3": {
+      "rawPeak": 0.15649473667144775,
+      "rawRmsDbFS": -35.99063877784215,
+      "finalRmsDbFS": -31.550166084876544
+    },
+    "4": {
+      "rawPeak": 0.14227129518985748,
+      "rawRmsDbFS": -35.250531601518645,
+      "finalRmsDbFS": -30.81005890855304
+    },
+    "5": {
+      "rawPeak": 0.2062481939792633,
+      "rawRmsDbFS": -31.464952129901445,
+      "finalRmsDbFS": -27.02447943693584
+    }
+  },
+  "usedSamples": [
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/drums/mid_kick_snon_vl3_rr1.flac",
+      "bytes": 275974,
+      "channels": 2,
+      "seconds": 2.349433106575964
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/drums/mid_kick_snon_vl3_rr2.flac",
+      "bytes": 282943,
+      "channels": 2,
+      "seconds": 2.408798185941043
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/D5_s6_soft_01.flac",
+      "bytes": 500565,
+      "channels": 2,
+      "seconds": 5.631428571428572
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/D5_s6_01.flac",
+      "bytes": 519882,
+      "channels": 2,
+      "seconds": 5.741859410430839
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/F5_s6_01.flac",
+      "bytes": 470932,
+      "channels": 2,
+      "seconds": 5.822879818594104
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/drums/mid_snare_center_vl26.flac",
+      "bytes": 222679,
+      "channels": 2,
+      "seconds": 1.7607936507936508
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/drums/mid_snare_center_vl25.flac",
+      "bytes": 247429,
+      "channels": 2,
+      "seconds": 1.9665079365079365
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/drums/mid_hh_closed_vl2_rr1.flac",
+      "bytes": 83468,
+      "channels": 2,
+      "seconds": 0.6266666666666667
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/drums/mid_snare_center_vl28.flac",
+      "bytes": 241162,
+      "channels": 2,
+      "seconds": 1.8721315192743764
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/drums/mid_snare_center_vl9.flac",
+      "bytes": 198833,
+      "channels": 2,
+      "seconds": 1.6335374149659865
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/drums/mid_hh_closed_vl3_rr1.flac",
+      "bytes": 96320,
+      "channels": 2,
+      "seconds": 0.6959637188208617
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/drums/mid_snare_center_vl27.flac",
+      "bytes": 201388,
+      "channels": 2,
+      "seconds": 1.551201814058957
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/drums/mid_hh_closed_vl2_rr2.flac",
+      "bytes": 78372,
+      "channels": 2,
+      "seconds": 0.5856235827664399
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/drums/mid_hh_closed_vl3_rr2.flac",
+      "bytes": 96470,
+      "channels": 2,
+      "seconds": 0.6994331065759637
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/G4_s6_03.flac",
+      "bytes": 735429,
+      "channels": 2,
+      "seconds": 10.149478458049886
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/E4_s6_soft_03.flac",
+      "bytes": 745164,
+      "channels": 2,
+      "seconds": 8.790045351473923
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/E4_s6_soft_01.flac",
+      "bytes": 787452,
+      "channels": 2,
+      "seconds": 10.567233560090703
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/G4_s6_02.flac",
+      "bytes": 867440,
+      "channels": 2,
+      "seconds": 11.986848072562358
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/D5_s6_02.flac",
+      "bytes": 548970,
+      "channels": 2,
+      "seconds": 6.381156462585034
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/B4_s6_04.flac",
+      "bytes": 567012,
+      "channels": 2,
+      "seconds": 6.6269387755102045
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/G4_s6_04.flac",
+      "bytes": 852954,
+      "channels": 2,
+      "seconds": 13.019319727891157
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/Cs4_s5_soft_02.flac",
+      "bytes": 753642,
+      "channels": 2,
+      "seconds": 11.862743764172336
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/B4_s6_03.flac",
+      "bytes": 619671,
+      "channels": 2,
+      "seconds": 7.9084807256235825
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/F5_s6_02.flac",
+      "bytes": 616985,
+      "channels": 2,
+      "seconds": 7.947573696145125
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/Cs4_s5_soft_04.flac",
+      "bytes": 724929,
+      "channels": 2,
+      "seconds": 11.888344671201814
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/E4_s6_soft_02.flac",
+      "bytes": 826848,
+      "channels": 2,
+      "seconds": 10.499297052154194
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/E4_s6_soft_04.flac",
+      "bytes": 829814,
+      "channels": 2,
+      "seconds": 9.79
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/Gs5_s6_01.flac",
+      "bytes": 665245,
+      "channels": 2,
+      "seconds": 9.21124716553288
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/G4_s6_01.flac",
+      "bytes": 792646,
+      "channels": 2,
+      "seconds": 10.796961451247165
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/B4_s6_02.flac",
+      "bytes": 625638,
+      "channels": 2,
+      "seconds": 7.920589569160998
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/B3_s5_02.flac",
+      "bytes": 1008619,
+      "channels": 2,
+      "seconds": 14.212721088435375
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/E4_s6_03.flac",
+      "bytes": 851367,
+      "channels": 2,
+      "seconds": 10.312993197278912
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/Cs4_s5_02.flac",
+      "bytes": 794117,
+      "channels": 2,
+      "seconds": 12.306666666666667
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/Cs4_s5_03.flac",
+      "bytes": 783516,
+      "channels": 2,
+      "seconds": 13.091247165532879
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/B4_s6_01.flac",
+      "bytes": 626856,
+      "channels": 2,
+      "seconds": 7.916213151927438
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/E4_s6_04.flac",
+      "bytes": 951711,
+      "channels": 2,
+      "seconds": 13.65360544217687
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/E4_s6_01.flac",
+      "bytes": 812875,
+      "channels": 2,
+      "seconds": 10.340498866213151
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/Cs4_s5_04.flac",
+      "bytes": 765002,
+      "channels": 2,
+      "seconds": 12.19580498866213
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/drums/mid_hh_open_vl2_rr2.flac",
+      "bytes": 881035,
+      "channels": 2,
+      "seconds": 7.199705215419501
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/G3_s4_soft_01.flac",
+      "bytes": 1122350,
+      "channels": 2,
+      "seconds": 17.426439909297052
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/G3_s4_soft_02.flac",
+      "bytes": 1175316,
+      "channels": 2,
+      "seconds": 18.632562358276644
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/D3_s3_soft_01.flac",
+      "bytes": 1288074,
+      "channels": 2,
+      "seconds": 24.596961451247164
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/drums/mid_hh_open_vl2_rr1.flac",
+      "bytes": 953760,
+      "channels": 2,
+      "seconds": 7.841496598639456
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/G3_s4_soft_04.flac",
+      "bytes": 1093677,
+      "channels": 2,
+      "seconds": 15.369433106575963
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/G3_s4_03.flac",
+      "bytes": 1303047,
+      "channels": 2,
+      "seconds": 17.133197278911563
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/G3_s4_02.flac",
+      "bytes": 1223722,
+      "channels": 2,
+      "seconds": 16.113696145124717
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/G3_s4_04.flac",
+      "bytes": 1241437,
+      "channels": 2,
+      "seconds": 15.391020408163266
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/B3_s5_04.flac",
+      "bytes": 1113068,
+      "channels": 2,
+      "seconds": 15.263560090702947
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/G3_s4_01.flac",
+      "bytes": 1344813,
+      "channels": 2,
+      "seconds": 17.59689342403628
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/strudel/website/public/rooftop-v2/guitar/D3_s3_01.flac",
+      "bytes": 1531744,
+      "channels": 2,
+      "seconds": 29.470861678004535
+    }
+  ],
+  "sourceMap": "<LEGACY_WORKSPACE>/.tone-v2/samples.json",
+  "notes": "Same Strudel event timing, sample selection, repitch, gain and envelope semantics. The native offline renderer approximates spatial effects; not a browser loopback recording. The v1 source and preview are preserved."
+}

@@ -1,0 +1,27 @@
+{
+  "sample": "pc-lead-ab3.wav",
+  "rootMidi": 56,
+  "rootNote": "Ab3",
+  "durationSeconds": 0.22448979591836735,
+  "peakTimeSeconds": 0.04977324263038549,
+  "amplitudeDecayTimeConstantSeconds": 0.10721551029734389,
+  "spectralHarmonicsRelativeApprox": [
+    1,
+    0.23,
+    0.1,
+    0.058,
+    0.039,
+    0.029,
+    0.023,
+    0.019
+  ],
+  "synthFallback": "sawtooth, lowpass approximately 450\u2013650 Hz, envelope attack .005, decay .18, sustain0, release .01; exact measured spectrum is better preserved by provided one-shot",
+  "source": {
+    "path": "<USER_HOME>/Downloads/Kraftwerk - Pocket Calculator (2009 Remaster).mp3",
+    "decodedStartSeconds": 0.3025,
+    "decodedEndSeconds": 0.527,
+    "channel": "left",
+    "processing": "3rd-order zero-phase highpass 130Hz; 1ms fade-in,8ms fade-out; peak .85"
+  },
+  "limitations": "One-shot comes from the supplied mix, not an original isolated studio stem; minor residual source noise may remain. Pitch transposition also changes envelope duration."
+}

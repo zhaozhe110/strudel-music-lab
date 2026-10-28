@@ -1,0 +1,172 @@
+// "错拍之后" — 保留已确认的 Emo 乐队音色，完整器乐编排。
+// SampleRadar Kit03 / 99 BPM。旋律材料来自原录音，本文件重组乐句与段落。
+// 来源：https://www.musicradar.com/news/tech/sampleradar-451-free-emo-samples-479864
+// 音频原文件保持不变；不变调、不变速、不另做乐器模拟。
+// 默认完整播放一次。再次播放请先 stop，再 play；LOOP=true 可循环。
+
+const MASTER = 0.72;
+const GUITARS = 1;
+const BASS = 1;
+const DRUMS = 1;
+const LOOP = false;
+const BPM = 99;
+const BASE = 'http://127.0.0.1:3009/band-reference/';
+
+await samples(BASE + 'samples.json');
+const bank = await (await fetch(BASE + 'samples.json')).json();
+const urls = [...new Set(Object.entries(bank)
+  .filter(([name]) => !name.startsWith('_'))
+  .flatMap(([, files]) => files))];
+await Promise.all(urls.map(file => loadBuffer(BASE + file, getAudioContext())));
+setcpm(BPM / 4);
+
+// 保留参考版的六组录音、声像与基本音量，只调整段落强弱。
+const voices = {
+  left:  ['band_rhythm_a', 0.48 * GUITARS, 0.22],
+  right: ['band_rhythm_b', 0.42 * GUITARS, 0.78],
+  open:  ['band_rhythm_c', 0.48 * GUITARS, 0.35],
+  lead:  ['band_lead',     0.38 * GUITARS, 0.58],
+  bass:  ['band_bass',     0.48 * BASS,    0.50],
+  drums: ['band_drums',    0.65 * DRUMS,   0.50],
+};
+
+// 每条原始录音长 8 个四分音符。a/len 的单位也都是四分音符。
+function take(role, i, a = 0, len = 8, level = 1) {
+  const [name, volume, position] = voices[role];
+  let p = s(name).n(i).gain(volume * level).pan(position);
+  if (a !== 0 || len !== 8) {
+    const seconds = len * 60 / BPM;
+    p = p.begin(a / 8).end((a + len) / 8)
+      .attack(0.002).clip(1 - 0.01 / seconds).release(0.01);
+  }
+  return p;
+}
+
+const seq = (...parts) => stepcat(...parts);
+const full = (i, level = 1, backing = 'left', doubled = false) => stack(
+  take(backing, i, 0, 8, level),
+  doubled ? take(backing === 'left' ? 'right' : 'left', i, 0, 8, level) : silence,
+  take('lead', i, 0, 8, level),
+  take('bass', i, 0, 8, level),
+  take('drums', i, 0, 8, level),
+);
+
+// 主歌：主音只回答后半句，留出前半句的节奏吉他。
+function verse(i, answer = true, level = 0.86) {
+  return stack(
+    take('left', i, 0, 8, level),
+    take('bass', i, 0, 8, level),
+    take('drums', i, 0, 8, level * 0.8),
+    answer
+      ? seq([4, silence], [3.5, take('lead', i, 4, 3.5, level)], [0.5, silence])
+      : seq([4, silence], [4, take('right', i, 4, 4, level * 0.85)]),
+  );
+}
+
+// 双吉他问答：旋律前半句在右侧，后半句交给左侧吉他。
+function dialogue(i, level = 0.8) {
+  return stack(
+    take('open', i, 0, 8, level * 0.75),
+    take('bass', i, 0, 8, level),
+    seq(
+      [3.5, take('lead', i, 0, 3.5, level)],
+      [0.5, silence],
+      [4, take('left', i, 4, 4, level)],
+    ),
+  );
+}
+
+// 交替声部承担八分分组，贝斯与原声鼓保留同一段落的脉搏。
+// 3+3+2 = 1.5+1.5+1 个四分音符，不是三连音。
+function hocket(i, a, groups, level = 0.95) {
+  const len = groups.reduce((sum, x) => sum + x, 0);
+  let position = a;
+  const guitars = groups.map((beats, index) => {
+    const from = position;
+    position += beats;
+    return [beats, index % 2 === 0
+      ? take('left', i, from, beats, level)
+      : stack(
+        take('right', i, from, beats, level),
+        take('lead', i, from, beats, level * 0.85),
+      )];
+  });
+  return stack(
+    seq(...guitars),
+    take('bass', i, a, len, level),
+    take('drums', i, a, len, level),
+  );
+}
+
+function turn(i, beats, a = 0, level = 0.95) {
+  return stack(
+    take('left', i, a, beats, level),
+    take('right', i, a, beats, level * 0.9),
+    take('bass', i, a, beats, level),
+    take('drums', i, a, beats, level),
+  );
+}
+
+// 末尾在原录音结束前淡出，不向空白处人为延长尾音。
+function fadeEnding(i) {
+  const seconds = 8 * 60 / BPM;
+  return stack(
+    take('left', i, 0, 8, 0.72),
+    take('right', i, 0, 8, 0.54),
+    take('lead', i, 0, 8, 0.60),
+  ).clip(1 - 1.6 / seconds).release(1.6);
+}
+
+// 各段内部的权重均为实际拍数；绝大多数乐句完整保留 8 拍。
+const sections = [
+  ['intro', 16, seq(
+    [8, take('left', 0, 0, 8, 0.9)],
+    [8, stack(take('left', 1), take('right', 1, 0, 8, 0.7), take('bass', 1, 0, 8, 0.8))],
+  )],
+  ['verse', 32, seq(
+    [8, verse(0, false, 0.82)],
+    [8, verse(1, true, 0.86)],
+    [8, verse(4, true, 0.90)],
+    [8, verse(5, true, 0.94)],
+  )],
+  ['turn_7_8', 3.5, turn(3, 3.5, 4)],
+  ['theme', 32, seq(
+    [8, full(2)], [8, full(3, 1, 'right')],
+    [8, full(2)], [8, full(3, 1, 'right')],
+  )],
+  ['math_interlude', 13.5, seq(
+    [4, hocket(4, 0, [1.5, 1.5, 1])],
+    [3.5, hocket(4, 4, [1.5, 1, 1])],
+    [3.5, hocket(5, 0, [1, 1.5, 1])],
+    [2.5, turn(5, 2.5, 4)],
+  )],
+  ['breath', 16, seq(
+    [8, dialogue(2, 0.72)],
+    [8, dialogue(3, 0.82)],
+  )],
+  ['build', 16, seq(
+    [8, verse(6, true, 0.9)],
+    [4, hocket(7, 0, [1.5, 1.5, 1])],
+    [3.5, turn(7, 3.5, 4, 1)],
+    [0.5, silence],
+  )],
+  ['final_theme', 48, seq(
+    [8, full(2)], [8, full(3, 1, 'right')],
+    [8, full(6, 0.9, 'open')], [8, full(7, 0.94, 'open')],
+    [8, full(2, 1, 'left', true)], [8, full(3, 1, 'left', true)],
+  )],
+  ['outro', 24, seq(
+    [8, dialogue(2, 0.82)],
+    [8, stack(take('left', 3, 0, 8, 0.86), take('lead', 3, 0, 8, 0.8))],
+    [8, fadeEnding(0)],
+  )],
+];
+
+const TOTAL_BEATS = sections.reduce((sum, [, beats]) => sum + beats, 0);
+const TOTAL_CYCLES = TOTAL_BEATS / 4;
+
+stepcat(...sections.map(([, beats, pattern]) => [beats, pattern]))
+  .slow(TOTAL_CYCLES)
+  .filterWhen(t => Number(t) >= 0 && (LOOP || Number(t) < TOTAL_CYCLES))
+  .timeline(1)
+  .postgain(MASTER)

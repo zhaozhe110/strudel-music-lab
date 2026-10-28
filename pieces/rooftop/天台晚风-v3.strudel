@@ -1,0 +1,23 @@
+// "天台晚风 v3" — 两把吉他的问答，原创旋律。
+// 约 79 秒：留白 → 问答 → 7/8 交错 → 5/8 接回 → 展开 → 呼吸 → 收束。
+// 第一遍会预热本地采样。保留 v2，方便对比。
+const BPM = 126;
+const GUITARS = 1;
+const BASS = 1;
+const DRUMS = 1;
+const ARTICULATIONS = true; // false 可对比无滑音、揉弦和拨弦升音的版本
+const HUMAN_TIMING = true; // 保留小幅演奏微时差，不改变写好的变拍节奏
+
+const base = 'http://127.0.0.1:3009/rooftop-v3/';
+await samples(base + 'samples.json');
+const { installGuitarArticulations } = await import(base + 'guitar-articulation.mjs');
+installGuitarArticulations({ getSound, registerSound, getAudioContext });
+const score = await (await fetch(base + 'score.json')).json();
+const warm = await (await fetch(base + 'preload.json')).json();
+await Promise.all(warm.map(url => loadBuffer(url, getAudioContext())));
+const { performancePattern } = await import(base + 'performance-pattern.mjs?v=2');
+setcpm(BPM / 4);
+performancePattern(score, { Pattern, Hap, TimeSpan }, {
+  guitarLevel: GUITARS, bassLevel: BASS, drumsLevel: DRUMS,
+  articulations: ARTICULATIONS, humanTiming: HUMAN_TIMING
+})

@@ -1,0 +1,56 @@
+{
+  "scoreFile": "<LEGACY_WORKSPACE>/.pocket-reconstruction/timeline-test.strudel",
+  "scoreSha256": "19a4d33786a6b1eeacebebce2cf2b6a0afb393c271054bce5099722fdab9071b",
+  "engine": "Installed Strudel core/transpiler/tonal and unmodified Superdough, node-web-audio-api OfflineAudioContext",
+  "hostAdapter": "Unused Vite worklet resource import stub; visualizers are no-ops; local sample URL reads; no synth/envelope/filter/pan/delay substitution.",
+  "postprocessing": "Constant peak normalization to 0.84; 0.15-second tail fade; AAC preview",
+  "bpm": 135.85,
+  "cps": 0.5660416666666667,
+  "begin": 0,
+  "cycles": 5,
+  "musicalDurationSeconds": 8.833271991166727,
+  "durationSeconds": 9.83328798185941,
+  "sampleRate": 44100,
+  "channels": 2,
+  "events": 6,
+  "sounds": [
+    "sawtooth"
+  ],
+  "localSampleFiles": [],
+  "rawPeak": 0.06797201186418533,
+  "rawRmsDbFS": -43.423292478606854,
+  "normalizationGain": 12.358027619932766,
+  "finalPeak": 0.8400000000000001,
+  "finalPeakDbFS": -1.514414278762366,
+  "finalRmsDbFS": -21.584309248232884,
+  "nonFiniteSamples": 0,
+  "wavFile": "<LEGACY_WORKSPACE>/.pocket-reconstruction/timeline-test.wav",
+  "m4aFile": "<LEGACY_WORKSPACE>/.pocket-reconstruction/timeline-test.m4a",
+  "byBar": [
+    {
+      "cycle": 0,
+      "rmsDbFS": -17.139112027763748,
+      "peak": 0.8400000000000001
+    },
+    {
+      "cycle": 1,
+      "rmsDbFS": null,
+      "peak": 0
+    },
+    {
+      "cycle": 2,
+      "rmsDbFS": null,
+      "peak": 0
+    },
+    {
+      "cycle": 3,
+      "rmsDbFS": null,
+      "peak": 0
+    },
+    {
+      "cycle": 4,
+      "rmsDbFS": -17.3503908280459,
+      "peak": 0.8400000000000001
+    }
+  ]
+}

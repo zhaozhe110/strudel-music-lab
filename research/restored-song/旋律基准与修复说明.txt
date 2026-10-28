@@ -1,0 +1,21 @@
+旋律基准：天台晚风.strudel 与 天台晚风-v2.strudel。
+不要用 v3 的新主题、Emo乐队素材参考版或错拍之后作旋律基准。
+
+用户明确要求恢复最初《天台晚风》的原创旋律。先前用SampleRadar整句旋律替换原作，是错误的方向。
+原曲：132 BPM，36小节，D → F# → G → A。
+left/right/lead/bass 共680个音符事件，音高、入拍和原始事件终点逐项保留。
+right 晚1/16 cycle，原谱中的 gs4 和 a5 原样保留。
+
+天台晚风-原旋律回归.strudel：原来的36小节，不改旋律与声部进出。
+天台晚风-保留原旋律完整曲.strudel：前36小节与回归版一致，之后继续复用原曲主题；鼓加入3+3+2重音，末尾用原和声的Dadd9收束。
+完整版本约127.27秒。两版默认只播放一次。
+
+音色说明：
+获认可的素材参考版来自完整乐句录音，不能把其旋律当成可自由改音符的乐器。
+本次使用Karoryfer Black And Green的现成单音WAV，按官方SFZ的数值根音加载；所有所需吉他音高均有实际录音，不从文件名猜八度。
+来源：https://github.com/sfzinstruments/karoryfer.black-and-green-guitars
+SHA：b3b3249d37dc977a1a297bd2dc053e6d9b6b805c；CC0-1.0。
+这是Strudel原生采样器读取现成音频，不是完整Sforzando/SFZ奏法引擎，也不是原素材版音色的无差别复制。
+鼓使用同一套SampleRadar Kit03附带的单击，保留了素材来源，但改为逐击演奏原鼓谱。贝斯保留原曲的FluidR3 finger bass。
+
+melody-contract.json 和 melody-validation.json 记录已验证的旋律一致性，不把这种技术检查当成听感评价。

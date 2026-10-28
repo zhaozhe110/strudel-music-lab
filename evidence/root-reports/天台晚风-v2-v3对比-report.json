@@ -1,0 +1,25 @@
+{
+  "matching": "RMS matched, not BS.1770 LUFS",
+  "targetRmsDbFS": -22,
+  "finalPeak": 0.523461103439331,
+  "gapSeconds": 0.6,
+  "durationSeconds": 30.6,
+  "segments": [
+    {
+      "file": "<LEGACY_WORKSPACE>/天台晚风-v2-preview.wav",
+      "startSeconds": 21.8181818,
+      "lengthSeconds": 15,
+      "comparisonStartSeconds": 0,
+      "sourceRmsDbFS": -16.022584494493053,
+      "gain": 0.5024920842644275
+    },
+    {
+      "file": "<LEGACY_WORKSPACE>/.performance-v3/draft-c/listen.wav",
+      "startSeconds": 32.8571429,
+      "lengthSeconds": 15,
+      "comparisonStartSeconds": 15.6,
+      "sourceRmsDbFS": -20.9669938569155,
+      "gain": 0.887870635538887
+    }
+  ]
+}

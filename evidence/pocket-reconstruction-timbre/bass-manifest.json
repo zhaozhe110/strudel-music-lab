@@ -1,0 +1,11 @@
+{
+  "name": "pcBass",
+  "file": "pc-bass-bb1.wav",
+  "rootMidi": 34,
+  "rootNote": "Bb1",
+  "sourceTimeSeconds": 0.527,
+  "durationSeconds": 0.21599999999999997,
+  "normalizationScale": 0.9432076167982877,
+  "sourceStem": "AI-separated bass.wav",
+  "note": "Single source note sampled and re-performed; no continuous bass stem in final music"
+}

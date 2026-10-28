@@ -1,0 +1,82 @@
+{
+  "bpm": 126,
+  "durationSeconds": 121.9047619047619,
+  "events": 1643,
+  "sections": [
+    {
+      "from": 0,
+      "to": 4,
+      "events": 45,
+      "seconds": 0
+    },
+    {
+      "from": 4,
+      "to": 8,
+      "events": 85,
+      "seconds": 7.62
+    },
+    {
+      "from": 8,
+      "to": 16,
+      "events": 236,
+      "seconds": 15.24
+    },
+    {
+      "from": 16,
+      "to": 24,
+      "events": 266,
+      "seconds": 30.48
+    },
+    {
+      "from": 24,
+      "to": 32,
+      "events": 253,
+      "seconds": 45.71
+    },
+    {
+      "from": 32,
+      "to": 36,
+      "events": 53,
+      "seconds": 60.95
+    },
+    {
+      "from": 36,
+      "to": 40,
+      "events": 85,
+      "seconds": 68.57
+    },
+    {
+      "from": 40,
+      "to": 48,
+      "events": 266,
+      "seconds": 76.19
+    },
+    {
+      "from": 48,
+      "to": 56,
+      "events": 266,
+      "seconds": 91.43
+    },
+    {
+      "from": 56,
+      "to": 60,
+      "events": 85,
+      "seconds": 106.67
+    },
+    {
+      "from": 60,
+      "to": 62,
+      "events": 3,
+      "seconds": 114.29
+    },
+    {
+      "from": 62,
+      "to": 64,
+      "events": 0,
+      "seconds": 118.1
+    }
+  ],
+  "exact64barRepeat": true,
+  "answerOnRests": true,
+  "valid": true
+}

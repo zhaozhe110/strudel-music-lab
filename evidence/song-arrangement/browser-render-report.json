@@ -1,0 +1,112 @@
+{
+  "engine": "Installed Strudel webaudioOutput in native browser OfflineAudioContext",
+  "sourcePolicy": "Same approved sample bank, original pitch and speed; no new instrument or timbre processing. Short boundary fades and final fade-out only.",
+  "auditoryReview": false,
+  "stats": {
+    "peak": 0.8141775131225586,
+    "rms": 0.14300207879232588,
+    "rmsDb": -16.893152984758323,
+    "seconds": 122.16818594104308,
+    "sampleRate": 44100,
+    "channels": 2,
+    "last200ms": {
+      "peak": 0,
+      "rms": 0,
+      "rmsDb": null
+    },
+    "sections": [
+      {
+        "name": "intro",
+        "startBeat": 0,
+        "beats": 16,
+        "startSeconds": 0,
+        "endSeconds": 9.696969696969697,
+        "peak": 0.42874687910079956,
+        "rms": 0.0770860253952569,
+        "rmsDb": -22.26048692505449
+      },
+      {
+        "name": "verse",
+        "startBeat": 16,
+        "beats": 32,
+        "startSeconds": 9.696969696969697,
+        "endSeconds": 29.09090909090909,
+        "peak": 0.6698836088180542,
+        "rms": 0.12370683485488883,
+        "rmsDb": -18.15212609508771
+      },
+      {
+        "name": "turn_7_8",
+        "startBeat": 48,
+        "beats": 3.5,
+        "startSeconds": 29.09090909090909,
+        "endSeconds": 31.21212121212121,
+        "peak": 0.7356147766113281,
+        "rms": 0.17287869417524265,
+        "rmsDb": -15.245170530389437
+      },
+      {
+        "name": "theme",
+        "startBeat": 51.5,
+        "beats": 32,
+        "startSeconds": 31.21212121212121,
+        "endSeconds": 50.60606060606061,
+        "peak": 0.7547721862792969,
+        "rms": 0.18036629997085363,
+        "rmsDb": -14.876892074673053
+      },
+      {
+        "name": "math_interlude",
+        "startBeat": 83.5,
+        "beats": 13.5,
+        "startSeconds": 50.60606060606061,
+        "endSeconds": 58.78787878787879,
+        "peak": 0.7577160596847534,
+        "rms": 0.15521792284985883,
+        "rmsDb": -16.18116265313095
+      },
+      {
+        "name": "breath",
+        "startBeat": 97,
+        "beats": 16,
+        "startSeconds": 58.78787878787879,
+        "endSeconds": 68.48484848484848,
+        "peak": 0.4284209609031677,
+        "rms": 0.07813008652297289,
+        "rmsDb": -22.143633894858294
+      },
+      {
+        "name": "build",
+        "startBeat": 113,
+        "beats": 16,
+        "startSeconds": 68.48484848484848,
+        "endSeconds": 78.18181818181819,
+        "peak": 0.7368284463882446,
+        "rms": 0.1506838446973341,
+        "rmsDb": -16.438666146129446
+      },
+      {
+        "name": "final_theme",
+        "startBeat": 129,
+        "beats": 48,
+        "startSeconds": 78.18181818181819,
+        "endSeconds": 107.27272727272727,
+        "peak": 0.8141775131225586,
+        "rms": 0.17540592903885144,
+        "rmsDb": -15.119114615598345
+      },
+      {
+        "name": "outro",
+        "startBeat": 177,
+        "beats": 24,
+        "startSeconds": 107.27272727272727,
+        "endSeconds": 121.81818181818181,
+        "peak": 0.4085342288017273,
+        "rms": 0.07323543147180005,
+        "rmsDb": -22.70557510839847
+      }
+    ]
+  },
+  "sources": 43,
+  "events": 119
+}

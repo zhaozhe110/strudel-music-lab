@@ -1,0 +1,52 @@
+{
+  "v1ArchivePreserved": true,
+  "v2WavPreserved": true,
+  "renders": [
+    {
+      "report": "render-report.json",
+      "sourceMatches": true,
+      "sourceSha256": "bc13046e71ea08ee3fb93382947e61e96267579b92934c131ae8eac9f35ab594",
+      "bpm": 136,
+      "beginCycle": 0,
+      "cycles": 64,
+      "events": 1767,
+      "durationSeconds": 114.941179138322,
+      "pcm": {
+        "peak": 0.8399658203125,
+        "rms": 0.09705922134860519,
+        "peakDbFS": -1.5147677157072617,
+        "rmsDbFS": -20.25926394212918
+      },
+      "wavFile": "<LEGACY_WORKSPACE>/袖珍电路-v3-试听.wav",
+      "m4aFile": "<LEGACY_WORKSPACE>/袖珍电路-v3-试听.m4a",
+      "wavBytes": 20275668,
+      "m4aBytes": 1607173,
+      "lastTwoBarsAndTail": {
+        "peak": 0,
+        "rms": 0,
+        "peakDbFS": null,
+        "rmsDbFS": null
+      }
+    },
+    {
+      "report": "袖珍电路-v3-主段试听-render-report.json",
+      "sourceMatches": true,
+      "sourceSha256": "bc13046e71ea08ee3fb93382947e61e96267579b92934c131ae8eac9f35ab594",
+      "bpm": 136,
+      "beginCycle": 8,
+      "cycles": 16,
+      "events": 524,
+      "durationSeconds": 30.23530612244898,
+      "pcm": {
+        "peak": 0.8399658203125,
+        "rms": 0.1027271777812605,
+        "peakDbFS": -1.5147677157072617,
+        "rmsDbFS": -19.76629286146125
+      },
+      "wavFile": "<LEGACY_WORKSPACE>/袖珍电路-v3-主段试听.wav",
+      "m4aFile": "<LEGACY_WORKSPACE>/袖珍电路-v3-主段试听.m4a",
+      "wavBytes": 5333552,
+      "m4aBytes": 432342
+    }
+  ]
+}

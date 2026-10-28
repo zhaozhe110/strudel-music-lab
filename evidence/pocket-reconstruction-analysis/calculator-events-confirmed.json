@@ -1,0 +1,572 @@
+[
+  {
+    "startSeconds": 116.8963,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 1.1,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.995,
+    "strength": 0.0638
+  },
+  {
+    "startSeconds": 117.2056,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 1.057,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.973,
+    "strength": 0.0436
+  },
+  {
+    "startSeconds": 118.6324,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 1.074,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.983,
+    "strength": 0.0495
+  },
+  {
+    "startSeconds": 118.7122,
+    "durationSeconds": 0.0798,
+    "midi": 79,
+    "velocity": 0.789,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.94,
+    "strength": 0.0405
+  },
+  {
+    "startSeconds": 124.2895,
+    "durationSeconds": 0.0898,
+    "midi": 90,
+    "velocity": 0.831,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.952,
+    "strength": 0.0254
+  },
+  {
+    "startSeconds": 125.7163,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 1.012,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.984,
+    "strength": 0.041
+  },
+  {
+    "startSeconds": 125.7861,
+    "durationSeconds": 0.0798,
+    "midi": 79,
+    "velocity": 0.653,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.971,
+    "strength": 0.0304
+  },
+  {
+    "startSeconds": 127.4623,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.931,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.996,
+    "strength": 0.0383
+  },
+  {
+    "startSeconds": 127.7716,
+    "durationSeconds": 0.0898,
+    "midi": 90,
+    "velocity": 0.958,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.995,
+    "strength": 0.0406
+  },
+  {
+    "startSeconds": 129.2383,
+    "durationSeconds": 0.0698,
+    "midi": 90,
+    "velocity": 0.953,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.992,
+    "strength": 0.0396
+  },
+  {
+    "startSeconds": 129.3081,
+    "durationSeconds": 0.0798,
+    "midi": 79,
+    "velocity": 0.61,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.986,
+    "strength": 0.028
+  },
+  {
+    "startSeconds": 130.9843,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.952,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.996,
+    "strength": 0.0409
+  },
+  {
+    "startSeconds": 131.3036,
+    "durationSeconds": 0.0898,
+    "midi": 90,
+    "velocity": 0.94,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.996,
+    "strength": 0.0418
+  },
+  {
+    "startSeconds": 132.7802,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.964,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.996,
+    "strength": 0.0416
+  },
+  {
+    "startSeconds": 132.85,
+    "durationSeconds": 0.0798,
+    "midi": 79,
+    "velocity": 0.622,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.988,
+    "strength": 0.0303
+  },
+  {
+    "startSeconds": 134.4963,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.982,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.993,
+    "strength": 0.044
+  },
+  {
+    "startSeconds": 134.8156,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.987,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.997,
+    "strength": 0.0426
+  },
+  {
+    "startSeconds": 136.3122,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.982,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.997,
+    "strength": 0.0415
+  },
+  {
+    "startSeconds": 136.382,
+    "durationSeconds": 0.0898,
+    "midi": 79,
+    "velocity": 0.618,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.972,
+    "strength": 0.0285
+  },
+  {
+    "startSeconds": 138.0782,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.992,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.994,
+    "strength": 0.0427
+  },
+  {
+    "startSeconds": 138.3974,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.972,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.991,
+    "strength": 0.0411
+  },
+  {
+    "startSeconds": 139.8442,
+    "durationSeconds": 0.0898,
+    "midi": 90,
+    "velocity": 1.037,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.994,
+    "strength": 0.0466
+  },
+  {
+    "startSeconds": 139.924,
+    "durationSeconds": 0.0798,
+    "midi": 79,
+    "velocity": 0.679,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.952,
+    "strength": 0.0334
+  },
+  {
+    "startSeconds": 212.2396,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.84,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.985,
+    "strength": 0.036
+  },
+  {
+    "startSeconds": 212.5489,
+    "durationSeconds": 0.0898,
+    "midi": 90,
+    "velocity": 0.838,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.993,
+    "strength": 0.0345
+  },
+  {
+    "startSeconds": 216.0609,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.838,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.995,
+    "strength": 0.0355
+  },
+  {
+    "startSeconds": 219.6528,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.854,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.995,
+    "strength": 0.0355
+  },
+  {
+    "startSeconds": 224.6414,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.827,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.968,
+    "strength": 0.0342
+  },
+  {
+    "startSeconds": 254.7031,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.893,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.934,
+    "strength": 0.0349
+  },
+  {
+    "startSeconds": 255.0224,
+    "durationSeconds": 0.0898,
+    "midi": 90,
+    "velocity": 0.894,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.948,
+    "strength": 0.0339
+  },
+  {
+    "startSeconds": 256.4891,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.885,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.95,
+    "strength": 0.0339
+  },
+  {
+    "startSeconds": 258.2451,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.905,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.978,
+    "strength": 0.0364
+  },
+  {
+    "startSeconds": 258.5643,
+    "durationSeconds": 0.0898,
+    "midi": 90,
+    "velocity": 0.885,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.949,
+    "strength": 0.033
+  },
+  {
+    "startSeconds": 260.0011,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.869,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.973,
+    "strength": 0.0341
+  },
+  {
+    "startSeconds": 261.7571,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.889,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.952,
+    "strength": 0.0347
+  },
+  {
+    "startSeconds": 262.0664,
+    "durationSeconds": 0.0898,
+    "midi": 90,
+    "velocity": 0.856,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.985,
+    "strength": 0.0348
+  },
+  {
+    "startSeconds": 263.563,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.89,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.936,
+    "strength": 0.0335
+  },
+  {
+    "startSeconds": 265.2691,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.909,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.977,
+    "strength": 0.0381
+  },
+  {
+    "startSeconds": 265.5884,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.881,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.981,
+    "strength": 0.0366
+  },
+  {
+    "startSeconds": 267.055,
+    "durationSeconds": 0.0698,
+    "midi": 90,
+    "velocity": 0.849,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.947,
+    "strength": 0.0303
+  },
+  {
+    "startSeconds": 268.821,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.812,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.973,
+    "strength": 0.0282
+  },
+  {
+    "startSeconds": 269.1403,
+    "durationSeconds": 0.0898,
+    "midi": 90,
+    "velocity": 0.851,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.989,
+    "strength": 0.0323
+  },
+  {
+    "startSeconds": 270.607,
+    "durationSeconds": 0.0698,
+    "midi": 90,
+    "velocity": 0.794,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.937,
+    "strength": 0.0266
+  },
+  {
+    "startSeconds": 272.353,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.723,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.982,
+    "strength": 0.0229
+  },
+  {
+    "startSeconds": 272.6723,
+    "durationSeconds": 0.0898,
+    "midi": 90,
+    "velocity": 0.813,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.975,
+    "strength": 0.0293
+  },
+  {
+    "startSeconds": 274.1489,
+    "durationSeconds": 0.0698,
+    "midi": 90,
+    "velocity": 0.807,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.928,
+    "strength": 0.0274
+  },
+  {
+    "startSeconds": 275.9149,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.874,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.986,
+    "strength": 0.0339
+  },
+  {
+    "startSeconds": 276.2342,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.878,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.992,
+    "strength": 0.0354
+  },
+  {
+    "startSeconds": 277.6709,
+    "durationSeconds": 0.0698,
+    "midi": 90,
+    "velocity": 0.738,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.971,
+    "strength": 0.0244
+  },
+  {
+    "startSeconds": 279.4269,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.711,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.986,
+    "strength": 0.0225
+  },
+  {
+    "startSeconds": 279.7462,
+    "durationSeconds": 0.0898,
+    "midi": 90,
+    "velocity": 0.736,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.985,
+    "strength": 0.0232
+  },
+  {
+    "startSeconds": 281.2228,
+    "durationSeconds": 0.0698,
+    "midi": 90,
+    "velocity": 0.712,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.948,
+    "strength": 0.0221
+  },
+  {
+    "startSeconds": 282.9888,
+    "durationSeconds": 0.0898,
+    "midi": 90,
+    "velocity": 0.784,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.976,
+    "strength": 0.0264
+  },
+  {
+    "startSeconds": 283.3181,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.778,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.973,
+    "strength": 0.0249
+  },
+  {
+    "startSeconds": 284.7448,
+    "durationSeconds": 0.0698,
+    "midi": 90,
+    "velocity": 0.727,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.926,
+    "strength": 0.0222
+  },
+  {
+    "startSeconds": 286.5408,
+    "durationSeconds": 0.0898,
+    "midi": 90,
+    "velocity": 0.756,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.99,
+    "strength": 0.0255
+  },
+  {
+    "startSeconds": 286.86,
+    "durationSeconds": 0.0798,
+    "midi": 90,
+    "velocity": 0.7,
+    "pan": 0.62,
+    "confidence": "high",
+    "purity": 0.891,
+    "strength": 0.0196
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://codeberg.org/uzu/strudel.git",
+  "revision": "fdaa55937776dbd644da3d64e864527df4a105a6",
+  "packageManager": {
+    "name": "pnpm",
+    "version": "10.15.0"
+  },
+  "nodeMinMajor": 24
+}

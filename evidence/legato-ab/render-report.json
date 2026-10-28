@@ -1,0 +1,17 @@
+{
+  "engine": "Native Strudel webaudioOutput / browser OfflineAudioContext",
+  "AStart": 0.1,
+  "BStart": 10,
+  "phraseSeconds": 7.2727272727272725,
+  "seconds": 20,
+  "sampleRate": 44100,
+  "rmsA": 0.031049207378819128,
+  "rmsB": 0.02998623838322392,
+  "BLevelMatch": 1.0354485608368236,
+  "commonGain": 2.3340097078051154,
+  "matchedRms": 0.07246915144181806,
+  "peak": 0.85,
+  "notesPerVersion": 32,
+  "sources": 38,
+  "subjectiveListeningVerified": false
+}

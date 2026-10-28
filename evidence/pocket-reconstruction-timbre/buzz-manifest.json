@@ -1,0 +1,24 @@
+[
+  {
+    "file": "pc-buzz-fs6.wav",
+    "rootMidi": 90,
+    "rootNote": "fs6",
+    "sourceTimeSeconds": 116.874,
+    "durationSeconds": 0.28,
+    "normalizationScale": 1.72226533154581,
+    "processing": "AI-separated other stem, highpass 1100Hz, edge fades",
+    "confidence": "F#6 spectrum1490/4471/7452; G5 spectrum780/2340/3900; oddharmonics confirm square-like carrier",
+    "limitation": "Residual accompaniment and pitch modulation may remain; these are sampled FX, not clean studio stems"
+  },
+  {
+    "file": "pc-buzz-g5.wav",
+    "rootMidi": 79,
+    "rootNote": "g5",
+    "sourceTimeSeconds": 118.69,
+    "durationSeconds": 0.26,
+    "normalizationScale": 1.4565205738352347,
+    "processing": "AI-separated other stem, highpass 650Hz, edge fades",
+    "confidence": "F#6 spectrum1490/4471/7452; G5 spectrum780/2340/3900; oddharmonics confirm square-like carrier",
+    "limitation": "Residual accompaniment and pitch modulation may remain; these are sampled FX, not clean studio stems"
+  }
+]

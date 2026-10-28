@@ -1,0 +1,34 @@
+{
+  "sha256": "bc13046e71ea08ee3fb93382947e61e96267579b92934c131ae8eac9f35ab594",
+  "bpm": 136,
+  "bars": 64,
+  "musicSeconds": 112.94117647058823,
+  "eventCount": 1767,
+  "mode": "Bb Mixolydian",
+  "scorePitchClasses": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    10
+  ],
+  "bassNotes": [
+    "bb1",
+    "bb2"
+  ],
+  "answersOnRests": 20,
+  "exact64barRepeat": true,
+  "finalSilentBars": true,
+  "widgets": [
+    {
+      "type": "_pianoroll",
+      "line": 11
+    },
+    {
+      "type": "_scope",
+      "line": 12
+    }
+  ]
+}

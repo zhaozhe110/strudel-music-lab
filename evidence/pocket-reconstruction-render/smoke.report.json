@@ -1,0 +1,42 @@
+{
+  "scoreFile": "<LEGACY_WORKSPACE>/袖珍电路.strudel",
+  "scoreSha256": "91659a68615f51a9121e358fa84a5545054ae45af4065d8306281abce83060ad",
+  "engine": "Installed Strudel core/transpiler/tonal and unmodified Superdough, node-web-audio-api OfflineAudioContext",
+  "hostAdapter": "Unused Vite worklet resource import stub; visualizers are no-ops; local sample URL reads; no synth/envelope/filter/pan/delay substitution.",
+  "postprocessing": "Constant peak normalization to 0.84; 0.15-second tail fade; AAC preview",
+  "bpm": 126,
+  "cps": 0.525,
+  "begin": 0,
+  "cycles": 2,
+  "musicalDurationSeconds": 3.8095238095238093,
+  "durationSeconds": 4.809523809523809,
+  "sampleRate": 44100,
+  "channels": 2,
+  "events": 23,
+  "sounds": [
+    "white",
+    "sine"
+  ],
+  "localSampleFiles": [],
+  "rawPeak": 0.07444706559181213,
+  "rawRmsDbFS": -48.120848143760426,
+  "normalizationGain": 11.283184814908074,
+  "finalPeak": 0.84,
+  "finalPeakDbFS": -1.5144142787623671,
+  "finalRmsDbFS": -27.072214107698795,
+  "nonFiniteSamples": 0,
+  "wavFile": "<LEGACY_WORKSPACE>/.pocket-reconstruction-render/smoke.wav",
+  "m4aFile": "<LEGACY_WORKSPACE>/.pocket-reconstruction-render/smoke.m4a",
+  "byBar": [
+    {
+      "cycle": 0,
+      "rmsDbFS": -26.5596273612281,
+      "peak": 0.84
+    },
+    {
+      "cycle": 1,
+      "rmsDbFS": -25.611786947722738,
+      "peak": 0.780725203750637
+    }
+  ]
+}

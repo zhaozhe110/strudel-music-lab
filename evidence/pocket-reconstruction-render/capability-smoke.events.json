@@ -1,0 +1,404 @@
+[
+  {
+    "start": 0,
+    "end": 0.25,
+    "duration": 0.25,
+    "value": {
+      "note": "c2",
+      "s": "square",
+      "cutoff": 700,
+      "lpenv": 1.8,
+      "lpattack": 0.002,
+      "lpdecay": 0.08,
+      "lpsustain": 0,
+      "attack": 0.001,
+      "decay": 0.2,
+      "sustain": 0.1,
+      "release": 0.02,
+      "gain": 0.4
+    }
+  },
+  {
+    "start": 0,
+    "end": 0.25,
+    "duration": 0.25,
+    "value": {
+      "note": "c5",
+      "s": "sine",
+      "fmi": 1.4,
+      "fmh": 2,
+      "fmdecay": 0.1,
+      "fmsustain": 0,
+      "decay": 0.1,
+      "sustain": 0,
+      "release": 0.03,
+      "pan": 0.65,
+      "delay": 0.2,
+      "delaysync": 0.125,
+      "delayfeedback": 0.2,
+      "gain": 0.2
+    }
+  },
+  {
+    "start": 0,
+    "end": 0.25,
+    "duration": 0.25,
+    "value": {
+      "s": "testkick",
+      "gain": 0.3
+    }
+  },
+  {
+    "start": 0.25,
+    "end": 0.5,
+    "duration": 0.25,
+    "value": {
+      "note": "eb2",
+      "s": "square",
+      "cutoff": 700,
+      "lpenv": 1.8,
+      "lpattack": 0.002,
+      "lpdecay": 0.08,
+      "lpsustain": 0,
+      "attack": 0.001,
+      "decay": 0.2,
+      "sustain": 0.1,
+      "release": 0.02,
+      "gain": 0.4
+    }
+  },
+  {
+    "start": 0.25,
+    "end": 0.5,
+    "duration": 0.25,
+    "value": {
+      "s": "testkick",
+      "gain": 0.3
+    }
+  },
+  {
+    "start": 0.25,
+    "end": 0.5,
+    "duration": 0.25,
+    "value": {
+      "s": "white",
+      "hcutoff": 1500,
+      "cutoff": 6500,
+      "decay": 0.1,
+      "sustain": 0,
+      "gain": 0.1
+    }
+  },
+  {
+    "start": 0.5,
+    "end": 0.75,
+    "duration": 0.25,
+    "value": {
+      "note": "f2",
+      "s": "square",
+      "cutoff": 700,
+      "lpenv": 1.8,
+      "lpattack": 0.002,
+      "lpdecay": 0.08,
+      "lpsustain": 0,
+      "attack": 0.001,
+      "decay": 0.2,
+      "sustain": 0.1,
+      "release": 0.02,
+      "gain": 0.4
+    }
+  },
+  {
+    "start": 0.5,
+    "end": 0.75,
+    "duration": 0.25,
+    "value": {
+      "note": "g5",
+      "s": "sine",
+      "fmi": 1.4,
+      "fmh": 2,
+      "fmdecay": 0.1,
+      "fmsustain": 0,
+      "decay": 0.1,
+      "sustain": 0,
+      "release": 0.03,
+      "pan": 0.65,
+      "delay": 0.2,
+      "delaysync": 0.125,
+      "delayfeedback": 0.2,
+      "gain": 0.2
+    }
+  },
+  {
+    "start": 0.5,
+    "end": 0.75,
+    "duration": 0.25,
+    "value": {
+      "s": "testkick",
+      "gain": 0.3
+    }
+  },
+  {
+    "start": 0.75,
+    "end": 1,
+    "duration": 0.25,
+    "value": {
+      "note": "g2",
+      "s": "square",
+      "cutoff": 700,
+      "lpenv": 1.8,
+      "lpattack": 0.002,
+      "lpdecay": 0.08,
+      "lpsustain": 0,
+      "attack": 0.001,
+      "decay": 0.2,
+      "sustain": 0.1,
+      "release": 0.02,
+      "gain": 0.4
+    }
+  },
+  {
+    "start": 0.75,
+    "end": 1,
+    "duration": 0.25,
+    "value": {
+      "note": "eb5",
+      "s": "sine",
+      "fmi": 1.4,
+      "fmh": 2,
+      "fmdecay": 0.1,
+      "fmsustain": 0,
+      "decay": 0.1,
+      "sustain": 0,
+      "release": 0.03,
+      "pan": 0.65,
+      "delay": 0.2,
+      "delaysync": 0.125,
+      "delayfeedback": 0.2,
+      "gain": 0.2
+    }
+  },
+  {
+    "start": 0.75,
+    "end": 1,
+    "duration": 0.25,
+    "value": {
+      "s": "testkick",
+      "gain": 0.3
+    }
+  },
+  {
+    "start": 0.75,
+    "end": 1,
+    "duration": 0.25,
+    "value": {
+      "s": "white",
+      "hcutoff": 1500,
+      "cutoff": 6500,
+      "decay": 0.1,
+      "sustain": 0,
+      "gain": 0.1
+    }
+  },
+  {
+    "start": 1,
+    "end": 1.25,
+    "duration": 0.25,
+    "value": {
+      "note": "c2",
+      "s": "square",
+      "cutoff": 700,
+      "lpenv": 1.8,
+      "lpattack": 0.002,
+      "lpdecay": 0.08,
+      "lpsustain": 0,
+      "attack": 0.001,
+      "decay": 0.2,
+      "sustain": 0.1,
+      "release": 0.02,
+      "gain": 0.4
+    }
+  },
+  {
+    "start": 1,
+    "end": 1.25,
+    "duration": 0.25,
+    "value": {
+      "note": "c5",
+      "s": "sine",
+      "fmi": 1.4,
+      "fmh": 2,
+      "fmdecay": 0.1,
+      "fmsustain": 0,
+      "decay": 0.1,
+      "sustain": 0,
+      "release": 0.03,
+      "pan": 0.65,
+      "delay": 0.2,
+      "delaysync": 0.125,
+      "delayfeedback": 0.2,
+      "gain": 0.2
+    }
+  },
+  {
+    "start": 1,
+    "end": 1.25,
+    "duration": 0.25,
+    "value": {
+      "s": "testkick",
+      "gain": 0.3
+    }
+  },
+  {
+    "start": 1.25,
+    "end": 1.5,
+    "duration": 0.25,
+    "value": {
+      "note": "eb2",
+      "s": "square",
+      "cutoff": 700,
+      "lpenv": 1.8,
+      "lpattack": 0.002,
+      "lpdecay": 0.08,
+      "lpsustain": 0,
+      "attack": 0.001,
+      "decay": 0.2,
+      "sustain": 0.1,
+      "release": 0.02,
+      "gain": 0.4
+    }
+  },
+  {
+    "start": 1.25,
+    "end": 1.5,
+    "duration": 0.25,
+    "value": {
+      "s": "testkick",
+      "gain": 0.3
+    }
+  },
+  {
+    "start": 1.25,
+    "end": 1.5,
+    "duration": 0.25,
+    "value": {
+      "s": "white",
+      "hcutoff": 1500,
+      "cutoff": 6500,
+      "decay": 0.1,
+      "sustain": 0,
+      "gain": 0.1
+    }
+  },
+  {
+    "start": 1.5,
+    "end": 1.75,
+    "duration": 0.25,
+    "value": {
+      "note": "f2",
+      "s": "square",
+      "cutoff": 700,
+      "lpenv": 1.8,
+      "lpattack": 0.002,
+      "lpdecay": 0.08,
+      "lpsustain": 0,
+      "attack": 0.001,
+      "decay": 0.2,
+      "sustain": 0.1,
+      "release": 0.02,
+      "gain": 0.4
+    }
+  },
+  {
+    "start": 1.5,
+    "end": 1.75,
+    "duration": 0.25,
+    "value": {
+      "note": "g5",
+      "s": "sine",
+      "fmi": 1.4,
+      "fmh": 2,
+      "fmdecay": 0.1,
+      "fmsustain": 0,
+      "decay": 0.1,
+      "sustain": 0,
+      "release": 0.03,
+      "pan": 0.65,
+      "delay": 0.2,
+      "delaysync": 0.125,
+      "delayfeedback": 0.2,
+      "gain": 0.2
+    }
+  },
+  {
+    "start": 1.5,
+    "end": 1.75,
+    "duration": 0.25,
+    "value": {
+      "s": "testkick",
+      "gain": 0.3
+    }
+  },
+  {
+    "start": 1.75,
+    "end": 2,
+    "duration": 0.25,
+    "value": {
+      "note": "g2",
+      "s": "square",
+      "cutoff": 700,
+      "lpenv": 1.8,
+      "lpattack": 0.002,
+      "lpdecay": 0.08,
+      "lpsustain": 0,
+      "attack": 0.001,
+      "decay": 0.2,
+      "sustain": 0.1,
+      "release": 0.02,
+      "gain": 0.4
+    }
+  },
+  {
+    "start": 1.75,
+    "end": 2,
+    "duration": 0.25,
+    "value": {
+      "note": "eb5",
+      "s": "sine",
+      "fmi": 1.4,
+      "fmh": 2,
+      "fmdecay": 0.1,
+      "fmsustain": 0,
+      "decay": 0.1,
+      "sustain": 0,
+      "release": 0.03,
+      "pan": 0.65,
+      "delay": 0.2,
+      "delaysync": 0.125,
+      "delayfeedback": 0.2,
+      "gain": 0.2
+    }
+  },
+  {
+    "start": 1.75,
+    "end": 2,
+    "duration": 0.25,
+    "value": {
+      "s": "testkick",
+      "gain": 0.3
+    }
+  },
+  {
+    "start": 1.75,
+    "end": 2,
+    "duration": 0.25,
+    "value": {
+      "s": "white",
+      "hcutoff": 1500,
+      "cutoff": 6500,
+      "decay": 0.1,
+      "sustain": 0,
+      "gain": 0.1
+    }
+  }
+]

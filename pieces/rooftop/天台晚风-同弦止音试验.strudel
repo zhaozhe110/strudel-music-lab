@@ -1,0 +1,146 @@
+// "天台晚风 · 同弦止音试验"
+// 恢复最初 v1/v2 的旋律。132 BPM，D → F# → G → A。
+// 吉他：Karoryfer Black And Green，按官方 SFZ 根音映射现成单音 WAV。
+// 鼓：已认可的 SampleRadar Kit03 自带单击。不是套用素材库乐句。
+// true：左吉他弱拍轻拨，三处上行二度使用现成击弦录音。
+// false：回到上一版的全普通拨弦。旋律、入拍和音长均保持原样。
+const SOFTER_PICKING = true;
+// 试验开关：按下面一套指法，换音时将同弦前音淡出；原旋律与入拍不变。
+// 这些分组是编配选择，不代表素材库记录了每个采样的实际弦号。
+const STRING_DAMPING = true;
+// 101=一弦，102=二弦，103=三弦，104=四弦；专供左吉他，避免与其他声部互切。
+const stringCuts = "< [104 103 102 102 101 101 101 103] [104 103 102 101 101 101 102 102] [104 103 101 101 101 101 101 103] [104 103 101 101 101 101 101 102] >";
+const BPM = 132;
+const MASTER = 1.05;
+const GREEN_TRIM = 10;
+const BLACK_TRIM = 5;
+const BASE = 'http://127.0.0.1:3009/rooftop-restored/';
+await samples(BASE + 'samples.json');
+const bank = await (await fetch(BASE + 'samples.json')).json();
+const collect = v => typeof v === 'string' ? [v] : Object.values(v).flatMap(collect);
+const warm = [...new Set(Object.entries(bank).filter(([k]) => !k.startsWith('_')).flatMap(([, v]) => collect(v)))];
+await Promise.all(warm.map(file => loadBuffer(BASE + file, getAudioContext())));
+setcpm(BPM / 4);
+
+const TOUCH_BASE = 'http://127.0.0.1:3009/rooftop-touch/';
+await samples(TOUCH_BASE + 'samples.json');
+const touchBank = await (await fetch(TOUCH_BASE + 'samples.json')).json();
+const touchLevels = await (await fetch(TOUCH_BASE + 'levels.json')).json();
+const touchWarm = [...new Set(Object.entries(touchBank)
+  .filter(([k]) => !k.startsWith('_')).flatMap(([, v]) => collect(v)))];
+await Promise.all(touchWarm.map(file => loadBuffer(TOUCH_BASE + file, getAudioContext())));
+
+// 每小节第1、5音保留普通拨弦，弱拍用同一把琴的轻拨录音。
+// 仅 E4→F#4、A4→B4、B4→C#5 的目标音用 hammer；没有额外滑音。
+const leftTouches = "< [restore_green restore_green_soft restore_green_soft restore_green_hammer restore_green restore_green_soft restore_green_soft restore_green_soft] [restore_green restore_green_soft restore_green_soft restore_green_soft restore_green restore_green_soft restore_green_soft restore_green_soft] [restore_green restore_green_soft restore_green_soft restore_green_hammer restore_green restore_green_soft restore_green_soft restore_green_soft] [restore_green restore_green_soft restore_green_soft restore_green_hammer restore_green restore_green_soft restore_green_soft restore_green_soft] >";
+const balanceTouch = value => ({
+  ...value,
+  gain: value.gain * (touchLevels[value.s]?.[value.note] ?? 1),
+});
+
+
+// 原版音符、节奏、休止与音区逐字保留。现成 GitHub 吉他录音有 2–4 个轮替。
+const left = note(`<
+  [d3 a3 e4 fs4 a4 fs4 e4 a3]
+  [fs3 cs4 e4 a4 cs5 a4 e4 cs4]
+  [g3 d4 a4 b4 d5 b4 a4 d4]
+  [a3 e4 b4 cs5 e5 b4 a4 e4]
+>`).s(SOFTER_PICKING ? leftTouches : 'restore_green').n("0 1 2 3 1 2 0 3")
+  .clip(1.25).attack(0.01).release(0.25)
+  .gain("0.18 0.13 0.15 0.17 0.18 0.13 0.16 0.14").mul(gain(GREEN_TRIM)).fmap(balanceTouch)
+  .apply(p => STRING_DAMPING ? p.cut(stringCuts) : p)
+  .pan(0.23).hpf(110).lpf(6200).orbit(0)
+  .delay(0.055).delaysync(3/16).delayfeedback(0.12)
+  .room(0.10).roomsize(1.2);
+
+const right = note(`<
+  [~ a4 ~ e5 fs5 ~ e5 cs5]
+  [~ e5 ~ cs5 e5 ~ a4 cs5]
+  [~ d5 ~ fs5 a5 ~ fs5 d5]
+  [~ e5 ~ b4 cs5 ~ b4 a4]
+>`).s('restore_black').n("2 0 3 1 0 2 1 3")
+  .late(1/16).clip(1.05).attack(0.01).release(0.25)
+  .gain(0.11 * BLACK_TRIM).pan(0.77).hpf(160).lpf(6500).orbit(1)
+  .delay(0.08).delaysync(3/16).delayfeedback(0.16)
+  .room(0.14).roomsize(1.4);
+
+const bass = note(`<
+  [d2 ~ d2 a2 ~ d2 e2 fs2]
+  [fs2 ~ fs2 cs3 ~ e2 fs2 ~]
+  [g2 ~ g2 d3 ~ g2 fs2 e2]
+  [a2 ~ e2 a2 ~ b2 a2 ~]
+>`).s("gm_electric_bass_finger:1")
+  .clip(0.92).attack(0.004).release(0.14)
+  .gain(0.48).hpf(45).lpf(1800).pan(0.5).orbit(4);
+
+// 从低弦到高弦错开约 7 毫秒，避免四个音像键盘一样同时落下。
+const strumVoice = (notes, offset) =>
+  note(notes).struct("x ~ ~ x ~ x ~ ~").late(offset);
+const chords = stack(
+  strumVoice("<d3 fs3 g3 a3>", 0),
+  strumVoice("<fs3 a3 b3 b3>", 0.004),
+  strumVoice("<a3 cs4 d4 e4>", 0.008),
+  strumVoice("<e4 e4 a4 ~>", 0.012)
+).s('restore_green').n("<0 2 1 3>")
+  .clip(1.3).attack(0.01).release(0.25).gain(0.075 * GREEN_TRIM)
+  .hpf(150).lpf(5200).pan(0.52).room(0.08).roomsize(1.1).orbit(3);
+
+const lead = note(`<
+  [a4 ~ fs4 e4 d4 ~ e4 fs4]
+  [cs5 ~ b4 a4 gs4 a4 ~ e4]
+  [b4 a4 fs4 ~ g4 a4 b4 d5]
+  [cs5 b4 a4 e4 ~ fs4 e4 ~]
+>`).s('restore_black').n("1 3 0 2 3 1 2 0")
+  .clip(1.1).attack(0.01).release(0.30).gain(0.15 * BLACK_TRIM)
+  .pan(0.60).hpf(130).lpf(5600).orbit(2)
+  .delay(0.08).delaysync(1/8).delayfeedback(0.14)
+  .room(0.12).roomsize(1.4);
+
+// 采用已认可的 SampleRadar Kit03 自带鼓单击；鼓谱保留原版。
+const kick = s("restore_kick ~ ~ [~ restore_kick] restore_kick ~ ~ restore_kick")
+  .n("<0 1>").gain(0.42).lpf(5500);
+const snare = s("~ ~ restore_snare ~ ~ ~ restore_snare ~")
+  .n("<0 2 1 3>").gain(0.32).room(0.08).roomsize(0.8)
+  .lastOf(4, p => stack(p,
+    s("~ ~ ~ ~ ~ ~ ~ [restore_snare restore_snare]")
+      .n("0 1").gain(0.13)));
+const hats = s("restore_hh*8").n("0 2 1 3 2 0 3 1").cut(17)
+  .gain("0.16 0.09 0.13 0.08 0.15 0.09 0.12 0.10")
+  .pan(0.61).hpf(1800);
+const drums = stack(kick, snare, hats).orbit(5);
+const openHats = s("restore_hh restore_hh restore_hh restore_oh restore_hh restore_hh restore_hh restore_oh")
+  .n("0 2 1 1 2 0 3 0").cut(17)
+  .gain("0.16 0.09 0.13 0.11 0.15 0.09 0.12 0.11").pan(0.61).hpf(1800);
+const fullDrums = stack(kick, snare, openHats).orbit(5);
+
+
+// 后半段仅变化鼓的重音；所有旋律、和声与贝斯仍用原版四小节句。
+const syncKick = s("restore_kick ~ ~ restore_kick ~ ~ restore_kick ~")
+  .n("<0 1 2 1>").gain(0.42).lpf(5500);
+const syncHats = s("restore_hh*8").n("0 1")
+  .gain("0.18 0.08 0.10 0.17 0.08 0.10 0.16 0.08")
+  .cut(17).pan(0.61).hpf(1800);
+const mathDrums = stack(syncKick, snare, syncHats).orbit(5);
+const finalDrums = stack(
+  kick, snare, openHats,
+  s("restore_crash ~ ~ ~").gain(0.10).slow(4),
+).orbit(5);
+const closing = note("[d3,fs3,a3,e4]").s('restore_green').n(0)
+  .attack(0.01).clip(0.7).release(0.8).gain(0.055 * GREEN_TRIM)
+  .hpf(150).lpf(5200).pan(0.52).room(0.08).roomsize(1.1).orbit(3).slow(2);
+
+// 前36小节就是原曲；之后用同一主题继续发展，不插入其他歌曲乐句。
+arrange(
+  [4, left],
+  [8, stack(left, right, bass, drums)],
+  [8, stack(left, right, bass, chords, lead, fullDrums)],
+  [4, stack(left.mul(gain(0.72)), right.mul(gain(0.65)))],
+  [8, stack(left, right, bass, chords, lead, fullDrums)],
+  [4, stack(left.mul(gain(0.65)), right.mul(gain(0.45)))],
+  [8, stack(left, right, bass, mathDrums)],
+  [8, stack(left, right, bass, chords, lead, mathDrums)],
+  [4, stack(left.mul(gain(0.62)), right.mul(gain(0.5)))],
+  [8, stack(left, right, bass, chords, lead, finalDrums)],
+  [4, stack(left.mul(gain(0.65)), right.mul(gain(0.45)))],
+  [2, closing],
+).mul(gain(MASTER)).filterWhen(t => Number(t) >= 0 && Number(t) < 70).timeline(1)

@@ -1,0 +1,14 @@
+Rooftop v2 local sample selection
+
+Guitar: FreePats Electric Guitar FSBS (clean), 2026-08-07.
+https://github.com/freepats/electric-guitar-FSBS-clean
+Commit: 192cf0d9bf2c4ba6ead8e3524ba3f78818e4fe91
+License: CC0 1.0. Original FLAC files, no sample processing. Nearest-root mapping in Strudel; four recorded variants per root.
+
+Drums: Virtuosity Drums by Versilian Studios and Karoryfer Samples, performed by Austin McMahon.
+https://versilian-studios.com/virtuosity-drums/
+https://github.com/sfzinstruments/virtuosity_drums
+Commit: 9f04cf9a734527edfbb0a4eee1f674e45bbf71bc
+License: CC0 1.0. Original mid-microphone FLAC files; no sample normalization.
+
+Composition: original song 天台晚风. No audio from Chinese Football recordings is included.

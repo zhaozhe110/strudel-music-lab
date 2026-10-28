@@ -1,0 +1,616 @@
+{
+  "scoreFile": "<LEGACY_WORKSPACE>/袖珍电路-v4.strudel",
+  "scoreSha256": "3901855b71de3ff02a12719cc7e51f81a29f2abafc35fce84b6b800ae2d29632",
+  "engine": "Local Strudel core/transpiler and unmodified Superdough synth/sampler/effects source with node-web-audio-api OfflineAudioContext",
+  "hostAdapter": "Only the unused Vite ?audioworklet URL import is stubbed; no oscillator, envelope, filter, panning, or delay logic is substituted.",
+  "postprocessing": "Constant peak normalization to 0.84 and 0.4-second tail fade; AAC compression for preview.",
+  "bpm": 136,
+  "beginCycle": 0,
+  "endCycle": 64,
+  "cycles": 64,
+  "musicalDurationSeconds": 112.94117647058823,
+  "durationSeconds": 114.941179138322,
+  "sampleRate": 44100,
+  "channels": 2,
+  "events": 1250,
+  "rawPeak": 0.4936264157295227,
+  "rawRmsDbFS": -27.560272203467846,
+  "sampleEventCount": 508,
+  "sampleSources": [
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-2.wav",
+      "sound": "pcKit2",
+      "bytes": 32676,
+      "sha256": "809910c2c9ac862a5ab0c79502da114648e10b9af603f74ea697fda27a30ac05",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-0.wav",
+      "sound": "pcKit0",
+      "bytes": 32676,
+      "sha256": "9537ca078be2415dfccb928a8f1dc7d77a7c17fba4caa7654d8fd6683ab5d158",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-3.wav",
+      "sound": "pcKit3",
+      "bytes": 32676,
+      "sha256": "30312f9e0850698e44faf9011ffaed95067f770378930dad809e96576f1bf695",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-4.wav",
+      "sound": "pcKit4",
+      "bytes": 32676,
+      "sha256": "7433f15e10e5d7c52219ef12bbc45a73134ea42501fc6a3f0113ee9251bd5958",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-5.wav",
+      "sound": "pcKit5",
+      "bytes": 32676,
+      "sha256": "704f87248ce64ca7df4fca349094ea169fc616f82f71dcaef30a54fe353bb2b5",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-midkeys-bb4.wav",
+      "sound": "pc_keys",
+      "bytes": 36204,
+      "sha256": "d0891ce296bf01da3cb45bb03e1aa75827bbe98cb803a8f522f79925b6d4d5b7",
+      "durationSeconds": 0.20498866213151928,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-midkeys-ab4.wav",
+      "sound": "pc_keys",
+      "bytes": 36204,
+      "sha256": "4a0534fc86cbe750d7f3c59ff4acfe57ff3df1d376780b9c8392c334a9ff4b39",
+      "durationSeconds": 0.20498866213151928,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-1.wav",
+      "sound": "pcKit1",
+      "bytes": 32676,
+      "sha256": "00976f3bc73340776b7f3c7207985153ca3698630a8b627623df9766301264f2",
+      "durationSeconds": 0.18498866213151927,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-buzz-g5.wav",
+      "sound": "pc_keys",
+      "bytes": 45908,
+      "sha256": "b3d03e9ce25edc96c2322ab1ffb3ef26b073100abc5f69ce5f70ba7308758180",
+      "durationSeconds": 0.26,
+      "sampleRate": 44100,
+      "channels": 2
+    },
+    {
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-buzz-fs6.wav",
+      "sound": "pc_keys",
+      "bytes": 49436,
+      "sha256": "111c3193eeeec48c981c77807bde08a7c2ae93689ace5dd6321a5ef309b7676a",
+      "durationSeconds": 0.28,
+      "sampleRate": 44100,
+      "channels": 2
+    }
+  ],
+  "samplePitchMappings": [
+    {
+      "sound": "pcKit2",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-2.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit2:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit0",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-0.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit0:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit3",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-3.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit3:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit4",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-4.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit4:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit5",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-5.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit5:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_keys",
+      "note": "bb4",
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-midkeys-bb4.wav",
+      "index": 0,
+      "midi": 70,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_keys",
+      "note": "ab4",
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-midkeys-ab4.wav",
+      "index": 0,
+      "midi": 68,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pcKit1",
+      "note": null,
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-kit-1.wav",
+      "index": 0,
+      "midi": 36,
+      "label": "pcKit1:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_keys",
+      "note": "g5",
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-buzz-g5.wav",
+      "index": 0,
+      "midi": 79,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    },
+    {
+      "sound": "pc_keys",
+      "note": "fs6",
+      "speed": 1,
+      "transpose": 0,
+      "url": "http://127.0.0.1:3009/little-logic-v4/pc-buzz-fs6.wav",
+      "index": 0,
+      "midi": 90,
+      "label": "pc_keys:0",
+      "playbackRate": 1
+    }
+  ],
+  "normalizationGain": 1.7016917515619119,
+  "finalPeak": 0.84,
+  "finalPeakDbFS": -1.5144142787623671,
+  "finalRmsDbFS": -22.942654328449336,
+  "nonFiniteSamples": 0,
+  "wavFile": "<LEGACY_WORKSPACE>/袖珍电路-v4-试听.wav",
+  "m4aFile": "<LEGACY_WORKSPACE>/袖珍电路-v4-试听.m4a",
+  "byBar": [
+    {
+      "bar": 1,
+      "sourceBar": 1,
+      "rmsDbFS": -23.184096410523804,
+      "peak": 0.5604690064584745
+    },
+    {
+      "bar": 2,
+      "sourceBar": 2,
+      "rmsDbFS": -23.503400659505278,
+      "peak": 0.555902837070318
+    },
+    {
+      "bar": 3,
+      "sourceBar": 3,
+      "rmsDbFS": -23.204582440253073,
+      "peak": 0.5496689764645494
+    },
+    {
+      "bar": 4,
+      "sourceBar": 4,
+      "rmsDbFS": -23.549813705898337,
+      "peak": 0.5242736561689136
+    },
+    {
+      "bar": 5,
+      "sourceBar": 5,
+      "rmsDbFS": -22.5960196693351,
+      "peak": 0.706616804784828
+    },
+    {
+      "bar": 6,
+      "sourceBar": 6,
+      "rmsDbFS": -22.90980443658693,
+      "peak": 0.6771005365217697
+    },
+    {
+      "bar": 7,
+      "sourceBar": 7,
+      "rmsDbFS": -22.597448167302232,
+      "peak": 0.7080670328002409
+    },
+    {
+      "bar": 8,
+      "sourceBar": 8,
+      "rmsDbFS": -22.91023936373844,
+      "peak": 0.6784885380098741
+    },
+    {
+      "bar": 9,
+      "sourceBar": 9,
+      "rmsDbFS": -22.286481306925833,
+      "peak": 0.8356650374072787
+    },
+    {
+      "bar": 10,
+      "sourceBar": 10,
+      "rmsDbFS": -22.592489755875516,
+      "peak": 0.7058561907207924
+    },
+    {
+      "bar": 11,
+      "sourceBar": 11,
+      "rmsDbFS": -22.28841711047243,
+      "peak": 0.8378232886889938
+    },
+    {
+      "bar": 12,
+      "sourceBar": 12,
+      "rmsDbFS": -22.523500630661545,
+      "peak": 0.7506853575670724
+    },
+    {
+      "bar": 13,
+      "sourceBar": 13,
+      "rmsDbFS": -22.16403913151199,
+      "peak": 0.84
+    },
+    {
+      "bar": 14,
+      "sourceBar": 14,
+      "rmsDbFS": -22.582515020102,
+      "peak": 0.70905621651267
+    },
+    {
+      "bar": 15,
+      "sourceBar": 15,
+      "rmsDbFS": -22.302115300626774,
+      "peak": 0.8358057190590746
+    },
+    {
+      "bar": 16,
+      "sourceBar": 16,
+      "rmsDbFS": -22.509452155171154,
+      "peak": 0.7539994906828653
+    },
+    {
+      "bar": 17,
+      "sourceBar": 17,
+      "rmsDbFS": -22.1581964730848,
+      "peak": 0.7935460462899
+    },
+    {
+      "bar": 18,
+      "sourceBar": 18,
+      "rmsDbFS": -22.301007926664525,
+      "peak": 0.8115769306144154
+    },
+    {
+      "bar": 19,
+      "sourceBar": 19,
+      "rmsDbFS": -22.18790397154414,
+      "peak": 0.8274719794070694
+    },
+    {
+      "bar": 20,
+      "sourceBar": 20,
+      "rmsDbFS": -22.400583344008037,
+      "peak": 0.74524360464674
+    },
+    {
+      "bar": 21,
+      "sourceBar": 21,
+      "rmsDbFS": -22.16869247212406,
+      "peak": 0.7974177331475255
+    },
+    {
+      "bar": 22,
+      "sourceBar": 22,
+      "rmsDbFS": -22.28951428048341,
+      "peak": 0.8157877951530831
+    },
+    {
+      "bar": 23,
+      "sourceBar": 23,
+      "rmsDbFS": -22.194850369305342,
+      "peak": 0.8192112177280036
+    },
+    {
+      "bar": 24,
+      "sourceBar": 24,
+      "rmsDbFS": -22.36607196835714,
+      "peak": 0.7425331753460078
+    },
+    {
+      "bar": 25,
+      "sourceBar": 25,
+      "rmsDbFS": -22.530505630815604,
+      "peak": 0.6611759212536301
+    },
+    {
+      "bar": 26,
+      "sourceBar": 26,
+      "rmsDbFS": -22.65889163289657,
+      "peak": 0.6086276221591351
+    },
+    {
+      "bar": 27,
+      "sourceBar": 27,
+      "rmsDbFS": -22.54217025487444,
+      "peak": 0.6625288284003349
+    },
+    {
+      "bar": 28,
+      "sourceBar": 28,
+      "rmsDbFS": -22.625130155213636,
+      "peak": 0.7044962849915543
+    },
+    {
+      "bar": 29,
+      "sourceBar": 29,
+      "rmsDbFS": -22.51196575755476,
+      "peak": 0.6638857926963343
+    },
+    {
+      "bar": 30,
+      "sourceBar": 30,
+      "rmsDbFS": -22.69854649552324,
+      "peak": 0.6062231526295943
+    },
+    {
+      "bar": 31,
+      "sourceBar": 31,
+      "rmsDbFS": -22.51607352892766,
+      "peak": 0.6652426555636014
+    },
+    {
+      "bar": 32,
+      "sourceBar": 32,
+      "rmsDbFS": -22.60045514957032,
+      "peak": 0.7069204316951747
+    },
+    {
+      "bar": 33,
+      "sourceBar": 33,
+      "rmsDbFS": -25.005891008441345,
+      "peak": 0.28611123326833443
+    },
+    {
+      "bar": 34,
+      "sourceBar": 34,
+      "rmsDbFS": -24.958096390324283,
+      "peak": 0.28107083384198633
+    },
+    {
+      "bar": 35,
+      "sourceBar": 35,
+      "rmsDbFS": -25.00568379982446,
+      "peak": 0.2822334099724005
+    },
+    {
+      "bar": 36,
+      "sourceBar": 36,
+      "rmsDbFS": -24.819036506767,
+      "peak": 0.2776144215718628
+    },
+    {
+      "bar": 37,
+      "sourceBar": 37,
+      "rmsDbFS": -23.14543188121452,
+      "peak": 0.5496689764645494
+    },
+    {
+      "bar": 38,
+      "sourceBar": 38,
+      "rmsDbFS": -23.474904583203234,
+      "peak": 0.5242736561689136
+    },
+    {
+      "bar": 39,
+      "sourceBar": 39,
+      "rmsDbFS": -23.13987406373152,
+      "peak": 0.5559247963908759
+    },
+    {
+      "bar": 40,
+      "sourceBar": 40,
+      "rmsDbFS": -23.476637518678707,
+      "peak": 0.5243234069621406
+    },
+    {
+      "bar": 41,
+      "sourceBar": 41,
+      "rmsDbFS": -22.150360393307615,
+      "peak": 0.8335250940117563
+    },
+    {
+      "bar": 42,
+      "sourceBar": 42,
+      "rmsDbFS": -22.383197080175886,
+      "peak": 0.7042567103256985
+    },
+    {
+      "bar": 43,
+      "sourceBar": 43,
+      "rmsDbFS": -22.162909335125363,
+      "peak": 0.8356650374072787
+    },
+    {
+      "bar": 44,
+      "sourceBar": 44,
+      "rmsDbFS": -22.42216953678494,
+      "peak": 0.7371101360267974
+    },
+    {
+      "bar": 45,
+      "sourceBar": 45,
+      "rmsDbFS": -22.15279734798756,
+      "peak": 0.8378232886889938
+    },
+    {
+      "bar": 46,
+      "sourceBar": 46,
+      "rmsDbFS": -22.377680247295714,
+      "peak": 0.7074560261164496
+    },
+    {
+      "bar": 47,
+      "sourceBar": 47,
+      "rmsDbFS": -22.16857784937718,
+      "peak": 0.84
+    },
+    {
+      "bar": 48,
+      "sourceBar": 48,
+      "rmsDbFS": -22.38965254969246,
+      "peak": 0.740359861897536
+    },
+    {
+      "bar": 49,
+      "sourceBar": 49,
+      "rmsDbFS": -22.081359113283266,
+      "peak": 0.7998111976596044
+    },
+    {
+      "bar": 50,
+      "sourceBar": 50,
+      "rmsDbFS": -22.35792449668947,
+      "peak": 0.7251261284399283
+    },
+    {
+      "bar": 51,
+      "sourceBar": 51,
+      "rmsDbFS": -22.09929804624245,
+      "peak": 0.6667150457570369
+    },
+    {
+      "bar": 52,
+      "sourceBar": 52,
+      "rmsDbFS": -22.240075983518008,
+      "peak": 0.7436144563474282
+    },
+    {
+      "bar": 53,
+      "sourceBar": 53,
+      "rmsDbFS": -22.0962701061649,
+      "peak": 0.7921245733201138
+    },
+    {
+      "bar": 54,
+      "sourceBar": 54,
+      "rmsDbFS": -22.34251989187583,
+      "peak": 0.7318307197926217
+    },
+    {
+      "bar": 55,
+      "sourceBar": 55,
+      "rmsDbFS": -22.110965888354688,
+      "peak": 0.6583300845951853
+    },
+    {
+      "bar": 56,
+      "sourceBar": 56,
+      "rmsDbFS": -22.201953585222864,
+      "peak": 0.7468740208052065
+    },
+    {
+      "bar": 57,
+      "sourceBar": 57,
+      "rmsDbFS": -22.638337848340466,
+      "peak": 0.6950202042412424
+    },
+    {
+      "bar": 58,
+      "sourceBar": 58,
+      "rmsDbFS": -22.861102346677647,
+      "peak": 0.6882038384254783
+    },
+    {
+      "bar": 59,
+      "sourceBar": 59,
+      "rmsDbFS": -22.638727813434993,
+      "peak": 0.6964706858284861
+    },
+    {
+      "bar": 60,
+      "sourceBar": 60,
+      "rmsDbFS": -22.863972994699644,
+      "peak": 0.678759758440229
+    },
+    {
+      "bar": 61,
+      "sourceBar": 61,
+      "rmsDbFS": -26.059943168756227,
+      "peak": 0.24187506950585008
+    },
+    {
+      "bar": 62,
+      "sourceBar": 62,
+      "rmsDbFS": -26.043356187287216,
+      "peak": 0.24188797631204403
+    },
+    {
+      "bar": 63,
+      "sourceBar": 63,
+      "rmsDbFS": null,
+      "peak": 0
+    },
+    {
+      "bar": 64,
+      "sourceBar": 64,
+      "rmsDbFS": null,
+      "peak": 0
+    }
+  ]
+}
