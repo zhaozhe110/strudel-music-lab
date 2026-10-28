@@ -15,23 +15,23 @@
     },
     {
       "file": "AGENTS.md",
-      "bytes": 2502,
-      "sha256": "2469eaa5d65bc7ff9c840d53f925597c0a69eb35ff196a49042215e27575ae35"
+      "bytes": 2753,
+      "sha256": "2f43b0e6d24fdce6904d711cbf3b919c1c5f444d21a40b6ebd3a24d28907231c"
     },
     {
       "file": "HANDOFF.md",
-      "bytes": 18458,
-      "sha256": "3059b1dd2fcfa3c027e2186d28d5edcc94f91f325862f636c57ec7d8e7c85e30"
+      "bytes": 18533,
+      "sha256": "37eaf9f80e871adb8099c84284448156367e3bfc967191b3b215b82cc96cb42d"
     },
     {
       "file": "README.md",
-      "bytes": 8289,
-      "sha256": "8f2db0dacb6e721ef45f35a5f16f64a86567c4990bf25c7e3c618ebdc5183d43"
+      "bytes": 8424,
+      "sha256": "cf630cf39ac34a6dc19bbc79721fab49b28ef46fe9596dd6f1e641e02219bfeb"
     },
     {
       "file": "UPLOAD_PLAN.md",
-      "bytes": 3842,
-      "sha256": "f34c351e4318bc63ec8056b84b811ec92aece33bc0b57770f27be50a6f0199b5"
+      "bytes": 4316,
+      "sha256": "54ee286b985b6493e3f7de284db7f083bd9441a6be0dc7bb13a0aa5b1ce79930"
     },
     {
       "file": "audio/little-logic/袖珍电路-v1-v2-主题对照.m4a",
@@ -130,8 +130,8 @@
     },
     {
       "file": "docs/SAMPLES.md",
-      "bytes": 11454,
-      "sha256": "5dc82e548350d3e8ea49d051650baaee370e2629fba3068a56b3e71e3293bc9c"
+      "bytes": 11466,
+      "sha256": "a2e41df2868442ddba915eab7e038e931ff93d6417bd9e8294babb38b2113627"
     },
     {
       "file": "docs/VALIDATION.md",
@@ -237,6 +237,11 @@
       "file": "evidence/music-check/validation.json",
       "bytes": 4901,
       "sha256": "4e996547fb285a86de2f9a255dc9f77c6831e24e571a3d5a8fddab64eb23cffe"
+    },
+    {
+      "file": "evidence/packaging/github-upload.json",
+      "bytes": 953,
+      "sha256": "78761f6c5e46b85d878a0aa7b93663d177718c683ad3c97f7f482dd2f8bf3132"
     },
     {
       "file": "evidence/packaging/import-manifest.json",
